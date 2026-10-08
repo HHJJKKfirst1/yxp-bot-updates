@@ -164,9 +164,12 @@ def monitor(folder,*,reader=read_url,now=None):
     except (OSError,ValueError):previous={}
     compare=lambda x:{k:v for k,v in x.items() if k!='checked_at'}
     heartbeat=previous.get('checked_at','')[:13]!=now.isoformat()[:13]
-    if changed or compare(previous)!=compare(status) or heartbeat:
+    metadata=dict(monitor_state=status['state'],source_errors=source_errors,
+        supported_faces=len(registry['faces']))
+    metadata_changed=any(manifest.get(key)!=value for key,value in metadata.items())
+    if changed or compare(previous)!=compare(status) or heartbeat or metadata_changed:
         atomic(public/'monitor_status.json',status)
-        manifest.update(pending=pending,source_checked_at=now.isoformat(),accepted_notices=accepted)
+        manifest.update(pending=pending,source_checked_at=now.isoformat(),accepted_notices=accepted,**metadata)
         atomic(public/'manifest.json',manifest)
     return status
 
