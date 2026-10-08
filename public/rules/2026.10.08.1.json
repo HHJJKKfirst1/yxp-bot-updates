@@ -1,0 +1,941 @@
+{
+  "schema": 1,
+  "product": "yxp-verified-numeric-rules",
+  "engine_contract": "numeric-templates-1",
+  "serial": 1,
+  "revision": "2026.10.08.1",
+  "effective_at": "2026-10-08T14:00:00+08:00",
+  "source_notice": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067928278",
+  "cards": {
+    "9": {
+      "native_id": 9,
+      "name": "灵猫乱剑",
+      "level": 1,
+      "base_id": 9,
+      "simulator_id": "614031",
+      "template": "cat",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "description": "2攻×2\n每保留1张手牌追加1次攻击（最多追加3次）",
+      "parameters": [
+        2,
+        2,
+        1,
+        1,
+        3
+      ]
+    },
+    "10009": {
+      "native_id": 10009,
+      "name": "灵猫乱剑",
+      "level": 2,
+      "base_id": 9,
+      "simulator_id": "614032",
+      "template": "cat",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "description": "2攻×3\n每保留1张手牌追加1次攻击（最多追加3次）",
+      "parameters": [
+        2,
+        3,
+        1,
+        1,
+        3
+      ]
+    },
+    "20009": {
+      "native_id": 20009,
+      "name": "灵猫乱剑",
+      "level": 3,
+      "base_id": 9,
+      "simulator_id": "614033",
+      "template": "cat",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "description": "2攻×4\n每保留1张手牌追加1次攻击（最多追加3次）",
+      "parameters": [
+        2,
+        4,
+        1,
+        1,
+        3
+      ]
+    },
+    "1000102": {
+      "native_id": 1000102,
+      "name": "狂剑•赤霄",
+      "level": 1,
+      "base_id": 1000102,
+      "simulator_id": "601011",
+      "template": "red",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "description": "每用过1次狂剑获得1层加攻（最多2）\n5攻",
+      "parameters": [
+        1,
+        1,
+        2,
+        5
+      ]
+    },
+    "1010102": {
+      "native_id": 1010102,
+      "name": "狂剑•赤霄",
+      "level": 2,
+      "base_id": 1000102,
+      "simulator_id": "601011",
+      "template": "red",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "description": "每用过1次狂剑获得1层加攻（最多3）\n5攻",
+      "parameters": [
+        1,
+        1,
+        3,
+        5
+      ]
+    },
+    "1020102": {
+      "native_id": 1020102,
+      "name": "狂剑•赤霄",
+      "level": 3,
+      "base_id": 1000102,
+      "simulator_id": "601011",
+      "template": "red",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "description": "每用过1次狂剑获得1层加攻（最多4）\n5攻",
+      "parameters": [
+        1,
+        1,
+        4,
+        5
+      ]
+    },
+    "1000103": {
+      "native_id": 1000103,
+      "name": "巨象灵剑",
+      "level": 1,
+      "base_id": 1000103,
+      "simulator_id": "601011",
+      "template": "giant",
+      "qi_cost": 2,
+      "hp_cost": 0,
+      "description": "3攻×3\n获得2层加攻",
+      "parameters": [
+        3,
+        3,
+        2
+      ]
+    },
+    "1010103": {
+      "native_id": 1010103,
+      "name": "巨象灵剑",
+      "level": 2,
+      "base_id": 1000103,
+      "simulator_id": "601011",
+      "template": "giant",
+      "qi_cost": 2,
+      "hp_cost": 0,
+      "description": "3攻×3\n获得3层加攻",
+      "parameters": [
+        3,
+        3,
+        3
+      ]
+    },
+    "1020103": {
+      "native_id": 1020103,
+      "name": "巨象灵剑",
+      "level": 3,
+      "base_id": 1000103,
+      "simulator_id": "601011",
+      "template": "giant",
+      "qi_cost": 2,
+      "hp_cost": 0,
+      "description": "3攻×3\n获得4层加攻",
+      "parameters": [
+        3,
+        3,
+        4
+      ]
+    },
+    "1000108": {
+      "native_id": 1000108,
+      "name": "千刃剑阵",
+      "level": 1,
+      "base_id": 1000108,
+      "simulator_id": "601011",
+      "template": "thousand",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "description": "1攻×4（每有5防此牌多1攻）",
+      "parameters": [
+        1,
+        4,
+        5,
+        1
+      ]
+    },
+    "1010108": {
+      "native_id": 1010108,
+      "name": "千刃剑阵",
+      "level": 2,
+      "base_id": 1000108,
+      "simulator_id": "601011",
+      "template": "thousand",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "description": "1攻×5（每有5防此牌多1攻）",
+      "parameters": [
+        1,
+        5,
+        5,
+        1
+      ]
+    },
+    "1020108": {
+      "native_id": 1020108,
+      "name": "千刃剑阵",
+      "level": 3,
+      "base_id": 1000108,
+      "simulator_id": "601011",
+      "template": "thousand",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "description": "1攻×6（每有5防此牌多1攻）",
+      "parameters": [
+        1,
+        6,
+        5,
+        1
+      ]
+    },
+    "7000112": {
+      "native_id": 7000112,
+      "name": "木灵•散枝叶",
+      "level": 1,
+      "base_id": 7000112,
+      "simulator_id": "601011",
+      "template": "wood",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "description": "灵气+3\n木灵：下3次使用牌时，吸取对方1生命（每有1层加攻多吸取1）",
+      "parameters": [
+        3,
+        3,
+        1,
+        1,
+        1
+      ]
+    },
+    "7010112": {
+      "native_id": 7010112,
+      "name": "木灵•散枝叶",
+      "level": 2,
+      "base_id": 7000112,
+      "simulator_id": "601011",
+      "template": "wood",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "description": "灵气+4\n木灵：下4次使用牌时，吸取对方1生命（每有1层加攻多吸取1）",
+      "parameters": [
+        4,
+        4,
+        1,
+        1,
+        1
+      ]
+    },
+    "7020112": {
+      "native_id": 7020112,
+      "name": "木灵•散枝叶",
+      "level": 3,
+      "base_id": 7000112,
+      "simulator_id": "601011",
+      "template": "wood",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "description": "灵气+5\n木灵：下5次使用牌时，吸取对方1生命（每有1层加攻多吸取1）",
+      "parameters": [
+        5,
+        5,
+        1,
+        1,
+        1
+      ]
+    },
+    "7000113": {
+      "native_id": 7000113,
+      "name": "火灵•燃烬灭",
+      "level": 1,
+      "base_id": 7000113,
+      "simulator_id": "601011",
+      "template": "burn",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "description": "减对方12生命及上限\n火灵：每有1层加攻多减2\n土灵：每有3防多减1\n金灵：每有2层锋锐多减1",
+      "parameters": [
+        12,
+        1,
+        2,
+        3,
+        1,
+        2,
+        1
+      ]
+    },
+    "7010113": {
+      "native_id": 7010113,
+      "name": "火灵•燃烬灭",
+      "level": 2,
+      "base_id": 7000113,
+      "simulator_id": "601011",
+      "template": "burn",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "description": "减对方15生命及上限\n火灵：每有1层加攻多减3\n土灵：每有3防多减1\n金灵：每有2层锋锐多减1",
+      "parameters": [
+        15,
+        1,
+        3,
+        3,
+        1,
+        2,
+        1
+      ]
+    },
+    "7020113": {
+      "native_id": 7020113,
+      "name": "火灵•燃烬灭",
+      "level": 3,
+      "base_id": 7000113,
+      "simulator_id": "601011",
+      "template": "burn",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "description": "减对方18生命及上限\n火灵：每有1层加攻多减4\n土灵：每有3防多减1\n金灵：每有2层锋锐多减1",
+      "parameters": [
+        18,
+        1,
+        4,
+        3,
+        1,
+        2,
+        1
+      ]
+    },
+    "7000114": {
+      "native_id": 7000114,
+      "name": "土灵•逐尘步",
+      "level": 1,
+      "base_id": 7000114,
+      "simulator_id": "601011",
+      "template": "dust",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "description": "防+2\n下1次攻击每击伤3生命加1防\n土灵：身法+10",
+      "parameters": [
+        2,
+        1,
+        3,
+        1,
+        10
+      ]
+    },
+    "7010114": {
+      "native_id": 7010114,
+      "name": "土灵•逐尘步",
+      "level": 2,
+      "base_id": 7000114,
+      "simulator_id": "601011",
+      "template": "dust",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "description": "防+8\n下1次攻击每击伤3生命加1防\n土灵：身法+10",
+      "parameters": [
+        8,
+        1,
+        3,
+        1,
+        10
+      ]
+    },
+    "7020114": {
+      "native_id": 7020114,
+      "name": "土灵•逐尘步",
+      "level": 3,
+      "base_id": 7000114,
+      "simulator_id": "601011",
+      "template": "dust",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "description": "防+14\n下1次攻击每击伤3生命加1防\n土灵：身法+10",
+      "parameters": [
+        14,
+        1,
+        3,
+        1,
+        10
+      ]
+    },
+    "4000104": {
+      "native_id": 4000104,
+      "name": "星弈•连",
+      "level": 1,
+      "base_id": 4000104,
+      "simulator_id": "601011",
+      "template": "link",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "description": "1攻\n灵气+2\n下2次使用星弈牌时，若其所在格是星位则加1星力，否则成为星位并加5生命",
+      "parameters": [
+        1,
+        2,
+        2,
+        1,
+        5
+      ]
+    },
+    "4010104": {
+      "native_id": 4010104,
+      "name": "星弈•连",
+      "level": 2,
+      "base_id": 4000104,
+      "simulator_id": "601011",
+      "template": "link",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "description": "1攻\n灵气+3\n下3次使用星弈牌时，若其所在格是星位则加1星力，否则成为星位并加5生命",
+      "parameters": [
+        1,
+        3,
+        3,
+        1,
+        5
+      ]
+    },
+    "4020104": {
+      "native_id": 4020104,
+      "name": "星弈•连",
+      "level": 3,
+      "base_id": 4000104,
+      "simulator_id": "601011",
+      "template": "link",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "description": "1攻\n灵气+4\n下4次使用星弈牌时，若其所在格是星位则加1星力，否则成为星位并加5生命",
+      "parameters": [
+        1,
+        4,
+        4,
+        1,
+        5
+      ]
+    },
+    "10000109": {
+      "native_id": 10000109,
+      "name": "修罗玄气斩",
+      "level": 1,
+      "base_id": 10000109,
+      "simulator_id": "601011",
+      "template": "shura",
+      "qi_cost": 0,
+      "hp_cost": 2,
+      "description": "5攻（每有1灵气多1攻）\n5攻（每有1层负面状态多1攻）\n此牌每击伤对方3生命，自身加1生命",
+      "parameters": [
+        5,
+        1,
+        1,
+        5,
+        1,
+        1,
+        3,
+        1
+      ]
+    },
+    "10010109": {
+      "native_id": 10010109,
+      "name": "修罗玄气斩",
+      "level": 2,
+      "base_id": 10000109,
+      "simulator_id": "601011",
+      "template": "shura",
+      "qi_cost": 0,
+      "hp_cost": 2,
+      "description": "8攻（每有1灵气多1攻）\n8攻（每有1层负面状态多1攻）\n此牌每击伤对方3生命，自身加1生命",
+      "parameters": [
+        8,
+        1,
+        1,
+        8,
+        1,
+        1,
+        3,
+        1
+      ]
+    },
+    "10020109": {
+      "native_id": 10020109,
+      "name": "修罗玄气斩",
+      "level": 3,
+      "base_id": 10000109,
+      "simulator_id": "601011",
+      "template": "shura",
+      "qi_cost": 0,
+      "hp_cost": 2,
+      "description": "11攻（每有1灵气多1攻）\n11攻（每有1层负面状态多1攻）\n此牌每击伤对方3生命，自身加1生命",
+      "parameters": [
+        11,
+        1,
+        1,
+        11,
+        1,
+        1,
+        3,
+        1
+      ]
+    },
+    "10000108": {
+      "native_id": 10000108,
+      "name": "冥灵血影步",
+      "level": 1,
+      "base_id": 10000108,
+      "simulator_id": "601011",
+      "template": "shadow",
+      "qi_cost": 0,
+      "hp_cost": 2,
+      "description": "灵气+2\n获得1层内伤\n自身每有1灵气或1层负面状态就加1身法（最多11）\n生命+5",
+      "parameters": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        11,
+        5
+      ]
+    },
+    "10010108": {
+      "native_id": 10010108,
+      "name": "冥灵血影步",
+      "level": 2,
+      "base_id": 10000108,
+      "simulator_id": "601011",
+      "template": "shadow",
+      "qi_cost": 0,
+      "hp_cost": 3,
+      "description": "灵气+3\n获得2层内伤\n自身每有1灵气或1层负面状态就加1身法（最多13）\n生命+5",
+      "parameters": [
+        3,
+        2,
+        1,
+        1,
+        1,
+        13,
+        5
+      ]
+    },
+    "10020108": {
+      "native_id": 10020108,
+      "name": "冥灵血影步",
+      "level": 3,
+      "base_id": 10000108,
+      "simulator_id": "601011",
+      "template": "shadow",
+      "qi_cost": 0,
+      "hp_cost": 4,
+      "description": "灵气+4\n获得3层内伤\n自身每有1灵气或1层负面状态就加1身法（最多15）\n生命+5",
+      "parameters": [
+        4,
+        3,
+        1,
+        1,
+        1,
+        15,
+        5
+      ]
+    },
+    "28": {
+      "native_id": 28,
+      "name": "无极卦盘",
+      "level": 1,
+      "base_id": 28,
+      "simulator_id": "623011",
+      "template": "hex",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "description": "卦象+1\n持续：自身每回合开始时加1卦象",
+      "parameters": [
+        1,
+        1
+      ]
+    },
+    "10028": {
+      "native_id": 10028,
+      "name": "无极卦盘",
+      "level": 2,
+      "base_id": 28,
+      "simulator_id": "623012",
+      "template": "hex",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "description": "卦象+3\n持续：自身每回合开始时加1卦象",
+      "parameters": [
+        3,
+        1
+      ]
+    },
+    "20028": {
+      "native_id": 20028,
+      "name": "无极卦盘",
+      "level": 3,
+      "base_id": 28,
+      "simulator_id": "623013",
+      "template": "hex",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "description": "卦象+5\n持续：自身每回合开始时加1卦象",
+      "parameters": [
+        5,
+        1
+      ]
+    },
+    "29": {
+      "native_id": 29,
+      "name": "狂雷电闪",
+      "level": 1,
+      "base_id": 29,
+      "simulator_id": "625021",
+      "template": "fury",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "description": "灵气+1\n施加1层破绽\n若卡组中有其他名字含“雷”的牌则再次行动",
+      "parameters": [
+        1,
+        1
+      ]
+    },
+    "10029": {
+      "native_id": 10029,
+      "name": "狂雷电闪",
+      "level": 2,
+      "base_id": 29,
+      "simulator_id": "625022",
+      "template": "fury",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "description": "灵气+1\n施加2层破绽\n若卡组中有其他名字含“雷”的牌则再次行动",
+      "parameters": [
+        1,
+        2
+      ]
+    },
+    "20029": {
+      "native_id": 20029,
+      "name": "狂雷电闪",
+      "level": 3,
+      "base_id": 29,
+      "simulator_id": "625023",
+      "template": "fury",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "description": "灵气+2\n施加3层破绽\n若卡组中有其他名字含“雷”的牌则再次行动",
+      "parameters": [
+        2,
+        3
+      ]
+    },
+    "214": {
+      "native_id": 214,
+      "name": "阴符玉简",
+      "level": 1,
+      "base_id": 214,
+      "simulator_id": "622021",
+      "template": "yin",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "description": "生命及上限+3\n施加1层虚弱和2层破绽\n持续：对方所受虚弱和破绽效果从40%提升至50%",
+      "parameters": [
+        3,
+        1,
+        2,
+        40,
+        50
+      ]
+    },
+    "10214": {
+      "native_id": 10214,
+      "name": "阴符玉简",
+      "level": 2,
+      "base_id": 214,
+      "simulator_id": "622022",
+      "template": "yin",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "description": "生命及上限+3\n施加2层虚弱和2层破绽\n持续：对方所受虚弱和破绽效果从40%提升至50%",
+      "parameters": [
+        3,
+        2,
+        2,
+        40,
+        50
+      ]
+    },
+    "20214": {
+      "native_id": 20214,
+      "name": "阴符玉简",
+      "level": 3,
+      "base_id": 214,
+      "simulator_id": "622023",
+      "template": "yin",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "description": "生命及上限+3\n施加3层虚弱和2层破绽\n持续：对方所受虚弱和破绽效果从40%提升至50%",
+      "parameters": [
+        3,
+        3,
+        2,
+        40,
+        50
+      ]
+    },
+    "381": {
+      "native_id": 381,
+      "name": "灵羽",
+      "level": 1,
+      "base_id": 381,
+      "simulator_id": "642041",
+      "template": "feather",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "description": "2攻×2\n灵气+1\n体魄+1\n身法+5",
+      "parameters": [
+        2,
+        2,
+        1,
+        1,
+        5
+      ]
+    },
+    "10381": {
+      "native_id": 10381,
+      "name": "灵羽",
+      "level": 2,
+      "base_id": 381,
+      "simulator_id": "642042",
+      "template": "feather",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "description": "2攻×3\n灵气+1\n体魄+1\n身法+6",
+      "parameters": [
+        2,
+        3,
+        1,
+        1,
+        6
+      ]
+    },
+    "20381": {
+      "native_id": 20381,
+      "name": "灵羽",
+      "level": 3,
+      "base_id": 381,
+      "simulator_id": "642043",
+      "template": "feather",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "description": "2攻×4\n灵气+3\n体魄+1\n身法+7",
+      "parameters": [
+        2,
+        4,
+        3,
+        1,
+        7
+      ]
+    },
+    "382": {
+      "native_id": 382,
+      "name": "气旋掌",
+      "level": 1,
+      "base_id": 382,
+      "simulator_id": "643021",
+      "template": "palm",
+      "qi_cost": 1,
+      "hp_cost": 0,
+      "description": "每有15体魄加1灵气\n1攻×2（每有1灵气多1攻）",
+      "parameters": [
+        15,
+        1,
+        1,
+        2,
+        1,
+        1
+      ]
+    },
+    "10382": {
+      "native_id": 10382,
+      "name": "气旋掌",
+      "level": 2,
+      "base_id": 382,
+      "simulator_id": "643022",
+      "template": "palm",
+      "qi_cost": 1,
+      "hp_cost": 0,
+      "description": "每有15体魄加1灵气\n3攻×2（每有1灵气多1攻）",
+      "parameters": [
+        15,
+        1,
+        3,
+        2,
+        1,
+        1
+      ]
+    },
+    "20382": {
+      "native_id": 20382,
+      "name": "气旋掌",
+      "level": 3,
+      "base_id": 382,
+      "simulator_id": "643023",
+      "template": "palm",
+      "qi_cost": 1,
+      "hp_cost": 0,
+      "description": "每有15体魄加1灵气\n6攻×2（每有1灵气多1攻）",
+      "parameters": [
+        15,
+        1,
+        6,
+        2,
+        1,
+        1
+      ]
+    },
+    "1000001": {
+      "native_id": 1000001,
+      "name": "云剑•探云",
+      "level": 1,
+      "base_id": 1000001,
+      "simulator_id": "111011",
+      "template": "fixed_attack",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "description": "6攻",
+      "parameters": [
+        6
+      ]
+    },
+    "1010001": {
+      "native_id": 1010001,
+      "name": "云剑•探云",
+      "level": 2,
+      "base_id": 1000001,
+      "simulator_id": "111012",
+      "template": "fixed_attack",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "description": "9攻",
+      "parameters": [
+        9
+      ]
+    },
+    "1020001": {
+      "native_id": 1020001,
+      "name": "云剑•探云",
+      "level": 3,
+      "base_id": 1000001,
+      "simulator_id": "111013",
+      "template": "fixed_attack",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "description": "12攻",
+      "parameters": [
+        12
+      ]
+    },
+    "1000007": {
+      "native_id": 1000007,
+      "name": "巨虎灵剑",
+      "level": 1,
+      "base_id": 1000007,
+      "simulator_id": "111071",
+      "template": "fixed_attack",
+      "qi_cost": 1,
+      "hp_cost": 0,
+      "description": "10攻",
+      "parameters": [
+        10
+      ]
+    },
+    "1010007": {
+      "native_id": 1010007,
+      "name": "巨虎灵剑",
+      "level": 2,
+      "base_id": 1000007,
+      "simulator_id": "111072",
+      "template": "fixed_attack",
+      "qi_cost": 1,
+      "hp_cost": 0,
+      "description": "13攻",
+      "parameters": [
+        13
+      ]
+    },
+    "1020007": {
+      "native_id": 1020007,
+      "name": "巨虎灵剑",
+      "level": 3,
+      "base_id": 1000007,
+      "simulator_id": "111073",
+      "template": "fixed_attack",
+      "qi_cost": 1,
+      "hp_cost": 0,
+      "description": "16攻",
+      "parameters": [
+        16
+      ]
+    },
+    "1000019": {
+      "native_id": 1000019,
+      "name": "巨鲸灵剑",
+      "level": 1,
+      "base_id": 1000019,
+      "simulator_id": "112061",
+      "template": "fixed_attack",
+      "qi_cost": 2,
+      "hp_cost": 0,
+      "description": "16攻",
+      "parameters": [
+        16
+      ]
+    },
+    "1010019": {
+      "native_id": 1010019,
+      "name": "巨鲸灵剑",
+      "level": 2,
+      "base_id": 1000019,
+      "simulator_id": "112062",
+      "template": "fixed_attack",
+      "qi_cost": 2,
+      "hp_cost": 0,
+      "description": "20攻",
+      "parameters": [
+        20
+      ]
+    },
+    "1020019": {
+      "native_id": 1020019,
+      "name": "巨鲸灵剑",
+      "level": 3,
+      "base_id": 1000019,
+      "simulator_id": "112063",
+      "template": "fixed_attack",
+      "qi_cost": 2,
+      "hp_cost": 0,
+      "description": "24攻",
+      "parameters": [
+        24
+      ]
+    }
+  }
+}

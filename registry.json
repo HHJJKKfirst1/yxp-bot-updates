@@ -1,0 +1,1336 @@
+{
+  "schema": 1,
+  "engine_contract": "numeric-templates-1",
+  "faces": {
+    "9": {
+      "native_id": 9,
+      "base_id": 9,
+      "name": "灵猫乱剑",
+      "level": 1,
+      "description": "2攻×2\n每保留1张手牌追加1次攻击（最多追加3次）",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "simulator_id": "614031",
+      "template": "cat",
+      "mutable_slots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "positive_slots": [
+        2
+      ],
+      "loop_slots": [
+        1,
+        4
+      ],
+      "retired_effects": []
+    },
+    "10009": {
+      "native_id": 10009,
+      "base_id": 9,
+      "name": "灵猫乱剑",
+      "level": 2,
+      "description": "2攻×3\n每保留1张手牌追加1次攻击（最多追加3次）",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "simulator_id": "614032",
+      "template": "cat",
+      "mutable_slots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "positive_slots": [
+        2
+      ],
+      "loop_slots": [
+        1,
+        4
+      ],
+      "retired_effects": [
+        "1攻×3每保留1张手牌追加1次攻击(最多追加3次)"
+      ]
+    },
+    "20009": {
+      "native_id": 20009,
+      "base_id": 9,
+      "name": "灵猫乱剑",
+      "level": 3,
+      "description": "2攻×4\n每保留1张手牌追加1次攻击（最多追加3次）",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "simulator_id": "614033",
+      "template": "cat",
+      "mutable_slots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "positive_slots": [
+        2
+      ],
+      "loop_slots": [
+        1,
+        4
+      ],
+      "retired_effects": [
+        "1攻×4每保留1张手牌追加1次攻击(最多追加3次)"
+      ]
+    },
+    "1000102": {
+      "native_id": 1000102,
+      "base_id": 1000102,
+      "name": "狂剑•赤霄",
+      "level": 1,
+      "description": "每用过1次狂剑获得1层加攻（最多2）\n5攻",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "simulator_id": "601011",
+      "template": "red",
+      "mutable_slots": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "positive_slots": [
+        0
+      ],
+      "loop_slots": [],
+      "retired_effects": [
+        "每用过1次狂剑获得1层加攻(最多2)6攻"
+      ]
+    },
+    "1010102": {
+      "native_id": 1010102,
+      "base_id": 1000102,
+      "name": "狂剑•赤霄",
+      "level": 2,
+      "description": "每用过1次狂剑获得1层加攻（最多3）\n5攻",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "simulator_id": "601011",
+      "template": "red",
+      "mutable_slots": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "positive_slots": [
+        0
+      ],
+      "loop_slots": [],
+      "retired_effects": [
+        "每用过1次狂剑获得1层加攻(最多3)7攻"
+      ]
+    },
+    "1020102": {
+      "native_id": 1020102,
+      "base_id": 1000102,
+      "name": "狂剑•赤霄",
+      "level": 3,
+      "description": "每用过1次狂剑获得1层加攻（最多4）\n5攻",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "simulator_id": "601011",
+      "template": "red",
+      "mutable_slots": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "positive_slots": [
+        0
+      ],
+      "loop_slots": [],
+      "retired_effects": [
+        "每用过1次狂剑获得1层加攻(最多4)8攻"
+      ]
+    },
+    "1000103": {
+      "native_id": 1000103,
+      "base_id": 1000103,
+      "name": "巨象灵剑",
+      "level": 1,
+      "description": "3攻×3\n获得2层加攻",
+      "qi_cost": 2,
+      "hp_cost": 0,
+      "simulator_id": "601011",
+      "template": "giant",
+      "mutable_slots": [
+        0,
+        1,
+        2
+      ],
+      "positive_slots": [],
+      "loop_slots": [
+        1
+      ],
+      "retired_effects": [
+        "4攻×3获得2层加攻"
+      ]
+    },
+    "1010103": {
+      "native_id": 1010103,
+      "base_id": 1000103,
+      "name": "巨象灵剑",
+      "level": 2,
+      "description": "3攻×3\n获得3层加攻",
+      "qi_cost": 2,
+      "hp_cost": 0,
+      "simulator_id": "601011",
+      "template": "giant",
+      "mutable_slots": [
+        0,
+        1,
+        2
+      ],
+      "positive_slots": [],
+      "loop_slots": [
+        1
+      ],
+      "retired_effects": [
+        "4攻×3获得3层加攻"
+      ]
+    },
+    "1020103": {
+      "native_id": 1020103,
+      "base_id": 1000103,
+      "name": "巨象灵剑",
+      "level": 3,
+      "description": "3攻×3\n获得4层加攻",
+      "qi_cost": 2,
+      "hp_cost": 0,
+      "simulator_id": "601011",
+      "template": "giant",
+      "mutable_slots": [
+        0,
+        1,
+        2
+      ],
+      "positive_slots": [],
+      "loop_slots": [
+        1
+      ],
+      "retired_effects": [
+        "4攻×3获得4层加攻"
+      ]
+    },
+    "1000108": {
+      "native_id": 1000108,
+      "base_id": 1000108,
+      "name": "千刃剑阵",
+      "level": 1,
+      "description": "1攻×4（每有5防此牌多1攻）",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "simulator_id": "601011",
+      "template": "thousand",
+      "mutable_slots": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "positive_slots": [
+        2
+      ],
+      "loop_slots": [
+        1
+      ],
+      "retired_effects": [
+        "1攻×4(每有5防此牌多1攻)碎防"
+      ]
+    },
+    "1010108": {
+      "native_id": 1010108,
+      "base_id": 1000108,
+      "name": "千刃剑阵",
+      "level": 2,
+      "description": "1攻×5（每有5防此牌多1攻）",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "simulator_id": "601011",
+      "template": "thousand",
+      "mutable_slots": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "positive_slots": [
+        2
+      ],
+      "loop_slots": [
+        1
+      ],
+      "retired_effects": [
+        "1攻×5(每有5防此牌多1攻)碎防"
+      ]
+    },
+    "1020108": {
+      "native_id": 1020108,
+      "base_id": 1000108,
+      "name": "千刃剑阵",
+      "level": 3,
+      "description": "1攻×6（每有5防此牌多1攻）",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "simulator_id": "601011",
+      "template": "thousand",
+      "mutable_slots": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "positive_slots": [
+        2
+      ],
+      "loop_slots": [
+        1
+      ],
+      "retired_effects": [
+        "1攻×6(每有5防此牌多1攻)碎防"
+      ]
+    },
+    "7000112": {
+      "native_id": 7000112,
+      "base_id": 7000112,
+      "name": "木灵•散枝叶",
+      "level": 1,
+      "description": "灵气+3\n木灵：下3次使用牌时，吸取对方1生命（每有1层加攻多吸取1）",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "simulator_id": "601011",
+      "template": "wood",
+      "mutable_slots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "positive_slots": [
+        3
+      ],
+      "loop_slots": [
+        1
+      ],
+      "retired_effects": [
+        "灵气+3木灵:下4次使用牌时,吸取对方1生命(每有1层加攻多吸取1)"
+      ]
+    },
+    "7010112": {
+      "native_id": 7010112,
+      "base_id": 7000112,
+      "name": "木灵•散枝叶",
+      "level": 2,
+      "description": "灵气+4\n木灵：下4次使用牌时，吸取对方1生命（每有1层加攻多吸取1）",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "simulator_id": "601011",
+      "template": "wood",
+      "mutable_slots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "positive_slots": [
+        3
+      ],
+      "loop_slots": [
+        1
+      ],
+      "retired_effects": [
+        "灵气+4木灵:下5次使用牌时,吸取对方1生命(每有1层加攻多吸取1)"
+      ]
+    },
+    "7020112": {
+      "native_id": 7020112,
+      "base_id": 7000112,
+      "name": "木灵•散枝叶",
+      "level": 3,
+      "description": "灵气+5\n木灵：下5次使用牌时，吸取对方1生命（每有1层加攻多吸取1）",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "simulator_id": "601011",
+      "template": "wood",
+      "mutable_slots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "positive_slots": [
+        3
+      ],
+      "loop_slots": [
+        1
+      ],
+      "retired_effects": [
+        "灵气+5木灵:下6次使用牌时,吸取对方1生命(每有1层加攻多吸取1)"
+      ]
+    },
+    "7000113": {
+      "native_id": 7000113,
+      "base_id": 7000113,
+      "name": "火灵•燃烬灭",
+      "level": 1,
+      "description": "减对方12生命及上限\n火灵：每有1层加攻多减2\n土灵：每有3防多减1\n金灵：每有2层锋锐多减1",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "simulator_id": "601011",
+      "template": "burn",
+      "mutable_slots": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "positive_slots": [
+        1,
+        3,
+        5
+      ],
+      "loop_slots": [],
+      "retired_effects": [
+        "减对方12生命及上限火灵:每有1层加攻多减3土灵:每有3防多减1金灵:每有2层锋锐多减1"
+      ]
+    },
+    "7010113": {
+      "native_id": 7010113,
+      "base_id": 7000113,
+      "name": "火灵•燃烬灭",
+      "level": 2,
+      "description": "减对方15生命及上限\n火灵：每有1层加攻多减3\n土灵：每有3防多减1\n金灵：每有2层锋锐多减1",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "simulator_id": "601011",
+      "template": "burn",
+      "mutable_slots": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "positive_slots": [
+        1,
+        3,
+        5
+      ],
+      "loop_slots": [],
+      "retired_effects": [
+        "减对方15生命及上限火灵:每有1层加攻多减4土灵:每有3防多减1金灵:每有2层锋锐多减1"
+      ]
+    },
+    "7020113": {
+      "native_id": 7020113,
+      "base_id": 7000113,
+      "name": "火灵•燃烬灭",
+      "level": 3,
+      "description": "减对方18生命及上限\n火灵：每有1层加攻多减4\n土灵：每有3防多减1\n金灵：每有2层锋锐多减1",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "simulator_id": "601011",
+      "template": "burn",
+      "mutable_slots": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "positive_slots": [
+        1,
+        3,
+        5
+      ],
+      "loop_slots": [],
+      "retired_effects": [
+        "减对方18生命及上限火灵:每有1层加攻多减5土灵:每有3防多减1金灵:每有2层锋锐多减1"
+      ]
+    },
+    "7000114": {
+      "native_id": 7000114,
+      "base_id": 7000114,
+      "name": "土灵•逐尘步",
+      "level": 1,
+      "description": "防+2\n下1次攻击每击伤3生命加1防\n土灵：身法+10",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "simulator_id": "601011",
+      "template": "dust",
+      "mutable_slots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "positive_slots": [
+        2
+      ],
+      "loop_slots": [
+        1
+      ],
+      "retired_effects": [
+        "防+2下1次攻击每击伤2生命加1防土灵:身法+10"
+      ]
+    },
+    "7010114": {
+      "native_id": 7010114,
+      "base_id": 7000114,
+      "name": "土灵•逐尘步",
+      "level": 2,
+      "description": "防+8\n下1次攻击每击伤3生命加1防\n土灵：身法+10",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "simulator_id": "601011",
+      "template": "dust",
+      "mutable_slots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "positive_slots": [
+        2
+      ],
+      "loop_slots": [
+        1
+      ],
+      "retired_effects": [
+        "防+8下1次攻击每击伤2生命加1防土灵:身法+10"
+      ]
+    },
+    "7020114": {
+      "native_id": 7020114,
+      "base_id": 7000114,
+      "name": "土灵•逐尘步",
+      "level": 3,
+      "description": "防+14\n下1次攻击每击伤3生命加1防\n土灵：身法+10",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "simulator_id": "601011",
+      "template": "dust",
+      "mutable_slots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "positive_slots": [
+        2
+      ],
+      "loop_slots": [
+        1
+      ],
+      "retired_effects": [
+        "防+14下1次攻击每击伤2生命加1防土灵:身法+10"
+      ]
+    },
+    "4000104": {
+      "native_id": 4000104,
+      "base_id": 4000104,
+      "name": "星弈•连",
+      "level": 1,
+      "description": "1攻\n灵气+2\n下2次使用星弈牌时，若其所在格是星位则加1星力，否则成为星位并加5生命",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "simulator_id": "601011",
+      "template": "link",
+      "mutable_slots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "positive_slots": [],
+      "loop_slots": [
+        2
+      ],
+      "retired_effects": [
+        "4攻灵气+1下2次使用星弈牌时,若其所在格是星位则加1星力,否则成为星位并加5生命"
+      ]
+    },
+    "4010104": {
+      "native_id": 4010104,
+      "base_id": 4000104,
+      "name": "星弈•连",
+      "level": 2,
+      "description": "1攻\n灵气+3\n下3次使用星弈牌时，若其所在格是星位则加1星力，否则成为星位并加5生命",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "simulator_id": "601011",
+      "template": "link",
+      "mutable_slots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "positive_slots": [],
+      "loop_slots": [
+        2
+      ],
+      "retired_effects": [
+        "6攻灵气+1下3次使用星弈牌时,若其所在格是星位则加1星力,否则成为星位并加5生命"
+      ]
+    },
+    "4020104": {
+      "native_id": 4020104,
+      "base_id": 4000104,
+      "name": "星弈•连",
+      "level": 3,
+      "description": "1攻\n灵气+4\n下4次使用星弈牌时，若其所在格是星位则加1星力，否则成为星位并加5生命",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "simulator_id": "601011",
+      "template": "link",
+      "mutable_slots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "positive_slots": [],
+      "loop_slots": [
+        2
+      ],
+      "retired_effects": [
+        "8攻灵气+1下4次使用星弈牌时,若其所在格是星位则加1星力,否则成为星位并加5生命"
+      ]
+    },
+    "10000109": {
+      "native_id": 10000109,
+      "base_id": 10000109,
+      "name": "修罗玄气斩",
+      "level": 1,
+      "description": "5攻（每有1灵气多1攻）\n5攻（每有1层负面状态多1攻）\n此牌每击伤对方3生命，自身加1生命",
+      "qi_cost": 0,
+      "hp_cost": 2,
+      "simulator_id": "601011",
+      "template": "shura",
+      "mutable_slots": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "positive_slots": [
+        1,
+        4,
+        6
+      ],
+      "loop_slots": [],
+      "retired_effects": [
+        "4攻(每有1灵气多1攻)4攻(每有1层负面状态多1攻)此牌每击伤对方3生命,自身加1生命"
+      ]
+    },
+    "10010109": {
+      "native_id": 10010109,
+      "base_id": 10000109,
+      "name": "修罗玄气斩",
+      "level": 2,
+      "description": "8攻（每有1灵气多1攻）\n8攻（每有1层负面状态多1攻）\n此牌每击伤对方3生命，自身加1生命",
+      "qi_cost": 0,
+      "hp_cost": 2,
+      "simulator_id": "601011",
+      "template": "shura",
+      "mutable_slots": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "positive_slots": [
+        1,
+        4,
+        6
+      ],
+      "loop_slots": [],
+      "retired_effects": [
+        "7攻(每有1灵气多1攻)7攻(每有1层负面状态多1攻)此牌每击伤对方3生命,自身加1生命"
+      ]
+    },
+    "10020109": {
+      "native_id": 10020109,
+      "base_id": 10000109,
+      "name": "修罗玄气斩",
+      "level": 3,
+      "description": "11攻（每有1灵气多1攻）\n11攻（每有1层负面状态多1攻）\n此牌每击伤对方3生命，自身加1生命",
+      "qi_cost": 0,
+      "hp_cost": 2,
+      "simulator_id": "601011",
+      "template": "shura",
+      "mutable_slots": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "positive_slots": [
+        1,
+        4,
+        6
+      ],
+      "loop_slots": [],
+      "retired_effects": [
+        "10攻(每有1灵气多1攻)10攻(每有1层负面状态多1攻)此牌每击伤对方3生命,自身加1生命"
+      ]
+    },
+    "10000108": {
+      "native_id": 10000108,
+      "base_id": 10000108,
+      "name": "冥灵血影步",
+      "level": 1,
+      "description": "灵气+2\n获得1层内伤\n自身每有1灵气或1层负面状态就加1身法（最多11）\n生命+5",
+      "qi_cost": 0,
+      "hp_cost": 2,
+      "simulator_id": "601011",
+      "template": "shadow",
+      "mutable_slots": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "positive_slots": [
+        2,
+        3
+      ],
+      "loop_slots": [],
+      "retired_effects": [
+        "灵气+2获得1层内伤自身每有1灵气或1层负面状态就加1身法(最多11)"
+      ]
+    },
+    "10010108": {
+      "native_id": 10010108,
+      "base_id": 10000108,
+      "name": "冥灵血影步",
+      "level": 2,
+      "description": "灵气+3\n获得2层内伤\n自身每有1灵气或1层负面状态就加1身法（最多13）\n生命+5",
+      "qi_cost": 0,
+      "hp_cost": 3,
+      "simulator_id": "601011",
+      "template": "shadow",
+      "mutable_slots": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "positive_slots": [
+        2,
+        3
+      ],
+      "loop_slots": [],
+      "retired_effects": [
+        "灵气+3获得2层内伤自身每有1灵气或1层负面状态就加1身法(最多13)"
+      ]
+    },
+    "10020108": {
+      "native_id": 10020108,
+      "base_id": 10000108,
+      "name": "冥灵血影步",
+      "level": 3,
+      "description": "灵气+4\n获得3层内伤\n自身每有1灵气或1层负面状态就加1身法（最多15）\n生命+5",
+      "qi_cost": 0,
+      "hp_cost": 4,
+      "simulator_id": "601011",
+      "template": "shadow",
+      "mutable_slots": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "positive_slots": [
+        2,
+        3
+      ],
+      "loop_slots": [],
+      "retired_effects": [
+        "灵气+4获得3层内伤自身每有1灵气或1层负面状态就加1身法(最多15)"
+      ]
+    },
+    "28": {
+      "native_id": 28,
+      "base_id": 28,
+      "name": "无极卦盘",
+      "level": 1,
+      "description": "卦象+1\n持续：自身每回合开始时加1卦象",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "simulator_id": "623011",
+      "template": "hex",
+      "mutable_slots": [
+        0,
+        1
+      ],
+      "positive_slots": [],
+      "loop_slots": [],
+      "retired_effects": [
+        "持续:自身每回合开始时加1卦象"
+      ]
+    },
+    "10028": {
+      "native_id": 10028,
+      "base_id": 28,
+      "name": "无极卦盘",
+      "level": 2,
+      "description": "卦象+3\n持续：自身每回合开始时加1卦象",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "simulator_id": "623012",
+      "template": "hex",
+      "mutable_slots": [
+        0,
+        1
+      ],
+      "positive_slots": [],
+      "loop_slots": [],
+      "retired_effects": [
+        "卦象+2持续:自身每回合开始时加1卦象"
+      ]
+    },
+    "20028": {
+      "native_id": 20028,
+      "base_id": 28,
+      "name": "无极卦盘",
+      "level": 3,
+      "description": "卦象+5\n持续：自身每回合开始时加1卦象",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "simulator_id": "623013",
+      "template": "hex",
+      "mutable_slots": [
+        0,
+        1
+      ],
+      "positive_slots": [],
+      "loop_slots": [],
+      "retired_effects": [
+        "卦象+4持续:自身每回合开始时加1卦象"
+      ]
+    },
+    "29": {
+      "native_id": 29,
+      "base_id": 29,
+      "name": "狂雷电闪",
+      "level": 1,
+      "description": "灵气+1\n施加1层破绽\n若卡组中有其他名字含“雷”的牌则再次行动",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "simulator_id": "625021",
+      "template": "fury",
+      "mutable_slots": [
+        0,
+        1
+      ],
+      "positive_slots": [],
+      "loop_slots": [],
+      "retired_effects": [
+        "施加1层破绽若卡组中有其他名字含\"雷\"的牌则再次行动"
+      ]
+    },
+    "10029": {
+      "native_id": 10029,
+      "base_id": 29,
+      "name": "狂雷电闪",
+      "level": 2,
+      "description": "灵气+1\n施加2层破绽\n若卡组中有其他名字含“雷”的牌则再次行动",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "simulator_id": "625022",
+      "template": "fury",
+      "mutable_slots": [
+        0,
+        1
+      ],
+      "positive_slots": [],
+      "loop_slots": [],
+      "retired_effects": [
+        "施加2层破绽若卡组中有其他名字含\"雷\"的牌则再次行动"
+      ]
+    },
+    "20029": {
+      "native_id": 20029,
+      "base_id": 29,
+      "name": "狂雷电闪",
+      "level": 3,
+      "description": "灵气+2\n施加3层破绽\n若卡组中有其他名字含“雷”的牌则再次行动",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "simulator_id": "625023",
+      "template": "fury",
+      "mutable_slots": [
+        0,
+        1
+      ],
+      "positive_slots": [],
+      "loop_slots": [],
+      "retired_effects": [
+        "施加3层破绽若卡组中有其他名字含\"雷\"的牌则再次行动"
+      ]
+    },
+    "214": {
+      "native_id": 214,
+      "base_id": 214,
+      "name": "阴符玉简",
+      "level": 1,
+      "description": "生命及上限+3\n施加1层虚弱和2层破绽\n持续：对方所受虚弱和破绽效果从40%提升至50%",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "simulator_id": "622021",
+      "template": "yin",
+      "mutable_slots": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "positive_slots": [],
+      "loop_slots": [],
+      "retired_effects": [
+        "施加1层虚弱和2层破绽持续:对方所受虚弱和破绽效果从40%提升至50%"
+      ]
+    },
+    "10214": {
+      "native_id": 10214,
+      "base_id": 214,
+      "name": "阴符玉简",
+      "level": 2,
+      "description": "生命及上限+3\n施加2层虚弱和2层破绽\n持续：对方所受虚弱和破绽效果从40%提升至50%",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "simulator_id": "622022",
+      "template": "yin",
+      "mutable_slots": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "positive_slots": [],
+      "loop_slots": [],
+      "retired_effects": [
+        "施加2层虚弱和2层破绽持续:对方所受虚弱和破绽效果从40%提升至50%"
+      ]
+    },
+    "20214": {
+      "native_id": 20214,
+      "base_id": 214,
+      "name": "阴符玉简",
+      "level": 3,
+      "description": "生命及上限+3\n施加3层虚弱和2层破绽\n持续：对方所受虚弱和破绽效果从40%提升至50%",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "simulator_id": "622023",
+      "template": "yin",
+      "mutable_slots": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "positive_slots": [],
+      "loop_slots": [],
+      "retired_effects": [
+        "施加3层虚弱和2层破绽持续:对方所受虚弱和破绽效果从40%提升至50%"
+      ]
+    },
+    "381": {
+      "native_id": 381,
+      "base_id": 381,
+      "name": "灵羽",
+      "level": 1,
+      "description": "2攻×2\n灵气+1\n体魄+1\n身法+5",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "simulator_id": "642041",
+      "template": "feather",
+      "mutable_slots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "positive_slots": [],
+      "loop_slots": [
+        1
+      ],
+      "retired_effects": []
+    },
+    "10381": {
+      "native_id": 10381,
+      "base_id": 381,
+      "name": "灵羽",
+      "level": 2,
+      "description": "2攻×3\n灵气+1\n体魄+1\n身法+6",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "simulator_id": "642042",
+      "template": "feather",
+      "mutable_slots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "positive_slots": [],
+      "loop_slots": [
+        1
+      ],
+      "retired_effects": [
+        "2攻×3灵气+2体魄+1身法+6"
+      ]
+    },
+    "20381": {
+      "native_id": 20381,
+      "base_id": 381,
+      "name": "灵羽",
+      "level": 3,
+      "description": "2攻×4\n灵气+3\n体魄+1\n身法+7",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "simulator_id": "642043",
+      "template": "feather",
+      "mutable_slots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "positive_slots": [],
+      "loop_slots": [
+        1
+      ],
+      "retired_effects": []
+    },
+    "382": {
+      "native_id": 382,
+      "base_id": 382,
+      "name": "气旋掌",
+      "level": 1,
+      "description": "每有15体魄加1灵气\n1攻×2（每有1灵气多1攻）",
+      "qi_cost": 1,
+      "hp_cost": 0,
+      "simulator_id": "643021",
+      "template": "palm",
+      "mutable_slots": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "positive_slots": [
+        0,
+        4
+      ],
+      "loop_slots": [
+        3
+      ],
+      "retired_effects": [
+        "每有15体魄加1灵气2攻×2(每有1灵气多1攻)"
+      ]
+    },
+    "10382": {
+      "native_id": 10382,
+      "base_id": 382,
+      "name": "气旋掌",
+      "level": 2,
+      "description": "每有15体魄加1灵气\n3攻×2（每有1灵气多1攻）",
+      "qi_cost": 1,
+      "hp_cost": 0,
+      "simulator_id": "643022",
+      "template": "palm",
+      "mutable_slots": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "positive_slots": [
+        0,
+        4
+      ],
+      "loop_slots": [
+        3
+      ],
+      "retired_effects": [
+        "每有15体魄加1灵气4攻×2(每有1灵气多1攻)"
+      ]
+    },
+    "20382": {
+      "native_id": 20382,
+      "base_id": 382,
+      "name": "气旋掌",
+      "level": 3,
+      "description": "每有15体魄加1灵气\n6攻×2（每有1灵气多1攻）",
+      "qi_cost": 1,
+      "hp_cost": 0,
+      "simulator_id": "643023",
+      "template": "palm",
+      "mutable_slots": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "positive_slots": [
+        0,
+        4
+      ],
+      "loop_slots": [
+        3
+      ],
+      "retired_effects": []
+    },
+    "1000001": {
+      "native_id": 1000001,
+      "base_id": 1000001,
+      "name": "云剑•探云",
+      "level": 1,
+      "description": "6攻",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "simulator_id": "111011",
+      "template": "fixed_attack",
+      "mutable_slots": [
+        0
+      ],
+      "positive_slots": [],
+      "loop_slots": [],
+      "retired_effects": []
+    },
+    "1010001": {
+      "native_id": 1010001,
+      "base_id": 1000001,
+      "name": "云剑•探云",
+      "level": 2,
+      "description": "9攻",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "simulator_id": "111012",
+      "template": "fixed_attack",
+      "mutable_slots": [
+        0
+      ],
+      "positive_slots": [],
+      "loop_slots": [],
+      "retired_effects": []
+    },
+    "1020001": {
+      "native_id": 1020001,
+      "base_id": 1000001,
+      "name": "云剑•探云",
+      "level": 3,
+      "description": "12攻",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "simulator_id": "111013",
+      "template": "fixed_attack",
+      "mutable_slots": [
+        0
+      ],
+      "positive_slots": [],
+      "loop_slots": [],
+      "retired_effects": []
+    },
+    "1000007": {
+      "native_id": 1000007,
+      "base_id": 1000007,
+      "name": "巨虎灵剑",
+      "level": 1,
+      "description": "10攻",
+      "qi_cost": 1,
+      "hp_cost": 0,
+      "simulator_id": "111071",
+      "template": "fixed_attack",
+      "mutable_slots": [
+        0
+      ],
+      "positive_slots": [],
+      "loop_slots": [],
+      "retired_effects": []
+    },
+    "1010007": {
+      "native_id": 1010007,
+      "base_id": 1000007,
+      "name": "巨虎灵剑",
+      "level": 2,
+      "description": "13攻",
+      "qi_cost": 1,
+      "hp_cost": 0,
+      "simulator_id": "111072",
+      "template": "fixed_attack",
+      "mutable_slots": [
+        0
+      ],
+      "positive_slots": [],
+      "loop_slots": [],
+      "retired_effects": []
+    },
+    "1020007": {
+      "native_id": 1020007,
+      "base_id": 1000007,
+      "name": "巨虎灵剑",
+      "level": 3,
+      "description": "16攻",
+      "qi_cost": 1,
+      "hp_cost": 0,
+      "simulator_id": "111073",
+      "template": "fixed_attack",
+      "mutable_slots": [
+        0
+      ],
+      "positive_slots": [],
+      "loop_slots": [],
+      "retired_effects": []
+    },
+    "1000019": {
+      "native_id": 1000019,
+      "base_id": 1000019,
+      "name": "巨鲸灵剑",
+      "level": 1,
+      "description": "16攻",
+      "qi_cost": 2,
+      "hp_cost": 0,
+      "simulator_id": "112061",
+      "template": "fixed_attack",
+      "mutable_slots": [
+        0
+      ],
+      "positive_slots": [],
+      "loop_slots": [],
+      "retired_effects": []
+    },
+    "1010019": {
+      "native_id": 1010019,
+      "base_id": 1000019,
+      "name": "巨鲸灵剑",
+      "level": 2,
+      "description": "20攻",
+      "qi_cost": 2,
+      "hp_cost": 0,
+      "simulator_id": "112062",
+      "template": "fixed_attack",
+      "mutable_slots": [
+        0
+      ],
+      "positive_slots": [],
+      "loop_slots": [],
+      "retired_effects": []
+    },
+    "1020019": {
+      "native_id": 1020019,
+      "base_id": 1000019,
+      "name": "巨鲸灵剑",
+      "level": 3,
+      "description": "24攻",
+      "qi_cost": 2,
+      "hp_cost": 0,
+      "simulator_id": "112063",
+      "template": "fixed_attack",
+      "mutable_slots": [
+        0
+      ],
+      "positive_slots": [],
+      "loop_slots": [],
+      "retired_effects": []
+    }
+  },
+  "shared_slots": [
+    {
+      "ids": [
+        7000112,
+        7010112,
+        7020112
+      ],
+      "slots": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "ids": [
+        7000114,
+        7010114,
+        7020114
+      ],
+      "slots": [
+        2,
+        3
+      ]
+    },
+    {
+      "ids": [
+        4000104,
+        4010104,
+        4020104
+      ],
+      "slots": [
+        3,
+        4
+      ]
+    }
+  ]
+}

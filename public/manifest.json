@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "product": "yxp-verified-numeric-rules",
+  "engine_contract": "numeric-templates-1",
+  "serial": 1,
+  "revision": "2026.10.08.1",
+  "rules": "rules/2026.10.08.1.json",
+  "sha256": "bd556749a4d06705757428444265206f8425973dd0d9a67b97ff83e7f3685e7e",
+  "minimum_assistant_version": "1.1.283",
+  "pending": [],
+  "baseline_notice_date": 1791432382,
+  "accepted_notices": {
+    "1846018067928278": "683f5288246fbf2fcf44b50c1c6338812e96ba4eac3c7ea347d62a58d6b561cd"
+  },
+  "source_checked_at": "2026-10-08T13:09:31.846627+00:00"
+}
