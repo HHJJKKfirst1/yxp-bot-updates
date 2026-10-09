@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-09T18:32:34.893581+00:00",
+  "checked_at": "2026-10-09T18:52:04.265302+00:00",
   "notices": [],
   "pending": [
     {
@@ -27,7 +27,12 @@
       "reason": "effect_template_changed"
     }
   ],
-  "source_errors": [],
+  "source_errors": [
+    {
+      "base_id": 10000109,
+      "error": "HTTP Error 503: Service Unavailable"
+    }
+  ],
   "changed_native_ids": [],
-  "state": "verified"
+  "state": "partial_source_failure"
 }
