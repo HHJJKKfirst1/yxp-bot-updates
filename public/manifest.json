@@ -2,17 +2,42 @@
   "schema": 1,
   "product": "yxp-verified-numeric-rules",
   "engine_contract": "numeric-templates-1",
-  "serial": 1,
-  "revision": "2026.10.08.1",
-  "rules": "rules/2026.10.08.1.json",
-  "sha256": "bd556749a4d06705757428444265206f8425973dd0d9a67b97ff83e7f3685e7e",
+  "serial": 2,
+  "revision": "2026.10.10.2",
+  "rules": "rules/2026.10.10.2.json",
+  "sha256": "b3862728d2020fa56588017684c1165714c55143436f15596c0009df2a515856",
   "minimum_assistant_version": "1.1.283",
-  "pending": [],
+  "pending": [
+    {
+      "native_id": 29,
+      "reason": "effect_template_changed"
+    },
+    {
+      "native_id": 10029,
+      "reason": "effect_template_changed"
+    },
+    {
+      "native_id": 20029,
+      "reason": "effect_template_changed"
+    },
+    {
+      "native_id": 10000108,
+      "reason": "effect_template_changed"
+    },
+    {
+      "native_id": 10010108,
+      "reason": "effect_template_changed"
+    },
+    {
+      "native_id": 10020108,
+      "reason": "effect_template_changed"
+    }
+  ],
   "baseline_notice_date": 1791432382,
   "accepted_notices": {
     "1846018067928278": "683f5288246fbf2fcf44b50c1c6338812e96ba4eac3c7ea347d62a58d6b561cd"
   },
-  "source_checked_at": "2026-10-09T17:02:36.451325+00:00",
+  "source_checked_at": "2026-10-09T18:13:58.348651+00:00",
   "monitor_state": "verified",
   "source_errors": [],
   "supported_faces": 54
