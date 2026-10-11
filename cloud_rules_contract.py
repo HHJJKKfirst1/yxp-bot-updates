@@ -5,6 +5,9 @@ from datetime import datetime,timezone
 SCHEMA=1
 PRODUCT='yxp-verified-numeric-rules'
 ENGINE_CONTRACT='numeric-templates-1'
+ADAPTER_CONTRACT='numeric-templates-2'
+SUPPORTED_ENGINE_CONTRACTS=frozenset((ENGINE_CONTRACT,ADAPTER_CONTRACT))
+ADAPTER_MINIMUM_VERSION='1.1.299'
 MAX_BYTES=2*1024*1024
 
 
@@ -32,10 +35,20 @@ def compile_face(reference,observed):
     for key in ('native_id','name','level'):
         if reference.get(key)!=observed.get(key):raise RuleRejected('exact_native_identity_changed')
     text=observed.get('description')
-    if not isinstance(text,str) or len(text)>4096 or shape(text)!=shape(reference['description']):
+    if not isinstance(text,str) or len(text)>4096:
         raise RuleRejected('effect_template_changed')
+    variant=None
+    if shape(text)!=shape(reference['description']):
+        variant=next((v for v in reference.get('effect_variants',())
+            if shape(text)==shape(v['description'])),None)
+        if variant is None:raise RuleRejected('effect_template_changed')
     original,current=numbers(reference['description']),numbers(text)
     if len(original)!=len(current):raise RuleRejected('number_slot_count_changed')
+    if variant is not None:
+        order=variant.get('parameter_order',list(range(len(original))))
+        if (any(type(i)is not int for i in order) or sorted(order)!=list(range(len(original)))):
+            raise RuleRejected('adapter_parameter_order_invalid')
+        current=[current[i] for i in order]
     mutable=set(reference['mutable_slots'])
     for i,(old,new) in enumerate(zip(original,current)):
         if i not in mutable and old!=new:raise RuleRejected('unsupported_number_slot')
@@ -47,11 +60,18 @@ def compile_face(reference,observed):
     for key in ('qi_cost','hp_cost'):
         value=observed.get(key,reference[key])
         if type(value) is not int or value!=reference[key]:raise RuleRejected('cost_contract_required')
-    return {k:reference[k] for k in ('native_id','name','level','base_id','simulator_id','template','qi_cost','hp_cost')} | dict(description=text,parameters=current)
+    result={k:reference[k] for k in ('native_id','name','level','base_id','simulator_id','template','qi_cost','hp_cost')}
+    if variant is not None:result['template']=variant.get('template',reference['template'])
+    return result | dict(description=text,parameters=current)
+
+
+def same_executable_face(first,second):
+    """Wording may differ only after the exact native template compiled equally."""
+    return {k:v for k,v in first.items() if k!='description'}=={k:v for k,v in second.items() if k!='description'}
 
 
 def validate_pack(pack,registry):
-    if not isinstance(pack,dict) or pack.get('schema')!=SCHEMA or pack.get('product')!=PRODUCT or pack.get('engine_contract')!=ENGINE_CONTRACT:
+    if not isinstance(pack,dict) or pack.get('schema')!=SCHEMA or pack.get('product')!=PRODUCT or pack.get('engine_contract')not in SUPPORTED_ENGINE_CONTRACTS:
         raise RuleRejected('rules_schema_incompatible')
     if not isinstance(pack.get('serial'),int) or isinstance(pack['serial'],bool) or pack['serial']<1:raise RuleRejected('serial_invalid')
     try:
@@ -66,6 +86,9 @@ def validate_pack(pack,registry):
             any(type(x) is not int for x in row['parameters'])):raise RuleRejected('parameter_type_invalid')
         compiled=compile_face(registry['faces'][cid],row)
         if compiled!=row:raise RuleRejected('parameters_do_not_match_effect')
+        if (row['template']!=registry['faces'][cid]['template'] or
+            shape(row['description'])!=shape(registry['faces'][cid]['description'])) and pack['engine_contract']!=ADAPTER_CONTRACT:
+            raise RuleRejected('engine_template_update_required')
     for group in registry.get('shared_slots',()):
         for slot in group['slots']:
             if len({cards[str(cid)]['parameters'][slot] for cid in group['ids']})!=1:
@@ -95,11 +118,14 @@ def apply_observations(pack,registry,observations,*,official=False):
         try:compiled=compile_face(ref,row)
         except RuleRejected as error:
             pending.append(dict(native_id=int(cid),reason=str(error)));continue
-        if compiled!=result['cards'][cid]:
+        if (not same_executable_face(compiled,result['cards'][cid]) or
+            plain(compiled['description'])!=plain(result['cards'][cid]['description'])):
             history=result.setdefault('accepted_history',{}).setdefault(cid,[])
             history.append(result['cards'][cid]['description'])
             result['accepted_history'][cid]=list(dict.fromkeys(history))[-8:]
             result['cards'][cid]=compiled;changed.append(int(cid))
+            if compiled['template']!=ref['template'] or shape(compiled['description'])!=shape(ref['description']):
+                result['engine_contract']=ADAPTER_CONTRACT
     try:validate_pack(result,registry)
     except RuleRejected as error:
         return deepcopy(pack),pending+[dict(reason=str(error))],[]

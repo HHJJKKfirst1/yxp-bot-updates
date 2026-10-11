@@ -156,7 +156,10 @@ def monitor(folder,*,reader=read_url,now=None):
             effective_at=now.isoformat())
         validate_pack(proposed,registry)
         name='rules/'+proposed['revision']+'.json';atomic(public/name,proposed)
-        manifest.update(serial=proposed['serial'],revision=proposed['revision'],rules=name,sha256=checksum(proposed))
+        manifest.update(serial=proposed['serial'],revision=proposed['revision'],rules=name,sha256=checksum(proposed),
+            engine_contract=proposed['engine_contract'])
+        if proposed['engine_contract']==ADAPTER_CONTRACT:
+            manifest['minimum_assistant_version']=ADAPTER_MINIMUM_VERSION
     # Record metadata only, not copied article bodies or user/game logs.
     status=dict(checked_at=now.isoformat(),notices=new_notices,pending=pending,source_errors=source_errors,
         changed_native_ids=sorted(set(changed)),state='verified' if not source_errors else 'partial_source_failure')

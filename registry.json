@@ -743,6 +743,21 @@
       "loop_slots": [],
       "retired_effects": [
         "灵气+2获得1层内伤自身每有1灵气或1层负面状态就加1身法(最多11)"
+      ],
+      "effect_variants": [
+        {
+          "description": "灵气+2\n生命+5\n获得1层内伤\n自身每有1灵气或1层负面状态就加1身法（最多11）",
+          "template": "shadow_heal_first",
+          "parameter_order": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6,
+            1
+          ]
+        }
       ]
     },
     "10010108": {
@@ -771,6 +786,21 @@
       "loop_slots": [],
       "retired_effects": [
         "灵气+3获得2层内伤自身每有1灵气或1层负面状态就加1身法(最多13)"
+      ],
+      "effect_variants": [
+        {
+          "description": "灵气+3\n生命+5\n获得2层内伤\n自身每有1灵气或1层负面状态就加1身法（最多13）",
+          "template": "shadow_heal_first",
+          "parameter_order": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6,
+            1
+          ]
+        }
       ]
     },
     "10020108": {
@@ -799,6 +829,21 @@
       "loop_slots": [],
       "retired_effects": [
         "灵气+4获得3层内伤自身每有1灵气或1层负面状态就加1身法(最多15)"
+      ],
+      "effect_variants": [
+        {
+          "description": "灵气+4\n生命+5\n获得3层内伤\n自身每有1灵气或1层负面状态就加1身法（最多15）",
+          "template": "shadow_heal_first",
+          "parameter_order": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6,
+            1
+          ]
+        }
       ]
     },
     "28": {
@@ -879,6 +924,16 @@
       "loop_slots": [],
       "retired_effects": [
         "施加1层破绽若卡组中有其他名字含\"雷\"的牌则再次行动"
+      ],
+      "effect_variants": [
+        {
+          "description": "灵气+1\n施加1层破绽\n若卡组中有其他“雷”牌则再次行动",
+          "template": "fury",
+          "parameter_order": [
+            0,
+            1
+          ]
+        }
       ]
     },
     "10029": {
@@ -899,6 +954,16 @@
       "loop_slots": [],
       "retired_effects": [
         "施加2层破绽若卡组中有其他名字含\"雷\"的牌则再次行动"
+      ],
+      "effect_variants": [
+        {
+          "description": "灵气+1\n施加2层破绽\n若卡组中有其他“雷”牌则再次行动",
+          "template": "fury",
+          "parameter_order": [
+            0,
+            1
+          ]
+        }
       ]
     },
     "20029": {
@@ -919,6 +984,16 @@
       "loop_slots": [],
       "retired_effects": [
         "施加3层破绽若卡组中有其他名字含\"雷\"的牌则再次行动"
+      ],
+      "effect_variants": [
+        {
+          "description": "灵气+2\n施加3层破绽\n若卡组中有其他“雷”牌则再次行动",
+          "template": "fury",
+          "parameter_order": [
+            0,
+            1
+          ]
+        }
       ]
     },
     "214": {
