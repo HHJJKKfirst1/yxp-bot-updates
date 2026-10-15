@@ -7,12 +7,18 @@
   "rules": "rules/2026.10.11.3.json",
   "sha256": "4f0b5febd3d8dc489197a1cee6af5899d2434b1f19ddc1abe813db5c5a14b34e",
   "minimum_assistant_version": "1.1.299",
-  "pending": [],
+  "pending": [
+    {
+      "gid": "1846651706676158",
+      "reason": "official_effective_time_needs_review",
+      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706676158"
+    }
+  ],
   "baseline_notice_date": 1791432382,
   "accepted_notices": {
     "1846018067928278": "683f5288246fbf2fcf44b50c1c6338812e96ba4eac3c7ea347d62a58d6b561cd"
   },
-  "source_checked_at": "2026-10-15T02:10:57.301373+00:00",
+  "source_checked_at": "2026-10-15T03:04:49.540523+00:00",
   "monitor_state": "verified",
   "source_errors": [],
   "supported_faces": 54
