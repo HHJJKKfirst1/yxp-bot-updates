@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-15",
+  "scope": "cloud_monitor_only",
+  "assistant_version_unchanged": "1.1.330",
+  "baseline_remote_sha": "4b344852f62f0563c608a00e4ef2794f3ba5800a",
+  "pending_before": 4,
+  "pending_after": 0,
+  "root_causes": [
+    "Same announcement ID had edited non-balance content, invalidating the accepted whole-notice digest.",
+    "The old generic numeric slot for burn scaling was incorrectly reused for the flat HP/max-HP reduction.",
+    "Chasing Dust Step consumed later unregistered-family adjustments without a paragraph boundary."
+  ],
+  "repairs": [
+    "Exact reviewed balance-section digest plus 30 independent native executable-face digests; no GID-only bypass.",
+    "Explicit fixed-HP and defense field slots; keep legacy scaling slots for other changes.",
+    "Paragraph/list boundaries and already-applied exact-value receipts."
+  ],
+  "existing_tests_changed": [],
+  "regression_before_fix": {
+    "new_tests_run": 12,
+    "failures_including_subtests": 42
+  },
+  "full_cloud_regression_after_fix": {
+    "tests": 29,
+    "failed": 0
+  },
+  "live_source_replays": 2,
+  "live_source_errors": [],
+  "rule_serial": 4,
+  "rule_revision": "2026.10.15.4",
+  "rule_sha256": "b9aefa5c4e910c0f4c6c2cb343f3a7b932cf93b32c51f9e8f8cff5f9d3949b95",
+  "rule_bytes_unchanged": true,
+  "supported_faces": 78,
+  "independent_native_faces_verified": 30,
+  "source_hashes": {
+    "cloud_rules_publisher.py": "2de4b06b330256472c316ad8755d71b3ef1d80d9dc0711173b1279c31e3843d1",
+    ".github/workflows/monitor.yml": "baed44eecb041348c5575c3d5754ad54d8f19adeb38c7de3efeb7c656ceb1e06",
+    "reviewed_notices.json": "4036bbc549ccccde72c543d9cbaf79486abbc1743a710e5ee11c5a146617cedc",
+    "tests/test_edited_notice.py": "0dc690093b937a8879e0edc91678ad9986f5b63c029e622aaba8f213277116b1",
+    "tests/oct15_edited_notice_fixture.json": "3830d253fa45687d44b9a79c7f9d022082ea6e6e7cc7df006a89647024d09a1b",
+    "public/manifest.json": "a5bcc099a787e1467ce4c1fad084f05a944a26dcd6d9318ab8aea74962ec110a",
+    "public/monitor_status.json": "24a588a872523f97aa4afe096032ea286b0fec5b699d025fca170ffed8204352"
+  },
+  "client_match_pins_untouched": true,
+  "game_input_or_process_lifecycle_actions": false
+}
