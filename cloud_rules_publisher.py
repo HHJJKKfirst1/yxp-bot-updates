@@ -75,12 +75,60 @@ def replace_number(text,index,value):
     m=matches[index];return text[:m.start()]+str(value)+text[m.end():]
 
 
+def reviewed_notice_observations(notice,pack,registry):
+    """Recheck a reviewed balance section and its exact native executable faces.
+
+    An announcement's outfit/body edits do not change an audited card effect.
+    A changed balance section, source, native identity, cost or parameter never
+    inherits this receipt. It remains pending for independent review.
+    """
+    try:
+        receipts=json.loads(Path(__file__).with_name('reviewed_notices.json').read_text('utf8'))
+        receipt=receipts['notices'].get(notice.get('gid'))
+    except (OSError,ValueError,KeyError,TypeError):return None
+    if receipt is None:return None
+    def pending(reason):
+        return [],[dict(gid=notice.get('gid'),reason=reason,source=notice.get('url'))]
+    if notice.get('url')!=receipt['source']:return pending('reviewed_notice_source_changed')
+    content=notice.get('contents','')
+    headings=list(re.finditer(r'\[h([1-6])\](.*?)\[/h\1\]',content,re.I|re.S))
+    titles=lambda h:plain(re.sub(r'\[/?[^]]+\]|<[^>]*>','',h[2]))
+    matches=[i for i,h in enumerate(headings) if titles(h)=='BalanceAdjustments']
+    if len(matches)!=1:return pending('reviewed_balance_changed')
+    index=matches[0];heading=headings[index]
+    end=headings[index+1].start() if index+1<len(headings) else len(content)
+    section=content[heading.end():end]
+    normalized=plain(re.sub(r'\[/?[^]]+\]|<[^>]*>','',section))
+    if hashlib.sha256(normalized.encode('utf8')).hexdigest()!=receipt['balance_sha256']:
+        return pending('reviewed_balance_changed')
+    outside=re.sub(r'\[/?[^]]+\]|<[^>]*>','',content[:heading.start()]+content[end:])
+    if any(name in outside for name in ALIASES.values()):
+        return pending('card_change_outside_reviewed_balance')
+    try:
+        if pack['engine_contract']!=receipt['engine_contract']:raise RuleRejected('engine_changed')
+        validate_pack(pack,registry)
+        if len(receipt['faces'])!=30:raise RuleRejected('receipt_incomplete')
+        rows=[]
+        for cid,digest in receipt['faces'].items():
+            row=pack['cards'][cid]
+            if checksum({k:v for k,v in row.items() if k!='description'})!=digest:
+                raise RuleRejected('native_face_changed')
+            rows.append(dict(row))
+    except (RuleRejected,KeyError,TypeError):return pending('reviewed_native_faces_changed')
+    return rows,[]
+
+
 def notice_observations(notice,pack,registry):
-    content=re.sub(r'\[/?[^]]+\]|<[^>]*>','',notice.get('contents',''))
+    reviewed=reviewed_notice_observations(notice,pack,registry)
+    if reviewed is not None:return reviewed
+    bounded=re.sub(r'\[/p\]|\[/\*\]|</p>', '\n',notice.get('contents',''),flags=re.I)
+    content=re.sub(r'\[/?[^]]+\]|<[^>]*>','',bounded)
     positions=sorted((content.find(name),base,name) for base,name in ALIASES.items() if name in content)
     observations=[];pending=[]
     for index,(start,base,name) in enumerate(positions):
         end=positions[index+1][0] if index+1<len(positions) else len(content)
+        paragraph=content.find('\n',start)
+        if paragraph!=-1:end=min(end,paragraph)
         section=content[start:end].split('4. Bug Fixes',1)[0]
         if base not in SLOTS:
             pending.append(dict(base_id=base,reason='notice_needs_specific_adapter',source=notice['url']));continue
@@ -92,12 +140,15 @@ def notice_observations(notice,pack,registry):
             pending.append(dict(base_id=base,reason='ambiguous_rank_change',source=notice['url']));continue
         old=old*3 if len(old)==1 else old;new=new*3 if len(new)==1 else new
         slot=SLOTS[base]
+        if base==7000113 and re.search(r"Reduce enemy[’']s HP\s*&\s*Max HP by",section):slot=0
+        if base==7000114 and re.search(r"\bDef\s*\+",section):slot=0
         for rank in range(1,4):
             if base==9 and re.search(r'Lv\.?\s*2.*?Lv\.?\s*3',section) and rank==1:continue
             cid=str(base+(rank-1)*10000);row=pack['cards'].get(cid)
             if row is None:continue
             current=row['parameters'][slot]
-            if current==new[rank-1]:continue
+            if current==new[rank-1]:
+                observations.append(dict(row));continue
             if current!=old[rank-1]:
                 pending.append(dict(native_id=int(cid),reason='official_before_value_mismatch',source=notice['url']));continue
             observations.append({**row,'description':replace_number(row['description'],slot,new[rank-1])})

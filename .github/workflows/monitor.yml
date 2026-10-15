@@ -7,6 +7,7 @@ on:
     paths:
       - 'cloud_rules_*.py'
       - 'registry.json'
+      - 'reviewed_notices.json'
       - 'tests/**'
       - '.github/workflows/monitor.yml'
 permissions:
