@@ -50,7 +50,7 @@ class ProtocolTests(unittest.TestCase):
             manifest=json.loads((public/'manifest.json').read_text('utf8'))
             self.assertEqual(result['state'],'verified')
             self.assertEqual(manifest['monitor_state'],'verified')
-            self.assertEqual(manifest['supported_faces'],54)
+            self.assertEqual(manifest['supported_faces'],78)
             self.assertEqual(manifest['sha256'],checksum(self.pack))
             self.assertEqual(manifest['serial'],self.pack['serial'])
 

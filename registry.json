@@ -496,6 +496,14 @@
       ],
       "retired_effects": [
         "防+2下1次攻击每击伤2生命加1防土灵:身法+10"
+      ],
+      "effect_variants": [
+        {
+          "description": "下1次攻击每击伤3生命加1防\n土灵：身法+10",
+          "parameter_prefix": [
+            0
+          ]
+        }
       ]
     },
     "7010114": {
@@ -1370,6 +1378,543 @@
       "positive_slots": [],
       "loop_slots": [],
       "retired_effects": []
+    },
+    "383": {
+      "native_id": 383,
+      "base_id": 383,
+      "name": "御风飞闪",
+      "level": 1,
+      "description": "体魄+2\n身法+8\n每有2身法向对方造成1伤害（化神期后加倍）",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "simulator_id": "644041",
+      "template": "wind_flash",
+      "mutable_slots": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "positive_slots": [
+        2
+      ],
+      "loop_slots": [],
+      "retired_effects": [
+        "体魄+2身法+8每有1身法向对方造成1伤害"
+      ]
+    },
+    "10383": {
+      "native_id": 10383,
+      "base_id": 383,
+      "name": "御风飞闪",
+      "level": 2,
+      "description": "体魄+2\n身法+10\n每有2身法向对方造成1伤害（化神期后加倍）",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "simulator_id": "644042",
+      "template": "wind_flash",
+      "mutable_slots": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "positive_slots": [
+        2
+      ],
+      "loop_slots": [],
+      "retired_effects": [
+        "体魄+2身法+10每有1身法向对方造成1伤害"
+      ]
+    },
+    "20383": {
+      "native_id": 20383,
+      "base_id": 383,
+      "name": "御风飞闪",
+      "level": 3,
+      "description": "体魄+2\n身法+12\n每有2身法向对方造成1伤害（化神期后加倍）",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "simulator_id": "644043",
+      "template": "wind_flash",
+      "mutable_slots": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "positive_slots": [
+        2
+      ],
+      "loop_slots": [],
+      "retired_effects": [
+        "体魄+2身法+12每有1身法向对方造成1伤害"
+      ]
+    },
+    "3000012": {
+      "native_id": 3000012,
+      "base_id": 3000012,
+      "name": "弱体符",
+      "level": 1,
+      "description": "施加3层虚弱\n消耗",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "simulator_id": "324031",
+      "template": "weaken_fulu",
+      "mutable_slots": [
+        0
+      ],
+      "positive_slots": [],
+      "loop_slots": [],
+      "retired_effects": [
+        "施加2层虚弱消耗"
+      ]
+    },
+    "3010012": {
+      "native_id": 3010012,
+      "base_id": 3000012,
+      "name": "弱体符",
+      "level": 2,
+      "description": "施加4层虚弱\n消耗",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "simulator_id": "324032",
+      "template": "weaken_fulu",
+      "mutable_slots": [
+        0
+      ],
+      "positive_slots": [],
+      "loop_slots": [],
+      "retired_effects": [
+        "施加3层虚弱消耗"
+      ]
+    },
+    "3020012": {
+      "native_id": 3020012,
+      "base_id": 3000012,
+      "name": "弱体符",
+      "level": 3,
+      "description": "施加5层虚弱\n消耗",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "simulator_id": "324033",
+      "template": "weaken_fulu",
+      "mutable_slots": [
+        0
+      ],
+      "positive_slots": [],
+      "loop_slots": [],
+      "retired_effects": [
+        "施加4层虚弱消耗"
+      ]
+    },
+    "6000014": {
+      "native_id": 6000014,
+      "base_id": 6000014,
+      "name": "落纸云烟",
+      "level": 1,
+      "description": "随机1种效果：\n加20防，或加20生命，或加1层护体",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "simulator_id": "344021",
+      "template": "paper_clouds",
+      "mutable_slots": [
+        1,
+        2,
+        3
+      ],
+      "positive_slots": [],
+      "loop_slots": [],
+      "retired_effects": [
+        "随机1种效果:加18防,或加14生命,或加1层护体"
+      ]
+    },
+    "6010014": {
+      "native_id": 6010014,
+      "base_id": 6000014,
+      "name": "落纸云烟",
+      "level": 2,
+      "description": "随机1种效果：\n加28防，或加28生命，或加2层护体",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "simulator_id": "344022",
+      "template": "paper_clouds",
+      "mutable_slots": [
+        1,
+        2,
+        3
+      ],
+      "positive_slots": [],
+      "loop_slots": [],
+      "retired_effects": [
+        "随机1种效果:加26防,或加20生命,或加2层护体"
+      ]
+    },
+    "6020014": {
+      "native_id": 6020014,
+      "base_id": 6000014,
+      "name": "落纸云烟",
+      "level": 3,
+      "description": "随机1种效果：\n加36防，或加36生命，或加3层护体",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "simulator_id": "344023",
+      "template": "paper_clouds",
+      "mutable_slots": [
+        1,
+        2,
+        3
+      ],
+      "positive_slots": [],
+      "loop_slots": [],
+      "retired_effects": [
+        "随机1种效果:加34防,或加26生命,或加3层护体"
+      ]
+    },
+    "7000115": {
+      "native_id": 7000115,
+      "base_id": 7000115,
+      "name": "水灵•雨纷纷",
+      "level": 1,
+      "description": "水势+1\n生命及上限+10\n水灵：1攻（每有1水势多1攻）\n木灵：1攻（每有1灵气多1攻）",
+      "qi_cost": 1,
+      "hp_cost": 0,
+      "simulator_id": "601011",
+      "template": "rain",
+      "mutable_slots": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "positive_slots": [
+        3,
+        6
+      ],
+      "loop_slots": [],
+      "retired_effects": [
+        "水势+1生命及上限+8水灵:1攻(每有1水势多1攻)木灵:1攻(每有1灵气多1攻)"
+      ]
+    },
+    "7010115": {
+      "native_id": 7010115,
+      "base_id": 7000115,
+      "name": "水灵•雨纷纷",
+      "level": 2,
+      "description": "水势+2\n生命及上限+13\n水灵：1攻（每有1水势多1攻）\n木灵：1攻（每有1灵气多1攻）",
+      "qi_cost": 1,
+      "hp_cost": 0,
+      "simulator_id": "601011",
+      "template": "rain",
+      "mutable_slots": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "positive_slots": [
+        3,
+        6
+      ],
+      "loop_slots": [],
+      "retired_effects": [
+        "水势+2生命及上限+10水灵:1攻(每有1水势多1攻)木灵:1攻(每有1灵气多1攻)"
+      ]
+    },
+    "7020115": {
+      "native_id": 7020115,
+      "base_id": 7000115,
+      "name": "水灵•雨纷纷",
+      "level": 3,
+      "description": "水势+3\n生命及上限+16\n水灵：1攻（每有1水势多1攻）\n木灵：1攻（每有1灵气多1攻）",
+      "qi_cost": 1,
+      "hp_cost": 0,
+      "simulator_id": "601011",
+      "template": "rain",
+      "mutable_slots": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "positive_slots": [
+        3,
+        6
+      ],
+      "loop_slots": [],
+      "retired_effects": [
+        "水势+3生命及上限+12水灵:1攻(每有1水势多1攻)木灵:1攻(每有1灵气多1攻)"
+      ]
+    },
+    "8000012": {
+      "native_id": 8000012,
+      "base_id": 8000012,
+      "name": "回响阵纹",
+      "level": 1,
+      "description": "生命及上限+2\n若第一格为持续牌，重复其效果",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "simulator_id": "355021",
+      "template": "echo_heal_only",
+      "mutable_slots": [
+        0
+      ],
+      "positive_slots": [],
+      "loop_slots": [],
+      "retired_effects": [
+        "若第一格为持续牌,重复其效果"
+      ]
+    },
+    "8010012": {
+      "native_id": 8010012,
+      "base_id": 8000012,
+      "name": "回响阵纹",
+      "level": 2,
+      "description": "生命及上限+5\n若第一格为持续牌，重复其升级1次后的效果",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "simulator_id": "355022",
+      "template": "echo_heal_only",
+      "mutable_slots": [
+        0
+      ],
+      "positive_slots": [],
+      "loop_slots": [],
+      "retired_effects": [
+        "若第一格为持续牌,重复其升级1次后的效果"
+      ]
+    },
+    "8020012": {
+      "native_id": 8020012,
+      "base_id": 8000012,
+      "name": "回响阵纹",
+      "level": 3,
+      "description": "生命及上限+8\n若第一格为持续牌，重复其升级2次后的效果",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "simulator_id": "355023",
+      "template": "echo_heal_only",
+      "mutable_slots": [
+        0
+      ],
+      "positive_slots": [],
+      "loop_slots": [],
+      "retired_effects": [
+        "若第一格为持续牌,重复其升级2次后的效果"
+      ]
+    },
+    "8000014": {
+      "native_id": 8000014,
+      "base_id": 8000014,
+      "name": "须弥阵纹",
+      "level": 1,
+      "description": "防+2\n跳过自身下1张牌\n若使用过持续牌则再次行动",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "simulator_id": "355031",
+      "template": "meru_formation",
+      "mutable_slots": [
+        0,
+        1
+      ],
+      "positive_slots": [],
+      "loop_slots": [
+        1
+      ],
+      "retired_effects": [
+        "跳过自身下1张牌若使用过持续牌则再次行动"
+      ]
+    },
+    "8010014": {
+      "native_id": 8010014,
+      "base_id": 8000014,
+      "name": "须弥阵纹",
+      "level": 2,
+      "description": "防+6\n跳过自身下2张牌\n若使用过持续牌则再次行动",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "simulator_id": "355032",
+      "template": "meru_formation",
+      "mutable_slots": [
+        0,
+        1
+      ],
+      "positive_slots": [],
+      "loop_slots": [
+        1
+      ],
+      "retired_effects": [
+        "跳过自身下2张牌若使用过持续牌则再次行动"
+      ]
+    },
+    "8020014": {
+      "native_id": 8020014,
+      "base_id": 8000014,
+      "name": "须弥阵纹",
+      "level": 3,
+      "description": "防+10\n跳过自身下3张牌\n若使用过持续牌则再次行动",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "simulator_id": "355033",
+      "template": "meru_formation",
+      "mutable_slots": [
+        0,
+        1
+      ],
+      "positive_slots": [],
+      "loop_slots": [
+        1
+      ],
+      "retired_effects": [
+        "跳过自身下3张牌若使用过持续牌则再次行动"
+      ]
+    },
+    "11000014": {
+      "native_id": 11000014,
+      "base_id": 11000014,
+      "name": "诸事不宜",
+      "level": 1,
+      "description": "防+6\n下2次受到的攻击减6攻（最低减至1）\n开局：防+4",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "simulator_id": "374041",
+      "template": "unadvisable",
+      "mutable_slots": [
+        0,
+        1,
+        4
+      ],
+      "positive_slots": [],
+      "loop_slots": [
+        1
+      ],
+      "retired_effects": [
+        "防+4下2次受到的攻击减6攻(最低减至1)开局:防+4"
+      ]
+    },
+    "11010014": {
+      "native_id": 11010014,
+      "base_id": 11000014,
+      "name": "诸事不宜",
+      "level": 2,
+      "description": "防+6\n下3次受到的攻击减6攻（最低减至1）\n开局：防+6",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "simulator_id": "374042",
+      "template": "unadvisable",
+      "mutable_slots": [
+        0,
+        1,
+        4
+      ],
+      "positive_slots": [],
+      "loop_slots": [
+        1
+      ],
+      "retired_effects": [
+        "防+5下3次受到的攻击减6攻(最低减至1)开局:防+5"
+      ]
+    },
+    "11020014": {
+      "native_id": 11020014,
+      "base_id": 11000014,
+      "name": "诸事不宜",
+      "level": 3,
+      "description": "防+6\n下4次受到的攻击减6攻（最低减至1）\n开局：防+8",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "simulator_id": "374043",
+      "template": "unadvisable",
+      "mutable_slots": [
+        0,
+        1,
+        4
+      ],
+      "positive_slots": [],
+      "loop_slots": [
+        1
+      ],
+      "retired_effects": [
+        "防+6下4次受到的攻击减6攻(最低减至1)开局:防+6"
+      ]
+    },
+    "11000021": {
+      "native_id": 11000021,
+      "base_id": 11000021,
+      "name": "命运轮回",
+      "level": 1,
+      "description": "生命及上限+10\n持续4次：即将打出第4或第5格牌时，跳过并触发其中的开局效果",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "simulator_id": "375021",
+      "template": "cycle_of_fate",
+      "mutable_slots": [
+        0,
+        1
+      ],
+      "positive_slots": [],
+      "loop_slots": [
+        1
+      ],
+      "retired_effects": [
+        "生命及上限+8持续4次:即将打出第4或第5格牌时,跳过并触发其中的开局效果"
+      ]
+    },
+    "11010021": {
+      "native_id": 11010021,
+      "base_id": 11000021,
+      "name": "命运轮回",
+      "level": 2,
+      "description": "生命及上限+15\n持续6次：即将打出第4或第5格牌时，跳过并触发其中的开局效果",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "simulator_id": "375022",
+      "template": "cycle_of_fate",
+      "mutable_slots": [
+        0,
+        1
+      ],
+      "positive_slots": [],
+      "loop_slots": [
+        1
+      ],
+      "retired_effects": [
+        "生命及上限+12持续6次:即将打出第4或第5格牌时,跳过并触发其中的开局效果"
+      ]
+    },
+    "11020021": {
+      "native_id": 11020021,
+      "base_id": 11000021,
+      "name": "命运轮回",
+      "level": 3,
+      "description": "生命及上限+20\n持续8次：即将打出第4或第5格牌时，跳过并触发其中的开局效果",
+      "qi_cost": 0,
+      "hp_cost": 0,
+      "simulator_id": "375023",
+      "template": "cycle_of_fate",
+      "mutable_slots": [
+        0,
+        1
+      ],
+      "positive_slots": [],
+      "loop_slots": [
+        1
+      ],
+      "retired_effects": [
+        "生命及上限+16持续8次:即将打出第4或第5格牌时,跳过并触发其中的开局效果"
+      ]
     }
   },
   "shared_slots": [
@@ -1407,5 +1952,61 @@
         4
       ]
     }
+  ],
+  "legacy_native_ids": [
+    "1000001",
+    "1000007",
+    "10000108",
+    "10000109",
+    "1000019",
+    "1000102",
+    "1000103",
+    "1000108",
+    "10009",
+    "10010108",
+    "10010109",
+    "10020108",
+    "10020109",
+    "10028",
+    "10029",
+    "1010001",
+    "1010007",
+    "1010019",
+    "1010102",
+    "1010103",
+    "1010108",
+    "1020001",
+    "1020007",
+    "1020019",
+    "1020102",
+    "1020103",
+    "1020108",
+    "10214",
+    "10381",
+    "10382",
+    "20009",
+    "20028",
+    "20029",
+    "20214",
+    "20381",
+    "20382",
+    "214",
+    "28",
+    "29",
+    "381",
+    "382",
+    "4000104",
+    "4010104",
+    "4020104",
+    "7000112",
+    "7000113",
+    "7000114",
+    "7010112",
+    "7010113",
+    "7010114",
+    "7020112",
+    "7020113",
+    "7020114",
+    "9"
   ]
 }
