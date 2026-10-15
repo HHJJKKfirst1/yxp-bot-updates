@@ -1,25 +1,20 @@
 {
   "schema": 1,
   "product": "yxp-verified-numeric-rules",
-  "engine_contract": "numeric-templates-2",
-  "serial": 3,
-  "revision": "2026.10.11.3",
-  "rules": "rules/2026.10.11.3.json",
-  "sha256": "4f0b5febd3d8dc489197a1cee6af5899d2434b1f19ddc1abe813db5c5a14b34e",
-  "minimum_assistant_version": "1.1.299",
-  "pending": [
-    {
-      "gid": "1846651706676158",
-      "reason": "official_effective_time_needs_review",
-      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706676158"
-    }
-  ],
+  "engine_contract": "numeric-templates-3",
+  "serial": 4,
+  "revision": "2026.10.15.4",
+  "rules": "rules/2026.10.15.4.json",
+  "sha256": "b9aefa5c4e910c0f4c6c2cb343f3a7b932cf93b32c51f9e8f8cff5f9d3949b95",
+  "minimum_assistant_version": "1.1.329",
+  "pending": [],
   "baseline_notice_date": 1791432382,
   "accepted_notices": {
-    "1846018067928278": "683f5288246fbf2fcf44b50c1c6338812e96ba4eac3c7ea347d62a58d6b561cd"
+    "1846018067928278": "683f5288246fbf2fcf44b50c1c6338812e96ba4eac3c7ea347d62a58d6b561cd",
+    "1846651706676158": "e88a7606ad1c1f95eef4623cf95828495449095904e6c6e83def1d8cc73abf10"
   },
-  "source_checked_at": "2026-10-15T04:02:52.772761+00:00",
+  "source_checked_at": "2026-10-15T04:19:16.826946+00:00",
   "monitor_state": "verified",
   "source_errors": [],
-  "supported_faces": 54
+  "supported_faces": 78
 }

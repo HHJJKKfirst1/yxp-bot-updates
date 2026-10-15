@@ -29,7 +29,7 @@ class EffectAdapterTests(unittest.TestCase):
         pack,pending,changed=apply_observations(self.pack,self.registry,[face])
         self.assertFalse(pending);self.assertEqual(changed,[10000108])
         self.assertEqual(pack['cards']['10000108']['parameters'],[6,2,2,3,3,9,7])
-        self.assertEqual(pack['engine_contract'],ADAPTER_CONTRACT)
+        self.assertEqual(pack['engine_contract'],'numeric-templates-3')
         validate_pack(pack,self.registry)
 
     def test_new_mechanism_cannot_enter_through_a_wording_adapter(self):

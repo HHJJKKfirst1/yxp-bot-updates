@@ -109,6 +109,23 @@ def atomic(path,value):
     tmp.write_text(json.dumps(value,ensure_ascii=False,indent=2),'utf8');tmp.replace(path)
 
 
+def notice_effective_at(item):
+    content=re.sub(r'\[/?[^]]+\]|<[^>]*>','',item['contents'])
+    if not re.search(r'UTC\s*\+\s*8',content,re.I):return None
+    zone=timezone(timedelta(hours=8))
+    day=datetime.fromtimestamp(item['date'],zone)
+    # Existing hotfix wording binds "today" to the announcement's date.
+    hotfix=re.search(r'(\d{1,2}):(\d{2})\s*today\b',content,re.I)
+    if hotfix:return day.replace(hour=int(hotfix[1]),minute=int(hotfix[2]),second=0,microsecond=0)
+    # Season launches put the absolute date before the clock, e.g.
+    # "on October 15 at 11:00(UTC+8)". A clock alone is not sufficient.
+    launch=re.search(r'on\s+([A-Za-z]+)\s+(\d{1,2})\s+at\s+(\d{1,2}):(\d{2})\s*\(UTC\s*\+\s*8\)',content,re.I)
+    months={name:i for i,name in enumerate(('January','February','March','April','May','June','July','August','September','October','November','December'),1)}
+    if launch and launch[1].title() in months:
+        return day.replace(month=months[launch[1].title()],day=int(launch[2]),hour=int(launch[3]),minute=int(launch[4]),second=0,microsecond=0)
+    return None
+
+
 def monitor(folder,*,reader=read_url,now=None):
     folder=Path(folder);public=folder/'public';registry=json.loads((folder/'registry.json').read_text('utf8'))
     manifest=json.loads((public/'manifest.json').read_text('utf8'))
@@ -125,11 +142,10 @@ def monitor(folder,*,reader=read_url,now=None):
         if accepted.get(item['gid'])==digest:continue
         if item['date']<manifest.get('baseline_notice_date',0) and item['gid'] not in accepted:continue
         # The announcement's own effective time is binding, not detection time.
-        day=datetime.fromtimestamp(item['date'],timezone(timedelta(hours=8)))
-        mention=re.search(r'(\d{1,2}):(\d{2})\s*(?:today|on)',item['contents'],re.I)
-        if not mention or not re.search(r'UTC\s*\+\s*8',item['contents'],re.I):
+        try:effective=notice_effective_at(item)
+        except (ValueError,TypeError,OverflowError):effective=None
+        if effective is None:
             pending.append(dict(gid=item['gid'],reason='official_effective_time_needs_review',source=item['url']));continue
-        effective=day.replace(hour=int(mention[1]),minute=int(mention[2]),second=0,microsecond=0)
         if effective>now:
             pending.append(dict(gid=item['gid'],reason='announced_rule_not_effective_yet',source=item['url']));continue
         observed,unhandled=notice_observations(item,proposed,registry)
@@ -139,7 +155,7 @@ def monitor(folder,*,reader=read_url,now=None):
             pending.append(dict(gid=item['gid'],reason='new_announcement_requires_review',source=item['url']))
         new_notices.append(dict(gid=item['gid'],title=item['title'],url=item['url'],date=item['date'],sha256=digest))
         if observed and not unhandled and not rejected:accepted[item['gid']]=digest
-    bases=sorted({row['base_id'] for row in registry['faces'].values()})
+    bases=sorted({row['base_id'] for row in pack['cards'].values()})
     def read(base):
         try:return observations_for_page(base,registry,reader),None
         except Exception as error:return [],dict(base_id=base,error=str(error))
@@ -160,6 +176,8 @@ def monitor(folder,*,reader=read_url,now=None):
             engine_contract=proposed['engine_contract'])
         if proposed['engine_contract']==ADAPTER_CONTRACT:
             manifest['minimum_assistant_version']=ADAPTER_MINIMUM_VERSION
+        elif proposed['engine_contract']==OCT15_CONTRACT:
+            manifest['minimum_assistant_version']=OCT15_MINIMUM_VERSION
     # Record metadata only, not copied article bodies or user/game logs.
     status=dict(checked_at=now.isoformat(),notices=new_notices,pending=pending,source_errors=source_errors,
         changed_native_ids=sorted(set(changed)),state='verified' if not source_errors else 'partial_source_failure')
@@ -168,7 +186,7 @@ def monitor(folder,*,reader=read_url,now=None):
     compare=lambda x:{k:v for k,v in x.items() if k!='checked_at'}
     heartbeat=previous.get('checked_at','')[:13]!=now.isoformat()[:13]
     metadata=dict(monitor_state=status['state'],source_errors=source_errors,
-        supported_faces=len(registry['faces']))
+        supported_faces=len(proposed['cards']))
     metadata_changed=any(manifest.get(key)!=value for key,value in metadata.items())
     if changed or compare(previous)!=compare(status) or heartbeat or metadata_changed:
         atomic(public/'monitor_status.json',status)

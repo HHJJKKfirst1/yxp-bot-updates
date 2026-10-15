@@ -6,8 +6,10 @@ SCHEMA=1
 PRODUCT='yxp-verified-numeric-rules'
 ENGINE_CONTRACT='numeric-templates-1'
 ADAPTER_CONTRACT='numeric-templates-2'
-SUPPORTED_ENGINE_CONTRACTS=frozenset((ENGINE_CONTRACT,ADAPTER_CONTRACT))
+OCT15_CONTRACT='numeric-templates-3'
+SUPPORTED_ENGINE_CONTRACTS=frozenset((ENGINE_CONTRACT,ADAPTER_CONTRACT,OCT15_CONTRACT))
 ADAPTER_MINIMUM_VERSION='1.1.299'
+OCT15_MINIMUM_VERSION='1.1.329'
 MAX_BYTES=2*1024*1024
 
 
@@ -43,6 +45,11 @@ def compile_face(reference,observed):
             if shape(text)==shape(v['description'])),None)
         if variant is None:raise RuleRejected('effect_template_changed')
     original,current=numbers(reference['description']),numbers(text)
+    if variant is not None and 'parameter_prefix' in variant:
+        prefix=variant['parameter_prefix']
+        if not isinstance(prefix,list) or any(type(n)is not int for n in prefix):
+            raise RuleRejected('adapter_parameter_prefix_invalid')
+        current=prefix+current
     if len(original)!=len(current):raise RuleRejected('number_slot_count_changed')
     if variant is not None:
         order=variant.get('parameter_order',list(range(len(original))))
@@ -79,7 +86,10 @@ def validate_pack(pack,registry):
         if effective.tzinfo is None:raise ValueError()
     except (KeyError,TypeError,ValueError):raise RuleRejected('effective_time_invalid')
     cards=pack.get('cards')
-    if not isinstance(cards,dict) or set(cards)!=set(registry['faces']):raise RuleRejected('complete_registry_required')
+    expected=set(registry['faces'])
+    if pack['engine_contract']!=OCT15_CONTRACT:
+        expected=set(registry.get('legacy_native_ids',expected))
+    if not isinstance(cards,dict) or set(cards)!=expected:raise RuleRejected('complete_registry_required')
     for cid,row in cards.items():
         if not isinstance(row,dict):raise RuleRejected('card_record_invalid')
         if (not isinstance(row.get('parameters'),list) or
@@ -87,7 +97,7 @@ def validate_pack(pack,registry):
         compiled=compile_face(registry['faces'][cid],row)
         if compiled!=row:raise RuleRejected('parameters_do_not_match_effect')
         if (row['template']!=registry['faces'][cid]['template'] or
-            shape(row['description'])!=shape(registry['faces'][cid]['description'])) and pack['engine_contract']!=ADAPTER_CONTRACT:
+            shape(row['description'])!=shape(registry['faces'][cid]['description'])) and pack['engine_contract']not in (ADAPTER_CONTRACT,OCT15_CONTRACT):
             raise RuleRejected('engine_template_update_required')
     for group in registry.get('shared_slots',()):
         for slot in group['slots']:
@@ -111,6 +121,8 @@ def apply_observations(pack,registry,observations,*,official=False):
         cid=str(row.get('native_id'));ref=registry['faces'].get(cid)
         if not ref:
             pending.append(dict(native_id=row.get('native_id'),reason='unregistered_template'));continue
+        if cid not in result['cards']:
+            pending.append(dict(native_id=int(cid),reason='engine_template_update_required'));continue
         # A Wiki that still shows the pre-Oct.8 face cannot revert a verified
         # official change. Known retired descriptions are not new evidence.
         retired=list(ref.get('retired_effects',()))+list(map(plain,pack.get('accepted_history',{}).get(cid,())))
@@ -125,7 +137,7 @@ def apply_observations(pack,registry,observations,*,official=False):
             result['accepted_history'][cid]=list(dict.fromkeys(history))[-8:]
             result['cards'][cid]=compiled;changed.append(int(cid))
             if compiled['template']!=ref['template'] or shape(compiled['description'])!=shape(ref['description']):
-                result['engine_contract']=ADAPTER_CONTRACT
+                if result['engine_contract']!=OCT15_CONTRACT:result['engine_contract']=ADAPTER_CONTRACT
     try:validate_pack(result,registry)
     except RuleRejected as error:
         return deepcopy(pack),pending+[dict(reason=str(error))],[]
