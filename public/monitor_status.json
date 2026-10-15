@@ -1,7 +1,36 @@
 {
-  "checked_at": "2026-10-15T05:21:09.130507+00:00",
-  "notices": [],
-  "pending": [],
+  "checked_at": "2026-10-15T05:51:49.110441+00:00",
+  "notices": [
+    {
+      "gid": "1846651706676158",
+      "title": "Season 11 The Dao of Hundred Schools Full Preview",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706676158",
+      "date": 1792032876,
+      "sha256": "3b45c9df9ccf9b1034088caa880eceaae6ae760cb52c97f345053f6189376229"
+    }
+  ],
+  "pending": [
+    {
+      "native_id": 7000113,
+      "reason": "official_before_value_mismatch",
+      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706676158"
+    },
+    {
+      "native_id": 7010113,
+      "reason": "official_before_value_mismatch",
+      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706676158"
+    },
+    {
+      "native_id": 7020113,
+      "reason": "official_before_value_mismatch",
+      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706676158"
+    },
+    {
+      "base_id": 7000114,
+      "reason": "ambiguous_official_number_change",
+      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706676158"
+    }
+  ],
   "source_errors": [],
   "changed_native_ids": [],
   "state": "verified"
