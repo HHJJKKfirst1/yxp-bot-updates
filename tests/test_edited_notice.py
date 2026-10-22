@@ -11,7 +11,10 @@ class EditedNoticeTests(unittest.TestCase):
  def setUp(self):
   self.registry=json.loads((ROOT/'registry.json').read_text('utf8'))
   self.manifest=json.loads((ROOT/'public/manifest.json').read_text('utf8'))
-  self.pack=json.loads((ROOT/'public'/self.manifest['rules']).read_text('utf8'))
+  # This receipt regression replays the exact serial-4 announcement baseline,
+  # even after an unrelated current cloud package advances its serial.
+  self.pack=json.loads((ROOT/'public/rules/2026.10.15.4.json').read_text('utf8'))
+  self.manifest.update(serial=4,revision=self.pack['revision'],sha256=checksum(self.pack))
   self.notice=json.loads((ROOT/'tests/oct15_edited_notice_fixture.json').read_text('utf8'))
   self.ids={f['native_id'] for f in json.loads((ROOT/'tests/oct15_native_fixture.json').read_text('utf8'))['faces']}
  def observe(self,notice=None,pack=None):return notice_observations(notice or self.notice,pack or self.pack,self.registry)

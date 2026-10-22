@@ -1,0 +1,43 @@
+{
+  "bundle_sha256": "84974aca29c48a13e953fcfe345c9d216b85ec4a4dfa5a6d97fc5e86930960c2",
+  "config_sha256": "b972a07cc3f09c515a694656b04fe8afde4a66600d7c34f856cfe5275d33b25b",
+  "catalog_sha256": "cfedca985c6a23940b57cc2475286ceed9a9ca382ae3b5627b7c807cc5bd61f2",
+  "faces": [
+    {
+      "native_id": 1000102,
+      "name": "狂剑•赤霄",
+      "description": "每用过1次狂剑获得1层[加攻]（最多1）\n6攻",
+      "attack": 6,
+      "anima": 0,
+      "hp_cost": 0,
+      "other_params": [
+        1
+      ]
+    },
+    {
+      "native_id": 1010102,
+      "name": "狂剑•赤霄",
+      "description": "每用过1次狂剑获得1层[加攻]（最多2）\n6攻",
+      "attack": 6,
+      "anima": 0,
+      "hp_cost": 0,
+      "other_params": [
+        2
+      ]
+    },
+    {
+      "native_id": 1020102,
+      "name": "狂剑•赤霄",
+      "description": "每用过1次狂剑获得1层[加攻]（最多3）\n6攻",
+      "attack": 6,
+      "anima": 0,
+      "hp_cost": 0,
+      "other_params": [
+        3
+      ]
+    }
+  ],
+  "game_build_id": 26125017,
+  "evidence_type": "offline_installed_CardConfig_and_independent_current_Wiki",
+  "wiki_source": "https://sharpobject.github.io/yxp_wiki/zh/cards/1000102.html"
+}

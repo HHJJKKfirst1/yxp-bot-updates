@@ -132,6 +132,16 @@ def notice_observations(notice,pack,registry):
         section=content[start:end].split('4. Bug Fixes',1)[0]
         if base not in SLOTS:
             pending.append(dict(base_id=base,reason='notice_needs_specific_adapter',source=notice['url']));continue
+        slot=SLOTS[base]
+        if base==1000102:
+            # Printed ATK and the maximum ATK-increase stacks are distinct
+            # executable parameters (slots 3 and 2). Bind the property as well
+            # as the native identity; an arbitrary number is insufficient.
+            change=r'(\d+(?:/\d+)*)\s*(?:→|->|\bto\b)\s*\+?(\d+(?:/\d+)*)'
+            body=section[len(name):].strip()
+            if re.fullmatch(r':\s*Max ATK increase\s+'+change+r'\s+stacks\.?',body,re.I):slot=2
+            elif not re.fullmatch(r':\s*\d+(?:/\d+)*\s+ATK\s*(?:→|->|\bto\b)\s*\d+(?:/\d+)*\s+ATK\.?',body,re.I):
+                pending.append(dict(base_id=base,reason='notice_needs_specific_adapter',source=notice['url']));continue
         changes=list(re.finditer(r'(\d+(?:/\d+)*)\s*(?:ATK\s*)?(?:[×x]\s*\d+\s*)?(?:→|->|\bto\b)\s*\+?(\d+(?:/\d+)*)',section))
         if len(changes)!=1:
             pending.append(dict(base_id=base,reason='ambiguous_official_number_change',source=notice['url']));continue
@@ -139,7 +149,6 @@ def notice_observations(notice,pack,registry):
         if len(old) not in (1,3) or len(new) not in (1,3):
             pending.append(dict(base_id=base,reason='ambiguous_rank_change',source=notice['url']));continue
         old=old*3 if len(old)==1 else old;new=new*3 if len(new)==1 else new
-        slot=SLOTS[base]
         if base==7000113 and re.search(r"Reduce enemy[’']s HP\s*&\s*Max HP by",section):slot=0
         if base==7000114 and re.search(r"\bDef\s*\+",section):slot=0
         for rank in range(1,4):
