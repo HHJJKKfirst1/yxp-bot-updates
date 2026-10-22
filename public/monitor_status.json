@@ -1,12 +1,8 @@
 {
-  "checked_at": "2026-10-22T07:07:53.298598+00:00",
+  "checked_at": "2026-10-22T07:11:17.250760+00:00",
   "notices": [],
   "pending": [],
   "source_errors": [],
-  "changed_native_ids": [
-    1000102,
-    1010102,
-    1020102
-  ],
+  "changed_native_ids": [],
   "state": "verified"
 }
