@@ -10,15 +10,15 @@
   "full_assistant_regression_run": false,
   "activity_cards_included": false,
   "source_hashes": {
-    "cloud_rules_publisher.py": "c675c685651853882b6cf0ee29a379fb741561cc9527b882d64a41f1a21d61e2",
-    "tests/test_edited_notice.py": "5bde52abdf389fc9211177689993d7e8b6b4c600a8fce6e88daa22d15b942404",
+    "cloud_rules_publisher.py": "e2bba012f10462eb3085dab429a5a2d81daacf6ae955d5360f4faca700405cfb",
+    "tests/test_edited_notice.py": "4f9808b5044610fd1a76d43edc48f9ad4f677044ee1e556ccd752ddcf38cc733",
     "tests/test_crimson_cap.py": "3d7e32a56b8006a804a7601ca7ba0a9abbc0b30bb0018d47504eb6e1a576781f",
     "tests/test_published_crimson.py": "64da22ef09dbf88d64994ad0c2fa6e8cffae1eef59bbb47e47b47f39e522bc52",
-    "public/rules/2026.10.22.5.json": "8d05bd8375582e630e81a326f2c4676aab8ca371741885e2611dba52ae1516a2",
-    "public/rules/2026.10.22.6.json": "1c71e9eb53dba8b5ff314c23d0d9ad577fbb23764b8cfb27a00c1b893e497b97",
+    "public/rules/2026.10.22.5.json": "dccee51e36ba38234c115a80b82075bc8a70c22069af17b2eedadc034f4a1bcb",
+    "public/rules/2026.10.22.6.json": "8ddd2c48e07617fc7997ff47b65b935879e93459cc2f64b94f7ce35ef4674c53",
     "audits/verify_installed_engine.py": "8d2ff4efcf92e2777b6e2103e00c7d1cb1bd8d00fe202757851c39452b2cc391",
-    "audits/2026-10-22-crimson-native.json": "a98d6ad3b3dda9e926f8c6ad242c75e6d275c54b0402f2c539bcc13805c1e06d",
-    "audits/2026-10-22-engine-acceptance.json": "7040cad734c3d52f87c57850a2a9c1127e0a9f32d44a7fb09b21898569e22bc7"
+    "audits/2026-10-22-crimson-native.json": "d03cbc2ae6b5822e7bf92897b7439647291483b43798d039923e5c9266d985a9",
+    "audits/2026-10-22-engine-acceptance.json": "2cb8e75cea95d16d473f2239406f382137bdb822d4b31c0e568d592ec1b1b0d4"
   },
   "test_changes": [
     {
@@ -36,5 +36,6 @@
       "original_failure": "No independent assertion bound the published package to current installed CardConfig.",
       "evidence": "Exact build 26125017 three native values, 78 total faces, and exactly 3 changed/75 unchanged."
     }
-  ]
+  ],
+  "source_hashes_encoding": "Git blob bytes (LF normalized by repository attributes); tests executed equivalent worktree source"
 }
