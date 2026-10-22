@@ -1,7 +1,13 @@
 {
-  "checked_at": "2026-10-22T02:15:20.608571+00:00",
+  "checked_at": "2026-10-22T03:13:43.466452+00:00",
   "notices": [],
-  "pending": [],
+  "pending": [
+    {
+      "gid": "1847286114031033",
+      "reason": "announced_rule_not_effective_yet",
+      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114031033"
+    }
+  ],
   "source_errors": [],
   "changed_native_ids": [],
   "state": "verified"
