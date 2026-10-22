@@ -1,0 +1,204 @@
+{
+  "engine_unchanged": true,
+  "game_input_sent": false,
+  "combat_cases": 30,
+  "combat": [
+    {
+      "revision": "2026.10.15.4",
+      "cases": [
+        {
+          "rank": 1,
+          "prior": 0,
+          "bonus": 0,
+          "damage": 5
+        },
+        {
+          "rank": 1,
+          "prior": 1,
+          "bonus": 1,
+          "damage": 6
+        },
+        {
+          "rank": 1,
+          "prior": 2,
+          "bonus": 2,
+          "damage": 7
+        },
+        {
+          "rank": 1,
+          "prior": 3,
+          "bonus": 2,
+          "damage": 7
+        },
+        {
+          "rank": 1,
+          "prior": 9,
+          "bonus": 2,
+          "damage": 7
+        },
+        {
+          "rank": 2,
+          "prior": 0,
+          "bonus": 0,
+          "damage": 5
+        },
+        {
+          "rank": 2,
+          "prior": 1,
+          "bonus": 1,
+          "damage": 6
+        },
+        {
+          "rank": 2,
+          "prior": 2,
+          "bonus": 2,
+          "damage": 7
+        },
+        {
+          "rank": 2,
+          "prior": 3,
+          "bonus": 3,
+          "damage": 8
+        },
+        {
+          "rank": 2,
+          "prior": 9,
+          "bonus": 3,
+          "damage": 8
+        },
+        {
+          "rank": 3,
+          "prior": 0,
+          "bonus": 0,
+          "damage": 5
+        },
+        {
+          "rank": 3,
+          "prior": 1,
+          "bonus": 1,
+          "damage": 6
+        },
+        {
+          "rank": 3,
+          "prior": 2,
+          "bonus": 2,
+          "damage": 7
+        },
+        {
+          "rank": 3,
+          "prior": 3,
+          "bonus": 3,
+          "damage": 8
+        },
+        {
+          "rank": 3,
+          "prior": 9,
+          "bonus": 4,
+          "damage": 9
+        }
+      ]
+    },
+    {
+      "revision": "2026.10.22.6",
+      "cases": [
+        {
+          "rank": 1,
+          "prior": 0,
+          "bonus": 0,
+          "damage": 6
+        },
+        {
+          "rank": 1,
+          "prior": 1,
+          "bonus": 1,
+          "damage": 7
+        },
+        {
+          "rank": 1,
+          "prior": 2,
+          "bonus": 1,
+          "damage": 7
+        },
+        {
+          "rank": 1,
+          "prior": 3,
+          "bonus": 1,
+          "damage": 7
+        },
+        {
+          "rank": 1,
+          "prior": 9,
+          "bonus": 1,
+          "damage": 7
+        },
+        {
+          "rank": 2,
+          "prior": 0,
+          "bonus": 0,
+          "damage": 6
+        },
+        {
+          "rank": 2,
+          "prior": 1,
+          "bonus": 1,
+          "damage": 7
+        },
+        {
+          "rank": 2,
+          "prior": 2,
+          "bonus": 2,
+          "damage": 8
+        },
+        {
+          "rank": 2,
+          "prior": 3,
+          "bonus": 2,
+          "damage": 8
+        },
+        {
+          "rank": 2,
+          "prior": 9,
+          "bonus": 2,
+          "damage": 8
+        },
+        {
+          "rank": 3,
+          "prior": 0,
+          "bonus": 0,
+          "damage": 6
+        },
+        {
+          "rank": 3,
+          "prior": 1,
+          "bonus": 1,
+          "damage": 7
+        },
+        {
+          "rank": 3,
+          "prior": 2,
+          "bonus": 2,
+          "damage": 8
+        },
+        {
+          "rank": 3,
+          "prior": 3,
+          "bonus": 3,
+          "damage": 9
+        },
+        {
+          "rank": 3,
+          "prior": 9,
+          "bonus": 3,
+          "damage": 9
+        }
+      ]
+    }
+  ],
+  "client": {
+    "old_serial": 4,
+    "new_serial": 6,
+    "old_pin_unchanged": true,
+    "corrupt_rejected": true,
+    "idempotent": true
+  }
+}
