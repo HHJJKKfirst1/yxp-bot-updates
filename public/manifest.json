@@ -14,8 +14,13 @@
     "1846651706676158": "3b45c9df9ccf9b1034088caa880eceaae6ae760cb52c97f345053f6189376229",
     "1847286114031033": "8b8506796892cd8fdbd4d2b0a36aad9a2a4e352b2bf3a44c3e58330534063370"
   },
-  "source_checked_at": "2026-10-23T12:07:35.770375+00:00",
-  "monitor_state": "verified",
-  "source_errors": [],
+  "source_checked_at": "2026-10-23T12:41:05.096411+00:00",
+  "monitor_state": "partial_source_failure",
+  "source_errors": [
+    {
+      "base_id": 11000014,
+      "error": "HTTP Error 503: Service Unavailable"
+    }
+  ],
   "supported_faces": 78
 }

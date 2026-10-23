@@ -1,8 +1,13 @@
 {
-  "checked_at": "2026-10-23T12:07:35.770375+00:00",
+  "checked_at": "2026-10-23T12:41:05.096411+00:00",
   "notices": [],
   "pending": [],
-  "source_errors": [],
+  "source_errors": [
+    {
+      "base_id": 11000014,
+      "error": "HTTP Error 503: Service Unavailable"
+    }
+  ],
   "changed_native_ids": [],
-  "state": "verified"
+  "state": "partial_source_failure"
 }
