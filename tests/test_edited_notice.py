@@ -11,6 +11,9 @@ class EditedNoticeTests(unittest.TestCase):
  def setUp(self):
   self.registry=json.loads((ROOT/'registry.json').read_text('utf8'))
   self.manifest=json.loads((ROOT/'public/manifest.json').read_text('utf8'))
+  # This isolated Oct15 replay has no later announcement inventory.
+  # Preserve the pending==[] assertion for its one explicit source only.
+  self.manifest.pop('announcement_coverage',None)
   # This receipt regression replays the exact serial-4 announcement baseline,
   # even after an unrelated current cloud package advances its serial.
   self.pack=json.loads((ROOT/'public/rules/2026.10.15.4.json').read_text('utf8'))

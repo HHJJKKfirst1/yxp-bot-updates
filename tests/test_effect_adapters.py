@@ -12,7 +12,7 @@ IDS=[29,10029,20029,10000108,10010108,10020108]
 class EffectAdapterTests(unittest.TestCase):
     def setUp(self):
         self.registry=json.loads((ROOT/'registry.json').read_text('utf8'))
-        manifest=json.loads((ROOT/'public/manifest.json').read_text('utf8'))
+        manifest=json.loads((ROOT/'tests/contract3_manifest_fixture.json').read_text('utf8'))
         self.pack=json.loads((ROOT/'public'/manifest['rules']).read_text('utf8'))
 
     def test_six_supported_faces_compile_without_guessing_identity_or_costs(self):

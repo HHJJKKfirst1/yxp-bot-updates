@@ -140,7 +140,8 @@ def reviewed_notice_observations(notice,pack,registry):
     if any(name in outside for name in ALIASES.values()):
         return pending('card_change_outside_reviewed_balance')
     try:
-        if pack['engine_contract']!=receipt['engine_contract']:raise RuleRejected('engine_changed')
+        if pack['engine_contract']!=receipt['engine_contract'] and not (
+            pack['engine_contract']==OCT29_CONTRACT and receipt['engine_contract']==OCT15_CONTRACT):raise RuleRejected('engine_changed')
         validate_pack(pack,registry)
         if len(receipt['faces'])!=30:raise RuleRejected('receipt_incomplete')
         rows=[]
@@ -260,6 +261,14 @@ def monitor(folder,*,reader=read_url,now=None):
         # Numeric acceptance is scoped. Reinventory every effective notice,
         # including accepted hashes, so its unregistered fates cannot vanish.
         coverage_notices.append(item)
+        complete_review=notice_coverage(item,numeric_check=lambda body:None,
+            numeric_contract=proposed['engine_contract'],numeric_minimum=manifest.get('minimum_assistant_version','1.1.283'),receipts=reviews)
+        if(complete_review['fully_reviewed'] and complete_review['items'] and all(
+            row.get('review',{}).get('engine_contract')==proposed['engine_contract'] for row in complete_review['items'])):
+            # Exact source/balance/item receipts cover the complete current
+            # mechanism set. A gift fate mentioning a numeric card is not a
+            # second numeric change to that card's effect.
+            continue
         if accepted.get(item['gid'])==digest:continue
         observed,unhandled=notice_observations(item,proposed,registry)
         proposed,rejected,updated=apply_observations(proposed,registry,observed,official=True)
@@ -308,6 +317,8 @@ def monitor(folder,*,reader=read_url,now=None):
             manifest['minimum_assistant_version']=ADAPTER_MINIMUM_VERSION
         elif proposed['engine_contract']==OCT15_CONTRACT:
             manifest['minimum_assistant_version']=OCT15_MINIMUM_VERSION
+        elif proposed['engine_contract']==OCT29_CONTRACT:
+            manifest['minimum_assistant_version']=OCT29_MINIMUM_VERSION
     # Record metadata only, not copied article bodies or user/game logs.
     status=dict(checked_at=now.isoformat(),notices=new_notices,pending=pending,source_errors=source_errors,
         changed_native_ids=sorted(set(changed)),state='verified' if not source_errors else 'partial_source_failure',
@@ -320,6 +331,8 @@ def monitor(folder,*,reader=read_url,now=None):
         supported_faces=len(proposed['cards']),supported_faces_scope='registered_numeric_faces_only',
         accepted_notices_scope='registered_numeric_faces_only',
         announcement_coverage=summary,coverage_state=summary['state'])
+    if proposed['engine_contract']==OCT29_CONTRACT:
+        metadata.update(supported_fate_rules=len(proposed['fates']),supported_mechanism_faces=len(proposed['mechanism_cards']))
     metadata_changed=any(manifest.get(key)!=value for key,value in metadata.items())
     if changed or compare(previous)!=compare(status) or heartbeat or metadata_changed:
         atomic(public/'monitor_status.json',status)
