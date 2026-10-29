@@ -6,6 +6,7 @@ from datetime import datetime,timezone,timedelta
 from concurrent.futures import ThreadPoolExecutor
 from html.parser import HTMLParser
 from cloud_rules_contract import *
+from cloud_rules_notice_coverage import balance_inventory,notice_coverage,coverage_summary
 
 NEWS='https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=1948800&count=5&maxlength=0&feeds=steam_community_announcements'
 WIKI='https://sharpobject.github.io/yxp_wiki/zh/cards/'
@@ -15,6 +16,40 @@ ALIASES={9:'Spirit Cat Chaos Sword',1000102:'Unrestrained Sword - Crimson Sky',1
  10000108:'Nether Spirit Blood Shadow Step',28:'Ultimate Hexagram Base',29:'Fury Thunder',214:'Jade Scroll of Yin Symbol',
  381:'Spirit Feather',382:'Cyclone Palm'}
 SLOTS={9:0,1000102:3,1000103:0,7000112:1,7000113:2,7000114:2,28:0,381:2,382:2}
+
+
+def numeric_sentence_supported(base,section):
+    """Match an entire reviewed property sentence, never just its first arrow."""
+    name=ALIASES[base]
+    if not section.startswith(name):return False
+    body=section[len(name):].strip()
+    qualifiers={9:'Lin Xiaoyue, Immortality Phase',
+        1000103:'Cloud Spirit Sword Sect, Immortality Phase',
+        7000112:'Five Elements Alliance, Incarnation Phase',
+        7000113:'Five Elements Alliance, Incarnation Phase',
+        7000114:'Five Elements Alliance, Incarnation Phase',
+        28:'Yan Chen exclusive Immortal Fate card, Virtuoso Phase',
+        382:'Ling Yu exclusive Immortal Fate card, Virtuoso Phase'}
+    if body.startswith('('):
+        qualifier=qualifiers.get(base)
+        if qualifier is None or not body.startswith('('+qualifier+')'):return False
+        body=body[len(qualifier)+2:].strip()
+    if not body.startswith(':'):return False
+    body=body[1:].strip().rstrip('.').strip()
+    n=r'\d+(?:/\d+)*';arrow=r'\s*(?:→|->|\bto\b)\s*\+?'
+    change=n+arrow+n
+    patterns={
+        9:[r'Lv\.?\s*2 and Lv\.?\s*3 base ATK reverted from '+n+r' ATK'+arrow+n+r' ATK'],
+        1000102:[r'Max ATK increase '+change+r' stacks',n+r' ATK'+arrow+n+r' ATK'],
+        1000103:[n+r' ATK\s*(?:[×x]\s*3\s*)?'+arrow+n+r' ATK\s*(?:[×x]\s*3)?'],
+        7000112:[r'next '+change+r' times'],
+        7000113:[r'For each stack of Increase ATK, extra DEF reduction '+change,
+                 r'Reduce enemy[’\']s HP\s*&\s*Max HP by '+change],
+        7000114:[r'Next 1 attack: for every '+change+r' HP damage dealt, gain \+1 DEF',r'Def\s*\+'+change],
+        28:[r'Hexagram\s*\+'+change],
+        382:[change+r' ATK'],
+    }
+    return any(re.fullmatch(pattern,body,re.I) for pattern in patterns.get(base,()))
 
 
 def notice_hash(notice):
@@ -105,7 +140,8 @@ def reviewed_notice_observations(notice,pack,registry):
     if any(name in outside for name in ALIASES.values()):
         return pending('card_change_outside_reviewed_balance')
     try:
-        if pack['engine_contract']!=receipt['engine_contract']:raise RuleRejected('engine_changed')
+        if pack['engine_contract']!=receipt['engine_contract'] and not (
+            pack['engine_contract']==OCT29_CONTRACT and receipt['engine_contract']==OCT15_CONTRACT):raise RuleRejected('engine_changed')
         validate_pack(pack,registry)
         if len(receipt['faces'])!=30:raise RuleRejected('receipt_incomplete')
         rows=[]
@@ -124,6 +160,7 @@ def notice_observations(notice,pack,registry):
     bounded=re.sub(r'\[/p\]|\[/\*\]|</p>', '\n',notice.get('contents',''),flags=re.I)
     content=re.sub(r'\[/?[^]]+\]|<[^>]*>','',bounded)
     positions=sorted((content.find(name),base,name) for base,name in ALIASES.items() if name in content)
+    inventory=balance_inventory(notice)
     observations=[];pending=[]
     for index,(start,base,name) in enumerate(positions):
         end=positions[index+1][0] if index+1<len(positions) else len(content)
@@ -132,6 +169,11 @@ def notice_observations(notice,pack,registry):
         section=content[start:end].split('4. Bug Fixes',1)[0]
         if base not in SLOTS:
             pending.append(dict(base_id=base,reason='notice_needs_specific_adapter',source=notice['url']));continue
+        scoped=[entry for entry in inventory['items'] if name in entry['text']]
+        if (content.count(name)!=1 or len(scoped)!=1 or scoped[0]['kind']=='immortal_fate' or
+            not numeric_sentence_supported(base,scoped[0]['text'])):
+            pending.append(dict(base_id=base,reason='notice_needs_specific_adapter',source=notice['url']));continue
+        section=scoped[0]['text']
         slot=SLOTS[base]
         if base==1000102:
             # Printed ATK and the maximum ATK-increase stacks are distinct
@@ -154,7 +196,8 @@ def notice_observations(notice,pack,registry):
         for rank in range(1,4):
             if base==9 and re.search(r'Lv\.?\s*2.*?Lv\.?\s*3',section) and rank==1:continue
             cid=str(base+(rank-1)*10000);row=pack['cards'].get(cid)
-            if row is None:continue
+            if row is None:
+                pending.append(dict(native_id=int(cid),reason='unregistered_notice_card',source=notice['url']));continue
             current=row['parameters'][slot]
             if current==new[rank-1]:
                 observations.append(dict(row));continue
@@ -192,14 +235,21 @@ def monitor(folder,*,reader=read_url,now=None):
     pack=validate_pack(json.loads((public/manifest['rules']).read_text('utf8')),registry)
     if checksum(pack)!=manifest['sha256']:raise RuleRejected('published_baseline_hash_mismatch')
     now=now or datetime.now(timezone.utc);pending=[];proposed=deepcopy(pack);changed=[];source_errors=[]
+    try:reviews=json.loads((folder/'notice_coverage_reviews.json').read_text('utf8'))
+    except FileNotFoundError:reviews=None
+    except (OSError,ValueError):reviews={'schema':'invalid'}
+    coverage_notices=[]
+    coverage=deepcopy(manifest.get('announcement_coverage',{}).get('notices',{}))
+    source_available=True
     try:news=json.loads(reader(NEWS).decode('utf8'))['appnews']['newsitems']
     except Exception as error:
-        news=[];source_errors.append(dict(source='official_steam_news',error=str(error)))
+        news=[];source_available=False
+        pending.extend(manifest.get('pending',[]))
+        source_errors.append(dict(source='official_steam_news',error=str(error)))
     accepted=manifest.get('accepted_notices',{})
     new_notices=[]
     for item in sorted(news,key=lambda x:x['date']):
         digest=notice_hash(item)
-        if accepted.get(item['gid'])==digest:continue
         if item['date']<manifest.get('baseline_notice_date',0) and item['gid'] not in accepted:continue
         # The announcement's own effective time is binding, not detection time.
         try:effective=notice_effective_at(item)
@@ -208,6 +258,18 @@ def monitor(folder,*,reader=read_url,now=None):
             pending.append(dict(gid=item['gid'],reason='official_effective_time_needs_review',source=item['url']));continue
         if effective>now:
             pending.append(dict(gid=item['gid'],reason='announced_rule_not_effective_yet',source=item['url']));continue
+        # Numeric acceptance is scoped. Reinventory every effective notice,
+        # including accepted hashes, so its unregistered fates cannot vanish.
+        coverage_notices.append(item)
+        complete_review=notice_coverage(item,numeric_check=lambda body:None,
+            numeric_contract=proposed['engine_contract'],numeric_minimum=manifest.get('minimum_assistant_version','1.1.283'),receipts=reviews)
+        if(complete_review['fully_reviewed'] and complete_review['items'] and all(
+            row.get('review',{}).get('engine_contract')==proposed['engine_contract'] for row in complete_review['items'])):
+            # Exact source/balance/item receipts cover the complete current
+            # mechanism set. A gift fate mentioning a numeric card is not a
+            # second numeric change to that card's effect.
+            continue
+        if accepted.get(item['gid'])==digest:continue
         observed,unhandled=notice_observations(item,proposed,registry)
         proposed,rejected,updated=apply_observations(proposed,registry,observed,official=True)
         pending.extend(unhandled+rejected);changed.extend(updated)
@@ -226,6 +288,23 @@ def monitor(folder,*,reader=read_url,now=None):
             observed=[r for r in observed if r['native_id'] not in changed]
             proposed,rejected,updated=apply_observations(proposed,registry,observed)
             pending.extend(rejected);changed.extend(updated)
+    numeric_minimum=manifest.get('minimum_assistant_version','1.1.283')
+    for item in coverage_notices:
+        reviewed=reviewed_notice_observations(item,proposed,registry)
+        legacy=reviewed is not None and bool(reviewed[0]) and not reviewed[1]
+        def numeric_check(body):
+            probe=dict(url=item['url'],contents=body)
+            rows,unhandled=notice_observations(probe,proposed,registry)
+            if unhandled or not rows:return None
+            _,rejected,not_applied=apply_observations(proposed,registry,rows,official=True)
+            return [row['native_id'] for row in rows] if not rejected and not not_applied else None
+        report=notice_coverage(item,numeric_check=numeric_check,
+            numeric_contract=proposed['engine_contract'],numeric_minimum=numeric_minimum,
+            legacy_numeric_receipt=legacy,receipts=reviews)
+        report['notice_sha256']=notice_hash(item)
+        coverage[item['gid']]=report
+    for report in coverage.values():pending.extend(report.get('pending',[]))
+    summary=coverage_summary(coverage,source_available=source_available)
     pending=list({json.dumps(x,sort_keys=True):x for x in pending}.values())
     if changed:
         proposed.update(serial=pack['serial']+1,revision=now.astimezone(timezone(timedelta(hours=8))).strftime('%Y.%m.%d')+'.'+str(pack['serial']+1),
@@ -238,15 +317,22 @@ def monitor(folder,*,reader=read_url,now=None):
             manifest['minimum_assistant_version']=ADAPTER_MINIMUM_VERSION
         elif proposed['engine_contract']==OCT15_CONTRACT:
             manifest['minimum_assistant_version']=OCT15_MINIMUM_VERSION
+        elif proposed['engine_contract']==OCT29_CONTRACT:
+            manifest['minimum_assistant_version']=OCT29_MINIMUM_VERSION
     # Record metadata only, not copied article bodies or user/game logs.
     status=dict(checked_at=now.isoformat(),notices=new_notices,pending=pending,source_errors=source_errors,
-        changed_native_ids=sorted(set(changed)),state='verified' if not source_errors else 'partial_source_failure')
+        changed_native_ids=sorted(set(changed)),state='verified' if not source_errors else 'partial_source_failure',
+        announcement_coverage=summary,coverage_state=summary['state'])
     try:previous=json.loads((public/'monitor_status.json').read_text('utf8'))
     except (OSError,ValueError):previous={}
     compare=lambda x:{k:v for k,v in x.items() if k!='checked_at'}
     heartbeat=previous.get('checked_at','')[:13]!=now.isoformat()[:13]
     metadata=dict(monitor_state=status['state'],source_errors=source_errors,
-        supported_faces=len(proposed['cards']))
+        supported_faces=len(proposed['cards']),supported_faces_scope='registered_numeric_faces_only',
+        accepted_notices_scope='registered_numeric_faces_only',
+        announcement_coverage=summary,coverage_state=summary['state'])
+    if proposed['engine_contract']==OCT29_CONTRACT:
+        metadata.update(supported_fate_rules=len(proposed['fates']),supported_mechanism_faces=len(proposed['mechanism_cards']))
     metadata_changed=any(manifest.get(key)!=value for key,value in metadata.items())
     if changed or compare(previous)!=compare(status) or heartbeat or metadata_changed:
         atomic(public/'monitor_status.json',status)

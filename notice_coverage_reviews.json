@@ -1,0 +1,1439 @@
+{
+  "schema": 1,
+  "notices": {
+    "1847920302233330": {
+      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302233330",
+      "balance_sha256": "2a9c146d5b644ea001fe7ffb74d5af44b770fea1bded9a51341925a35350097f",
+      "items": {
+        "001-66e2ae62d1d24078": {
+          "item_sha256": "66e2ae62d1d240781e302d3538c5fb24a51ef90b0b181da265a1f7016026ec48",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "002-16f294ee7ee1bd06": {
+          "item_sha256": "16f294ee7ee1bd0602a1771b951231d6ec1408da84bde7dd57814d0bb55a1d2c",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "003-0c366fb69242d5fc": {
+          "item_sha256": "0c366fb69242d5fc21feace8df357b92302d7eb530a3ea6c22efc160d8e0b998",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "004-5c3cf567d26f69c1": {
+          "item_sha256": "5c3cf567d26f69c1df5d36d0cf7f0c46c3a349f18a607095311ec05e81674513",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "005-5064e1044d226339": {
+          "item_sha256": "5064e1044d2263399eca4c95dadcc9dd033ee4131a5b86a192d1824fd3393f11",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "006-7ad123f182465936": {
+          "item_sha256": "7ad123f182465936dd7442b1e56307b22f3096759a3c0db495dff40b809ec5ce",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "007-98175dba977c7cd2": {
+          "item_sha256": "98175dba977c7cd23ad5f8cab2611d059ba2895c62eb01df573984a6868de897",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "008-771636b3bb6ac53c": {
+          "item_sha256": "771636b3bb6ac53c3f38cdb5791b6f51ee5cd04628b3ebe4ef3973d80e37db66",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "009-e155b719b65fdf0e": {
+          "item_sha256": "e155b719b65fdf0ead30414fb46019f8b23ac7496ef264707236ac6d30b1ba8a",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "010-aca15042c5420cc7": {
+          "item_sha256": "aca15042c5420cc7f2e3cc124f1e32e563a6b303ba8083af5cd3f75e76a7c3e9",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "011-b93bd65865caec29": {
+          "item_sha256": "b93bd65865caec2934800403d652245272f1e8c3951a07defccd9929d5c5c4a9",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "012-d27320dbe40701ec": {
+          "item_sha256": "d27320dbe40701ecf2adbb3315b15f60e7b1b21b05ae23d02599ce71666f4d69",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "013-f69abdf556e02c6d": {
+          "item_sha256": "f69abdf556e02c6d4704b91861f815122c66fecba1257d558fcf5f6799157bbe",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "014-9e602df4479e8ff4": {
+          "item_sha256": "9e602df4479e8ff4c8a27381b1fa7ae1ece5f66022fc87b1516dee4b435aa7e7",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "015-e98a6a71f527a64b": {
+          "item_sha256": "e98a6a71f527a64b594772e2e7596f0990e97d46b0f82e406e61903191c850f9",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "016-07d08fd53de84acd": {
+          "item_sha256": "07d08fd53de84acd9a14901145a01fa2a4c4787b5dcc6a74cbd7c8f036bb88df",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "017-f225e83426b2d3a7": {
+          "item_sha256": "f225e83426b2d3a7c47afaa088995c8378a0d0c152cfd74d79194c0334cf2e9d",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "018-448001c9675b8318": {
+          "item_sha256": "448001c9675b83187dfaf702220f7673f88795b37f0417b1be7eaa8c625e0b8d",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "019-6f78505561d3614c": {
+          "item_sha256": "6f78505561d3614cd5fd0d2d316219d286d226fa661d44f82da590f334f53a1f",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "020-860a4642a3d787d6": {
+          "item_sha256": "860a4642a3d787d66912bedc02c117061cc7bde148fe6267f196ba7a0e0ee9d7",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "021-b468d899ffce7fb4": {
+          "item_sha256": "b468d899ffce7fb413d54b2832edbeffc299614b2be07ef615c8fd48a3b4447e",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "022-9eaf248f1c8a94ee": {
+          "item_sha256": "9eaf248f1c8a94ee13b8fcc105e0581d4a598d7da96519cd2e036222db1d64dd",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "023-aa581599e7fdad7b": {
+          "item_sha256": "aa581599e7fdad7bd4b1966d23023dd7ae43933a0e931b0f6e92220fa633213a",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "024-b9ad6f21c67134e1": {
+          "item_sha256": "b9ad6f21c67134e120d7792f45d1c56e385179af15a31f4c04713aac27e56f5f",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "025-bd605fb794015d0a": {
+          "item_sha256": "bd605fb794015d0adab1fbd53788ae965300398ec670a010cfee7c4cbb36aed5",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "026-ba1dd9e6ad099ee8": {
+          "item_sha256": "ba1dd9e6ad099ee8e01a6c78ceb70880db46ef394d152de50bb884cf0962d4f2",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "027-23331066617ef6f2": {
+          "item_sha256": "23331066617ef6f29662a6cfee342a4d1d663847d121d0920092949f03d73700",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "028-a61cce4f39317a8f": {
+          "item_sha256": "a61cce4f39317a8f6e94816abe60ba0cc28794c0e8d1c237c70d6bf39ea4eedb",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "029-52622aa35794de3b": {
+          "item_sha256": "52622aa35794de3b1ff088831ecc47b7045efcf07101c7fd7e6f4f6655207164",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "030-c3416ac57fd619df": {
+          "item_sha256": "c3416ac57fd619dfe996e06edcfa6b9a6a1252d97d09648d0cba2bec42295622",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "031-418f1da3e1c14c5b": {
+          "item_sha256": "418f1da3e1c14c5ba4a46159c8f83d54d34e42ae8bd288c3500f2d54d76e8dc8",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "032-81a2a01bfee1268a": {
+          "item_sha256": "81a2a01bfee1268aa23aa3dac319dd5e48aa9e2ce03c7af734231af6ce926cc9",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "033-64cd7ba4a0fba217": {
+          "item_sha256": "64cd7ba4a0fba217593c2befa9f62ddde4fe551f1c4ecdab510a6f6db4214e9c",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "034-526b9f00d37e7740": {
+          "item_sha256": "526b9f00d37e7740d423e5fb5d68dd4be3796a6d6a43436fa3de52de6674c6f5",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "035-0f1ed3121430a30e": {
+          "item_sha256": "0f1ed3121430a30e12ebb30dd11d28aa61e5f132c06008b9c2b7e1325116a6aa",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "036-5b8f089627526669": {
+          "item_sha256": "5b8f0896275266694639008f095141bd74a91991fcdff2afa65c526c3f71d0f7",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "037-b2cbbceae72851ed": {
+          "item_sha256": "b2cbbceae72851ed78f5a3a41932d18ddf2da0c2219bb7886f3c1ab7837a58cb",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "038-084bca1c95114403": {
+          "item_sha256": "084bca1c95114403c6b3514028eea592e1003c577d574f27bf60c18d2e5ff7f1",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "039-55f74fd94e9c6d4e": {
+          "item_sha256": "55f74fd94e9c6d4ef10a6cad16af6fea711f99a706bbe4073405f46f5e618dee",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "040-9dcb8e630234d754": {
+          "item_sha256": "9dcb8e630234d754b861a901a0b165084d2b752c1600565bc8fbdb877966532e",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "041-937a23049ac80dcf": {
+          "item_sha256": "937a23049ac80dcfffa452ee65e876ade5e9b9c1602eef49c63ec36d8083adbb",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "042-6079b549595fabef": {
+          "item_sha256": "6079b549595fabeff3e432cc07ecac363f4cd4df87af09fe6399c9fcf0a560f8",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "043-3774a73eb3b14468": {
+          "item_sha256": "3774a73eb3b14468b94e3be51fc377acd08714dac471e03b2ad9d71d21f721ee",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "044-056cd0f92fba7130": {
+          "item_sha256": "056cd0f92fba7130e09132acca7c4d3f4ca1e266174a6f698f7ba75e68a8a550",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "045-dfbc1060cbb74c2c": {
+          "item_sha256": "dfbc1060cbb74c2cef4f506a5a83bf0f309b501a05e5c0e85d6a7fb681ea8b58",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "046-e3192e14268ff6e2": {
+          "item_sha256": "e3192e14268ff6e212cd7035d24d247f7a17d0c588b5af2e50732cb4a0abcb94",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "047-3b063de962aa0039": {
+          "item_sha256": "3b063de962aa003975818b50ba683afc6c273d8d3a5880c5ec800833d3624fc9",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "048-364f7cf4419cb10f": {
+          "item_sha256": "364f7cf4419cb10f36b43844f4104b70e9dac4e372124931b94dda3bd6584ea9",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "049-5e41524e4ebc9dae": {
+          "item_sha256": "5e41524e4ebc9daec43bb841c8995c26658a5da80066599e49e23332ff8f59c2",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "050-1214438918d9665d": {
+          "item_sha256": "1214438918d9665d0a434696e440a1d58e171a8c714d9ca6cde9dec77c6b841c",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "051-9f17f433fed8e179": {
+          "item_sha256": "9f17f433fed8e1790c204ebe191275aac0d26d8f68318773a5c906f0b9dcf2f2",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "052-fcc0f9d6d58f89d3": {
+          "item_sha256": "fcc0f9d6d58f89d398daff1c43bbf17b9f1326949beb698ca10d0536e0256d03",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "053-6a5590966759204a": {
+          "item_sha256": "6a5590966759204a0fd89fa5ba2f70149475942c8bd1b1bc2cbefb1d40086838",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "054-373f650fd0b5214a": {
+          "item_sha256": "373f650fd0b5214aa1aa7311ed0af583c1db7c50ed8dc6785c53e11170c73670",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "055-ce2a159a979f35b7": {
+          "item_sha256": "ce2a159a979f35b716860b5d216fb961f5cc1f823293596cc6c20fb727ba7275",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "056-9425faac5989c94e": {
+          "item_sha256": "9425faac5989c94e78fceeafb8cebc25e84693d573dfd7e54095fd52d0d0e594",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "057-a24e4e684cf2d8b0": {
+          "item_sha256": "a24e4e684cf2d8b056f9444febe80f679dec8241f519e5698971ad75edc05b83",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "058-2769be4bd7c73ec9": {
+          "item_sha256": "2769be4bd7c73ec9fae8a1e7f63af3e6f97328b3fade725ea8bd5e72e5393568",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "059-92f010188e63e93b": {
+          "item_sha256": "92f010188e63e93bd5c2531f48a40548c534e38fb07817e9ee3a99182f1ef87f",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "060-cf356823834474f3": {
+          "item_sha256": "cf356823834474f33c415b9e8da461932515b82173d73254d7b1860c266796cb",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "061-0c77d0486ea51893": {
+          "item_sha256": "0c77d0486ea518939e01c2157b796bbe0b662051979134b7d41e8206d1377c7c",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "062-f913341ba848d79a": {
+          "item_sha256": "f913341ba848d79add7ff35e4d7a40c3f4083c69fda07fd87527c28565f8b1f5",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "063-ef4198d14ee0c59f": {
+          "item_sha256": "ef4198d14ee0c59f159d2e96e0c9842a7b9046e61921821e245843c6678a486b",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "064-af35e13ef36b7695": {
+          "item_sha256": "af35e13ef36b7695da0954dac2ddbd6e92ba035a1b003964980a219df7536779",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "065-05d137420a16d46b": {
+          "item_sha256": "05d137420a16d46b02dd9bf99625281d6295179ea73bb9766d4a0744cd248b6c",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "066-902d4f0d4fab2588": {
+          "item_sha256": "902d4f0d4fab258835845fe551358b58895593fe752ff98728e2a0b4677e8d01",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "067-aac03a0fc84e41c3": {
+          "item_sha256": "aac03a0fc84e41c3ab540ad0683179cb7589b22aa1a24b91f026ddf57d48dec8",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "068-a8dead382090b94a": {
+          "item_sha256": "a8dead382090b94a674f1d329824f0274c88c7069c696b51da4f626ff7f4820b",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "069-ee6670d698c5ba41": {
+          "item_sha256": "ee6670d698c5ba4164ea14c60caf8c2320caeff64c5499cee8761d585a72b5f1",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "070-8d67a4484a70ddb3": {
+          "item_sha256": "8d67a4484a70ddb399dcf75a0532c542af3c6d6957afbbaacabfe7b79504d774",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "071-6f3dd6313c3adb53": {
+          "item_sha256": "6f3dd6313c3adb53d6885f201e99585cbd962e419956547dda0828ac9fe351d2",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "072-c3787d11281301f8": {
+          "item_sha256": "c3787d11281301f825a7dce66011c2a3faa5237dcf91a2ef7321f6e76d6833c1",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "073-89443e553dd381f9": {
+          "item_sha256": "89443e553dd381f9f820783e7e12e721b503879fc3b9b43498164a2962b67d6b",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "074-cc9e3c384678dc92": {
+          "item_sha256": "cc9e3c384678dc9252681394e12d13e521a5b66efe3b10e16a614111d0103e09",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "075-9a1a325fdee5c16c": {
+          "item_sha256": "9a1a325fdee5c16cbd8f89b23d9d809ba226dd18cec13ac0b0096407f2c59fc2",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "076-129fcd70cab5c09a": {
+          "item_sha256": "129fcd70cab5c09a6854df9f9f7733ba062a1c70ec59fad8db41007471d187ea",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "077-748e30fcaa30b8f2": {
+          "item_sha256": "748e30fcaa30b8f2220a9bbe88eadfa4be7fef8206f5213e627ed99be82cccb4",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "078-28f2c3cbcc0a2954": {
+          "item_sha256": "28f2c3cbcc0a295419718fdcbdf408a685ed525704ec5e51cbbe8c9a3f2fd0cb",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "079-939219719938b630": {
+          "item_sha256": "939219719938b630b06a196df511231818d9a8aa7ccb526866894ab4c97296bf",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "080-85a36768389e1606": {
+          "item_sha256": "85a36768389e16064e23bcbed035660fb9c463e62243f744e5f5826f525a7317",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "081-9a6ca855ffaf7a39": {
+          "item_sha256": "9a6ca855ffaf7a399b398b3767008f87cd24c4a69e5809a445398360cef3e1b0",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "082-481bbbd61a1be494": {
+          "item_sha256": "481bbbd61a1be4944e2f9745a709a184c76a8256afa625f31fb23ca55dcb959d",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "083-368858e9418a8bf1": {
+          "item_sha256": "368858e9418a8bf17c701eac155de0e8d80e3dcd7cca09ed8de73e7310f34d1a",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        },
+        "084-a4558d2a0e6049c7": {
+          "item_sha256": "a4558d2a0e6049c784d9faee56b2d57f841acf8bc159e791097a94be9b15b358",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-4",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "33ec72a7ce478f726afc5b02e3dbe0beb21e887959f9c19afbfc677dd962829a",
+            "c4a72a88e2adec4dac96477406b4570e6b170b648bb4902cc094012ae22ce017",
+            "c1aaaf928830d90ce9e262eab4fb906d35906c4f9db695918ec01b671add17ff",
+            "652768ada4ffc21af2a584cb6f0b05144d25266a1dded8bff4fd53b7c445f8d7",
+            "ba5f55a3a2c45bd0608a648b73ad4407fbacbc5456f4ea6b82cab52ffcc2497b",
+            "2445c6c49f8b7f0a17dd48d820409143f557ddb4abc30a9bf0e88cde810aade5",
+            "b58820e991479ab93c9e57405b372c3aab894341cce670aa92f581b5579ae165",
+            "b03b00b8f7cdeff2d1a5b7eccfd2c58b54ed47f2a9e4cd12386085b906888841",
+            "3f0f2369af30aa965bf0380d49fa51f4cd17db6cc886f73ac11d474a549b6b3f"
+          ]
+        }
+      }
+    }
+  }
+}

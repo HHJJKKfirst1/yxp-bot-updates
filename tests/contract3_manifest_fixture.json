@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "product": "yxp-verified-numeric-rules",
+  "engine_contract": "numeric-templates-3",
+  "serial": 6,
+  "revision": "2026.10.22.6",
+  "rules": "rules/2026.10.22.6.json",
+  "sha256": "77decea0692c8b174a4531681b63cb252605998c86e598fbb6ffa67ea61c2a78",
+  "minimum_assistant_version": "1.1.329",
+  "pending": [
+    {
+      "base_id": 214,
+      "reason": "notice_needs_specific_adapter",
+      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302233330"
+    },
+    {
+      "base_id": 381,
+      "reason": "ambiguous_official_number_change",
+      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302233330"
+    }
+  ],
+  "baseline_notice_date": 1791432382,
+  "accepted_notices": {
+    "1846018067928278": "683f5288246fbf2fcf44b50c1c6338812e96ba4eac3c7ea347d62a58d6b561cd",
+    "1846651706676158": "3b45c9df9ccf9b1034088caa880eceaae6ae760cb52c97f345053f6189376229",
+    "1847286114031033": "8b8506796892cd8fdbd4d2b0a36aad9a2a4e352b2bf3a44c3e58330534063370"
+  },
+  "source_checked_at": "2026-10-29T07:25:06.875930+00:00",
+  "monitor_state": "verified",
+  "source_errors": [],
+  "supported_faces": 78
+}

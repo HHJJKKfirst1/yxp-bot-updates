@@ -11,7 +11,7 @@ ROOT=Path(__file__).resolve().parents[1]
 class Oct15Tests(unittest.TestCase):
     def setUp(self):
         self.registry=json.loads((ROOT/'registry.json').read_text('utf8'))
-        self.manifest=json.loads((ROOT/'public/manifest.json').read_text('utf8'))
+        self.manifest=json.loads((ROOT/'tests/contract3_manifest_fixture.json').read_text('utf8'))
         self.pack=json.loads((ROOT/'public'/self.manifest['rules']).read_text('utf8'))
 
     def test_exact_complete_engine_and_minimum_version(self):

@@ -8,6 +8,7 @@ on:
       - 'cloud_rules_*.py'
       - 'registry.json'
       - 'reviewed_notices.json'
+      - 'notice_coverage_reviews.json'
       - 'tests/**'
       - '.github/workflows/monitor.yml'
 permissions:
