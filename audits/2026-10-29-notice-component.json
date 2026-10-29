@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "scope": "unpublished-monitor-component-only",
+  "baseline": "65e51141ed668b86fc12724ad8f10f17fbcb01c2",
+  "official_input_sha256": "3a2ffb3b0c719c09435ca0fd3ef4fda21dc0b7e479b14b2bceebc393832d9310",
+  "latest_notice_gid": "1847920302233330",
+  "latest_item_count": 84,
+  "latest_card_count": 10,
+  "latest_fate_and_global_count": 74,
+  "latest_unreviewed_count": 84,
+  "source_available": true,
+  "rule_files_unchanged": true,
+  "repeat_idempotent": true,
+  "existing_tests_unchanged": 37,
+  "new_tests": 24,
+  "total_unit_tests": 61,
+  "original_failure_kept": true,
+  "independent_original_bullet_expansion_count": 84,
+  "all_notice_counts": {
+    "1846018067928278": {
+      "items": 0,
+      "pending": 1
+    },
+    "1846651706676158": {
+      "items": 10,
+      "pending": 0
+    },
+    "1847286114031033": {
+      "items": 91,
+      "pending": 90
+    },
+    "1847920302233330": {
+      "items": 84,
+      "pending": 84
+    }
+  },
+  "source_sha256": {
+    "cloud_rules_publisher.py": "88fa4339476aa37be197751b05bbc39dee6cd5009276bdb6742e16eca1cdbde4",
+    "cloud_rules_notice_coverage.py": "0eb2f8bfa63bc8ec208f0e5d344f8d9e6e2c51346013e4000d89d72736e29fa3",
+    "tests/test_notice_coverage.py": "e4b185db9c803974fdfb013541df3e3c397343427d78df874a3facb72a06c1dc",
+    ".github/workflows/monitor.yml": "c23e1befe7e8c156176db7fe1ae7905e37f7e71e61ffb539195e8b28b095ddc2",
+    "README.md": "585bf536353e9dddb7dc3ef6da5c0ccf1ddb44ae8805f455e7953f9be91359c6",
+    "HANDOFF.md": "b5e2b1cd59ef07fa666d48e005d8944e2ebf10b199559e55177ae49912cc59d7"
+  },
+  "test_log_sha256": "aadd507c3f8e5433610e126a29b921147a68012be3b7b7526b6c18209fe043bc"
+}
