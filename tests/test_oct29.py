@@ -42,9 +42,10 @@ class Oct29Tests(unittest.TestCase):
             self.assertEqual(row['kind'],'mechanism')
             self.assertTrue(row['evidence_sha256'])
             for digest in row['evidence_sha256']:self.assertRegex(digest,r'^[a-f0-9]{64}$')
-        coverage=self.manifest['announcement_coverage']
-        self.assertEqual(coverage['latest_notice_gid'],inventory['gid'])
-        self.assertEqual([coverage[key]for key in('latest_item_count','latest_reviewed_count','latest_pending_count')],[84,84,0])
+        # A later announcement must not make this fixed Oct29 receipt test
+        # fail and stop the monitor before it can publish the new pending items.
+        coverage=self.manifest['announcement_coverage']['notices'][inventory['gid']]
+        self.assertEqual([coverage[key]for key in('item_count','reviewed_count','pending_count')],[84,84,0])
 
     def test_future_numeric_update_keeps_complete_mechanism_snapshot_and_contract4(self):
         row=dict(self.pack['cards']['3000012'],description='施加6层虚弱\n消耗')
