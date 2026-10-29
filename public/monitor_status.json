@@ -1,10 +1,23 @@
 {
-  "checked_at": "2026-10-29T05:05:21.491469+00:00",
-  "notices": [],
-  "pending": [
+  "checked_at": "2026-10-29T06:21:13.227948+00:00",
+  "notices": [
     {
       "gid": "1847920302233330",
-      "reason": "announced_rule_not_effective_yet",
+      "title": "Update on Oct. 29",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302233330",
+      "date": 1793242934,
+      "sha256": "91710230310343906cf2a7f250cccee7b7b9814c5f933f4d861a4160eb4ef099"
+    }
+  ],
+  "pending": [
+    {
+      "base_id": 214,
+      "reason": "notice_needs_specific_adapter",
+      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302233330"
+    },
+    {
+      "base_id": 381,
+      "reason": "ambiguous_official_number_change",
       "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302233330"
     }
   ],

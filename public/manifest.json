@@ -9,8 +9,13 @@
   "minimum_assistant_version": "1.1.329",
   "pending": [
     {
-      "gid": "1847920302233330",
-      "reason": "announced_rule_not_effective_yet",
+      "base_id": 214,
+      "reason": "notice_needs_specific_adapter",
+      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302233330"
+    },
+    {
+      "base_id": 381,
+      "reason": "ambiguous_official_number_change",
       "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302233330"
     }
   ],
@@ -20,7 +25,7 @@
     "1846651706676158": "3b45c9df9ccf9b1034088caa880eceaae6ae760cb52c97f345053f6189376229",
     "1847286114031033": "8b8506796892cd8fdbd4d2b0a36aad9a2a4e352b2bf3a44c3e58330534063370"
   },
-  "source_checked_at": "2026-10-29T05:05:21.491469+00:00",
+  "source_checked_at": "2026-10-29T06:21:13.227948+00:00",
   "monitor_state": "verified",
   "source_errors": [],
   "supported_faces": 78
