@@ -1,0 +1,1301 @@
+{
+  "schema": 1,
+  "date": "2026-11-05",
+  "coverage": "exact_announcement_delta_only",
+  "assistant_version": "1.1.356",
+  "engine_contract": "numeric-templates-5",
+  "base_patch": "nov05_v356",
+  "base_full_archive_sha256": "69ff01e96947066f0683cd036fad1504dcf47ffc6c30a9444c7565927799df8f",
+  "offline_checks_against_installed_runtime": {
+    "notice_engine_tests": 31,
+    "oct08_official_tests": 65,
+    "oct08_merge_and_compound_tests": 153,
+    "oct22_engine_tests": 15,
+    "nov05_offer_tests": 2,
+    "test_success": true,
+    "game_input_sent": false
+  },
+  "source_paths_and_sha256": {
+    "joint_repair_artifacts/oct22_native_delta.json": "43c345069ef0e296417cf50d6c0605c4afc445bfa2a89732dbf9fc9a4fc83b6d",
+    "joint_repair_artifacts/oct22_card_contracts.json": "c550d7b5b570294f0aae31b36fd40d818400e2dd6c1686eb75301d96601b5cfb",
+    "joint_repair_artifacts/test_oct22_combat_v356.py": "8ff2f0ce529afc24b2a38d5fc7b7a5838b23930520e01edcc51b5873d2ac614f",
+    "joint_repair_artifacts/test_oct22_mechanisms_v356.py": "dc07991e66a553937d1f29b3d76dc79ede1827b4558eee53600e7f3f5305a46a",
+    "oct22_balance_actions.js": "1de517554b5163dc0e9f335cb9de295c4c33a0d3a76d7aeddf87e7d064ac5082",
+    "joint_repair_artifacts/test_baijia_grid.py": "c9e3849aa408e699ad1576737e635920a41c584f2e1452a47fba61818f19e3c0",
+    "joint_repair_artifacts/nov05_native_delta.json": "b7f78aa4acc94c3c9ce62dd49ac2328d94bda331625af8341f65b1c807cdbc6a",
+    "joint_repair_artifacts/test_nov05_rules_v356.py": "202121b093c04027c15dbda4d9f9255f0450062a6233985e974290442c3c6a41",
+    "audits/test_nov05_notice_engine.py": "ed0192dca16f3c8f67f626388ad998ba95f4e1f8293a57a2afe173bb8fa3be02",
+    "joint_repair_artifacts/test_baijia_books.py": "823fcaa26b1110859e5cd450992cac7718cb6e2ec233e1672ad307645614af91",
+    "joint_repair_artifacts/test_baijia_refinement_runtime.py": "cc4b04f4c8bb9aea412bf60f65a8fe244813f6b679982bc7a0032994feaa480a",
+    "joint_repair_artifacts/test_season_rotation_effects_20260930.py": "f4b137997742df5bd1dcd7e9018ae78d05be8c9d9a91cdd4b4ecb9ddfdbae117",
+    "joint_repair_artifacts/baijia_catalog.json": "0fe3d078d42beee0c112bf2b02d1806f4a2e1797bf647b4eb936e1ae9eb91c99",
+    "audits/test_oct22_time_revert_engine.py": "cad527372e71d21d35e9b67a000c9bdbb17e20286b7a56834ddac39121af90c5",
+    "audits/test_oct22_additional_engine.py": "bf296529b1eb167ec3d08bbd7dbc44c363e0286d1f58427bd2927e8ab5fb57c1",
+    "audits/test_oct22_gift_engine.py": "3303cd2b32edec88f1023e2bbbbc5ce4cc66617580bc8e4f322191f5f93b728e",
+    "audits/test_nov05_offer_engine.py": "83d922f2f305d181b0e4d2867e70e6373f30ad6c7cdb542405bc6348134e1c17",
+    "joint_repair_artifacts/test_baijia_combat.py": "1e96ca3bec4b0a9b3556e08126e0de5ec4739d5aa4c232fbb31a0592c93a3682",
+    "joint_repair_artifacts/test_baijia_passives.py": "59fd5c73c400e828b76fff56942305add8d1468aca5b83b0cd28c883ca64b23d",
+    "joint_repair_artifacts/test_baijia_matchup.py": "915023f339c490ff3d9af1e6eb066f116d7800cbceaedee4c37af13b4d554fce",
+    "joint_repair_artifacts/test_baijia_exchange_preparation.py": "9daa26d28945f779852507b3f0a0965a6ca300bd439c02bcb511045dee252ec0",
+    "joint_repair_artifacts/test_baijia_speed_full_flow.py": "537306ede535467a245d29b740e95ccdadde8a7316c833ea761a3be1be85a179",
+    "joint_repair_artifacts/test_baijia_integration_v330.py": "b4598e52ba44b4e44658e96257e0b76a8a4e742143fd72d686113b8abb8efe0b",
+    "joint_repair_artifacts/test_baijia_passive_compound_full_flow.py": "1a6c49f0623d341cb70def4f82810960ec8c2814922fe3fa5ec15506d4353a14",
+    "joint_repair_artifacts/test_official_balance_20261008.py": "b431d58c633a045f34f2b87845ef5de4b301a9045dc5dec998467ed6a4346ac6",
+    "official_balance_20261008.json": "fb7c98312fe36b75cae55d2c421d1e47e1bc039d0f3d2492d4fd299736509204",
+    "official_balance.py": "8a16fedfc59f003610eb315786944d2bab9c4145a242c670c915c6d0b5d0c73c",
+    "joint_repair_artifacts/test_baijia_special_merge_full_flow.py": "974b5e2ee20864a3ebe9964c670c1fc4e2ce9b1c40b8ed64c169548c6f52eddf"
+  },
+  "notices": {
+    "1846018067928278": {
+      "balance_sha256": "900032ff97cf5f2b4fb3f93b374f321c5d05a5346b8afd11d80b638721c60bc4",
+      "items": {
+        "001-72829523ebd963e2": {
+          "target": "Cloud Shadow Avatar (Mu Yifeng, Immortality Phase)",
+          "scope": "native preparation effects and settled stats checked without double credit",
+          "evidence": [
+            "official_balance_20261008.json",
+            "official_balance.py",
+            "joint_repair_artifacts/test_official_balance_20261008.py"
+          ]
+        },
+        "003-13d19e71744f1e86": {
+          "target": "Astrology (Jiang Ximing, Foundation Phase)",
+          "scope": "native preparation effects and settled stats checked without double credit",
+          "evidence": [
+            "official_balance_20261008.json",
+            "official_balance.py",
+            "joint_repair_artifacts/test_official_balance_20261008.py"
+          ]
+        },
+        "004-7b63544b95e474be": {
+          "target": "Astral Divination Hexagram (Jiang Ximing, Incarnation Phase)",
+          "scope": "native preparation effects and settled stats checked without double credit",
+          "evidence": [
+            "official_balance_20261008.json",
+            "official_balance.py",
+            "joint_repair_artifacts/test_official_balance_20261008.py"
+          ]
+        },
+        "005-e720047b40c94269": {
+          "target": "Cloud Sword Heart (Lu Jianxin, Incarnation Phase Immortal Fate option)",
+          "scope": "native preparation effects and settled stats checked without double credit",
+          "evidence": [
+            "official_balance_20261008.json",
+            "official_balance.py",
+            "joint_repair_artifacts/test_official_balance_20261008.py"
+          ]
+        },
+        "015-e28400ffe850cfe5": {
+          "target": "Bloodline Power (Yan Chen, Meditation Phase)",
+          "scope": "native preparation effects and settled stats checked without double credit",
+          "evidence": [
+            "official_balance_20261008.json",
+            "official_balance.py",
+            "joint_repair_artifacts/test_official_balance_20261008.py"
+          ]
+        },
+        "019-6ca3682217993f6d": {
+          "target": "Unyielding Learning (Xiaobu, Meditation Phase)",
+          "scope": "native preparation effects and settled stats checked without double credit",
+          "evidence": [
+            "official_balance_20261008.json",
+            "official_balance.py",
+            "joint_repair_artifacts/test_official_balance_20261008.py"
+          ]
+        },
+        "021-ee7f74cfb90972a4": {
+          "target": "Zen Mind Forging Body (Ji Fangsheng, Meditation Phase)",
+          "scope": "native preparation effects and settled stats checked without double credit",
+          "evidence": [
+            "official_balance_20261008.json",
+            "official_balance.py",
+            "joint_repair_artifacts/test_official_balance_20261008.py"
+          ]
+        },
+        "006-0c9c1d1b916bc046": {
+          "target": "Unrestrained Sword - Crimson Sky (Cloud Spirit Sword Sect, Virtuoso Phase)",
+          "scope": "all current native card grades execute, with later balance supersession preserved",
+          "evidence": [
+            "official_balance_20261008.json",
+            "official_balance.py",
+            "joint_repair_artifacts/test_official_balance_20261008.py"
+          ]
+        },
+        "008-417eae38fbcfaa9e": {
+          "target": "·Thousand Blades Sword Formation (Cloud Spirit Sword Sect, Incarnation Phase)",
+          "scope": "all current native card grades execute, with later balance supersession preserved",
+          "evidence": [
+            "official_balance_20261008.json",
+            "official_balance.py",
+            "joint_repair_artifacts/test_official_balance_20261008.py"
+          ]
+        },
+        "012-98c43501d93d3fc7": {
+          "target": "Astral Move - Connect (Heptastar Pavilion, Immortality Phase)",
+          "scope": "all current native card grades execute, with later balance supersession preserved",
+          "evidence": [
+            "official_balance_20261008.json",
+            "official_balance.py",
+            "joint_repair_artifacts/test_official_balance_20261008.py"
+          ]
+        },
+        "013-a7143ed5b99c5d6a": {
+          "target": "Shura Mystic Qi Slash (Duan Xuan Sect, Incarnation Phase)",
+          "scope": "all current native card grades execute, with later balance supersession preserved",
+          "evidence": [
+            "official_balance_20261008.json",
+            "official_balance.py",
+            "joint_repair_artifacts/test_official_balance_20261008.py"
+          ]
+        },
+        "014-8fe9dad362805470": {
+          "target": "Nether Spirit Blood Shadow Step (Duan Xuan Sect, Incarnation Phase)",
+          "scope": "all current native card grades execute, with later balance supersession preserved",
+          "evidence": [
+            "official_balance_20261008.json",
+            "official_balance.py",
+            "joint_repair_artifacts/test_official_balance_20261008.py"
+          ]
+        },
+        "016-e4ce5f1cb9b93e91": {
+          "target": "Ultimate Hexagram Base (Yan Chen exclusive Immortal Fate card, Virtuoso Phase)",
+          "scope": "all current native card grades execute, with later balance supersession preserved",
+          "evidence": [
+            "official_balance_20261008.json",
+            "official_balance.py",
+            "joint_repair_artifacts/test_official_balance_20261008.py"
+          ]
+        },
+        "017-11682479d8d2ae58": {
+          "target": "Fury Thunder (Yan Chen exclusive Immortal Fate card, Incarnation Phase)",
+          "scope": "all current native card grades execute, with later balance supersession preserved",
+          "evidence": [
+            "official_balance_20261008.json",
+            "official_balance.py",
+            "joint_repair_artifacts/test_official_balance_20261008.py"
+          ]
+        },
+        "018-680b1f410c86d9f9": {
+          "target": "Jade Scroll of Yin Symbol (Feng Xu exclusive Immortal Fate card, ·Foundation Phase)",
+          "scope": "all current native card grades execute, with later balance supersession preserved",
+          "evidence": [
+            "official_balance_20261008.json",
+            "official_balance.py",
+            "joint_repair_artifacts/test_official_balance_20261008.py"
+          ]
+        },
+        "020-976237ac4b44530b": {
+          "target": "Unbounded Qi (Xiaobu, Virtuoso Phase)",
+          "scope": "all current native card grades execute, with later balance supersession preserved",
+          "evidence": [
+            "official_balance_20261008.json",
+            "official_balance.py",
+            "joint_repair_artifacts/test_official_balance_20261008.py"
+          ]
+        },
+        "023-52a9cf7801843d87": {
+          "target": "Spirit Feather (Ling Yu exclusive Immortal Fate card, Meditation Phase)",
+          "scope": "all current native card grades execute, with later balance supersession preserved",
+          "evidence": [
+            "official_balance_20261008.json",
+            "official_balance.py",
+            "joint_repair_artifacts/test_official_balance_20261008.py"
+          ]
+        },
+        "024-4ac7d732823a6bfa": {
+          "target": "Cyclone Palm (Ling Yu exclusive Immortal Fate card, Virtuoso Phase)",
+          "scope": "all current native card grades execute, with later balance supersession preserved",
+          "evidence": [
+            "official_balance_20261008.json",
+            "official_balance.py",
+            "joint_repair_artifacts/test_official_balance_20261008.py"
+          ]
+        },
+        "022-83f000cd1116e023": {
+          "target": "Memory Fragment (Ji Fangsheng, Virtuoso Phase)",
+          "scope": "native memory-fragment merge requires two held cards and three physique",
+          "evidence": [
+            "official_balance_20261008.json",
+            "joint_repair_artifacts/test_official_balance_20261008.py",
+            "joint_repair_artifacts/test_baijia_special_merge_full_flow.py"
+          ]
+        }
+      }
+    },
+    "1847286114031033": {
+      "balance_sha256": "6331f005724076e9fb497189bdf16538e2dba5d048c022b97e9dcef850875a08",
+      "items": {
+        "001-093260cecdb700d7": {
+          "target": "Bloodline Potential (Yan Xue,Initial Immortal Fate)",
+          "scope": "initial talent no longer has the old 12 progress",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "joint_repair_artifacts/test_oct22_mechanisms_v356.py"
+          ]
+        },
+        "003-4c9c545871311749": {
+          "target": "Mirage: Raven Spirit Sword",
+          "scope": "three native card grades resolved and exercised with literal results",
+          "evidence": [
+            "joint_repair_artifacts/oct22_card_contracts.json",
+            "joint_repair_artifacts/test_oct22_combat_v356.py",
+            "oct22_balance_actions.js",
+            "audits/test_nov05_notice_engine.py"
+          ]
+        },
+        "004-4dcbd759777aa6b5": {
+          "target": "Mirage: Consonance Sword Formation",
+          "scope": "three native card grades resolved and exercised with literal results",
+          "evidence": [
+            "joint_repair_artifacts/oct22_card_contracts.json",
+            "joint_repair_artifacts/test_oct22_combat_v356.py",
+            "oct22_balance_actions.js",
+            "audits/test_nov05_notice_engine.py"
+          ]
+        },
+        "005-1b51b3b7a5b1bf20": {
+          "target": "Mirage: Spiritage Sword",
+          "scope": "three native card grades resolved and exercised with literal results",
+          "evidence": [
+            "joint_repair_artifacts/oct22_card_contracts.json",
+            "joint_repair_artifacts/test_oct22_combat_v356.py",
+            "oct22_balance_actions.js",
+            "audits/test_nov05_notice_engine.py"
+          ]
+        },
+        "006-791bedf5250010c2": {
+          "target": "Mirage: Earth Hexagram",
+          "scope": "three native card grades resolved and exercised with literal results",
+          "evidence": [
+            "joint_repair_artifacts/oct22_card_contracts.json",
+            "joint_repair_artifacts/test_oct22_combat_v356.py",
+            "oct22_balance_actions.js",
+            "audits/test_nov05_notice_engine.py"
+          ]
+        },
+        "007-7c0d688f75b57d96": {
+          "target": "Mirage: Dotted Around",
+          "scope": "three native card grades resolved and exercised with literal results",
+          "evidence": [
+            "joint_repair_artifacts/oct22_card_contracts.json",
+            "joint_repair_artifacts/test_oct22_combat_v356.py",
+            "oct22_balance_actions.js",
+            "audits/test_nov05_notice_engine.py"
+          ]
+        },
+        "008-345a1fcddf047b41": {
+          "target": "Mirage: Cutting Weeds",
+          "scope": "three native card grades resolved and exercised with literal results",
+          "evidence": [
+            "joint_repair_artifacts/oct22_card_contracts.json",
+            "joint_repair_artifacts/test_oct22_combat_v356.py",
+            "oct22_balance_actions.js",
+            "audits/test_nov05_notice_engine.py"
+          ]
+        },
+        "009-d44b82630d51f7c3": {
+          "target": "Mirage: Vitality Blossom",
+          "scope": "three native card grades resolved and exercised with literal results",
+          "evidence": [
+            "joint_repair_artifacts/oct22_card_contracts.json",
+            "joint_repair_artifacts/test_oct22_combat_v356.py",
+            "oct22_balance_actions.js",
+            "audits/test_nov05_notice_engine.py"
+          ]
+        },
+        "010-a72cf502bf2b8a53": {
+          "target": "Mirage: Incessant",
+          "scope": "three native card grades resolved and exercised with literal results",
+          "evidence": [
+            "joint_repair_artifacts/oct22_card_contracts.json",
+            "joint_repair_artifacts/test_oct22_combat_v356.py",
+            "oct22_balance_actions.js",
+            "audits/test_nov05_notice_engine.py"
+          ]
+        },
+        "011-5fe8f86ac5ba9ed3": {
+          "target": "Mirage: Astral Fleche",
+          "scope": "three native card grades resolved and exercised with literal results",
+          "evidence": [
+            "joint_repair_artifacts/oct22_card_contracts.json",
+            "joint_repair_artifacts/test_oct22_combat_v356.py",
+            "oct22_balance_actions.js",
+            "audits/test_nov05_notice_engine.py"
+          ]
+        },
+        "012-14a1ab426cbb176c": {
+          "target": "Mirage: Five Elements Circulation",
+          "scope": "three native card grades resolved and exercised with literal results",
+          "evidence": [
+            "joint_repair_artifacts/oct22_card_contracts.json",
+            "joint_repair_artifacts/test_oct22_combat_v356.py",
+            "oct22_balance_actions.js",
+            "audits/test_nov05_notice_engine.py"
+          ]
+        },
+        "013-840292570b6b6fef": {
+          "target": "Mirage: Cosmos Seal",
+          "scope": "three native card grades resolved and exercised with literal results",
+          "evidence": [
+            "joint_repair_artifacts/oct22_card_contracts.json",
+            "joint_repair_artifacts/test_oct22_combat_v356.py",
+            "oct22_balance_actions.js",
+            "audits/test_nov05_notice_engine.py"
+          ]
+        },
+        "014-59cfa9a465b6d5e7": {
+          "target": "Mirage: Exercise Bones",
+          "scope": "three native card grades resolved and exercised with literal results",
+          "evidence": [
+            "joint_repair_artifacts/oct22_card_contracts.json",
+            "joint_repair_artifacts/test_oct22_combat_v356.py",
+            "oct22_balance_actions.js",
+            "audits/test_nov05_notice_engine.py"
+          ]
+        },
+        "015-e38aefc60266f1f1": {
+          "target": "Mirage: Sinking Qi",
+          "scope": "three native card grades resolved and exercised with literal results",
+          "evidence": [
+            "joint_repair_artifacts/oct22_card_contracts.json",
+            "joint_repair_artifacts/test_oct22_combat_v356.py",
+            "oct22_balance_actions.js",
+            "audits/test_nov05_notice_engine.py"
+          ]
+        },
+        "016-ebbdef8db5083412": {
+          "target": "Mirage: Rakshasa Pouncing",
+          "scope": "three native card grades resolved and exercised with literal results",
+          "evidence": [
+            "joint_repair_artifacts/oct22_card_contracts.json",
+            "joint_repair_artifacts/test_oct22_combat_v356.py",
+            "oct22_balance_actions.js",
+            "audits/test_nov05_notice_engine.py"
+          ]
+        },
+        "017-f2c6a7547eb68242": {
+          "target": "Mirage: Endless Entanglement",
+          "scope": "three native card grades resolved and exercised with literal results",
+          "evidence": [
+            "joint_repair_artifacts/oct22_card_contracts.json",
+            "joint_repair_artifacts/test_oct22_combat_v356.py",
+            "oct22_balance_actions.js",
+            "audits/test_nov05_notice_engine.py"
+          ]
+        },
+        "018-b46e6b02336d9367": {
+          "target": "Adjusted the applicable characters for Immortal Fate related to Mirage cards.",
+          "scope": "current native eligibility is checked and only actual offered options are used",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "joint_repair_artifacts/test_oct22_mechanisms_v356.py",
+            "joint_repair_artifacts/test_baijia_integration_v330.py"
+          ]
+        },
+        "019-c50f8c8f5ec675a9": {
+          "target": "Formation Insight",
+          "scope": "current native charges 3, 2, 1, 0 and readiness",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "audits/test_oct22_additional_engine.py"
+          ]
+        },
+        "020-18724287ded046a4": {
+          "target": "Scroll Insight",
+          "scope": "current native charges 3, 2, 1, 0 and readiness",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "audits/test_oct22_additional_engine.py"
+          ]
+        },
+        "021-440d3b901b72170a": {
+          "target": "Side-job Enlightenment",
+          "scope": "only the first side-job card can be upgraded",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "joint_repair_artifacts/test_oct22_mechanisms_v356.py"
+          ]
+        },
+        "022-db2a95d1789e7a7f": {
+          "target": "Ice Spirit Guard Elixir,Thousand Evil Incantation,Predicament for Immortals,Cycle of Fate",
+          "scope": "round 11/12 level-two gifts pay once; no phantom pool cards",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "joint_repair_artifacts/test_oct22_mechanisms_v356.py"
+          ]
+        },
+        "023-4518782ed45d36e1": {
+          "target": "Finishing Touch,Flying Brush,Meru Formation,Envelop In Disaster",
+          "scope": "round 11/12 level-two gifts pay once; no phantom pool cards",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "joint_repair_artifacts/test_oct22_mechanisms_v356.py"
+          ]
+        },
+        "024-d028281e80a0e4bd": {
+          "target": "Lowered the appearance probability of Black Sphere.",
+          "scope": "server-selected black sphere stage is read from current native configuration",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "joint_repair_artifacts/baijia_catalog.json",
+            "audits/test_oct22_additional_engine.py",
+            "joint_repair_artifacts/test_baijia_integration_v330.py"
+          ]
+        },
+        "025-1cb33e1f205545e0": {
+          "target": "Heaven-Cleaving Axe",
+          "scope": "current actual-engine attack or HP and max-HP amount",
+          "evidence": [
+            "joint_repair_artifacts/oct22_card_contracts.json",
+            "joint_repair_artifacts/test_oct22_combat_v356.py",
+            "oct22_balance_actions.js"
+          ]
+        },
+        "026-8aac035a70862adf": {
+          "target": "Divine-Refining Cauldron",
+          "scope": "current actual-engine attack or HP and max-HP amount",
+          "evidence": [
+            "joint_repair_artifacts/oct22_card_contracts.json",
+            "joint_repair_artifacts/test_oct22_combat_v356.py",
+            "oct22_balance_actions.js"
+          ]
+        },
+        "027-4439cbc7e33ba5d9": {
+          "target": "Time-Revert Mirror",
+          "scope": "installed simulator costs one qi and gathers five when waiting",
+          "evidence": [
+            "joint_repair_artifacts/oct22_card_contracts.json",
+            "oct22_balance_actions.js",
+            "audits/test_oct22_time_revert_engine.py"
+          ]
+        },
+        "028-61acae77b3a7c882": {
+          "target": "Immortal Fates in Immortal Fate Pool 1 gain an additional effect",
+          "scope": "divinity fusion refinement rewards eight HP and swaps once",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "joint_repair_artifacts/test_oct22_mechanisms_v356.py"
+          ]
+        },
+        "029-e02c3fc0c5cfa54c": {
+          "target": "Dream: Cosmos Seal (Incarnation Phase)",
+          "scope": "Dream Cosmos uses the native base pool and matching element/grade",
+          "evidence": [
+            "joint_repair_artifacts/oct22_card_contracts.json",
+            "joint_repair_artifacts/test_oct22_combat_v356.py",
+            "oct22_balance_actions.js"
+          ]
+        },
+        "030-818a0568954b663f": {
+          "target": "Immortal Fates related to Dream cards in Immortal Fate Pool 1 gain an additional effect",
+          "scope": "incarnation Dream refinement rewards apply exactly once",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "joint_repair_artifacts/test_oct22_mechanisms_v356.py"
+          ]
+        },
+        "031-69d045be2f6f5aa5": {
+          "target": "The following Immortal Fates no longer appear",
+          "scope": "removed future offers do not revoke already owned effects",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "joint_repair_artifacts/test_oct22_mechanisms_v356.py"
+          ]
+        },
+        "032-0e1fce8aaf50d972": {
+          "target": "Dream: Echo Formation",
+          "scope": "only the announced earlier round and paid grant are certified",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "joint_repair_artifacts/test_oct22_mechanisms_v356.py"
+          ]
+        },
+        "033-446809c6cc2e9627": {
+          "target": "Dream: Divine Brush",
+          "scope": "only the announced earlier round and paid grant are certified",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "joint_repair_artifacts/test_oct22_mechanisms_v356.py"
+          ]
+        },
+        "034-e2754edda953d25c": {
+          "target": "Awe of the Dragon",
+          "scope": "battle-start, round 13, max-HP and first-actor/tie conditions",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "joint_repair_artifacts/test_oct22_mechanisms_v356.py",
+            "joint_repair_artifacts/test_oct22_combat_v356.py"
+          ]
+        },
+        "035-a0a298c5bdc1759c": {
+          "target": "Dragon Scale Defense",
+          "scope": "battle-start, round 13, max-HP and first-actor/tie conditions",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "joint_repair_artifacts/test_oct22_mechanisms_v356.py",
+            "joint_repair_artifacts/test_oct22_combat_v356.py"
+          ]
+        },
+        "036-6765d2466ee693b6": {
+          "target": "Dragon Shadow Dive",
+          "scope": "battle-start, round 13, max-HP and first-actor/tie conditions",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "joint_repair_artifacts/test_oct22_mechanisms_v356.py",
+            "joint_repair_artifacts/test_oct22_combat_v356.py"
+          ]
+        },
+        "037-37e4f2df5cabdec1": {
+          "target": "Dragon Soul Battle Will",
+          "scope": "battle-start, round 13, max-HP and first-actor/tie conditions",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "joint_repair_artifacts/test_oct22_mechanisms_v356.py",
+            "joint_repair_artifacts/test_oct22_combat_v356.py"
+          ]
+        },
+        "038-166a6ad7eb62ed13": {
+          "target": "Samsara Arts",
+          "scope": "current no-HP skip and level-two-capped copied attack",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "audits/test_oct22_additional_engine.py"
+          ]
+        },
+        "040-b07f887d4329a4e6": {
+          "target": "Carefree Echo",
+          "scope": "current no-HP skip and level-two-capped copied attack",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "audits/test_oct22_additional_engine.py"
+          ]
+        },
+        "039-1706a7220e16507f": {
+          "target": "Carefree Footwork",
+          "scope": "basic attack and engraving execute with current amounts",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "joint_repair_artifacts/test_oct22_combat_v356.py"
+          ]
+        },
+        "041-4a24f2f840a2501c": {
+          "target": "Twin Engraving",
+          "scope": "basic attack and engraving execute with current amounts",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "joint_repair_artifacts/test_oct22_combat_v356.py"
+          ]
+        },
+        "043-21e1d105d3f23f13": {
+          "target": "Free Spirit Pressure Point",
+          "scope": "basic attack and engraving execute with current amounts",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "joint_repair_artifacts/test_oct22_combat_v356.py"
+          ]
+        },
+        "042-38d1a54dfd66bf0d": {
+          "target": "Carefree Engraving",
+          "scope": "selection of an eligible normal card and actual battle behavior",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "joint_repair_artifacts/test_oct22_mechanisms_v356.py",
+            "joint_repair_artifacts/test_baijia_grid.py"
+          ]
+        },
+        "044-4f232cdd0f2af6cd": {
+          "target": "Unrestrained Sword - Cloudstill",
+          "scope": "Oct22 card value is superseded by the independently tested Nov05 value",
+          "evidence": [
+            "joint_repair_artifacts/nov05_native_delta.json",
+            "audits/test_nov05_notice_engine.py"
+          ]
+        },
+        "045-faa7a6141b5bf60e": {
+          "target": "Heavenly Marrow Reverse Overcome",
+          "scope": "actual engine current qi, agility, HP and defense values",
+          "evidence": [
+            "joint_repair_artifacts/oct22_card_contracts.json",
+            "joint_repair_artifacts/test_oct22_combat_v356.py",
+            "oct22_balance_actions.js"
+          ]
+        },
+        "047-92efbb4ba6c31a87": {
+          "target": "Endless Spirit Mystery",
+          "scope": "actual engine current qi, agility, HP and defense values",
+          "evidence": [
+            "joint_repair_artifacts/oct22_card_contracts.json",
+            "joint_repair_artifacts/test_oct22_combat_v356.py",
+            "oct22_balance_actions.js"
+          ]
+        },
+        "081-8a24cc0304ef7798": {
+          "target": "Power of Raccoon",
+          "scope": "actual engine current qi, agility, HP and defense values",
+          "evidence": [
+            "joint_repair_artifacts/oct22_card_contracts.json",
+            "joint_repair_artifacts/test_oct22_combat_v356.py",
+            "oct22_balance_actions.js"
+          ]
+        },
+        "082-637fdc9e00cda07b": {
+          "target": "Power of Rat",
+          "scope": "actual engine current qi, agility, HP and defense values",
+          "evidence": [
+            "joint_repair_artifacts/oct22_card_contracts.json",
+            "joint_repair_artifacts/test_oct22_combat_v356.py",
+            "oct22_balance_actions.js"
+          ]
+        },
+        "046-fcb9c9a04a6ccedc": {
+          "target": "Five Elements Spiritual Field",
+          "scope": "postbattle field reward is drawn and paid from the real pool",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "joint_repair_artifacts/test_oct22_combat_v356.py"
+          ]
+        },
+        "049-591a0788d7bffd2e": {
+          "target": "Frost Guard",
+          "scope": "round 13 gate and each combat effect",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "audits/test_oct22_additional_engine.py",
+            "joint_repair_artifacts/test_baijia_combat.py",
+            "joint_repair_artifacts/test_baijia_passives.py"
+          ]
+        },
+        "050-958d11f946939ea3": {
+          "target": "Cuju Flying Strike",
+          "scope": "round 13 gate and each combat effect",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "audits/test_oct22_additional_engine.py",
+            "joint_repair_artifacts/test_baijia_combat.py",
+            "joint_repair_artifacts/test_baijia_passives.py"
+          ]
+        },
+        "051-7bea524fe816f6b6": {
+          "target": "Ultimate: Five Elements Spirit Strike",
+          "scope": "normal pool addition, paid pity draw and reversible forms",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "joint_repair_artifacts/test_oct22_mechanisms_v356.py"
+          ]
+        },
+        "052-fdcb40e16376c1b2": {
+          "target": "Ultimate: Seal Heart Art",
+          "scope": "normal pool addition, paid pity draw and reversible forms",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "joint_repair_artifacts/test_oct22_mechanisms_v356.py"
+          ]
+        },
+        "053-c58913a648c5a62a": {
+          "target": "Ultimate: Consonance Sword Formation",
+          "scope": "each current gift, orb count, pool addition, pity or reversible transformation has an offline native example",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "joint_repair_artifacts/nov05_native_delta.json",
+            "joint_repair_artifacts/test_oct22_mechanisms_v356.py",
+            "audits/test_oct22_gift_engine.py",
+            "joint_repair_artifacts/test_baijia_passive_compound_full_flow.py"
+          ]
+        },
+        "054-16674f5660db2085": {
+          "target": "Cloud Sword - Starry Sky",
+          "scope": "each current gift, orb count, pool addition, pity or reversible transformation has an offline native example",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "joint_repair_artifacts/nov05_native_delta.json",
+            "joint_repair_artifacts/test_oct22_mechanisms_v356.py",
+            "audits/test_oct22_gift_engine.py",
+            "joint_repair_artifacts/test_baijia_passive_compound_full_flow.py"
+          ]
+        },
+        "055-8cabb6f2126463ab": {
+          "target": "Unrestrained Sword - Cloudstill",
+          "scope": "each current gift, orb count, pool addition, pity or reversible transformation has an offline native example",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "joint_repair_artifacts/nov05_native_delta.json",
+            "joint_repair_artifacts/test_oct22_mechanisms_v356.py",
+            "audits/test_oct22_gift_engine.py",
+            "joint_repair_artifacts/test_baijia_passive_compound_full_flow.py"
+          ]
+        },
+        "056-54e0343d68449a42": {
+          "target": "CentiBird Delicate Bracelet",
+          "scope": "each current gift, orb count, pool addition, pity or reversible transformation has an offline native example",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "joint_repair_artifacts/nov05_native_delta.json",
+            "joint_repair_artifacts/test_oct22_mechanisms_v356.py",
+            "audits/test_oct22_gift_engine.py",
+            "joint_repair_artifacts/test_baijia_passive_compound_full_flow.py"
+          ]
+        },
+        "057-2aaebd291e17a25a": {
+          "target": "CentiBird Swift Shadow Art; Ultimate: Hunter Becomes Preyer",
+          "scope": "each current gift, orb count, pool addition, pity or reversible transformation has an offline native example",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "joint_repair_artifacts/nov05_native_delta.json",
+            "joint_repair_artifacts/test_oct22_mechanisms_v356.py",
+            "audits/test_oct22_gift_engine.py",
+            "joint_repair_artifacts/test_baijia_passive_compound_full_flow.py"
+          ]
+        },
+        "058-741f91220404b406": {
+          "target": "Fleeting Glimpse",
+          "scope": "each current gift, orb count, pool addition, pity or reversible transformation has an offline native example",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "joint_repair_artifacts/nov05_native_delta.json",
+            "joint_repair_artifacts/test_oct22_mechanisms_v356.py",
+            "audits/test_oct22_gift_engine.py",
+            "joint_repair_artifacts/test_baijia_passive_compound_full_flow.py"
+          ]
+        },
+        "059-9ebc13176930f0ae": {
+          "target": "Great Galaxy",
+          "scope": "each current gift, orb count, pool addition, pity or reversible transformation has an offline native example",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "joint_repair_artifacts/nov05_native_delta.json",
+            "joint_repair_artifacts/test_oct22_mechanisms_v356.py",
+            "audits/test_oct22_gift_engine.py",
+            "joint_repair_artifacts/test_baijia_passive_compound_full_flow.py"
+          ]
+        },
+        "060-459d3b1b588cba6c": {
+          "target": "Astral Move - Jump",
+          "scope": "each current gift, orb count, pool addition, pity or reversible transformation has an offline native example",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "joint_repair_artifacts/nov05_native_delta.json",
+            "joint_repair_artifacts/test_oct22_mechanisms_v356.py",
+            "audits/test_oct22_gift_engine.py",
+            "joint_repair_artifacts/test_baijia_passive_compound_full_flow.py"
+          ]
+        },
+        "061-5887e4e9b0600e1e": {
+          "target": "Astral Move - Rescue",
+          "scope": "each current gift, orb count, pool addition, pity or reversible transformation has an offline native example",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "joint_repair_artifacts/nov05_native_delta.json",
+            "joint_repair_artifacts/test_oct22_mechanisms_v356.py",
+            "audits/test_oct22_gift_engine.py",
+            "joint_repair_artifacts/test_baijia_passive_compound_full_flow.py"
+          ]
+        },
+        "062-67afcbfc77ca935b": {
+          "target": "Startle the Bird",
+          "scope": "each current gift, orb count, pool addition, pity or reversible transformation has an offline native example",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "joint_repair_artifacts/nov05_native_delta.json",
+            "joint_repair_artifacts/test_oct22_mechanisms_v356.py",
+            "audits/test_oct22_gift_engine.py",
+            "joint_repair_artifacts/test_baijia_passive_compound_full_flow.py"
+          ]
+        },
+        "063-a52e9c63d008ea42": {
+          "target": "Star Moon Six Lines Fan; Ultimate: Overcome with each other",
+          "scope": "each current gift, orb count, pool addition, pity or reversible transformation has an offline native example",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "joint_repair_artifacts/nov05_native_delta.json",
+            "joint_repair_artifacts/test_oct22_mechanisms_v356.py",
+            "audits/test_oct22_gift_engine.py",
+            "joint_repair_artifacts/test_baijia_passive_compound_full_flow.py"
+          ]
+        },
+        "064-4fa3a5825d2d745e": {
+          "target": "Heavenly Marrow Reverse Overcome",
+          "scope": "each current gift, orb count, pool addition, pity or reversible transformation has an offline native example",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "joint_repair_artifacts/nov05_native_delta.json",
+            "joint_repair_artifacts/test_oct22_mechanisms_v356.py",
+            "audits/test_oct22_gift_engine.py",
+            "joint_repair_artifacts/test_baijia_passive_compound_full_flow.py"
+          ]
+        },
+        "065-71d129939f272711": {
+          "target": "Lonely Boat Calming Waves",
+          "scope": "each current gift, orb count, pool addition, pity or reversible transformation has an offline native example",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "joint_repair_artifacts/nov05_native_delta.json",
+            "joint_repair_artifacts/test_oct22_mechanisms_v356.py",
+            "audits/test_oct22_gift_engine.py",
+            "joint_repair_artifacts/test_baijia_passive_compound_full_flow.py"
+          ]
+        },
+        "066-1c1816901a4b18df": {
+          "target": "Fire Spirit - Blossom Burn Seal",
+          "scope": "each current gift, orb count, pool addition, pity or reversible transformation has an offline native example",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "joint_repair_artifacts/nov05_native_delta.json",
+            "joint_repair_artifacts/test_oct22_mechanisms_v356.py",
+            "audits/test_oct22_gift_engine.py",
+            "joint_repair_artifacts/test_baijia_passive_compound_full_flow.py"
+          ]
+        },
+        "067-2a63a39cf4b114e7": {
+          "target": "Five Elements Carefree Dream",
+          "scope": "each current gift, orb count, pool addition, pity or reversible transformation has an offline native example",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "joint_repair_artifacts/nov05_native_delta.json",
+            "joint_repair_artifacts/test_oct22_mechanisms_v356.py",
+            "audits/test_oct22_gift_engine.py",
+            "joint_repair_artifacts/test_baijia_passive_compound_full_flow.py"
+          ]
+        },
+        "068-e20faee500efa6ab": {
+          "target": "Wood Spirit Forceage Formation; Crash Fist - Star Seizing",
+          "scope": "each current gift, orb count, pool addition, pity or reversible transformation has an offline native example",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "joint_repair_artifacts/nov05_native_delta.json",
+            "joint_repair_artifacts/test_oct22_mechanisms_v356.py",
+            "audits/test_oct22_gift_engine.py",
+            "joint_repair_artifacts/test_baijia_passive_compound_full_flow.py"
+          ]
+        },
+        "069-57a7fbad19a62e7a": {
+          "target": "Spiritage And Exercise",
+          "scope": "each current gift, orb count, pool addition, pity or reversible transformation has an offline native example",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "joint_repair_artifacts/nov05_native_delta.json",
+            "joint_repair_artifacts/test_oct22_mechanisms_v356.py",
+            "audits/test_oct22_gift_engine.py",
+            "joint_repair_artifacts/test_baijia_passive_compound_full_flow.py"
+          ]
+        },
+        "070-d161e5e43bcd65fe": {
+          "target": "Ultimate: Unceasing Exercising",
+          "scope": "each current gift, orb count, pool addition, pity or reversible transformation has an offline native example",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "joint_repair_artifacts/nov05_native_delta.json",
+            "joint_repair_artifacts/test_oct22_mechanisms_v356.py",
+            "audits/test_oct22_gift_engine.py",
+            "joint_repair_artifacts/test_baijia_passive_compound_full_flow.py"
+          ]
+        },
+        "071-4358b49da9667ecc": {
+          "target": "Ultimate: Overwhelming Power",
+          "scope": "each current gift, orb count, pool addition, pity or reversible transformation has an offline native example",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "joint_repair_artifacts/nov05_native_delta.json",
+            "joint_repair_artifacts/test_oct22_mechanisms_v356.py",
+            "audits/test_oct22_gift_engine.py",
+            "joint_repair_artifacts/test_baijia_passive_compound_full_flow.py"
+          ]
+        },
+        "072-e59ff69eb6c95a13": {
+          "target": "Styx Night Footwork",
+          "scope": "each current gift, orb count, pool addition, pity or reversible transformation has an offline native example",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "joint_repair_artifacts/nov05_native_delta.json",
+            "joint_repair_artifacts/test_oct22_mechanisms_v356.py",
+            "audits/test_oct22_gift_engine.py",
+            "joint_repair_artifacts/test_baijia_passive_compound_full_flow.py"
+          ]
+        },
+        "073-9b9ea94d2006ed5c": {
+          "target": "Ride Waves to the Heavens",
+          "scope": "each current gift, orb count, pool addition, pity or reversible transformation has an offline native example",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "joint_repair_artifacts/nov05_native_delta.json",
+            "joint_repair_artifacts/test_oct22_mechanisms_v356.py",
+            "audits/test_oct22_gift_engine.py",
+            "joint_repair_artifacts/test_baijia_passive_compound_full_flow.py"
+          ]
+        },
+        "074-5c580f906fd66f00": {
+          "target": "Asura Black Dragon Staff",
+          "scope": "each current gift, orb count, pool addition, pity or reversible transformation has an offline native example",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "joint_repair_artifacts/nov05_native_delta.json",
+            "joint_repair_artifacts/test_oct22_mechanisms_v356.py",
+            "audits/test_oct22_gift_engine.py",
+            "joint_repair_artifacts/test_baijia_passive_compound_full_flow.py"
+          ]
+        },
+        "075-f789e40637eddb50": {
+          "target": "·The following Immortal Fates gain cards later or have the number of cards in the card pool decreased",
+          "scope": "later gift rounds and reduced orb counts are applied once",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "joint_repair_artifacts/nov05_native_delta.json",
+            "audits/test_oct22_gift_engine.py"
+          ]
+        },
+        "076-918783576760fd21": {
+          "target": "Fate Path - Additional Side Job",
+          "scope": "the actual selection grants three exchanges once",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "audits/test_oct22_additional_engine.py"
+          ]
+        },
+        "077-4bdb14b44ac7773f": {
+          "target": "Step Moon Into Cloud",
+          "scope": "round-specific upgrade and paid scheduled gift",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "joint_repair_artifacts/test_oct22_mechanisms_v356.py"
+          ]
+        },
+        "078-6afa69963f8e41e9": {
+          "target": "Water Spirit - Tsunami",
+          "scope": "round-specific upgrade and paid scheduled gift",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "joint_repair_artifacts/test_oct22_mechanisms_v356.py"
+          ]
+        },
+        "079-d50a9eb46aac01d7": {
+          "target": "Eerie Melody Buries Soul",
+          "scope": "round-specific upgrade and paid scheduled gift",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "joint_repair_artifacts/test_oct22_mechanisms_v356.py"
+          ]
+        },
+        "080-cf4cccac49f841ef": {
+          "target": "The following Immortal Fates gain cards earlier",
+          "scope": "both early-gift pools use current paid-draw thresholds",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "audits/test_oct22_gift_engine.py"
+          ]
+        },
+        "083-30bd5d00664eff04": {
+          "target": "Shift Scroll",
+          "scope": "old scroll fee is superseded by the current three-choice native transaction",
+          "evidence": [
+            "joint_repair_artifacts/nov05_native_delta.json",
+            "joint_repair_artifacts/test_nov05_rules_v356.py"
+          ]
+        },
+        "084-a3ad9eb349162a20": {
+          "target": "Recycle Scroll series Immortal Fates now show the number of refined cards in the Immortal Fate description.",
+          "scope": "remaining refinements come from validated native counters",
+          "evidence": [
+            "joint_repair_artifacts/nov05_native_delta.json",
+            "joint_repair_artifacts/test_baijia_refinement_runtime.py"
+          ]
+        },
+        "085-0d39209d54d51a49": {
+          "target": "Sound of Varied Moves",
+          "scope": "four additional hand slots are applied once",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "audits/test_oct22_additional_engine.py",
+            "joint_repair_artifacts/test_baijia_speed_full_flow.py"
+          ]
+        },
+        "086-646cd6d7a10910b5": {
+          "target": "Immortal-Trapping Sound",
+          "scope": "one-turn two-sided chase lock and on/off matchup choices",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "joint_repair_artifacts/test_baijia_combat.py",
+            "joint_repair_artifacts/test_baijia_matchup.py"
+          ]
+        },
+        "087-cebe59efc3da6643": {
+          "target": "Moon Water Engraving",
+          "scope": "moon-water engraving grants six defense and two water-moon",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "joint_repair_artifacts/test_baijia_grid.py"
+          ]
+        },
+        "088-c04841c60268ff9b": {
+          "target": "Wood Water Engraving",
+          "scope": "engraving converts at most two or counts five-element types",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "joint_repair_artifacts/test_oct22_combat_v356.py",
+            "joint_repair_artifacts/test_baijia_grid.py"
+          ]
+        },
+        "089-60d41ad937ae7b9e": {
+          "target": "Primordial Engraving",
+          "scope": "engraving converts at most two or counts five-element types",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "joint_repair_artifacts/test_oct22_combat_v356.py",
+            "joint_repair_artifacts/test_baijia_grid.py"
+          ]
+        },
+        "090-afdc9db7c5f5c0e5": {
+          "target": "Five Elements Secret Scroll",
+          "scope": "first five-element sect card temporarily upgrades in combat",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "joint_repair_artifacts/test_baijia_passives.py"
+          ]
+        },
+        "091-c05cbeb529bbe28a": {
+          "target": "Path of Side-Job",
+          "scope": "native receipt includes two exchanges and side-job priority",
+          "evidence": [
+            "joint_repair_artifacts/oct22_native_delta.json",
+            "joint_repair_artifacts/test_baijia_exchange_preparation.py"
+          ]
+        }
+      }
+    },
+    "1848557880481669": {
+      "balance_sha256": "d780398bab27bbe524d837c7463749f13d35a7e82b691f97cafb05bbbf2c285e",
+      "items": {
+        "001-9fc58c4287f72728": {
+          "target": "Spirit Essence Release",
+          "scope": "overheal attack, current rank values and native duration",
+          "evidence": [
+            "joint_repair_artifacts/nov05_native_delta.json",
+            "joint_repair_artifacts/test_nov05_rules_v356.py",
+            "joint_repair_artifacts/test_season_rotation_effects_20260930.py"
+          ]
+        },
+        "002-e37860e5ad44eb25": {
+          "target": "Increased the number of Cultivators that can appear in certain specific rounds, and adjusted the Immortal Fates with cooldown rounds in each Immortal Fate pool so that such Immorta",
+          "scope": "current NPC windows and cooldown-fate cutoffs; use only observed actual offers",
+          "evidence": [
+            "joint_repair_artifacts/nov05_native_delta.json",
+            "joint_repair_artifacts/baijia_catalog.json",
+            "audits/test_nov05_offer_engine.py",
+            "joint_repair_artifacts/test_baijia_integration_v330.py"
+          ]
+        },
+        "003-05952a6428b07068": {
+          "target": "Daoist Rhyme of Sword Intent",
+          "scope": "rhyme grant round and nonmatching fate exchange gain",
+          "evidence": [
+            "joint_repair_artifacts/nov05_native_delta.json",
+            "joint_repair_artifacts/test_nov05_rules_v356.py"
+          ]
+        },
+        "004-17c01e11dfb76bd9": {
+          "target": "Daoist Rhyme of Post Action",
+          "scope": "rhyme grant round and nonmatching fate exchange gain",
+          "evidence": [
+            "joint_repair_artifacts/nov05_native_delta.json",
+            "joint_repair_artifacts/test_nov05_rules_v356.py"
+          ]
+        },
+        "005-5822b3022121d3f1": {
+          "target": "Fate Path - Cycle Of Five Elements",
+          "scope": "rhyme grant round and nonmatching fate exchange gain",
+          "evidence": [
+            "joint_repair_artifacts/nov05_native_delta.json",
+            "joint_repair_artifacts/test_nov05_rules_v356.py"
+          ]
+        },
+        "006-96e8aef1a9254e78": {
+          "target": "Recycle Scroll - Destiny",
+          "scope": "fees, seven refinements and each resource bonus",
+          "evidence": [
+            "joint_repair_artifacts/nov05_native_delta.json",
+            "audits/test_nov05_notice_engine.py",
+            "joint_repair_artifacts/test_baijia_refinement_runtime.py"
+          ]
+        },
+        "007-e3366cc812733aa1": {
+          "target": "Recycle Scroll - Exchange",
+          "scope": "fees, seven refinements and each resource bonus",
+          "evidence": [
+            "joint_repair_artifacts/nov05_native_delta.json",
+            "audits/test_nov05_notice_engine.py",
+            "joint_repair_artifacts/test_baijia_refinement_runtime.py"
+          ]
+        },
+        "008-fa2ee66defe525aa": {
+          "target": "Recycle Scroll - HP",
+          "scope": "fees, seven refinements and each resource bonus",
+          "evidence": [
+            "joint_repair_artifacts/nov05_native_delta.json",
+            "audits/test_nov05_notice_engine.py",
+            "joint_repair_artifacts/test_baijia_refinement_runtime.py"
+          ]
+        },
+        "009-f41443e30d198ea4": {
+          "target": "Sect Scroll",
+          "scope": "actual choice cost and the next-round retry debit",
+          "evidence": [
+            "joint_repair_artifacts/nov05_native_delta.json",
+            "audits/test_nov05_notice_engine.py",
+            "joint_repair_artifacts/test_baijia_books.py"
+          ]
+        },
+        "010-e04648c1cdd87cdb": {
+          "target": "Sect Scroll and Cunning Move Scroll",
+          "scope": "actual choice cost and the next-round retry debit",
+          "evidence": [
+            "joint_repair_artifacts/nov05_native_delta.json",
+            "audits/test_nov05_notice_engine.py",
+            "joint_repair_artifacts/test_baijia_books.py"
+          ]
+        },
+        "011-df4efcf315f4a694": {
+          "target": "Shift Scroll",
+          "scope": "rightmost eligible card, three offers, single receipt and rollback guards",
+          "evidence": [
+            "joint_repair_artifacts/nov05_native_delta.json",
+            "joint_repair_artifacts/test_nov05_rules_v356.py"
+          ]
+        },
+        "012-c09cf6831c628787": {
+          "target": "Guard Engraving",
+          "scope": "literal first-use engraving effects at the bound slot",
+          "evidence": [
+            "joint_repair_artifacts/nov05_native_delta.json",
+            "joint_repair_artifacts/test_baijia_grid.py"
+          ]
+        },
+        "013-8acdd5084ba6b99c": {
+          "target": "Healing Engraving",
+          "scope": "literal first-use engraving effects at the bound slot",
+          "evidence": [
+            "joint_repair_artifacts/nov05_native_delta.json",
+            "joint_repair_artifacts/test_baijia_grid.py"
+          ]
+        },
+        "014-5ce523241d7d8444": {
+          "target": "Star-Shifting Engraving",
+          "scope": "literal first-use engraving effects at the bound slot",
+          "evidence": [
+            "joint_repair_artifacts/nov05_native_delta.json",
+            "joint_repair_artifacts/test_baijia_grid.py"
+          ]
+        },
+        "015-dbf220349c511113": {
+          "target": "Endurance Engraving",
+          "scope": "literal first-use engraving effects at the bound slot",
+          "evidence": [
+            "joint_repair_artifacts/nov05_native_delta.json",
+            "joint_repair_artifacts/test_baijia_grid.py"
+          ]
+        },
+        "016-76f3c2dd2e1592cb": {
+          "target": "Sword Self-Unity",
+          "scope": "selection grants three swaps and learned-card refinement grants one",
+          "evidence": [
+            "joint_repair_artifacts/nov05_native_delta.json",
+            "audits/test_nov05_notice_engine.py",
+            "joint_repair_artifacts/test_baijia_refinement_runtime.py"
+          ]
+        },
+        "017-fcf464d81f7f7921": {
+          "target": "Snow-Treading Practice",
+          "scope": "observed cooldown and native realm gate",
+          "evidence": [
+            "joint_repair_artifacts/nov05_native_delta.json",
+            "audits/test_nov05_notice_engine.py"
+          ]
+        },
+        "018-7faef5b9990ff369": {
+          "target": "Secret Seal Shift",
+          "scope": "observed cooldown and native realm gate",
+          "evidence": [
+            "joint_repair_artifacts/nov05_native_delta.json",
+            "audits/test_nov05_notice_engine.py"
+          ]
+        },
+        "019-0bdce75e00410aee": {
+          "target": "Lowered the strength of the Suanni Immortal Fate obtained when skipping Immortal Fate Pool 2.",
+          "scope": "current skip option and Suanni stage data",
+          "evidence": [
+            "joint_repair_artifacts/nov05_native_delta.json",
+            "audits/test_nov05_notice_engine.py"
+          ]
+        },
+        "020-042dc9d79c4886af": {
+          "target": "Drunken Fist Stance",
+          "scope": "current pool counts, real gifts, fees and actual card effect",
+          "evidence": [
+            "joint_repair_artifacts/nov05_native_delta.json",
+            "audits/test_nov05_notice_engine.py"
+          ]
+        },
+        "021-3b804472d3f0d62a": {
+          "target": "Unrestrained Sword - Cloudstill",
+          "scope": "current pool counts, real gifts, fees and actual card effect",
+          "evidence": [
+            "joint_repair_artifacts/nov05_native_delta.json",
+            "audits/test_nov05_notice_engine.py"
+          ]
+        },
+        "022-a1771a75f3168390": {
+          "target": "Traces Revitalized",
+          "scope": "current pool counts, real gifts, fees and actual card effect",
+          "evidence": [
+            "joint_repair_artifacts/nov05_native_delta.json",
+            "audits/test_nov05_notice_engine.py"
+          ]
+        },
+        "023-624b24ecd8c45632": {
+          "target": "Strike the Void from Behind",
+          "scope": "current pool counts, real gifts, fees and actual card effect",
+          "evidence": [
+            "joint_repair_artifacts/nov05_native_delta.json",
+            "audits/test_nov05_notice_engine.py"
+          ]
+        },
+        "024-99d5df2903143749": {
+          "target": "The following Immortal Fates have increased card pool count or increased Fusion Orb count",
+          "scope": "current pool counts, real gifts, fees and actual card effect",
+          "evidence": [
+            "joint_repair_artifacts/nov05_native_delta.json",
+            "audits/test_nov05_notice_engine.py"
+          ]
+        },
+        "026-653b7b89c2a41872": {
+          "target": "Heavenly Derivation - Practice Writing",
+          "scope": "bounded random swap receipt and correct physique in combat",
+          "evidence": [
+            "joint_repair_artifacts/nov05_native_delta.json",
+            "joint_repair_artifacts/test_nov05_rules_v356.py"
+          ]
+        },
+        "027-aa0c2733fa23f937": {
+          "target": "Fixed an issue where Ultimate",
+          "scope": "bounded random swap receipt and correct physique in combat",
+          "evidence": [
+            "joint_repair_artifacts/nov05_native_delta.json",
+            "joint_repair_artifacts/test_nov05_rules_v356.py"
+          ]
+        },
+        "028-80e714cf188a7729": {
+          "target": "Fixed an issue where Heavenly Derivation - Battle Experience could potentially be used multiple times.",
+          "scope": "native signed counter prevents a second opportunity",
+          "evidence": [
+            "joint_repair_artifacts/nov05_native_delta.json",
+            "audits/test_nov05_notice_engine.py",
+            "joint_repair_artifacts/test_nov05_rules_v356.py"
+          ]
+        }
+      }
+    }
+  },
+  "limits": [
+    "Dream Divine Brush receipt covers only its round-eight gift. Its randomly triggered battle effect remains unsupported and must not be presented as simulated.",
+    "Falling Paper Clouds probabilities remain unverified and the announcement entry is not reviewed here.",
+    "The older Heavenly Derivation Bloodline Potential entry remains pending until clients can prove the later same-version correction.",
+    "No user match records, local settings, game binaries or logs are included."
+  ]
+}

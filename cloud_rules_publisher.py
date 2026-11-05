@@ -264,17 +264,28 @@ def monitor(folder,*,reader=read_url,now=None):
         coverage_notices.append(item)
         complete_review=notice_coverage(item,numeric_check=lambda body:None,
             numeric_contract=proposed['engine_contract'],numeric_minimum=manifest.get('minimum_assistant_version','1.1.283'),receipts=reviews)
-        if(complete_review['fully_reviewed'] and complete_review['items'] and all(
-            row.get('review',{}).get('engine_contract')==proposed['engine_contract'] for row in complete_review['items'])):
-            # Exact source/balance/item receipts cover the complete current
-            # mechanism set. A gift fate mentioning a numeric card is not a
-            # second numeric change to that card's effect.
+        current_review=all(row.get('review',{}).get('engine_contract')==proposed['engine_contract']
+                           for row in complete_review['items'])
+        # This one exact historical source was completely reviewed under v4.
+        # Re-reading it under v5 must not turn a gift mentioning cards 214/381
+        # into a new card-effect change. This does not upgrade the old receipts
+        # to v5, nor allow an edited source or an unrelated old receipt through.
+        oct29_historical=(item['gid']=='1847920302233330' and
+            item['url']=='https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302233330' and
+            proposed['engine_contract']==NOV05_CONTRACT and all(
+                row.get('review',{}).get('engine_contract')==OCT29_CONTRACT for row in complete_review['items']))
+        if complete_review['fully_reviewed'] and complete_review['items'] and (current_review or oct29_historical):
+            # A gift fate mentioning a numeric card is not a second numeric
+            # change; keep the original scoped receipt and contract visible.
             continue
         if accepted.get(item['gid'])==digest:continue
         observed,unhandled=notice_observations(item,proposed,registry)
         proposed,rejected,updated=apply_observations(proposed,registry,observed,official=True)
         pending.extend(unhandled+rejected);changed.extend(updated)
-        if not observed and not unhandled:
+        # Each extracted balance item is added to pending below when it lacks
+        # a receipt. A second announcement-level warning would count the same
+        # unresolved work twice; retain it when no items could be extracted.
+        if not observed and not unhandled and not complete_review['items']:
             pending.append(dict(gid=item['gid'],reason='new_announcement_requires_review',source=item['url']))
         new_notices.append(dict(gid=item['gid'],title=item['title'],url=item['url'],date=item['date'],sha256=digest))
         if observed and not unhandled and not rejected:accepted[item['gid']]=digest
