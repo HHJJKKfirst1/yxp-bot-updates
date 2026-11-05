@@ -16,7 +16,11 @@ class Oct29Tests(unittest.TestCase):
     def setUp(self):
         self.registry=json.loads((ROOT/'registry.json').read_text('utf8'))
         self.manifest=json.loads((ROOT/'public/manifest.json').read_text('utf8'))
-        self.pack=json.loads((ROOT/'public'/self.manifest['rules']).read_text('utf8'))
+        # Keep the exact Oct29 contract as a historical regression after Nov05.
+        self.pack=json.loads((ROOT/'public/rules/2026.10.29.7.json').read_text('utf8'))
+        self.manifest.update(rules='rules/2026.10.29.7.json',serial=self.pack['serial'],
+            revision=self.pack['revision'],engine_contract=self.pack['engine_contract'],sha256=checksum(self.pack),
+            minimum_assistant_version='1.1.356')
 
     def test_complete_data_only_current_native_mechanisms_and_minimum(self):
         self.assertEqual(self.pack['engine_contract'],'numeric-templates-4')

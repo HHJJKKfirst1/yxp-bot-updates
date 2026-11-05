@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "product": "yxp-verified-numeric-rules",
-  "engine_contract": "numeric-templates-4",
-  "serial": 7,
-  "revision": "2026.10.29.7",
-  "rules": "rules/2026.10.29.7.json",
-  "sha256": "ff5cce02f020afd29e9c985108415ef3b6b459078cc4145f2b451ebced7a946d",
+  "engine_contract": "numeric-templates-5",
+  "serial": 8,
+  "revision": "2026.11.05.8",
+  "rules": "rules/2026.11.05.8.json",
+  "sha256": "c0d6ff61651209839814ed68ab9bf7f157e63393be3dd7047aeb334c1f4a353d",
   "minimum_assistant_version": "1.1.356",
   "pending": [
     {
@@ -1584,7 +1584,7 @@
   "monitor_state": "verified",
   "source_errors": [],
   "supported_faces": 78,
-  "supported_fate_rules": 216,
+  "supported_fate_rules": 218,
   "supported_mechanism_faces": 29,
   "supported_faces_scope": "registered_numeric_faces_only",
   "accepted_notices_scope": "registered_numeric_faces_only",

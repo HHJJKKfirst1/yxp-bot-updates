@@ -8,7 +8,8 @@ ENGINE_CONTRACT='numeric-templates-1'
 ADAPTER_CONTRACT='numeric-templates-2'
 OCT15_CONTRACT='numeric-templates-3'
 OCT29_CONTRACT='numeric-templates-4'
-SUPPORTED_ENGINE_CONTRACTS=frozenset((ENGINE_CONTRACT,ADAPTER_CONTRACT,OCT15_CONTRACT,OCT29_CONTRACT))
+NOV05_CONTRACT='numeric-templates-5'
+SUPPORTED_ENGINE_CONTRACTS=frozenset((ENGINE_CONTRACT,ADAPTER_CONTRACT,OCT15_CONTRACT,OCT29_CONTRACT,NOV05_CONTRACT))
 ADAPTER_MINIMUM_VERSION='1.1.299'
 OCT15_MINIMUM_VERSION='1.1.329'
 OCT29_MINIMUM_VERSION='1.1.356'
@@ -89,7 +90,7 @@ def validate_pack(pack,registry):
     except (KeyError,TypeError,ValueError):raise RuleRejected('effective_time_invalid')
     cards=pack.get('cards')
     expected=set(registry['faces'])
-    if pack['engine_contract']not in (OCT15_CONTRACT,OCT29_CONTRACT):
+    if pack['engine_contract']not in (OCT15_CONTRACT,OCT29_CONTRACT,NOV05_CONTRACT):
         expected=set(registry.get('legacy_native_ids',expected))
     if not isinstance(cards,dict) or set(cards)!=expected:raise RuleRejected('complete_registry_required')
     for cid,row in cards.items():
@@ -99,7 +100,7 @@ def validate_pack(pack,registry):
         compiled=compile_face(registry['faces'][cid],row)
         if compiled!=row:raise RuleRejected('parameters_do_not_match_effect')
         if (row['template']!=registry['faces'][cid]['template'] or
-            shape(row['description'])!=shape(registry['faces'][cid]['description'])) and pack['engine_contract']not in (ADAPTER_CONTRACT,OCT15_CONTRACT,OCT29_CONTRACT):
+            shape(row['description'])!=shape(registry['faces'][cid]['description'])) and pack['engine_contract']not in (ADAPTER_CONTRACT,OCT15_CONTRACT,OCT29_CONTRACT,NOV05_CONTRACT):
             raise RuleRejected('engine_template_update_required')
     for group in registry.get('shared_slots',()):
         for slot in group['slots']:
@@ -111,10 +112,11 @@ def validate_pack(pack,registry):
         if not isinstance(texts,list) or len(texts)>8:raise RuleRejected('rule_history_invalid')
         for text in texts:
             compile_face(registry['faces'][cid],{**cards[cid],'description':text})
-    if pack['engine_contract']==OCT29_CONTRACT:
+    if pack['engine_contract'] in (OCT29_CONTRACT,NOV05_CONTRACT):
         # Mechanism updates require a locally reviewed complete registry. No
         # expression, handler name or executable code is downloaded or run.
-        fates=pack.get('fates');allowed=registry.get('fates')
+        current=pack['engine_contract']==NOV05_CONTRACT
+        fates=pack.get('fates');allowed=registry.get('fates_v5' if current else 'fates')
         if not isinstance(allowed,dict)or not allowed or not isinstance(fates,dict)or set(fates)!=set(allowed):
             raise RuleRejected('complete_reviewed_fate_registry_required')
         if pack.get('fate_registry_sha256')!=checksum(allowed):raise RuleRejected('fate_registry_hash_mismatch')
@@ -123,7 +125,7 @@ def validate_pack(pack,registry):
             if not isinstance(entry,dict)or checksum(entry)!=checksum(ref):raise RuleRejected('unreviewed_fate_mechanism:'+sid)
             if type(entry.get('native',{}).get('id'))is not int or str(entry['native']['id'])!=sid:
                 raise RuleRejected('fate_native_identity_mismatch:'+sid)
-        mechanism_cards=pack.get('mechanism_cards');allowed_cards=registry.get('mechanism_cards')
+        mechanism_cards=pack.get('mechanism_cards');allowed_cards=registry.get('mechanism_cards_v5' if current else 'mechanism_cards')
         if not isinstance(allowed_cards,dict)or not allowed_cards or not isinstance(mechanism_cards,dict)or set(mechanism_cards)!=set(allowed_cards):
             raise RuleRejected('complete_reviewed_mechanism_card_registry_required')
         if pack.get('mechanism_cards_registry_sha256')!=checksum(allowed_cards):raise RuleRejected('mechanism_card_registry_hash_mismatch')
@@ -160,7 +162,7 @@ def apply_observations(pack,registry,observations,*,official=False):
             result['accepted_history'][cid]=list(dict.fromkeys(history))[-8:]
             result['cards'][cid]=compiled;changed.append(int(cid))
             if compiled['template']!=ref['template'] or shape(compiled['description'])!=shape(ref['description']):
-                if result['engine_contract']not in(OCT15_CONTRACT,OCT29_CONTRACT):result['engine_contract']=ADAPTER_CONTRACT
+                if result['engine_contract']not in(OCT15_CONTRACT,OCT29_CONTRACT,NOV05_CONTRACT):result['engine_contract']=ADAPTER_CONTRACT
     try:validate_pack(result,registry)
     except RuleRejected as error:
         return deepcopy(pack),pending+[dict(reason=str(error))],[]
