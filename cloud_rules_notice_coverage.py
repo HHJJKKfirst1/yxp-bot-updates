@@ -47,6 +47,17 @@ def balance_parts(notice):
         return '', [], 'balance_heading_ambiguous'
     if not balances:
         if headings:
+            # The October 8 source predates the single Balance heading: its
+            # first three sibling sections are all balance changes, followed
+            # by a separate bug-fix section. Recognize that exact arrangement
+            # only; unrelated or reordered headings continue to fail closed.
+            names = [plain(re.sub(r'^\s*\d+[.、)]\s*', '', heading(h)[1])).lower()
+                     for h in headings[:4]]
+            expected = ['partialrevertsoflastseasonchanges', 'cardadjustments',
+                        'immortalfateadjustments', 'bugfixes(somealreadyhotfixedearly)']
+            if (len(headings) >= 4 and names == expected and
+                    len({heading(h)[0] for h in headings[:4]}) == 1):
+                return content[headings[0].start():headings[3].start()], [], None
             return '', [], 'balance_section_requires_review'
         return content, [], None
     index = balances[0]
