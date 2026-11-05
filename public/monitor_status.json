@@ -1,7 +1,12 @@
 {
-  "checked_at": "2026-11-05T02:39:20.870318+00:00",
+  "checked_at": "2026-11-05T03:27:45.885072+00:00",
   "notices": [],
   "pending": [
+    {
+      "gid": "1848557880481669",
+      "reason": "announced_rule_not_effective_yet",
+      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848557880481669"
+    },
     {
       "gid": "1846018067928278",
       "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067928278",
