@@ -1,3 +1,7 @@
+# 2026-11-05 云端定时监控测试兼容修复
+
+云规则 PR6 的 `tests/test_nov05.py` 使用 pytest 函数与参数化，但定时工作流只运行标准库 unittest，云端无 pytest，导致首次测试导入即失败；即使安装 pytest，原函数也不会被 unittest 发现。现改为 unittest.TestCase 和两个子场景，八条原精确 assert、两个未审核机制拒绝场景及原异常类型均保留，不改变规则包、审核清单或游戏客户端。无 site-packages 的 `python -S -m unittest discover -s tests -v` 新跑 68 项通过，含新旧规则完整性和两种机制拒绝场景。修复前同样的无 site-packages 环境重现 `ModuleNotFoundError: pytest`。实际云端运行结果须以合并后工作流和公开时间戳读回为准。
+
 # 公告完整性监测组件（未发布）
 
 基线 65e51141ed668b86fc12724ad8f10f17fbcb01c2，分支 codex/cloud-notice-completeness-oct29。这里只修改监测工具、相关测试和文档；registry、cloud_rules_contract、全部 public 数据/规则包保持原字节。C 负责新仙命合同、最终审查 ledger 和统一验收发布，本组件不独立推送、发布或操作助手/游戏。
