@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-11T08:54:55.598195+00:00",
+  "checked_at": "2026-11-11T16:42:39.245364+00:00",
   "notices": [
     {
       "gid": "1848557880481669",
@@ -10,6 +10,11 @@
     }
   ],
   "pending": [
+    {
+      "gid": "1849192144178065",
+      "reason": "official_effective_time_needs_review",
+      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065"
+    },
     {
       "gid": "1847286114031033",
       "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114031033",
