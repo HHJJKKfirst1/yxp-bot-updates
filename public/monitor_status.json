@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-14T04:26:28.523259+00:00",
+  "checked_at": "2026-11-14T04:28:12.060812+00:00",
   "notices": [
     {
       "gid": "1848557880481669",
@@ -417,14 +417,9 @@
       "reason": "announcement_item_requires_review"
     }
   ],
-  "source_errors": [
-    {
-      "base_id": 29,
-      "error": "HTTP Error 503: Service Unavailable"
-    }
-  ],
+  "source_errors": [],
   "changed_native_ids": [],
-  "state": "partial_source_failure",
+  "state": "verified",
   "announcement_coverage": {
     "schema": 1,
     "scope": "all_balance_items",
