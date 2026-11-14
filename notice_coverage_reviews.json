@@ -2966,6 +2966,243 @@
           ]
         }
       }
+    },
+    "1849192144178065": {
+      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+      "balance_sha256": "5e85f4670198451184da71de872c9a4672616f81f2a57acd43dd9ce6d6f4bf36",
+      "items": {
+        "001-166e43a0f245a761": {
+          "item_sha256": "166e43a0f245a761e76c3123cc1dad04bc1e2e88a009563ba9e7ef5c5f84fdff",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-6",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "ac04873ccaad2ad0f8609fab3e089416b9ed86114de6d0059c42f17d0afc28da",
+            "f41a72f1478960cf1aa9344a8f0daa9b20308ee2ac43d76f820b43a230ceca11",
+            "703b4d2a60bc455608a16d33a1a2aca2e86c689ef63c25e4749a94641637d594"
+          ]
+        },
+        "003-94c6c14f62d157f1": {
+          "item_sha256": "94c6c14f62d157f1a9b86efb2a4d550823be669c189ba5a58cef17b279997044",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-6",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "ac04873ccaad2ad0f8609fab3e089416b9ed86114de6d0059c42f17d0afc28da",
+            "f41a72f1478960cf1aa9344a8f0daa9b20308ee2ac43d76f820b43a230ceca11",
+            "703b4d2a60bc455608a16d33a1a2aca2e86c689ef63c25e4749a94641637d594"
+          ]
+        },
+        "005-a9f155bd0a4b748e": {
+          "item_sha256": "a9f155bd0a4b748e07de3b079c64ba740d21dc3eccda023a5ea0760b7b21457c",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-6",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "ac04873ccaad2ad0f8609fab3e089416b9ed86114de6d0059c42f17d0afc28da",
+            "f41a72f1478960cf1aa9344a8f0daa9b20308ee2ac43d76f820b43a230ceca11",
+            "703b4d2a60bc455608a16d33a1a2aca2e86c689ef63c25e4749a94641637d594"
+          ]
+        },
+        "006-f020b2fa6304409b": {
+          "item_sha256": "f020b2fa6304409b1fba9cb0c05cd1fecc5cf9149c69e50f613bb13662e8de8b",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-6",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "ac04873ccaad2ad0f8609fab3e089416b9ed86114de6d0059c42f17d0afc28da",
+            "f41a72f1478960cf1aa9344a8f0daa9b20308ee2ac43d76f820b43a230ceca11",
+            "703b4d2a60bc455608a16d33a1a2aca2e86c689ef63c25e4749a94641637d594"
+          ]
+        },
+        "007-c17ba8306edcd753": {
+          "item_sha256": "c17ba8306edcd7539d830c75b38bc10f36728e92f63219e2ad570464b85fdbf9",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-6",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "ac04873ccaad2ad0f8609fab3e089416b9ed86114de6d0059c42f17d0afc28da",
+            "f41a72f1478960cf1aa9344a8f0daa9b20308ee2ac43d76f820b43a230ceca11",
+            "703b4d2a60bc455608a16d33a1a2aca2e86c689ef63c25e4749a94641637d594"
+          ]
+        },
+        "009-2a3c2faab8db481b": {
+          "item_sha256": "2a3c2faab8db481bb339f0a9d257e30d142adf6676bcf8743d997fdcacb16269",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-6",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "ac04873ccaad2ad0f8609fab3e089416b9ed86114de6d0059c42f17d0afc28da",
+            "f41a72f1478960cf1aa9344a8f0daa9b20308ee2ac43d76f820b43a230ceca11",
+            "703b4d2a60bc455608a16d33a1a2aca2e86c689ef63c25e4749a94641637d594"
+          ]
+        },
+        "010-704b48d492ade06a": {
+          "item_sha256": "704b48d492ade06a0f253a1b1425c58edab602d48fdbfaf9af2b6b08faf0730f",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-6",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "ac04873ccaad2ad0f8609fab3e089416b9ed86114de6d0059c42f17d0afc28da",
+            "f41a72f1478960cf1aa9344a8f0daa9b20308ee2ac43d76f820b43a230ceca11",
+            "703b4d2a60bc455608a16d33a1a2aca2e86c689ef63c25e4749a94641637d594"
+          ]
+        },
+        "011-c75a9f3ce1d23f10": {
+          "item_sha256": "c75a9f3ce1d23f10cc6346eaff79cd776d377556611f2c77860c4385764e52c8",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-6",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "ac04873ccaad2ad0f8609fab3e089416b9ed86114de6d0059c42f17d0afc28da",
+            "f41a72f1478960cf1aa9344a8f0daa9b20308ee2ac43d76f820b43a230ceca11",
+            "703b4d2a60bc455608a16d33a1a2aca2e86c689ef63c25e4749a94641637d594"
+          ]
+        },
+        "012-05f331c81a65ef7a": {
+          "item_sha256": "05f331c81a65ef7a3ecd8834a1214f0baead239b44d55e79af7a614db2f4cdaf",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-6",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "ac04873ccaad2ad0f8609fab3e089416b9ed86114de6d0059c42f17d0afc28da",
+            "f41a72f1478960cf1aa9344a8f0daa9b20308ee2ac43d76f820b43a230ceca11",
+            "703b4d2a60bc455608a16d33a1a2aca2e86c689ef63c25e4749a94641637d594"
+          ]
+        },
+        "014-0e7c8a6000df8ece": {
+          "item_sha256": "0e7c8a6000df8ece88c191b964f34b2c3e82b06a3bc02b97e55602add47beb60",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-6",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "ac04873ccaad2ad0f8609fab3e089416b9ed86114de6d0059c42f17d0afc28da",
+            "f41a72f1478960cf1aa9344a8f0daa9b20308ee2ac43d76f820b43a230ceca11",
+            "703b4d2a60bc455608a16d33a1a2aca2e86c689ef63c25e4749a94641637d594"
+          ]
+        },
+        "015-7c054c1c46f99096": {
+          "item_sha256": "7c054c1c46f99096f9f14c70d2f55a3963f09107d660324364dbd36b4ec6ca82",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-6",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "ac04873ccaad2ad0f8609fab3e089416b9ed86114de6d0059c42f17d0afc28da",
+            "f41a72f1478960cf1aa9344a8f0daa9b20308ee2ac43d76f820b43a230ceca11",
+            "703b4d2a60bc455608a16d33a1a2aca2e86c689ef63c25e4749a94641637d594"
+          ]
+        },
+        "016-6ebf37c87c1f7130": {
+          "item_sha256": "6ebf37c87c1f713068118e194073a034c72ca9950445c68b0c44364630950acf",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-6",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "ac04873ccaad2ad0f8609fab3e089416b9ed86114de6d0059c42f17d0afc28da",
+            "f41a72f1478960cf1aa9344a8f0daa9b20308ee2ac43d76f820b43a230ceca11",
+            "703b4d2a60bc455608a16d33a1a2aca2e86c689ef63c25e4749a94641637d594"
+          ]
+        },
+        "017-6fa9936d73f32935": {
+          "item_sha256": "6fa9936d73f32935e90a753ec1f349fafeda931fda266d036f4a2978b3200114",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-6",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "ac04873ccaad2ad0f8609fab3e089416b9ed86114de6d0059c42f17d0afc28da",
+            "f41a72f1478960cf1aa9344a8f0daa9b20308ee2ac43d76f820b43a230ceca11",
+            "703b4d2a60bc455608a16d33a1a2aca2e86c689ef63c25e4749a94641637d594"
+          ]
+        },
+        "018-8fdba1c59ec633b7": {
+          "item_sha256": "8fdba1c59ec633b7c9474e0d80e48cdfd202b2d29f8dc35ad29eb632f458825a",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-6",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "ac04873ccaad2ad0f8609fab3e089416b9ed86114de6d0059c42f17d0afc28da",
+            "f41a72f1478960cf1aa9344a8f0daa9b20308ee2ac43d76f820b43a230ceca11",
+            "703b4d2a60bc455608a16d33a1a2aca2e86c689ef63c25e4749a94641637d594"
+          ]
+        },
+        "019-c529c0814edde617": {
+          "item_sha256": "c529c0814edde617c4fc0556f16c426093697901cca344c5d07ef971fabc9cab",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-6",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "ac04873ccaad2ad0f8609fab3e089416b9ed86114de6d0059c42f17d0afc28da",
+            "f41a72f1478960cf1aa9344a8f0daa9b20308ee2ac43d76f820b43a230ceca11",
+            "703b4d2a60bc455608a16d33a1a2aca2e86c689ef63c25e4749a94641637d594"
+          ]
+        },
+        "020-bfd37ddb599f7ef1": {
+          "item_sha256": "bfd37ddb599f7ef14677030a93bd9bbcd2a9986a20d6e5d4c96ca86efc85c282",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-6",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "ac04873ccaad2ad0f8609fab3e089416b9ed86114de6d0059c42f17d0afc28da",
+            "f41a72f1478960cf1aa9344a8f0daa9b20308ee2ac43d76f820b43a230ceca11",
+            "703b4d2a60bc455608a16d33a1a2aca2e86c689ef63c25e4749a94641637d594"
+          ]
+        },
+        "022-915b42b0685c9aac": {
+          "item_sha256": "915b42b0685c9aacd6f4df34d8ddfab0575e0960a8f0c9eb0b75988588d4e514",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-6",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "ac04873ccaad2ad0f8609fab3e089416b9ed86114de6d0059c42f17d0afc28da",
+            "f41a72f1478960cf1aa9344a8f0daa9b20308ee2ac43d76f820b43a230ceca11",
+            "703b4d2a60bc455608a16d33a1a2aca2e86c689ef63c25e4749a94641637d594"
+          ]
+        },
+        "023-44c35f7d42dde3af": {
+          "item_sha256": "44c35f7d42dde3af97498a83addda457878760942bf88104901b39ce1fc6ab2d",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-6",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "ac04873ccaad2ad0f8609fab3e089416b9ed86114de6d0059c42f17d0afc28da",
+            "f41a72f1478960cf1aa9344a8f0daa9b20308ee2ac43d76f820b43a230ceca11",
+            "703b4d2a60bc455608a16d33a1a2aca2e86c689ef63c25e4749a94641637d594"
+          ]
+        },
+        "025-b6b0d5326c8becbe": {
+          "item_sha256": "b6b0d5326c8becbec3b64c41e6c6c09e7308238ee5f1a115bb75ad9a5f7709ea",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-6",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "ac04873ccaad2ad0f8609fab3e089416b9ed86114de6d0059c42f17d0afc28da",
+            "f41a72f1478960cf1aa9344a8f0daa9b20308ee2ac43d76f820b43a230ceca11",
+            "703b4d2a60bc455608a16d33a1a2aca2e86c689ef63c25e4749a94641637d594"
+          ]
+        },
+        "026-03335fd804b5e1c3": {
+          "item_sha256": "03335fd804b5e1c3e17cc61e0ec250ee99731a9168059fa6d4e5e0fb68ab5371",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-6",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "ac04873ccaad2ad0f8609fab3e089416b9ed86114de6d0059c42f17d0afc28da",
+            "f41a72f1478960cf1aa9344a8f0daa9b20308ee2ac43d76f820b43a230ceca11",
+            "703b4d2a60bc455608a16d33a1a2aca2e86c689ef63c25e4749a94641637d594"
+          ]
+        },
+        "027-f4c32a425535e2da": {
+          "item_sha256": "f4c32a425535e2da4362e01938824086b5fc692fc8c6f50dcb7f231cb47d01e3",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-6",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "ac04873ccaad2ad0f8609fab3e089416b9ed86114de6d0059c42f17d0afc28da",
+            "f41a72f1478960cf1aa9344a8f0daa9b20308ee2ac43d76f820b43a230ceca11",
+            "703b4d2a60bc455608a16d33a1a2aca2e86c689ef63c25e4749a94641637d594"
+          ]
+        }
+      }
     }
   }
 }

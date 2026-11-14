@@ -1,0 +1,158 @@
+{
+  "schema": 1,
+  "date": "2026-11-14",
+  "scope": "exact_announcement_deltas_only",
+  "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+  "notice_gid": "1849192144178065",
+  "balance_sha256": "5e85f4670198451184da71de872c9a4672616f81f2a57acd43dd9ce6d6f4bf36",
+  "assistant_version": "1.1.356",
+  "engine_contract": "numeric-templates-6",
+  "installed_patch": "cloud_version_notice_v356",
+  "base_full_sha256": "90d09a60bb68772857822f1cd4cb453d87fa225904652b5a4bdd868c1290a1d6",
+  "source_paths_and_sha256": {
+    "joint_repair_artifacts/baijia_catalog.json": "8a9ff65a943e1ea075840cbf33537c07aa92843cf68602eca692a61749c3fd78",
+    "joint_repair_artifacts/baijia_combat.py": "f2d5ac0d788d75c4030d449e299258989ddad53f3a16b3914e3bf72090712522",
+    "joint_repair_artifacts/baijia_combat_contracts.json": "9d0b5c3af43275aee259103dc095e7a945992a23c07892816de91d9235a71284",
+    "joint_repair_artifacts/baijia_integration.py": "7249218cdf8abd65dabc6d504153644d318a8d618848e3fce9ed9b2865f724c6",
+    "joint_repair_artifacts/baijia_preparation_events.py": "42783065c7dc4266228da9eb099e4f105c5eddb429e0568eb12290942a449ed4",
+    "joint_repair_artifacts/baijia_preparation.py": "cc1197c2dbb4a7fd7d6a648654237b0fae65408afc072dd18167bbe7b1144962",
+    "joint_repair_artifacts/baijia_preparation_contracts.json": "8429f411573cbf026a13095b6a345b15862493a57db9e294f76eb283f9d3f078",
+    "joint_repair_artifacts/baijia_transform.py": "e21edf28afa8d44eb663f9cc69e8a41c4216646ea2cc02b83606b7cee06ef54a",
+    "joint_repair_artifacts/baijia_transform_contracts.json": "7381831c9ef85b157fe2b03f79a519afa275a769e85d50e738dee76e448da894",
+    "joint_repair_artifacts/baijia_offer_value.py": "1fe248b8b7bdd7c6c7e02826792c7bd1871b1ead31e2b9068b6689fe9cbf0ed5",
+    "joint_repair_artifacts/verified_native_hidden_contracts.json": "47f2d36590dafcd6c69a233e20690f36ff9230f1537a6bf4e892331e17dedf66",
+    "joint_repair_artifacts/nov12_card_catalogue_contracts.json": "ef1eb10d9de50386b24f70c4ce03bbd029dd7c5c22e42e0e3847edd7abd40166",
+    "baijia_card_facts.js": "4066bf6d9d6eff3137ea36c36649e839e418098d3e775c56b00bf70842adeb42",
+    "baijia_combat_hooks.js": "778a4ce61313aba7027ef55783783f6ef43c2970b84a57139cbf2b88f1a5b646",
+    "baijia_grid_hooks.js": "0b4e7d08b2e130e5f596456f6ec31b61668802e610fdc3a173ef37fa213c430c",
+    "native_postbattle_rewards.js": "17f07937323c56512cd91731201204d300230cc6e34d00c00a421fcb9ed9dc94",
+    "native_hidden_actions.js": "2893c8908ef51dcd9ff5042b7352a7014ff545c2f9aa1fd73c343ee66ae1333d",
+    "season_rotation_actions.js": "5ef5de731fb4a3d3139384888d1e1046a1ad71b9059107f3d07553f1c39070ad",
+    "yisim_damage_simulator.py": "67193da81d6770f246be2603cde4768492cc03d4cd447677e2289b702de84022",
+    "yisim_damage_engine.js": "2c779bc2b32138a572985dcd07867d9466c5f3a3b1584221e4cd554255a82e41",
+    "yisim/card_actions.js": "c8ea5eb9c1878306af13eb178f78f45d605d0ec5bc356539bc681309e4a46ef4",
+    "card_level_catalog.py": "eaf084fd1171e09dbfed4c2629bd7c39ab02e585997288ac94eb82997c9f488a",
+    "yisim/localization/2026.09.30/season_rotation_32.json": "4a0d5f200c8ebef94a38c0c6ca9e2a3eea5b751055ae26598388b491c8d50511",
+    "runtime_patch_manifest.json": "e9948cf32c413985c2da6eadecbf321ef70cbdb25163eb9d4dc21105022830d9"
+  },
+  "offline_tests": {
+    "passed": 15,
+    "failed": 0,
+    "test": "audits/test_nov12_installed_rules.py",
+    "test_sha256": "f41a72f1478960cf1aa9344a8f0daa9b20308ee2ac43d76f820b43a230ceca11",
+    "output": "audits/2026-11-14-nov12-installed-tests.txt",
+    "output_sha256": "703b4d2a60bc455608a16d33a1a2aca2e86c689ef63c25e4749a94641637d594"
+  },
+  "items": {
+    "001-166e43a0f245a761": {
+      "target": "Sword Shadow Flowing Light",
+      "item_sha256": "166e43a0f245a761e76c3123cc1dad04bc1e2e88a009563ba9e7ef5c5f84fdff",
+      "scope": "exact announced delta; currently installed native configuration and offline engine/adapter outcomes"
+    },
+    "003-94c6c14f62d157f1": {
+      "target": "Awe of the Dragon",
+      "item_sha256": "94c6c14f62d157f1a9b86efb2a4d550823be669c189ba5a58cef17b279997044",
+      "scope": "exact announced delta; currently installed native configuration and offline engine/adapter outcomes"
+    },
+    "005-a9f155bd0a4b748e": {
+      "target": "Drunken Fist Stance",
+      "item_sha256": "a9f155bd0a4b748e07de3b079c64ba740d21dc3eccda023a5ea0760b7b21457c",
+      "scope": "exact announced delta; currently installed native configuration and offline engine/adapter outcomes"
+    },
+    "006-f020b2fa6304409b": {
+      "target": "Twin Engraving",
+      "item_sha256": "f020b2fa6304409b1fba9cb0c05cd1fecc5cf9149c69e50f613bb13662e8de8b",
+      "scope": "exact announced delta; currently installed native configuration and offline engine/adapter outcomes"
+    },
+    "007-c17ba8306edcd753": {
+      "target": "Dao Path - CentiBird Spirit Sword Rhythm",
+      "item_sha256": "c17ba8306edcd7539d830c75b38bc10f36728e92f63219e2ad570464b85fdbf9",
+      "scope": "exact announced delta; currently installed native configuration and offline engine/adapter outcomes"
+    },
+    "009-2a3c2faab8db481b": {
+      "target": "Heavenly Derivation - Mortal Body (Li Man)",
+      "item_sha256": "2a3c2faab8db481bb339f0a9d257e30d142adf6676bcf8743d997fdcacb16269",
+      "scope": "exact announced delta; currently installed native configuration and offline engine/adapter outcomes"
+    },
+    "010-704b48d492ade06a": {
+      "target": "Ultimate - Cloud Sword - Softheart",
+      "item_sha256": "704b48d492ade06a0f253a1b1425c58edab602d48fdbfaf9af2b6b08faf0730f",
+      "scope": "exact announced delta; currently installed native configuration and offline engine/adapter outcomes"
+    },
+    "011-c75a9f3ce1d23f10": {
+      "target": "Cloud Sword - Starry Sky",
+      "item_sha256": "c75a9f3ce1d23f10cc6346eaff79cd776d377556611f2c77860c4385764e52c8",
+      "scope": "exact announced delta; currently installed native configuration and offline engine/adapter outcomes"
+    },
+    "012-05f331c81a65ef7a": {
+      "target": "Great Galaxy",
+      "item_sha256": "05f331c81a65ef7a3ecd8834a1214f0baead239b44d55e79af7a614db2f4cdaf",
+      "scope": "exact announced delta; currently installed native configuration and offline engine/adapter outcomes"
+    },
+    "014-0e7c8a6000df8ece": {
+      "target": "Fire Spirit - Blossom Burn Seal",
+      "item_sha256": "0e7c8a6000df8ece88c191b964f34b2c3e82b06a3bc02b97e55602add47beb60",
+      "scope": "exact announced delta; currently installed native configuration and offline engine/adapter outcomes"
+    },
+    "015-7c054c1c46f99096": {
+      "target": "Crash Fist - Star Seizing",
+      "item_sha256": "7c054c1c46f99096f9f14c70d2f55a3963f09107d660324364dbd36b4ec6ca82",
+      "scope": "exact announced delta; currently installed native configuration and offline engine/adapter outcomes"
+    },
+    "016-6ebf37c87c1f7130": {
+      "target": "Thousand Star Explosion",
+      "item_sha256": "6ebf37c87c1f713068118e194073a034c72ca9950445c68b0c44364630950acf",
+      "scope": "exact announced delta; currently installed native configuration and offline engine/adapter outcomes"
+    },
+    "017-6fa9936d73f32935": {
+      "target": "Ultimate - Stillness Citta-Dharma",
+      "item_sha256": "6fa9936d73f32935e90a753ec1f349fafeda931fda266d036f4a2978b3200114",
+      "scope": "exact announced delta; currently installed native configuration and offline engine/adapter outcomes"
+    },
+    "018-8fdba1c59ec633b7": {
+      "target": "Ultimate: Consonance Sword Formation",
+      "item_sha256": "8fdba1c59ec633b7c9474e0d80e48cdfd202b2d29f8dc35ad29eb632f458825a",
+      "scope": "exact announced delta; currently installed native configuration and offline engine/adapter outcomes"
+    },
+    "019-c529c0814edde617": {
+      "target": "Ultimate: Hunter Becomes Preyer",
+      "item_sha256": "c529c0814edde617c4fc0556f16c426093697901cca344c5d07ef971fabc9cab",
+      "scope": "exact announced delta; currently installed native configuration and offline engine/adapter outcomes"
+    },
+    "020-bfd37ddb599f7ef1": {
+      "target": "Heavenly Derivation - Spirit Cat Chaos Sword",
+      "item_sha256": "bfd37ddb599f7ef14677030a93bd9bbcd2a9986a20d6e5d4c96ca86efc85c282",
+      "scope": "exact announced delta; currently installed native configuration and offline engine/adapter outcomes"
+    },
+    "022-915b42b0685c9aac": {
+      "target": "The following Immortal Fates have earlier card acquisition rounds or increased deck changes",
+      "item_sha256": "915b42b0685c9aacd6f4df34d8ddfab0575e0960a8f0c9eb0b75988588d4e514",
+      "scope": "exact announced delta; currently installed native configuration and offline engine/adapter outcomes"
+    },
+    "023-44c35f7d42dde3af": {
+      "target": "Skipping Jiu Jie Immortal Fate Pool 1 will grant an Immortal Fate from Suanni Immortal Fate Pool 2.",
+      "item_sha256": "44c35f7d42dde3af97498a83addda457878760942bf88104901b39ce1fc6ab2d",
+      "scope": "exact announced delta; currently installed native configuration and offline engine/adapter outcomes"
+    },
+    "025-b6b0d5326c8becbe": {
+      "target": "Skipping Dan Qingke Immortal Fate Pool 1 will grant an Immortal Fate from Suanni Immortal Fate Pool 1.",
+      "item_sha256": "b6b0d5326c8becbec3b64c41e6c6c09e7308238ee5f1a115bb75ad9a5f7709ea",
+      "scope": "exact announced delta; currently installed native configuration and offline engine/adapter outcomes"
+    },
+    "026-03335fd804b5e1c3": {
+      "target": "Mirage: Wood Spirit - Recovery",
+      "item_sha256": "03335fd804b5e1c3e17cc61e0ec250ee99731a9168059fa6d4e5e0fb68ab5371",
+      "scope": "exact announced delta; currently installed native configuration and offline engine/adapter outcomes"
+    },
+    "027-f4c32a425535e2da": {
+      "target": "Mirage: Exercise Bones",
+      "item_sha256": "f4c32a425535e2da4362e01938824086b5fc692fc8c6f50dcb7f231cb47d01e3",
+      "scope": "exact announced delta; currently installed native configuration and offline engine/adapter outcomes"
+    }
+  },
+  "limits": [
+    "No live game, desktop or runner was controlled.",
+    "The native game config for 7000107 has 2/3/4 while the announcement and installed simulator use 3/4/5; that item remains pending.",
+    "Unreviewed entries including learned sword, scroll retry, wind extra draw, back-to-void, raccoon economy, in-game pool presentation and golden-core active use remain pending."
+  ]
+}
