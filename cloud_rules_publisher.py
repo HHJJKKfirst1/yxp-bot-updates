@@ -155,7 +155,7 @@ def reviewed_notice_observations(notice,pack,registry):
     return rows,[]
 
 
-def notice_observations(notice,pack,registry):
+def notice_observations(notice,pack,registry,*,coverage=None):
     reviewed=reviewed_notice_observations(notice,pack,registry)
     if reviewed is not None:return reviewed
     bounded=re.sub(r'\[/p\]|\[/\*\]|</p>', '\n',notice.get('contents',''),flags=re.I)
@@ -168,10 +168,20 @@ def notice_observations(notice,pack,registry):
         paragraph=content.find('\n',start)
         if paragraph!=-1:end=min(end,paragraph)
         section=content[start:end].split('4. Bug Fixes',1)[0]
+        scoped=[entry for entry in inventory['items'] if name in entry['text']]
+        # Suppress only an exact, current-contract reviewed fate, or a name
+        # outside a successfully inventoried balance section. Unreviewed,
+        # edited or incompatible historical receipts retain their warning.
+        if coverage is not None and inventory.get('extraction_error') is None:
+            if not scoped:continue
+            if len(scoped)==1 and scoped[0]['kind']=='immortal_fate':
+                covered=next((r for r in coverage.get('items',[])
+                              if r.get('item_id')==scoped[0]['item_id']),{})
+                if (covered.get('state')=='reviewed' and
+                    (covered.get('review')or {}).get('engine_contract')==pack['engine_contract']):continue
         if base not in SLOTS:
             pending.append(dict(base_id=base,reason='notice_needs_specific_adapter',source=notice['url']));continue
-        scoped=[entry for entry in inventory['items'] if name in entry['text']]
-        if (content.count(name)!=1 or len(scoped)!=1 or scoped[0]['kind']=='immortal_fate' or
+        if (content.count(name)!=1 or len(scoped)!=1 or
             not numeric_sentence_supported(base,scoped[0]['text'])):
             pending.append(dict(base_id=base,reason='notice_needs_specific_adapter',source=notice['url']));continue
         section=scoped[0]['text']
@@ -296,7 +306,7 @@ def monitor(folder,*,reader=read_url,now=None):
             # change; keep the original scoped receipt and contract visible.
             continue
         if accepted.get(item['gid'])==digest:continue
-        observed,unhandled=notice_observations(item,proposed,registry)
+        observed,unhandled=notice_observations(item,proposed,registry,coverage=complete_review)
         proposed,rejected,updated=apply_observations(proposed,registry,observed,official=True)
         pending.extend(unhandled+rejected);changed.extend(updated)
         # Each extracted balance item is added to pending below when it lacks
