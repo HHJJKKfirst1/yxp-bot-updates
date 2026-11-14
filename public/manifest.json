@@ -9,23 +9,19 @@
   "minimum_assistant_version": "1.1.356",
   "pending": [
     {
-      "gid": "1849192144178065",
-      "reason": "official_effective_time_needs_review",
+      "base_id": 9,
+      "reason": "notice_needs_specific_adapter",
       "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065"
     },
     {
-      "gid": "1847286114031033",
-      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114031033",
-      "item_id": "048-9afc786087da4ee8",
-      "item_sha256": "9afc786087da4ee8ed7e20fab2b0371226dde4f68960a4b25bc46b459e771089",
-      "target": "Heavenly Derivation - Bloodline Potential",
-      "section": [
-        "1. Balance Adjustment",
-        "Gongshu Yao",
-        "Related Card Adjustments",
-        "Immortal Fate Adjustments"
-      ],
-      "reason": "announcement_item_requires_review"
+      "base_id": 28,
+      "reason": "notice_needs_specific_adapter",
+      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065"
+    },
+    {
+      "base_id": 29,
+      "reason": "notice_needs_specific_adapter",
+      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065"
     },
     {
       "gid": "1848557880481669",
@@ -39,6 +35,377 @@
         "Immortal Fate Pool 2 new Immortal Fates:"
       ],
       "reason": "announcement_item_requires_review"
+    },
+    {
+      "gid": "1849192144178065",
+      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+      "item_id": "001-166e43a0f245a761",
+      "item_sha256": "166e43a0f245a761e76c3123cc1dad04bc1e2e88a009563ba9e7ef5c5f84fdff",
+      "target": "Sword Shadow Flowing Light",
+      "section": [
+        "2.Balance Adjustments",
+        "Season Rotation cards Adjustments"
+      ],
+      "reason": "announcement_item_requires_review"
+    },
+    {
+      "gid": "1849192144178065",
+      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+      "item_id": "002-be08ff95ce097880",
+      "item_sha256": "be08ff95ce0978806f17caeeffdf477709cd5d0ea63109c1219b23498e87856b",
+      "target": "Dao of Ruiying (Li Chengyun, Virtuoso)",
+      "section": [
+        "2.Balance Adjustments",
+        "Character Immortal Fate Adjustments"
+      ],
+      "reason": "announcement_item_requires_review"
+    },
+    {
+      "gid": "1849192144178065",
+      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+      "item_id": "003-94c6c14f62d157f1",
+      "item_sha256": "94c6c14f62d157f1a9b86efb2a4d550823be669c189ba5a58cef17b279997044",
+      "target": "Awe of the Dragon",
+      "section": [
+        "2.Balance Adjustments",
+        "Long Ying",
+        "Immortal Fate Adjustments"
+      ],
+      "reason": "announcement_item_requires_review"
+    },
+    {
+      "gid": "1849192144178065",
+      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+      "item_id": "004-951730f6ae09fd85",
+      "item_sha256": "951730f6ae09fd856917e26f6ed6f4d905a3bea347b751c8192f38b2ec88cfca",
+      "target": "Cunning Move Scroll, Sect Scroll",
+      "section": [
+        "2.Balance Adjustments",
+        "Xuan Si",
+        "Immortal Fate Adjustments"
+      ],
+      "reason": "announcement_item_requires_review"
+    },
+    {
+      "gid": "1849192144178065",
+      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+      "item_id": "005-a9f155bd0a4b748e",
+      "item_sha256": "a9f155bd0a4b748e07de3b079c64ba740d21dc3eccda023a5ea0760b7b21457c",
+      "target": "Drunken Fist Stance",
+      "section": [
+        "2.Balance Adjustments",
+        "Mo Feiming",
+        "Immortal Fate Adjustments"
+      ],
+      "reason": "announcement_item_requires_review"
+    },
+    {
+      "gid": "1849192144178065",
+      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+      "item_id": "006-f020b2fa6304409b",
+      "item_sha256": "f020b2fa6304409b1fba9cb0c05cd1fecc5cf9149c69e50f613bb13662e8de8b",
+      "target": "Twin Engraving",
+      "section": [
+        "2.Balance Adjustments",
+        "The old man in white",
+        "Immortal Fate Adjustments"
+      ],
+      "reason": "announcement_item_requires_review"
+    },
+    {
+      "gid": "1849192144178065",
+      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+      "item_id": "007-c17ba8306edcd753",
+      "item_sha256": "c17ba8306edcd7539d830c75b38bc10f36728e92f63219e2ad570464b85fdbf9",
+      "target": "Dao Path - CentiBird Spirit Sword Rhythm",
+      "section": [
+        "2.Balance Adjustments",
+        "Gongshu Ju",
+        "Immortal Fate Adjustments"
+      ],
+      "reason": "announcement_item_requires_review"
+    },
+    {
+      "gid": "1849192144178065",
+      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+      "item_id": "008-cbd602361b5f7c8c",
+      "item_sha256": "cbd602361b5f7c8ce2b1552f48b9f4022fb5ed70cadfa52116ebe5521f6233bc",
+      "target": "Heavenly Derivation - Wind in Sky",
+      "section": [
+        "2.Balance Adjustments",
+        "Gongshu Ju",
+        "Immortal Fate Adjustments"
+      ],
+      "reason": "announcement_item_requires_review"
+    },
+    {
+      "gid": "1849192144178065",
+      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+      "item_id": "009-2a3c2faab8db481b",
+      "item_sha256": "2a3c2faab8db481bb339f0a9d257e30d142adf6676bcf8743d997fdcacb16269",
+      "target": "Heavenly Derivation - Mortal Body (Li Man)",
+      "section": [
+        "2.Balance Adjustments",
+        "Gongshu Ju",
+        "Immortal Fate Adjustments"
+      ],
+      "reason": "announcement_item_requires_review"
+    },
+    {
+      "gid": "1849192144178065",
+      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+      "item_id": "010-704b48d492ade06a",
+      "item_sha256": "704b48d492ade06a0f253a1b1425c58edab602d48fdbfaf9af2b6b08faf0730f",
+      "target": "Ultimate - Cloud Sword - Softheart",
+      "section": [
+        "2.Balance Adjustments",
+        "Gongshu Yao",
+        "Related Card Adjustments"
+      ],
+      "reason": "announcement_item_requires_review"
+    },
+    {
+      "gid": "1849192144178065",
+      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+      "item_id": "011-c75a9f3ce1d23f10",
+      "item_sha256": "c75a9f3ce1d23f10cc6346eaff79cd776d377556611f2c77860c4385764e52c8",
+      "target": "Cloud Sword - Starry Sky",
+      "section": [
+        "2.Balance Adjustments",
+        "Gongshu Yao",
+        "Related Card Adjustments"
+      ],
+      "reason": "announcement_item_requires_review"
+    },
+    {
+      "gid": "1849192144178065",
+      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+      "item_id": "012-05f331c81a65ef7a",
+      "item_sha256": "05f331c81a65ef7a3ecd8834a1214f0baead239b44d55e79af7a614db2f4cdaf",
+      "target": "Great Galaxy",
+      "section": [
+        "2.Balance Adjustments",
+        "Gongshu Yao",
+        "Related Card Adjustments"
+      ],
+      "reason": "announcement_item_requires_review"
+    },
+    {
+      "gid": "1849192144178065",
+      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+      "item_id": "013-cdaf7f20108875c1",
+      "item_sha256": "cdaf7f20108875c15f615e679baa2338f49344438d2638cb4b7b188ff8227c03",
+      "target": "Ultimate: Five Elements Spirit Strike",
+      "section": [
+        "2.Balance Adjustments",
+        "Gongshu Yao",
+        "Related Card Adjustments"
+      ],
+      "reason": "announcement_item_requires_review"
+    },
+    {
+      "gid": "1849192144178065",
+      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+      "item_id": "014-0e7c8a6000df8ece",
+      "item_sha256": "0e7c8a6000df8ece88c191b964f34b2c3e82b06a3bc02b97e55602add47beb60",
+      "target": "Fire Spirit - Blossom Burn Seal",
+      "section": [
+        "2.Balance Adjustments",
+        "Gongshu Yao",
+        "Related Card Adjustments"
+      ],
+      "reason": "announcement_item_requires_review"
+    },
+    {
+      "gid": "1849192144178065",
+      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+      "item_id": "015-7c054c1c46f99096",
+      "item_sha256": "7c054c1c46f99096f9f14c70d2f55a3963f09107d660324364dbd36b4ec6ca82",
+      "target": "Crash Fist - Star Seizing",
+      "section": [
+        "2.Balance Adjustments",
+        "Gongshu Yao",
+        "Related Card Adjustments"
+      ],
+      "reason": "announcement_item_requires_review"
+    },
+    {
+      "gid": "1849192144178065",
+      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+      "item_id": "016-6ebf37c87c1f7130",
+      "item_sha256": "6ebf37c87c1f713068118e194073a034c72ca9950445c68b0c44364630950acf",
+      "target": "Thousand Star Explosion",
+      "section": [
+        "2.Balance Adjustments",
+        "Gongshu Yao",
+        "Related Card Adjustments"
+      ],
+      "reason": "announcement_item_requires_review"
+    },
+    {
+      "gid": "1849192144178065",
+      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+      "item_id": "017-6fa9936d73f32935",
+      "item_sha256": "6fa9936d73f32935e90a753ec1f349fafeda931fda266d036f4a2978b3200114",
+      "target": "Ultimate - Stillness Citta-Dharma",
+      "section": [
+        "2.Balance Adjustments",
+        "Gongshu Yao",
+        "Related Card Adjustments"
+      ],
+      "reason": "announcement_item_requires_review"
+    },
+    {
+      "gid": "1849192144178065",
+      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+      "item_id": "018-8fdba1c59ec633b7",
+      "item_sha256": "8fdba1c59ec633b7c9474e0d80e48cdfd202b2d29f8dc35ad29eb632f458825a",
+      "target": "Ultimate: Consonance Sword Formation",
+      "section": [
+        "2.Balance Adjustments",
+        "Gongshu Yao",
+        "Immortal Fate Adjustments"
+      ],
+      "reason": "announcement_item_requires_review"
+    },
+    {
+      "gid": "1849192144178065",
+      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+      "item_id": "019-c529c0814edde617",
+      "item_sha256": "c529c0814edde617c4fc0556f16c426093697901cca344c5d07ef971fabc9cab",
+      "target": "Ultimate: Hunter Becomes Preyer",
+      "section": [
+        "2.Balance Adjustments",
+        "Gongshu Yao",
+        "Immortal Fate Adjustments"
+      ],
+      "reason": "announcement_item_requires_review"
+    },
+    {
+      "gid": "1849192144178065",
+      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+      "item_id": "020-bfd37ddb599f7ef1",
+      "item_sha256": "bfd37ddb599f7ef14677030a93bd9bbcd2a9986a20d6e5d4c96ca86efc85c282",
+      "target": "Heavenly Derivation - Spirit Cat Chaos Sword",
+      "section": [
+        "2.Balance Adjustments",
+        "Gongshu Yao",
+        "Immortal Fate Adjustments"
+      ],
+      "reason": "announcement_item_requires_review"
+    },
+    {
+      "gid": "1849192144178065",
+      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+      "item_id": "021-b74ff7d391bd98eb",
+      "item_sha256": "b74ff7d391bd98eb698ecaf02783c4c034ffd48158628c7788f839dbec00bef0",
+      "target": "Strike the Void from Behind",
+      "section": [
+        "2.Balance Adjustments",
+        "Gongshu Yao",
+        "Immortal Fate Adjustments"
+      ],
+      "reason": "announcement_item_requires_review"
+    },
+    {
+      "gid": "1849192144178065",
+      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+      "item_id": "022-915b42b0685c9aac",
+      "item_sha256": "915b42b0685c9aacd6f4df34d8ddfab0575e0960a8f0c9eb0b75988588d4e514",
+      "target": "The following Immortal Fates have earlier card acquisition rounds or increased deck changes",
+      "section": [
+        "2.Balance Adjustments",
+        "Gongshu Yao",
+        "Immortal Fate Adjustments"
+      ],
+      "reason": "announcement_item_requires_review"
+    },
+    {
+      "gid": "1849192144178065",
+      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+      "item_id": "023-44c35f7d42dde3af",
+      "item_sha256": "44c35f7d42dde3af97498a83addda457878760942bf88104901b39ce1fc6ab2d",
+      "target": "Skipping Jiu Jie Immortal Fate Pool 1 will grant an Immortal Fate from Suanni Immortal Fate Pool 2.",
+      "section": [
+        "2.Balance Adjustments",
+        "Jiu Jie"
+      ],
+      "reason": "announcement_item_requires_review"
+    },
+    {
+      "gid": "1849192144178065",
+      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+      "item_id": "024-144ac268f3c9fd54",
+      "item_sha256": "144ac268f3c9fd5455c04e42d215c60f558a0719bd7299961df2070fc77531e7",
+      "target": "Power of Raccoon",
+      "section": [
+        "2.Balance Adjustments",
+        "Jiu Jie",
+        "Related Card Adjustments"
+      ],
+      "reason": "announcement_item_requires_review"
+    },
+    {
+      "gid": "1849192144178065",
+      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+      "item_id": "025-b6b0d5326c8becbe",
+      "item_sha256": "b6b0d5326c8becbec3b64c41e6c6c09e7308238ee5f1a115bb75ad9a5f7709ea",
+      "target": "Skipping Dan Qingke Immortal Fate Pool 1 will grant an Immortal Fate from Suanni Immortal Fate Pool 1.",
+      "section": [
+        "2.Balance Adjustments",
+        "Dan Qingke"
+      ],
+      "reason": "announcement_item_requires_review"
+    },
+    {
+      "gid": "1849192144178065",
+      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+      "item_id": "026-03335fd804b5e1c3",
+      "item_sha256": "03335fd804b5e1c3e17cc61e0ec250ee99731a9168059fa6d4e5e0fb68ab5371",
+      "target": "Mirage: Wood Spirit - Recovery",
+      "section": [
+        "2.Balance Adjustments",
+        "Dan Qingke",
+        "Related Card Adjustments"
+      ],
+      "reason": "announcement_item_requires_review"
+    },
+    {
+      "gid": "1849192144178065",
+      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+      "item_id": "027-f4c32a425535e2da",
+      "item_sha256": "f4c32a425535e2da4362e01938824086b5fc692fc8c6f50dcb7f231cb47d01e3",
+      "target": "Mirage: Exercise Bones",
+      "section": [
+        "2.Balance Adjustments",
+        "Dan Qingke",
+        "Related Card Adjustments"
+      ],
+      "reason": "announcement_item_requires_review"
+    },
+    {
+      "gid": "1849192144178065",
+      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+      "item_id": "028-f0f9ecc5b39186bc",
+      "item_sha256": "f0f9ecc5b39186bcf265645491db32d84af4247e8d01030711062850d6bb5177",
+      "target": "When selecting various Cultivator Immortal Fates, you can now directly view their corresponding Suanni Immortal Fate Pools.",
+      "section": [
+        "2.Balance Adjustments",
+        "Suanni"
+      ],
+      "reason": "announcement_item_requires_review"
+    },
+    {
+      "gid": "1849192144178065",
+      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+      "item_id": "029-b7d4a3a6b595d168",
+      "item_sha256": "b7d4a3a6b595d168dec4a897f9188966abff2a97c761bb0e4cdf0c30f44c8d58",
+      "target": "New Immortal Fate added to Immortal Fate Pool 1",
+      "section": [
+        "2.Balance Adjustments",
+        "Suanni"
+      ],
+      "reason": "announcement_item_requires_review"
     }
   ],
   "baseline_notice_date": 1791432382,
@@ -47,9 +414,14 @@
     "1846651706676158": "3b45c9df9ccf9b1034088caa880eceaae6ae760cb52c97f345053f6189376229",
     "1847286114031033": "8b8506796892cd8fdbd4d2b0a36aad9a2a4e352b2bf3a44c3e58330534063370"
   },
-  "source_checked_at": "2026-11-14T04:03:51.949028+00:00",
-  "monitor_state": "verified",
-  "source_errors": [],
+  "source_checked_at": "2026-11-14T04:26:28.523259+00:00",
+  "monitor_state": "partial_source_failure",
+  "source_errors": [
+    {
+      "base_id": 29,
+      "error": "HTTP Error 503: Service Unavailable"
+    }
+  ],
   "supported_faces": 78,
   "supported_fate_rules": 763,
   "supported_mechanism_faces": 29,
@@ -1815,8 +2187,21 @@
             ],
             "target": "Heavenly Derivation - Bloodline Potential",
             "kind": "immortal_fate",
-            "state": "pending_review",
-            "reason": "announcement_item_requires_review"
+            "state": "reviewed",
+            "review": {
+              "item_sha256": "9afc786087da4ee8ed7e20fab2b0371226dde4f68960a4b25bc46b459e771089",
+              "kind": "mechanism",
+              "engine_contract": "numeric-templates-6",
+              "minimum_assistant_version": "1.1.356",
+              "evidence_sha256": [
+                "c99fdb66dd4789bf306614afdf4ff3abad1cbe1b7677474e73f9dfd21f5e2eed",
+                "88c43cdf1ea1a67ea539fa5ee2794cc355c3e7a712531ada69cf086a6580e192",
+                "8a9ff65a943e1ea075840cbf33537c07aa92843cf68602eca692a61749c3fd78",
+                "8798c1d8558e6b9336a17d7ae352e7abbd2bbc7a911c17b72e6011bc54979f18",
+                "43c368b04b870a27c230cffbd47d17ac1932113035fcad96643bc914f1cd4991",
+                "dbfab55ec0f38ce9cad309a8ef973c55fa6ae08fe1fe17a4dc61286a2b36c0a3"
+              ]
+            }
           },
           {
             "item_id": "049-591a0788d7bffd2e",
@@ -2869,28 +3254,13 @@
             }
           }
         ],
-        "pending": [
-          {
-            "gid": "1847286114031033",
-            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114031033",
-            "item_id": "048-9afc786087da4ee8",
-            "item_sha256": "9afc786087da4ee8ed7e20fab2b0371226dde4f68960a4b25bc46b459e771089",
-            "target": "Heavenly Derivation - Bloodline Potential",
-            "section": [
-              "1. Balance Adjustment",
-              "Gongshu Yao",
-              "Related Card Adjustments",
-              "Immortal Fate Adjustments"
-            ],
-            "reason": "announcement_item_requires_review"
-          }
-        ],
-        "reviewed_count": 90,
+        "pending": [],
+        "reviewed_count": 91,
         "excluded_count": 0,
         "item_count": 91,
-        "pending_count": 1,
-        "state": "pending_review",
-        "fully_reviewed": false,
+        "pending_count": 0,
+        "state": "reviewed",
+        "fully_reviewed": true,
         "notice_sha256": "8b8506796892cd8fdbd4d2b0a36aad9a2a4e352b2bf3a44c3e58330534063370"
       },
       "1847920302233330": {
@@ -6025,13 +6395,774 @@
         "state": "pending_review",
         "fully_reviewed": false,
         "notice_sha256": "0a8f96b82ba9f20badc387ed7b69b284c294aa01ee42fd391fe36e4dc4921621"
+      },
+      "1849192144178065": {
+        "gid": "1849192144178065",
+        "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+        "title": "Update on Nov. 12",
+        "date": 1794392285,
+        "scope": "all_balance_items",
+        "balance_sha256": "5e85f4670198451184da71de872c9a4672616f81f2a57acd43dd9ce6d6f4bf36",
+        "items": [
+          {
+            "item_id": "001-166e43a0f245a761",
+            "item_sha256": "166e43a0f245a761e76c3123cc1dad04bc1e2e88a009563ba9e7ef5c5f84fdff",
+            "section": [
+              "2.Balance Adjustments",
+              "Season Rotation cards Adjustments"
+            ],
+            "target": "Sword Shadow Flowing Light",
+            "kind": "unknown",
+            "state": "pending_review",
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "item_id": "002-be08ff95ce097880",
+            "item_sha256": "be08ff95ce0978806f17caeeffdf477709cd5d0ea63109c1219b23498e87856b",
+            "section": [
+              "2.Balance Adjustments",
+              "Character Immortal Fate Adjustments"
+            ],
+            "target": "Dao of Ruiying (Li Chengyun, Virtuoso)",
+            "kind": "immortal_fate",
+            "state": "pending_review",
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "item_id": "003-94c6c14f62d157f1",
+            "item_sha256": "94c6c14f62d157f1a9b86efb2a4d550823be669c189ba5a58cef17b279997044",
+            "section": [
+              "2.Balance Adjustments",
+              "Long Ying",
+              "Immortal Fate Adjustments"
+            ],
+            "target": "Awe of the Dragon",
+            "kind": "immortal_fate",
+            "state": "pending_review",
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "item_id": "004-951730f6ae09fd85",
+            "item_sha256": "951730f6ae09fd856917e26f6ed6f4d905a3bea347b751c8192f38b2ec88cfca",
+            "section": [
+              "2.Balance Adjustments",
+              "Xuan Si",
+              "Immortal Fate Adjustments"
+            ],
+            "target": "Cunning Move Scroll, Sect Scroll",
+            "kind": "immortal_fate",
+            "state": "pending_review",
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "item_id": "005-a9f155bd0a4b748e",
+            "item_sha256": "a9f155bd0a4b748e07de3b079c64ba740d21dc3eccda023a5ea0760b7b21457c",
+            "section": [
+              "2.Balance Adjustments",
+              "Mo Feiming",
+              "Immortal Fate Adjustments"
+            ],
+            "target": "Drunken Fist Stance",
+            "kind": "immortal_fate",
+            "state": "pending_review",
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "item_id": "006-f020b2fa6304409b",
+            "item_sha256": "f020b2fa6304409b1fba9cb0c05cd1fecc5cf9149c69e50f613bb13662e8de8b",
+            "section": [
+              "2.Balance Adjustments",
+              "The old man in white",
+              "Immortal Fate Adjustments"
+            ],
+            "target": "Twin Engraving",
+            "kind": "immortal_fate",
+            "state": "pending_review",
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "item_id": "007-c17ba8306edcd753",
+            "item_sha256": "c17ba8306edcd7539d830c75b38bc10f36728e92f63219e2ad570464b85fdbf9",
+            "section": [
+              "2.Balance Adjustments",
+              "Gongshu Ju",
+              "Immortal Fate Adjustments"
+            ],
+            "target": "Dao Path - CentiBird Spirit Sword Rhythm",
+            "kind": "immortal_fate",
+            "state": "pending_review",
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "item_id": "008-cbd602361b5f7c8c",
+            "item_sha256": "cbd602361b5f7c8ce2b1552f48b9f4022fb5ed70cadfa52116ebe5521f6233bc",
+            "section": [
+              "2.Balance Adjustments",
+              "Gongshu Ju",
+              "Immortal Fate Adjustments"
+            ],
+            "target": "Heavenly Derivation - Wind in Sky",
+            "kind": "immortal_fate",
+            "state": "pending_review",
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "item_id": "009-2a3c2faab8db481b",
+            "item_sha256": "2a3c2faab8db481bb339f0a9d257e30d142adf6676bcf8743d997fdcacb16269",
+            "section": [
+              "2.Balance Adjustments",
+              "Gongshu Ju",
+              "Immortal Fate Adjustments"
+            ],
+            "target": "Heavenly Derivation - Mortal Body (Li Man)",
+            "kind": "immortal_fate",
+            "state": "pending_review",
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "item_id": "010-704b48d492ade06a",
+            "item_sha256": "704b48d492ade06a0f253a1b1425c58edab602d48fdbfaf9af2b6b08faf0730f",
+            "section": [
+              "2.Balance Adjustments",
+              "Gongshu Yao",
+              "Related Card Adjustments"
+            ],
+            "target": "Ultimate - Cloud Sword - Softheart",
+            "kind": "card",
+            "state": "pending_review",
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "item_id": "011-c75a9f3ce1d23f10",
+            "item_sha256": "c75a9f3ce1d23f10cc6346eaff79cd776d377556611f2c77860c4385764e52c8",
+            "section": [
+              "2.Balance Adjustments",
+              "Gongshu Yao",
+              "Related Card Adjustments"
+            ],
+            "target": "Cloud Sword - Starry Sky",
+            "kind": "card",
+            "state": "pending_review",
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "item_id": "012-05f331c81a65ef7a",
+            "item_sha256": "05f331c81a65ef7a3ecd8834a1214f0baead239b44d55e79af7a614db2f4cdaf",
+            "section": [
+              "2.Balance Adjustments",
+              "Gongshu Yao",
+              "Related Card Adjustments"
+            ],
+            "target": "Great Galaxy",
+            "kind": "card",
+            "state": "pending_review",
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "item_id": "013-cdaf7f20108875c1",
+            "item_sha256": "cdaf7f20108875c15f615e679baa2338f49344438d2638cb4b7b188ff8227c03",
+            "section": [
+              "2.Balance Adjustments",
+              "Gongshu Yao",
+              "Related Card Adjustments"
+            ],
+            "target": "Ultimate: Five Elements Spirit Strike",
+            "kind": "card",
+            "state": "pending_review",
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "item_id": "014-0e7c8a6000df8ece",
+            "item_sha256": "0e7c8a6000df8ece88c191b964f34b2c3e82b06a3bc02b97e55602add47beb60",
+            "section": [
+              "2.Balance Adjustments",
+              "Gongshu Yao",
+              "Related Card Adjustments"
+            ],
+            "target": "Fire Spirit - Blossom Burn Seal",
+            "kind": "card",
+            "state": "pending_review",
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "item_id": "015-7c054c1c46f99096",
+            "item_sha256": "7c054c1c46f99096f9f14c70d2f55a3963f09107d660324364dbd36b4ec6ca82",
+            "section": [
+              "2.Balance Adjustments",
+              "Gongshu Yao",
+              "Related Card Adjustments"
+            ],
+            "target": "Crash Fist - Star Seizing",
+            "kind": "card",
+            "state": "pending_review",
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "item_id": "016-6ebf37c87c1f7130",
+            "item_sha256": "6ebf37c87c1f713068118e194073a034c72ca9950445c68b0c44364630950acf",
+            "section": [
+              "2.Balance Adjustments",
+              "Gongshu Yao",
+              "Related Card Adjustments"
+            ],
+            "target": "Thousand Star Explosion",
+            "kind": "card",
+            "state": "pending_review",
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "item_id": "017-6fa9936d73f32935",
+            "item_sha256": "6fa9936d73f32935e90a753ec1f349fafeda931fda266d036f4a2978b3200114",
+            "section": [
+              "2.Balance Adjustments",
+              "Gongshu Yao",
+              "Related Card Adjustments"
+            ],
+            "target": "Ultimate - Stillness Citta-Dharma",
+            "kind": "card",
+            "state": "pending_review",
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "item_id": "018-8fdba1c59ec633b7",
+            "item_sha256": "8fdba1c59ec633b7c9474e0d80e48cdfd202b2d29f8dc35ad29eb632f458825a",
+            "section": [
+              "2.Balance Adjustments",
+              "Gongshu Yao",
+              "Immortal Fate Adjustments"
+            ],
+            "target": "Ultimate: Consonance Sword Formation",
+            "kind": "immortal_fate",
+            "state": "pending_review",
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "item_id": "019-c529c0814edde617",
+            "item_sha256": "c529c0814edde617c4fc0556f16c426093697901cca344c5d07ef971fabc9cab",
+            "section": [
+              "2.Balance Adjustments",
+              "Gongshu Yao",
+              "Immortal Fate Adjustments"
+            ],
+            "target": "Ultimate: Hunter Becomes Preyer",
+            "kind": "immortal_fate",
+            "state": "pending_review",
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "item_id": "020-bfd37ddb599f7ef1",
+            "item_sha256": "bfd37ddb599f7ef14677030a93bd9bbcd2a9986a20d6e5d4c96ca86efc85c282",
+            "section": [
+              "2.Balance Adjustments",
+              "Gongshu Yao",
+              "Immortal Fate Adjustments"
+            ],
+            "target": "Heavenly Derivation - Spirit Cat Chaos Sword",
+            "kind": "immortal_fate",
+            "state": "pending_review",
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "item_id": "021-b74ff7d391bd98eb",
+            "item_sha256": "b74ff7d391bd98eb698ecaf02783c4c034ffd48158628c7788f839dbec00bef0",
+            "section": [
+              "2.Balance Adjustments",
+              "Gongshu Yao",
+              "Immortal Fate Adjustments"
+            ],
+            "target": "Strike the Void from Behind",
+            "kind": "immortal_fate",
+            "state": "pending_review",
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "item_id": "022-915b42b0685c9aac",
+            "item_sha256": "915b42b0685c9aacd6f4df34d8ddfab0575e0960a8f0c9eb0b75988588d4e514",
+            "section": [
+              "2.Balance Adjustments",
+              "Gongshu Yao",
+              "Immortal Fate Adjustments"
+            ],
+            "target": "The following Immortal Fates have earlier card acquisition rounds or increased deck changes",
+            "kind": "immortal_fate",
+            "state": "pending_review",
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "item_id": "023-44c35f7d42dde3af",
+            "item_sha256": "44c35f7d42dde3af97498a83addda457878760942bf88104901b39ce1fc6ab2d",
+            "section": [
+              "2.Balance Adjustments",
+              "Jiu Jie"
+            ],
+            "target": "Skipping Jiu Jie Immortal Fate Pool 1 will grant an Immortal Fate from Suanni Immortal Fate Pool 2.",
+            "kind": "unknown",
+            "state": "pending_review",
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "item_id": "024-144ac268f3c9fd54",
+            "item_sha256": "144ac268f3c9fd5455c04e42d215c60f558a0719bd7299961df2070fc77531e7",
+            "section": [
+              "2.Balance Adjustments",
+              "Jiu Jie",
+              "Related Card Adjustments"
+            ],
+            "target": "Power of Raccoon",
+            "kind": "card",
+            "state": "pending_review",
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "item_id": "025-b6b0d5326c8becbe",
+            "item_sha256": "b6b0d5326c8becbec3b64c41e6c6c09e7308238ee5f1a115bb75ad9a5f7709ea",
+            "section": [
+              "2.Balance Adjustments",
+              "Dan Qingke"
+            ],
+            "target": "Skipping Dan Qingke Immortal Fate Pool 1 will grant an Immortal Fate from Suanni Immortal Fate Pool 1.",
+            "kind": "unknown",
+            "state": "pending_review",
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "item_id": "026-03335fd804b5e1c3",
+            "item_sha256": "03335fd804b5e1c3e17cc61e0ec250ee99731a9168059fa6d4e5e0fb68ab5371",
+            "section": [
+              "2.Balance Adjustments",
+              "Dan Qingke",
+              "Related Card Adjustments"
+            ],
+            "target": "Mirage: Wood Spirit - Recovery",
+            "kind": "card",
+            "state": "pending_review",
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "item_id": "027-f4c32a425535e2da",
+            "item_sha256": "f4c32a425535e2da4362e01938824086b5fc692fc8c6f50dcb7f231cb47d01e3",
+            "section": [
+              "2.Balance Adjustments",
+              "Dan Qingke",
+              "Related Card Adjustments"
+            ],
+            "target": "Mirage: Exercise Bones",
+            "kind": "card",
+            "state": "pending_review",
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "item_id": "028-f0f9ecc5b39186bc",
+            "item_sha256": "f0f9ecc5b39186bcf265645491db32d84af4247e8d01030711062850d6bb5177",
+            "section": [
+              "2.Balance Adjustments",
+              "Suanni"
+            ],
+            "target": "When selecting various Cultivator Immortal Fates, you can now directly view their corresponding Suanni Immortal Fate Pools.",
+            "kind": "unknown",
+            "state": "pending_review",
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "item_id": "029-b7d4a3a6b595d168",
+            "item_sha256": "b7d4a3a6b595d168dec4a897f9188966abff2a97c761bb0e4cdf0c30f44c8d58",
+            "section": [
+              "2.Balance Adjustments",
+              "Suanni"
+            ],
+            "target": "New Immortal Fate added to Immortal Fate Pool 1",
+            "kind": "unknown",
+            "state": "pending_review",
+            "reason": "announcement_item_requires_review"
+          }
+        ],
+        "pending": [
+          {
+            "gid": "1849192144178065",
+            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+            "item_id": "001-166e43a0f245a761",
+            "item_sha256": "166e43a0f245a761e76c3123cc1dad04bc1e2e88a009563ba9e7ef5c5f84fdff",
+            "target": "Sword Shadow Flowing Light",
+            "section": [
+              "2.Balance Adjustments",
+              "Season Rotation cards Adjustments"
+            ],
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "gid": "1849192144178065",
+            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+            "item_id": "002-be08ff95ce097880",
+            "item_sha256": "be08ff95ce0978806f17caeeffdf477709cd5d0ea63109c1219b23498e87856b",
+            "target": "Dao of Ruiying (Li Chengyun, Virtuoso)",
+            "section": [
+              "2.Balance Adjustments",
+              "Character Immortal Fate Adjustments"
+            ],
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "gid": "1849192144178065",
+            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+            "item_id": "003-94c6c14f62d157f1",
+            "item_sha256": "94c6c14f62d157f1a9b86efb2a4d550823be669c189ba5a58cef17b279997044",
+            "target": "Awe of the Dragon",
+            "section": [
+              "2.Balance Adjustments",
+              "Long Ying",
+              "Immortal Fate Adjustments"
+            ],
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "gid": "1849192144178065",
+            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+            "item_id": "004-951730f6ae09fd85",
+            "item_sha256": "951730f6ae09fd856917e26f6ed6f4d905a3bea347b751c8192f38b2ec88cfca",
+            "target": "Cunning Move Scroll, Sect Scroll",
+            "section": [
+              "2.Balance Adjustments",
+              "Xuan Si",
+              "Immortal Fate Adjustments"
+            ],
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "gid": "1849192144178065",
+            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+            "item_id": "005-a9f155bd0a4b748e",
+            "item_sha256": "a9f155bd0a4b748e07de3b079c64ba740d21dc3eccda023a5ea0760b7b21457c",
+            "target": "Drunken Fist Stance",
+            "section": [
+              "2.Balance Adjustments",
+              "Mo Feiming",
+              "Immortal Fate Adjustments"
+            ],
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "gid": "1849192144178065",
+            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+            "item_id": "006-f020b2fa6304409b",
+            "item_sha256": "f020b2fa6304409b1fba9cb0c05cd1fecc5cf9149c69e50f613bb13662e8de8b",
+            "target": "Twin Engraving",
+            "section": [
+              "2.Balance Adjustments",
+              "The old man in white",
+              "Immortal Fate Adjustments"
+            ],
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "gid": "1849192144178065",
+            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+            "item_id": "007-c17ba8306edcd753",
+            "item_sha256": "c17ba8306edcd7539d830c75b38bc10f36728e92f63219e2ad570464b85fdbf9",
+            "target": "Dao Path - CentiBird Spirit Sword Rhythm",
+            "section": [
+              "2.Balance Adjustments",
+              "Gongshu Ju",
+              "Immortal Fate Adjustments"
+            ],
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "gid": "1849192144178065",
+            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+            "item_id": "008-cbd602361b5f7c8c",
+            "item_sha256": "cbd602361b5f7c8ce2b1552f48b9f4022fb5ed70cadfa52116ebe5521f6233bc",
+            "target": "Heavenly Derivation - Wind in Sky",
+            "section": [
+              "2.Balance Adjustments",
+              "Gongshu Ju",
+              "Immortal Fate Adjustments"
+            ],
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "gid": "1849192144178065",
+            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+            "item_id": "009-2a3c2faab8db481b",
+            "item_sha256": "2a3c2faab8db481bb339f0a9d257e30d142adf6676bcf8743d997fdcacb16269",
+            "target": "Heavenly Derivation - Mortal Body (Li Man)",
+            "section": [
+              "2.Balance Adjustments",
+              "Gongshu Ju",
+              "Immortal Fate Adjustments"
+            ],
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "gid": "1849192144178065",
+            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+            "item_id": "010-704b48d492ade06a",
+            "item_sha256": "704b48d492ade06a0f253a1b1425c58edab602d48fdbfaf9af2b6b08faf0730f",
+            "target": "Ultimate - Cloud Sword - Softheart",
+            "section": [
+              "2.Balance Adjustments",
+              "Gongshu Yao",
+              "Related Card Adjustments"
+            ],
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "gid": "1849192144178065",
+            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+            "item_id": "011-c75a9f3ce1d23f10",
+            "item_sha256": "c75a9f3ce1d23f10cc6346eaff79cd776d377556611f2c77860c4385764e52c8",
+            "target": "Cloud Sword - Starry Sky",
+            "section": [
+              "2.Balance Adjustments",
+              "Gongshu Yao",
+              "Related Card Adjustments"
+            ],
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "gid": "1849192144178065",
+            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+            "item_id": "012-05f331c81a65ef7a",
+            "item_sha256": "05f331c81a65ef7a3ecd8834a1214f0baead239b44d55e79af7a614db2f4cdaf",
+            "target": "Great Galaxy",
+            "section": [
+              "2.Balance Adjustments",
+              "Gongshu Yao",
+              "Related Card Adjustments"
+            ],
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "gid": "1849192144178065",
+            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+            "item_id": "013-cdaf7f20108875c1",
+            "item_sha256": "cdaf7f20108875c15f615e679baa2338f49344438d2638cb4b7b188ff8227c03",
+            "target": "Ultimate: Five Elements Spirit Strike",
+            "section": [
+              "2.Balance Adjustments",
+              "Gongshu Yao",
+              "Related Card Adjustments"
+            ],
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "gid": "1849192144178065",
+            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+            "item_id": "014-0e7c8a6000df8ece",
+            "item_sha256": "0e7c8a6000df8ece88c191b964f34b2c3e82b06a3bc02b97e55602add47beb60",
+            "target": "Fire Spirit - Blossom Burn Seal",
+            "section": [
+              "2.Balance Adjustments",
+              "Gongshu Yao",
+              "Related Card Adjustments"
+            ],
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "gid": "1849192144178065",
+            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+            "item_id": "015-7c054c1c46f99096",
+            "item_sha256": "7c054c1c46f99096f9f14c70d2f55a3963f09107d660324364dbd36b4ec6ca82",
+            "target": "Crash Fist - Star Seizing",
+            "section": [
+              "2.Balance Adjustments",
+              "Gongshu Yao",
+              "Related Card Adjustments"
+            ],
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "gid": "1849192144178065",
+            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+            "item_id": "016-6ebf37c87c1f7130",
+            "item_sha256": "6ebf37c87c1f713068118e194073a034c72ca9950445c68b0c44364630950acf",
+            "target": "Thousand Star Explosion",
+            "section": [
+              "2.Balance Adjustments",
+              "Gongshu Yao",
+              "Related Card Adjustments"
+            ],
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "gid": "1849192144178065",
+            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+            "item_id": "017-6fa9936d73f32935",
+            "item_sha256": "6fa9936d73f32935e90a753ec1f349fafeda931fda266d036f4a2978b3200114",
+            "target": "Ultimate - Stillness Citta-Dharma",
+            "section": [
+              "2.Balance Adjustments",
+              "Gongshu Yao",
+              "Related Card Adjustments"
+            ],
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "gid": "1849192144178065",
+            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+            "item_id": "018-8fdba1c59ec633b7",
+            "item_sha256": "8fdba1c59ec633b7c9474e0d80e48cdfd202b2d29f8dc35ad29eb632f458825a",
+            "target": "Ultimate: Consonance Sword Formation",
+            "section": [
+              "2.Balance Adjustments",
+              "Gongshu Yao",
+              "Immortal Fate Adjustments"
+            ],
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "gid": "1849192144178065",
+            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+            "item_id": "019-c529c0814edde617",
+            "item_sha256": "c529c0814edde617c4fc0556f16c426093697901cca344c5d07ef971fabc9cab",
+            "target": "Ultimate: Hunter Becomes Preyer",
+            "section": [
+              "2.Balance Adjustments",
+              "Gongshu Yao",
+              "Immortal Fate Adjustments"
+            ],
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "gid": "1849192144178065",
+            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+            "item_id": "020-bfd37ddb599f7ef1",
+            "item_sha256": "bfd37ddb599f7ef14677030a93bd9bbcd2a9986a20d6e5d4c96ca86efc85c282",
+            "target": "Heavenly Derivation - Spirit Cat Chaos Sword",
+            "section": [
+              "2.Balance Adjustments",
+              "Gongshu Yao",
+              "Immortal Fate Adjustments"
+            ],
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "gid": "1849192144178065",
+            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+            "item_id": "021-b74ff7d391bd98eb",
+            "item_sha256": "b74ff7d391bd98eb698ecaf02783c4c034ffd48158628c7788f839dbec00bef0",
+            "target": "Strike the Void from Behind",
+            "section": [
+              "2.Balance Adjustments",
+              "Gongshu Yao",
+              "Immortal Fate Adjustments"
+            ],
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "gid": "1849192144178065",
+            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+            "item_id": "022-915b42b0685c9aac",
+            "item_sha256": "915b42b0685c9aacd6f4df34d8ddfab0575e0960a8f0c9eb0b75988588d4e514",
+            "target": "The following Immortal Fates have earlier card acquisition rounds or increased deck changes",
+            "section": [
+              "2.Balance Adjustments",
+              "Gongshu Yao",
+              "Immortal Fate Adjustments"
+            ],
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "gid": "1849192144178065",
+            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+            "item_id": "023-44c35f7d42dde3af",
+            "item_sha256": "44c35f7d42dde3af97498a83addda457878760942bf88104901b39ce1fc6ab2d",
+            "target": "Skipping Jiu Jie Immortal Fate Pool 1 will grant an Immortal Fate from Suanni Immortal Fate Pool 2.",
+            "section": [
+              "2.Balance Adjustments",
+              "Jiu Jie"
+            ],
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "gid": "1849192144178065",
+            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+            "item_id": "024-144ac268f3c9fd54",
+            "item_sha256": "144ac268f3c9fd5455c04e42d215c60f558a0719bd7299961df2070fc77531e7",
+            "target": "Power of Raccoon",
+            "section": [
+              "2.Balance Adjustments",
+              "Jiu Jie",
+              "Related Card Adjustments"
+            ],
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "gid": "1849192144178065",
+            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+            "item_id": "025-b6b0d5326c8becbe",
+            "item_sha256": "b6b0d5326c8becbec3b64c41e6c6c09e7308238ee5f1a115bb75ad9a5f7709ea",
+            "target": "Skipping Dan Qingke Immortal Fate Pool 1 will grant an Immortal Fate from Suanni Immortal Fate Pool 1.",
+            "section": [
+              "2.Balance Adjustments",
+              "Dan Qingke"
+            ],
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "gid": "1849192144178065",
+            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+            "item_id": "026-03335fd804b5e1c3",
+            "item_sha256": "03335fd804b5e1c3e17cc61e0ec250ee99731a9168059fa6d4e5e0fb68ab5371",
+            "target": "Mirage: Wood Spirit - Recovery",
+            "section": [
+              "2.Balance Adjustments",
+              "Dan Qingke",
+              "Related Card Adjustments"
+            ],
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "gid": "1849192144178065",
+            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+            "item_id": "027-f4c32a425535e2da",
+            "item_sha256": "f4c32a425535e2da4362e01938824086b5fc692fc8c6f50dcb7f231cb47d01e3",
+            "target": "Mirage: Exercise Bones",
+            "section": [
+              "2.Balance Adjustments",
+              "Dan Qingke",
+              "Related Card Adjustments"
+            ],
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "gid": "1849192144178065",
+            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+            "item_id": "028-f0f9ecc5b39186bc",
+            "item_sha256": "f0f9ecc5b39186bcf265645491db32d84af4247e8d01030711062850d6bb5177",
+            "target": "When selecting various Cultivator Immortal Fates, you can now directly view their corresponding Suanni Immortal Fate Pools.",
+            "section": [
+              "2.Balance Adjustments",
+              "Suanni"
+            ],
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "gid": "1849192144178065",
+            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+            "item_id": "029-b7d4a3a6b595d168",
+            "item_sha256": "b7d4a3a6b595d168dec4a897f9188966abff2a97c761bb0e4cdf0c30f44c8d58",
+            "target": "New Immortal Fate added to Immortal Fate Pool 1",
+            "section": [
+              "2.Balance Adjustments",
+              "Suanni"
+            ],
+            "reason": "announcement_item_requires_review"
+          }
+        ],
+        "reviewed_count": 0,
+        "excluded_count": 0,
+        "item_count": 29,
+        "pending_count": 29,
+        "state": "pending_review",
+        "fully_reviewed": false,
+        "notice_sha256": "4df4e1435092280cc750873ee306fffe5c2a5fd3335fc45e8d82aeca05dbc8e5"
       }
     },
-    "latest_notice_gid": "1848557880481669",
-    "latest_item_count": 28,
-    "latest_reviewed_count": 27,
+    "latest_notice_gid": "1849192144178065",
+    "latest_item_count": 29,
+    "latest_reviewed_count": 0,
     "latest_excluded_count": 0,
-    "latest_pending_count": 1,
+    "latest_pending_count": 29,
     "state": "pending_review",
     "source_available": true,
     "support_claim": "review_receipts_require_matching_client_contract"
