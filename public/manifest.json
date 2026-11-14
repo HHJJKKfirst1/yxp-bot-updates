@@ -47,7 +47,7 @@
     "1846651706676158": "3b45c9df9ccf9b1034088caa880eceaae6ae760cb52c97f345053f6189376229",
     "1847286114031033": "8b8506796892cd8fdbd4d2b0a36aad9a2a4e352b2bf3a44c3e58330534063370"
   },
-  "source_checked_at": "2026-11-14T01:26:38.901014+00:00",
+  "source_checked_at": "2026-11-14T04:03:51.949028+00:00",
   "monitor_state": "verified",
   "source_errors": [],
   "supported_faces": 78,
@@ -582,7 +582,7 @@
             "target": "Fire Spirit - Burn to Ashes (Five Elements Alliance, Incarnation Phase)",
             "kind": "unknown",
             "state": "reviewed_numeric",
-            "engine_contract": "numeric-templates-5",
+            "engine_contract": "numeric-templates-6",
             "minimum_assistant_version": "1.1.356",
             "receipt_scope": "audited_registered_card_balance",
             "native_ids": [
@@ -600,7 +600,7 @@
             "target": "Earth Spirit - Chasing Dust Step (Five Elements Alliance, Incarnation Phase)",
             "kind": "unknown",
             "state": "reviewed_numeric",
-            "engine_contract": "numeric-templates-5",
+            "engine_contract": "numeric-templates-6",
             "minimum_assistant_version": "1.1.356",
             "receipt_scope": "audited_registered_card_balance",
             "native_ids": [
@@ -618,7 +618,7 @@
             "target": "Water Spirit - Falling Rain (Five Elements Alliance, Incarnation Phase)",
             "kind": "unknown",
             "state": "reviewed_numeric",
-            "engine_contract": "numeric-templates-5",
+            "engine_contract": "numeric-templates-6",
             "minimum_assistant_version": "1.1.356",
             "receipt_scope": "audited_registered_card_balance"
           },
@@ -631,7 +631,7 @@
             "target": "Wind-Riding Flash (Lingyu Immortal Fate exclusive card, Immortality Phase)",
             "kind": "unknown",
             "state": "reviewed_numeric",
-            "engine_contract": "numeric-templates-5",
+            "engine_contract": "numeric-templates-6",
             "minimum_assistant_version": "1.1.356",
             "receipt_scope": "audited_registered_card_balance"
           },
@@ -644,7 +644,7 @@
             "target": "Weaken Fulu (Fuluist, Immortality Phase)",
             "kind": "unknown",
             "state": "reviewed_numeric",
-            "engine_contract": "numeric-templates-5",
+            "engine_contract": "numeric-templates-6",
             "minimum_assistant_version": "1.1.356",
             "receipt_scope": "audited_registered_card_balance"
           },
@@ -657,7 +657,7 @@
             "target": "Falling Paper Clouds (Painter, Immortality Phase)",
             "kind": "unknown",
             "state": "reviewed_numeric",
-            "engine_contract": "numeric-templates-5",
+            "engine_contract": "numeric-templates-6",
             "minimum_assistant_version": "1.1.356",
             "receipt_scope": "audited_registered_card_balance"
           },
@@ -670,7 +670,7 @@
             "target": "Echo Formation (Formation Master, Incarnation Phase)",
             "kind": "unknown",
             "state": "reviewed_numeric",
-            "engine_contract": "numeric-templates-5",
+            "engine_contract": "numeric-templates-6",
             "minimum_assistant_version": "1.1.356",
             "receipt_scope": "audited_registered_card_balance"
           },
@@ -683,7 +683,7 @@
             "target": "Meru Formation (Formation Master, Incarnation Phase)",
             "kind": "unknown",
             "state": "reviewed_numeric",
-            "engine_contract": "numeric-templates-5",
+            "engine_contract": "numeric-templates-6",
             "minimum_assistant_version": "1.1.356",
             "receipt_scope": "audited_registered_card_balance"
           },
@@ -696,7 +696,7 @@
             "target": "Everything is Unadvisable (Fortune Teller, Immortality Phase)",
             "kind": "unknown",
             "state": "reviewed_numeric",
-            "engine_contract": "numeric-templates-5",
+            "engine_contract": "numeric-templates-6",
             "minimum_assistant_version": "1.1.356",
             "receipt_scope": "audited_registered_card_balance"
           },
@@ -709,7 +709,7 @@
             "target": "Cycle of Fate (Fortune Teller, Incarnation Phase)",
             "kind": "unknown",
             "state": "reviewed_numeric",
-            "engine_contract": "numeric-templates-5",
+            "engine_contract": "numeric-templates-6",
             "minimum_assistant_version": "1.1.356",
             "receipt_scope": "audited_registered_card_balance"
           }
@@ -762,7 +762,7 @@
             "target": "Unrestrained Sword - Crimson Sky",
             "kind": "card",
             "state": "reviewed_numeric",
-            "engine_contract": "numeric-templates-5",
+            "engine_contract": "numeric-templates-6",
             "minimum_assistant_version": "1.1.356",
             "receipt_scope": "exact_numeric_sentence",
             "native_ids": [
