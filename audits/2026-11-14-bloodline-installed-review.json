@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "date": "2026-11-14",
+  "scope": "exact_item_048_bloodline_potential",
+  "notice_gid": "1847286114031033",
+  "balance_sha256": "6331f005724076e9fb497189bdf16538e2dba5d048c022b97e9dcef850875a08",
+  "item_sha256": "9afc786087da4ee8ed7e20fab2b0371226dde4f68960a4b25bc46b459e771089",
+  "engine_contract": "numeric-templates-6",
+  "minimum_assistant_version": "1.1.356",
+  "installed_patch": "cloud_version_notice_v356",
+  "base_full_sha256": "90d09a60bb68772857822f1cd4cb453d87fa225904652b5a4bdd868c1290a1d6",
+  "native_mechanism_id": 7119,
+  "scope_evidence": "Native catalog states destiny +3 and one swap; active proof verifies both effects and native signed charges are handled separately.",
+  "source_paths_and_sha256": {
+    "joint_repair_artifacts/baijia_catalog.json": "8a9ff65a943e1ea075840cbf33537c07aa92843cf68602eca692a61749c3fd78",
+    "joint_repair_artifacts/baijia_active_effects.py": "8798c1d8558e6b9336a17d7ae352e7abbd2bbc7a911c17b72e6011bc54979f18",
+    "joint_repair_artifacts/baijia_policy.py": "43c368b04b870a27c230cffbd47d17ac1932113035fcad96643bc914f1cd4991",
+    "joint_repair_artifacts/baijia_runtime.py": "dbfab55ec0f38ce9cad309a8ef973c55fa6ae08fe1fe17a4dc61286a2b36c0a3",
+    "joint_repair_artifacts/test_baijia_native_charges.py": "9747b756cad66996a60f089fe70f907e00b038fec6d159456e734dd292bcdec1",
+    "joint_repair_artifacts/test_notice_latest_nov05_v356.py": "65377575c922daeb66c65ba77f758066742076aa0c7f414ba66608680f625b8d",
+    "runtime_patch_manifest.json": "e9948cf32c413985c2da6eadecbf321ef70cbdb25163eb9d4dc21105022830d9"
+  },
+  "offline_tests": {
+    "passed": 13,
+    "failed": 0,
+    "output": "audits/2026-11-14-bloodline-installed-tests.txt",
+    "output_sha256": "88c43cdf1ea1a67ea539fa5ee2794cc355c3e7a712531ada69cf086a6580e192"
+  },
+  "game_input_sent": false,
+  "live_game_tested": false
+}
