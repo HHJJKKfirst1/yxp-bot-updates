@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "product": "yxp-verified-numeric-rules",
-  "engine_contract": "numeric-templates-5",
-  "serial": 8,
-  "revision": "2026.11.05.8",
-  "rules": "rules/2026.11.05.8.json",
-  "sha256": "c0d6ff61651209839814ed68ab9bf7f157e63393be3dd7047aeb334c1f4a353d",
+  "engine_contract": "numeric-templates-6",
+  "serial": 9,
+  "revision": "2026.11.12.9",
+  "rules": "rules/2026.11.12.9.json",
+  "sha256": "8b78ce823933b25c54f8f0e316e08dec934bf0515819cbdbbde2379b2e2cf9b9",
   "minimum_assistant_version": "1.1.356",
   "pending": [
     {
@@ -51,7 +51,7 @@
   "monitor_state": "verified",
   "source_errors": [],
   "supported_faces": 78,
-  "supported_fate_rules": 218,
+  "supported_fate_rules": 763,
   "supported_mechanism_faces": 29,
   "supported_faces_scope": "registered_numeric_faces_only",
   "accepted_notices_scope": "registered_numeric_faces_only",
@@ -6036,5 +6036,10 @@
     "source_available": true,
     "support_claim": "review_receipts_require_matching_client_contract"
   },
-  "coverage_state": "pending_review"
+  "coverage_state": "pending_review",
+  "local_adaptation": {
+    "source": "bundled_game_build_26614559",
+    "gameplay_validation": "not_run",
+    "note": "The installed assistant data was adapted from the local game; live gameplay was not tested."
+  }
 }

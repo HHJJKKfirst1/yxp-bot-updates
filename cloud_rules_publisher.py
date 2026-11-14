@@ -141,7 +141,7 @@ def reviewed_notice_observations(notice,pack,registry):
         return pending('card_change_outside_reviewed_balance')
     try:
         if pack['engine_contract']!=receipt['engine_contract'] and not (
-            pack['engine_contract'] in (OCT29_CONTRACT,NOV05_CONTRACT)
+            pack['engine_contract'] in (OCT29_CONTRACT,NOV05_CONTRACT,NOV12_CONTRACT)
             and receipt['engine_contract']==OCT15_CONTRACT):raise RuleRejected('engine_changed')
         validate_pack(pack,registry)
         if len(receipt['faces'])!=30:raise RuleRejected('receipt_incomplete')
@@ -272,7 +272,7 @@ def monitor(folder,*,reader=read_url,now=None):
         # to v5, nor allow an edited source or an unrelated old receipt through.
         oct29_historical=(item['gid']=='1847920302233330' and
             item['url']=='https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302233330' and
-            proposed['engine_contract']==NOV05_CONTRACT and all(
+            proposed['engine_contract'] in (NOV05_CONTRACT,NOV12_CONTRACT) and all(
                 row.get('review',{}).get('engine_contract')==OCT29_CONTRACT for row in complete_review['items']))
         if complete_review['fully_reviewed'] and complete_review['items'] and (current_review or oct29_historical):
             # A gift fate mentioning a numeric card is not a second numeric
@@ -329,7 +329,7 @@ def monitor(folder,*,reader=read_url,now=None):
             manifest['minimum_assistant_version']=ADAPTER_MINIMUM_VERSION
         elif proposed['engine_contract']==OCT15_CONTRACT:
             manifest['minimum_assistant_version']=OCT15_MINIMUM_VERSION
-        elif proposed['engine_contract'] in (OCT29_CONTRACT,NOV05_CONTRACT):
+        elif proposed['engine_contract'] in (OCT29_CONTRACT,NOV05_CONTRACT,NOV12_CONTRACT):
             manifest['minimum_assistant_version']=OCT29_MINIMUM_VERSION
     # Record metadata only, not copied article bodies or user/game logs.
     status=dict(checked_at=now.isoformat(),notices=new_notices,pending=pending,source_errors=source_errors,
@@ -343,7 +343,7 @@ def monitor(folder,*,reader=read_url,now=None):
         supported_faces=len(proposed['cards']),supported_faces_scope='registered_numeric_faces_only',
         accepted_notices_scope='registered_numeric_faces_only',
         announcement_coverage=summary,coverage_state=summary['state'])
-    if proposed['engine_contract'] in (OCT29_CONTRACT,NOV05_CONTRACT):
+    if proposed['engine_contract'] in (OCT29_CONTRACT,NOV05_CONTRACT,NOV12_CONTRACT):
         metadata.update(supported_fate_rules=len(proposed['fates']),supported_mechanism_faces=len(proposed['mechanism_cards']))
     metadata_changed=any(manifest.get(key)!=value for key,value in metadata.items())
     if changed or compare(previous)!=compare(status) or heartbeat or metadata_changed:
