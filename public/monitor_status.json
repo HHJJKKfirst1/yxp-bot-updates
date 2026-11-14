@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-14T09:54:27.096115+00:00",
+  "checked_at": "2026-11-14T10:20:33.668684+00:00",
   "notices": [
     {
       "gid": "1848557880481669",
@@ -18,57 +18,6 @@
   ],
   "pending": [
     {
-      "gid": "1848557880481669",
-      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848557880481669",
-      "item_id": "025-93fc29fc260df740",
-      "item_sha256": "93fc29fc260df74048942ebfe19de8fefc4e543f60dea098a7cae8167038e6c7",
-      "target": "Heavenly Derivation - Falling Paper Clouds",
-      "section": [
-        "1.Balance Adjustment",
-        "Danqingke",
-        "Immortal Fate Pool 2 new Immortal Fates:"
-      ],
-      "reason": "announcement_item_requires_review"
-    },
-    {
-      "gid": "1849192144178065",
-      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
-      "item_id": "002-be08ff95ce097880",
-      "item_sha256": "be08ff95ce0978806f17caeeffdf477709cd5d0ea63109c1219b23498e87856b",
-      "target": "Dao of Ruiying (Li Chengyun, Virtuoso)",
-      "section": [
-        "2.Balance Adjustments",
-        "Character Immortal Fate Adjustments"
-      ],
-      "reason": "announcement_item_requires_review"
-    },
-    {
-      "gid": "1849192144178065",
-      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
-      "item_id": "004-951730f6ae09fd85",
-      "item_sha256": "951730f6ae09fd856917e26f6ed6f4d905a3bea347b751c8192f38b2ec88cfca",
-      "target": "Cunning Move Scroll, Sect Scroll",
-      "section": [
-        "2.Balance Adjustments",
-        "Xuan Si",
-        "Immortal Fate Adjustments"
-      ],
-      "reason": "announcement_item_requires_review"
-    },
-    {
-      "gid": "1849192144178065",
-      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
-      "item_id": "008-cbd602361b5f7c8c",
-      "item_sha256": "cbd602361b5f7c8ce2b1552f48b9f4022fb5ed70cadfa52116ebe5521f6233bc",
-      "target": "Heavenly Derivation - Wind in Sky",
-      "section": [
-        "2.Balance Adjustments",
-        "Gongshu Ju",
-        "Immortal Fate Adjustments"
-      ],
-      "reason": "announcement_item_requires_review"
-    },
-    {
       "gid": "1849192144178065",
       "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
       "item_id": "013-cdaf7f20108875c1",
@@ -78,56 +27,6 @@
         "2.Balance Adjustments",
         "Gongshu Yao",
         "Related Card Adjustments"
-      ],
-      "reason": "announcement_item_requires_review"
-    },
-    {
-      "gid": "1849192144178065",
-      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
-      "item_id": "021-b74ff7d391bd98eb",
-      "item_sha256": "b74ff7d391bd98eb698ecaf02783c4c034ffd48158628c7788f839dbec00bef0",
-      "target": "Strike the Void from Behind",
-      "section": [
-        "2.Balance Adjustments",
-        "Gongshu Yao",
-        "Immortal Fate Adjustments"
-      ],
-      "reason": "announcement_item_requires_review"
-    },
-    {
-      "gid": "1849192144178065",
-      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
-      "item_id": "024-144ac268f3c9fd54",
-      "item_sha256": "144ac268f3c9fd5455c04e42d215c60f558a0719bd7299961df2070fc77531e7",
-      "target": "Power of Raccoon",
-      "section": [
-        "2.Balance Adjustments",
-        "Jiu Jie",
-        "Related Card Adjustments"
-      ],
-      "reason": "announcement_item_requires_review"
-    },
-    {
-      "gid": "1849192144178065",
-      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
-      "item_id": "028-f0f9ecc5b39186bc",
-      "item_sha256": "f0f9ecc5b39186bcf265645491db32d84af4247e8d01030711062850d6bb5177",
-      "target": "When selecting various Cultivator Immortal Fates, you can now directly view their corresponding Suanni Immortal Fate Pools.",
-      "section": [
-        "2.Balance Adjustments",
-        "Suanni"
-      ],
-      "reason": "announcement_item_requires_review"
-    },
-    {
-      "gid": "1849192144178065",
-      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
-      "item_id": "029-b7d4a3a6b595d168",
-      "item_sha256": "b7d4a3a6b595d168dec4a897f9188966abff2a97c761bb0e4cdf0c30f44c8d58",
-      "target": "New Immortal Fate added to Immortal Fate Pool 1",
-      "section": [
-        "2.Balance Adjustments",
-        "Suanni"
       ],
       "reason": "announcement_item_requires_review"
     }
@@ -6012,8 +5911,20 @@
             ],
             "target": "Heavenly Derivation - Falling Paper Clouds",
             "kind": "immortal_fate",
-            "state": "pending_review",
-            "reason": "announcement_item_requires_review"
+            "state": "reviewed",
+            "review": {
+              "item_sha256": "93fc29fc260df74048942ebfe19de8fefc4e543f60dea098a7cae8167038e6c7",
+              "kind": "mechanism",
+              "engine_contract": "numeric-templates-6",
+              "minimum_assistant_version": "1.1.356",
+              "evidence_sha256": [
+                "c3c53f33e4164f8ec739834847580c5bdb5dd66d5092c771816f962fd48687c5",
+                "a2748643b82e21c65f8f254b0a0ad5b2c5022dfbe9ff0d231eb44b756bfb1d55",
+                "73bbb0ccc3fcb8513c6ff91ba50c3843f357dd3c8ee413fb0f4f8aa4a19bf5f2",
+                "127dcf54f425163a67d8fe26b3fc4d9fb6481b97fc7d766ea5bebeb29c9155fa",
+                "cfb76d72b2f41351e5db62fe1dda7c3e3ee81bdbce1e6db617ab609da54e3186"
+              ]
+            }
           },
           {
             "item_id": "026-653b7b89c2a41872",
@@ -6081,27 +5992,13 @@
             }
           }
         ],
-        "pending": [
-          {
-            "gid": "1848557880481669",
-            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848557880481669",
-            "item_id": "025-93fc29fc260df740",
-            "item_sha256": "93fc29fc260df74048942ebfe19de8fefc4e543f60dea098a7cae8167038e6c7",
-            "target": "Heavenly Derivation - Falling Paper Clouds",
-            "section": [
-              "1.Balance Adjustment",
-              "Danqingke",
-              "Immortal Fate Pool 2 new Immortal Fates:"
-            ],
-            "reason": "announcement_item_requires_review"
-          }
-        ],
-        "reviewed_count": 27,
+        "pending": [],
+        "reviewed_count": 28,
         "excluded_count": 0,
         "item_count": 28,
-        "pending_count": 1,
-        "state": "pending_review",
-        "fully_reviewed": false,
+        "pending_count": 0,
+        "state": "reviewed",
+        "fully_reviewed": true,
         "notice_sha256": "0a8f96b82ba9f20badc387ed7b69b284c294aa01ee42fd391fe36e4dc4921621"
       },
       "1849192144178065": {
@@ -6143,8 +6040,20 @@
             ],
             "target": "Dao of Ruiying (Li Chengyun, Virtuoso)",
             "kind": "immortal_fate",
-            "state": "pending_review",
-            "reason": "announcement_item_requires_review"
+            "state": "reviewed",
+            "review": {
+              "item_sha256": "be08ff95ce0978806f17caeeffdf477709cd5d0ea63109c1219b23498e87856b",
+              "kind": "mechanism",
+              "engine_contract": "numeric-templates-6",
+              "minimum_assistant_version": "1.1.356",
+              "evidence_sha256": [
+                "c3c53f33e4164f8ec739834847580c5bdb5dd66d5092c771816f962fd48687c5",
+                "a2748643b82e21c65f8f254b0a0ad5b2c5022dfbe9ff0d231eb44b756bfb1d55",
+                "73bbb0ccc3fcb8513c6ff91ba50c3843f357dd3c8ee413fb0f4f8aa4a19bf5f2",
+                "127dcf54f425163a67d8fe26b3fc4d9fb6481b97fc7d766ea5bebeb29c9155fa",
+                "cfb76d72b2f41351e5db62fe1dda7c3e3ee81bdbce1e6db617ab609da54e3186"
+              ]
+            }
           },
           {
             "item_id": "003-94c6c14f62d157f1",
@@ -6179,8 +6088,20 @@
             ],
             "target": "Cunning Move Scroll, Sect Scroll",
             "kind": "immortal_fate",
-            "state": "pending_review",
-            "reason": "announcement_item_requires_review"
+            "state": "reviewed",
+            "review": {
+              "item_sha256": "951730f6ae09fd856917e26f6ed6f4d905a3bea347b751c8192f38b2ec88cfca",
+              "kind": "mechanism",
+              "engine_contract": "numeric-templates-6",
+              "minimum_assistant_version": "1.1.356",
+              "evidence_sha256": [
+                "c3c53f33e4164f8ec739834847580c5bdb5dd66d5092c771816f962fd48687c5",
+                "a2748643b82e21c65f8f254b0a0ad5b2c5022dfbe9ff0d231eb44b756bfb1d55",
+                "73bbb0ccc3fcb8513c6ff91ba50c3843f357dd3c8ee413fb0f4f8aa4a19bf5f2",
+                "127dcf54f425163a67d8fe26b3fc4d9fb6481b97fc7d766ea5bebeb29c9155fa",
+                "cfb76d72b2f41351e5db62fe1dda7c3e3ee81bdbce1e6db617ab609da54e3186"
+              ]
+            }
           },
           {
             "item_id": "005-a9f155bd0a4b748e",
@@ -6261,8 +6182,20 @@
             ],
             "target": "Heavenly Derivation - Wind in Sky",
             "kind": "immortal_fate",
-            "state": "pending_review",
-            "reason": "announcement_item_requires_review"
+            "state": "reviewed",
+            "review": {
+              "item_sha256": "cbd602361b5f7c8ce2b1552f48b9f4022fb5ed70cadfa52116ebe5521f6233bc",
+              "kind": "mechanism",
+              "engine_contract": "numeric-templates-6",
+              "minimum_assistant_version": "1.1.356",
+              "evidence_sha256": [
+                "c3c53f33e4164f8ec739834847580c5bdb5dd66d5092c771816f962fd48687c5",
+                "a2748643b82e21c65f8f254b0a0ad5b2c5022dfbe9ff0d231eb44b756bfb1d55",
+                "73bbb0ccc3fcb8513c6ff91ba50c3843f357dd3c8ee413fb0f4f8aa4a19bf5f2",
+                "127dcf54f425163a67d8fe26b3fc4d9fb6481b97fc7d766ea5bebeb29c9155fa",
+                "cfb76d72b2f41351e5db62fe1dda7c3e3ee81bdbce1e6db617ab609da54e3186"
+              ]
+            }
           },
           {
             "item_id": "009-2a3c2faab8db481b",
@@ -6540,8 +6473,20 @@
             ],
             "target": "Strike the Void from Behind",
             "kind": "immortal_fate",
-            "state": "pending_review",
-            "reason": "announcement_item_requires_review"
+            "state": "reviewed",
+            "review": {
+              "item_sha256": "b74ff7d391bd98eb698ecaf02783c4c034ffd48158628c7788f839dbec00bef0",
+              "kind": "mechanism",
+              "engine_contract": "numeric-templates-6",
+              "minimum_assistant_version": "1.1.356",
+              "evidence_sha256": [
+                "c3c53f33e4164f8ec739834847580c5bdb5dd66d5092c771816f962fd48687c5",
+                "a2748643b82e21c65f8f254b0a0ad5b2c5022dfbe9ff0d231eb44b756bfb1d55",
+                "73bbb0ccc3fcb8513c6ff91ba50c3843f357dd3c8ee413fb0f4f8aa4a19bf5f2",
+                "127dcf54f425163a67d8fe26b3fc4d9fb6481b97fc7d766ea5bebeb29c9155fa",
+                "cfb76d72b2f41351e5db62fe1dda7c3e3ee81bdbce1e6db617ab609da54e3186"
+              ]
+            }
           },
           {
             "item_id": "022-915b42b0685c9aac",
@@ -6598,8 +6543,20 @@
             ],
             "target": "Power of Raccoon",
             "kind": "card",
-            "state": "pending_review",
-            "reason": "announcement_item_requires_review"
+            "state": "reviewed",
+            "review": {
+              "item_sha256": "144ac268f3c9fd5455c04e42d215c60f558a0719bd7299961df2070fc77531e7",
+              "kind": "mechanism",
+              "engine_contract": "numeric-templates-6",
+              "minimum_assistant_version": "1.1.356",
+              "evidence_sha256": [
+                "c3c53f33e4164f8ec739834847580c5bdb5dd66d5092c771816f962fd48687c5",
+                "a2748643b82e21c65f8f254b0a0ad5b2c5022dfbe9ff0d231eb44b756bfb1d55",
+                "73bbb0ccc3fcb8513c6ff91ba50c3843f357dd3c8ee413fb0f4f8aa4a19bf5f2",
+                "127dcf54f425163a67d8fe26b3fc4d9fb6481b97fc7d766ea5bebeb29c9155fa",
+                "cfb76d72b2f41351e5db62fe1dda7c3e3ee81bdbce1e6db617ab609da54e3186"
+              ]
+            }
           },
           {
             "item_id": "025-b6b0d5326c8becbe",
@@ -6678,8 +6635,20 @@
             ],
             "target": "When selecting various Cultivator Immortal Fates, you can now directly view their corresponding Suanni Immortal Fate Pools.",
             "kind": "unknown",
-            "state": "pending_review",
-            "reason": "announcement_item_requires_review"
+            "state": "reviewed",
+            "review": {
+              "item_sha256": "f0f9ecc5b39186bcf265645491db32d84af4247e8d01030711062850d6bb5177",
+              "kind": "mechanism",
+              "engine_contract": "numeric-templates-6",
+              "minimum_assistant_version": "1.1.356",
+              "evidence_sha256": [
+                "c3c53f33e4164f8ec739834847580c5bdb5dd66d5092c771816f962fd48687c5",
+                "a2748643b82e21c65f8f254b0a0ad5b2c5022dfbe9ff0d231eb44b756bfb1d55",
+                "73bbb0ccc3fcb8513c6ff91ba50c3843f357dd3c8ee413fb0f4f8aa4a19bf5f2",
+                "127dcf54f425163a67d8fe26b3fc4d9fb6481b97fc7d766ea5bebeb29c9155fa",
+                "cfb76d72b2f41351e5db62fe1dda7c3e3ee81bdbce1e6db617ab609da54e3186"
+              ]
+            }
           },
           {
             "item_id": "029-b7d4a3a6b595d168",
@@ -6690,49 +6659,23 @@
             ],
             "target": "New Immortal Fate added to Immortal Fate Pool 1",
             "kind": "unknown",
-            "state": "pending_review",
-            "reason": "announcement_item_requires_review"
+            "state": "reviewed",
+            "review": {
+              "item_sha256": "b7d4a3a6b595d168dec4a897f9188966abff2a97c761bb0e4cdf0c30f44c8d58",
+              "kind": "mechanism",
+              "engine_contract": "numeric-templates-6",
+              "minimum_assistant_version": "1.1.356",
+              "evidence_sha256": [
+                "c3c53f33e4164f8ec739834847580c5bdb5dd66d5092c771816f962fd48687c5",
+                "a2748643b82e21c65f8f254b0a0ad5b2c5022dfbe9ff0d231eb44b756bfb1d55",
+                "73bbb0ccc3fcb8513c6ff91ba50c3843f357dd3c8ee413fb0f4f8aa4a19bf5f2",
+                "127dcf54f425163a67d8fe26b3fc4d9fb6481b97fc7d766ea5bebeb29c9155fa",
+                "cfb76d72b2f41351e5db62fe1dda7c3e3ee81bdbce1e6db617ab609da54e3186"
+              ]
+            }
           }
         ],
         "pending": [
-          {
-            "gid": "1849192144178065",
-            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
-            "item_id": "002-be08ff95ce097880",
-            "item_sha256": "be08ff95ce0978806f17caeeffdf477709cd5d0ea63109c1219b23498e87856b",
-            "target": "Dao of Ruiying (Li Chengyun, Virtuoso)",
-            "section": [
-              "2.Balance Adjustments",
-              "Character Immortal Fate Adjustments"
-            ],
-            "reason": "announcement_item_requires_review"
-          },
-          {
-            "gid": "1849192144178065",
-            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
-            "item_id": "004-951730f6ae09fd85",
-            "item_sha256": "951730f6ae09fd856917e26f6ed6f4d905a3bea347b751c8192f38b2ec88cfca",
-            "target": "Cunning Move Scroll, Sect Scroll",
-            "section": [
-              "2.Balance Adjustments",
-              "Xuan Si",
-              "Immortal Fate Adjustments"
-            ],
-            "reason": "announcement_item_requires_review"
-          },
-          {
-            "gid": "1849192144178065",
-            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
-            "item_id": "008-cbd602361b5f7c8c",
-            "item_sha256": "cbd602361b5f7c8ce2b1552f48b9f4022fb5ed70cadfa52116ebe5521f6233bc",
-            "target": "Heavenly Derivation - Wind in Sky",
-            "section": [
-              "2.Balance Adjustments",
-              "Gongshu Ju",
-              "Immortal Fate Adjustments"
-            ],
-            "reason": "announcement_item_requires_review"
-          },
           {
             "gid": "1849192144178065",
             "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
@@ -6745,62 +6688,12 @@
               "Related Card Adjustments"
             ],
             "reason": "announcement_item_requires_review"
-          },
-          {
-            "gid": "1849192144178065",
-            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
-            "item_id": "021-b74ff7d391bd98eb",
-            "item_sha256": "b74ff7d391bd98eb698ecaf02783c4c034ffd48158628c7788f839dbec00bef0",
-            "target": "Strike the Void from Behind",
-            "section": [
-              "2.Balance Adjustments",
-              "Gongshu Yao",
-              "Immortal Fate Adjustments"
-            ],
-            "reason": "announcement_item_requires_review"
-          },
-          {
-            "gid": "1849192144178065",
-            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
-            "item_id": "024-144ac268f3c9fd54",
-            "item_sha256": "144ac268f3c9fd5455c04e42d215c60f558a0719bd7299961df2070fc77531e7",
-            "target": "Power of Raccoon",
-            "section": [
-              "2.Balance Adjustments",
-              "Jiu Jie",
-              "Related Card Adjustments"
-            ],
-            "reason": "announcement_item_requires_review"
-          },
-          {
-            "gid": "1849192144178065",
-            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
-            "item_id": "028-f0f9ecc5b39186bc",
-            "item_sha256": "f0f9ecc5b39186bcf265645491db32d84af4247e8d01030711062850d6bb5177",
-            "target": "When selecting various Cultivator Immortal Fates, you can now directly view their corresponding Suanni Immortal Fate Pools.",
-            "section": [
-              "2.Balance Adjustments",
-              "Suanni"
-            ],
-            "reason": "announcement_item_requires_review"
-          },
-          {
-            "gid": "1849192144178065",
-            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
-            "item_id": "029-b7d4a3a6b595d168",
-            "item_sha256": "b7d4a3a6b595d168dec4a897f9188966abff2a97c761bb0e4cdf0c30f44c8d58",
-            "target": "New Immortal Fate added to Immortal Fate Pool 1",
-            "section": [
-              "2.Balance Adjustments",
-              "Suanni"
-            ],
-            "reason": "announcement_item_requires_review"
           }
         ],
-        "reviewed_count": 21,
+        "reviewed_count": 28,
         "excluded_count": 0,
         "item_count": 29,
-        "pending_count": 8,
+        "pending_count": 1,
         "state": "pending_review",
         "fully_reviewed": false,
         "notice_sha256": "4df4e1435092280cc750873ee306fffe5c2a5fd3335fc45e8d82aeca05dbc8e5"
@@ -6808,9 +6701,9 @@
     },
     "latest_notice_gid": "1849192144178065",
     "latest_item_count": 29,
-    "latest_reviewed_count": 21,
+    "latest_reviewed_count": 28,
     "latest_excluded_count": 0,
-    "latest_pending_count": 8,
+    "latest_pending_count": 1,
     "state": "pending_review",
     "source_available": true,
     "support_claim": "review_receipts_require_matching_client_contract"
