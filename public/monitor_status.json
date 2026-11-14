@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-14T04:36:24.775369+00:00",
+  "checked_at": "2026-11-14T04:43:13.098040+00:00",
   "notices": [
     {
       "gid": "1848557880481669",
@@ -17,21 +17,6 @@
     }
   ],
   "pending": [
-    {
-      "base_id": 9,
-      "reason": "notice_needs_specific_adapter",
-      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065"
-    },
-    {
-      "base_id": 28,
-      "reason": "notice_needs_specific_adapter",
-      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065"
-    },
-    {
-      "base_id": 29,
-      "reason": "notice_needs_specific_adapter",
-      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065"
-    },
     {
       "gid": "1848557880481669",
       "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848557880481669",
