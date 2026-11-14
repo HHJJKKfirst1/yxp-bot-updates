@@ -1,0 +1,65 @@
+{
+  "schema": 1,
+  "scope": "user-selected official announcement policy; not a proof of live server behaviour",
+  "item_id": "013-cdaf7f20108875c1",
+  "item_sha256": "cdaf7f20108875c15f615e679baa2338f49344438d2638cb4b7b188ff8227c03",
+  "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+  "game_build_id": 26660739,
+  "client_parameters": [
+    2,
+    3,
+    4
+  ],
+  "announcement_parameters": [
+    3,
+    4,
+    5
+  ],
+  "selected_parameters": [
+    3,
+    4,
+    5
+  ],
+  "policy": "user_explicitly_selected_official_announcement",
+  "gameplay_validation": "not_run",
+  "required_patch": "five_elements_official_v356",
+  "assistant_version": "1.1.356",
+  "assistant_source_commit": "f3a84b6ee6c87e2ef75a7b7a40427076697b766d",
+  "candidate_full_sha256": "9df3d6905376db2e4ce264da5cdd81b5be81f823be239c200d35a0b0a8dba4c9",
+  "candidate_incremental_sha256": "c70f0b5823368f5bb37509c5ff262e236baa290f8501a46269f5614bed7565ff",
+  "source_sha256": {
+    "yisim_damage_simulator.py": "f66b5f5e04c58e226abcb9e489adbbb1f4716d4467e0b648c8074b86978e4014",
+    "yisim_damage_engine.js": "2932be5ddee31103a12488d02d329bb9270aff187aad5d1f3f3b82d6cef0d1b8",
+    "coach_engine.py": "b964fc41539a178649705e70917fe49d915da5cd61c132e59cdee5262632d93e",
+    "native_model_guard.js": "322333dca601aeceee2744214638ac86bece7b3d1e23e9703cccb5ef39bcc772",
+    "native_model_manifest.json": "f444991933f97dc7be9e5f2319d28c84b87341613c93d4dc1ec347fb54a5f3d1",
+    "native_acceleration_manifest.json": "a23a2aebfc4c5422f38617cd3b90ad2ca522a06f0dce8a5af5639ad5e65715d0"
+  },
+  "test_file_sha256": "4d5957d0d3c4452059d70fc2ceb492e6e3e1294cbc1a9348f49a0bfac7d5bd90",
+  "test_output": "audits/2026-11-14-five-elements-scoped-tests.txt",
+  "test_output_sha256": "bc32b640585a8095255e6ff77aef8e5b56726a1b7afadddd5d42fbe224ab17d5",
+  "native_parity": [
+    {
+      "rules_sha256": "8b78ce823933b25c54f8f0e316e08dec934bf0515819cbdbbde2379b2e2cf9b9",
+      "cases": 60,
+      "source_native_equal": true,
+      "model_trusted": true,
+      "trace_reuse_verified": true
+    },
+    {
+      "rules_sha256": "28fc2643ae9ed097742c1514a8b21156155d2361f677d4d532d2a986063ec3f7",
+      "cases": 60,
+      "source_native_equal": true,
+      "model_trusted": true,
+      "trace_reuse_verified": true
+    },
+    {
+      "rules_sha256": "290bd8312be969792bcec1a8097b27e89c5a879f102ab20b7b0ce83093ed49c3",
+      "cases": 60,
+      "source_native_equal": true,
+      "model_trusted": true,
+      "trace_reuse_verified": true
+    }
+  ],
+  "limitation": "Current client code still uses 2/3/4. The user explicitly chose to simulate 3/4/5; real game damage may differ."
+}

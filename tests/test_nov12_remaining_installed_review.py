@@ -2,7 +2,9 @@
 
 The old public ledger kept all nine entries pending after the accepted patch.
 These checks bind the additional reviews to the installed-patch evidence and
-preserve the unrelated official/client disagreement as a pending item.
+preserve the unrelated official/client disagreement as a pending item in that
+frozen review. The later user-selected announcement policy is checked by
+test_five_elements_official_override.py and keeps the discrepancy visible.
 """
 import hashlib
 import json
@@ -71,9 +73,9 @@ class RemainingInstalledReviewTests(unittest.TestCase):
             self.assertIsNone(_review(ledger, inventory, changed)[0])
 
     def test_numeric_disagreement_is_not_removed_from_pending(self):
-        ledger = read('notice_coverage_reviews.json')
+        ledger = read('tests/notice_coverage_reviews_pre_official_override_20261114.json')
         audit = read('audits/2026-11-14-remaining-installed-review.json')
-        manifest = read('public/manifest.json')
+        manifest = read('tests/manifest_pre_official_override_20261114.json')
         self.assertNotIn(CONFLICT, ledger['notices']['1849192144178065']['items'])
         self.assertIn(CONFLICT, audit['unresolved_items'])
         self.assertEqual(audit['five_elements_native_parameters'], [2, 3, 4])

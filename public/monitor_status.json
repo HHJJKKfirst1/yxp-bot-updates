@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-14T10:20:33.668684+00:00",
+  "checked_at": "2026-11-14T10:38:55.536936+00:00",
   "notices": [
     {
       "gid": "1848557880481669",
@@ -7,30 +7,9 @@
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848557880481669",
       "date": 1793847299,
       "sha256": "0a8f96b82ba9f20badc387ed7b69b284c294aa01ee42fd391fe36e4dc4921621"
-    },
-    {
-      "gid": "1849192144178065",
-      "title": "Update on Nov. 12",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
-      "date": 1794392285,
-      "sha256": "4df4e1435092280cc750873ee306fffe5c2a5fd3335fc45e8d82aeca05dbc8e5"
     }
   ],
-  "pending": [
-    {
-      "gid": "1849192144178065",
-      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
-      "item_id": "013-cdaf7f20108875c1",
-      "item_sha256": "cdaf7f20108875c15f615e679baa2338f49344438d2638cb4b7b188ff8227c03",
-      "target": "Ultimate: Five Elements Spirit Strike",
-      "section": [
-        "2.Balance Adjustments",
-        "Gongshu Yao",
-        "Related Card Adjustments"
-      ],
-      "reason": "announcement_item_requires_review"
-    }
-  ],
+  "pending": [],
   "source_errors": [],
   "changed_native_ids": [],
   "state": "verified",
@@ -6299,8 +6278,18 @@
             ],
             "target": "Ultimate: Five Elements Spirit Strike",
             "kind": "card",
-            "state": "pending_review",
-            "reason": "announcement_item_requires_review"
+            "state": "reviewed",
+            "review": {
+              "item_sha256": "cdaf7f20108875c15f615e679baa2338f49344438d2638cb4b7b188ff8227c03",
+              "kind": "mechanism",
+              "engine_contract": "numeric-templates-6",
+              "minimum_assistant_version": "1.1.356",
+              "evidence_sha256": [
+                "1ca29f351a30d5c28e0abfe22c3bd7ab246cdf8deff0b6246e40262aa734e8b7",
+                "bc32b640585a8095255e6ff77aef8e5b56726a1b7afadddd5d42fbe224ab17d5",
+                "4d5957d0d3c4452059d70fc2ceb492e6e3e1294cbc1a9348f49a0bfac7d5bd90"
+              ]
+            }
           },
           {
             "item_id": "014-0e7c8a6000df8ece",
@@ -6675,38 +6664,24 @@
             }
           }
         ],
-        "pending": [
-          {
-            "gid": "1849192144178065",
-            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
-            "item_id": "013-cdaf7f20108875c1",
-            "item_sha256": "cdaf7f20108875c15f615e679baa2338f49344438d2638cb4b7b188ff8227c03",
-            "target": "Ultimate: Five Elements Spirit Strike",
-            "section": [
-              "2.Balance Adjustments",
-              "Gongshu Yao",
-              "Related Card Adjustments"
-            ],
-            "reason": "announcement_item_requires_review"
-          }
-        ],
-        "reviewed_count": 28,
+        "pending": [],
+        "reviewed_count": 29,
         "excluded_count": 0,
         "item_count": 29,
-        "pending_count": 1,
-        "state": "pending_review",
-        "fully_reviewed": false,
+        "pending_count": 0,
+        "state": "reviewed",
+        "fully_reviewed": true,
         "notice_sha256": "4df4e1435092280cc750873ee306fffe5c2a5fd3335fc45e8d82aeca05dbc8e5"
       }
     },
     "latest_notice_gid": "1849192144178065",
     "latest_item_count": 29,
-    "latest_reviewed_count": 28,
+    "latest_reviewed_count": 29,
     "latest_excluded_count": 0,
-    "latest_pending_count": 1,
-    "state": "pending_review",
+    "latest_pending_count": 0,
+    "state": "reviewed",
     "source_available": true,
     "support_claim": "review_receipts_require_matching_client_contract"
   },
-  "coverage_state": "pending_review"
+  "coverage_state": "reviewed"
 }
