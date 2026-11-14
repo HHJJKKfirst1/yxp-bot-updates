@@ -42,6 +42,14 @@ class FiveElementsOfficialOverrideTests(unittest.TestCase):
         self.assertEqual(audit['required_patch'], 'five_elements_official_v356')
         summary = ROOT / audit['test_output']
         self.assertEqual(sha(summary), audit['test_output_sha256'])
+        # Candidate 1 failed because an older test still assumed the client
+        # default. Candidate 2 retains that assertion via the native policy.
+        scoped = audit['candidate2_scoped_tests']
+        self.assertEqual(sha(ROOT / scoped['path']), scoped['sha256'])
+        self.assertEqual((scoped['passed'], scoped['subtests_passed']), (68, 51))
+        self.assertEqual(len(audit['assistant_source_commit']), 40)
+        self.assertEqual(len(audit['candidate_full_sha256']), 64)
+        self.assertEqual(len(audit['candidate_incremental_sha256']), 64)
         review = ledger['notices'][GID]['items'][ITEM]
         self.assertEqual(review['item_sha256'], audit['item_sha256'])
         self.assertEqual(review['evidence_sha256'], [sha(audit_path), sha(summary), audit['test_file_sha256']])

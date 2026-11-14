@@ -24,9 +24,9 @@
   "gameplay_validation": "not_run",
   "required_patch": "five_elements_official_v356",
   "assistant_version": "1.1.356",
-  "assistant_source_commit": "f3a84b6ee6c87e2ef75a7b7a40427076697b766d",
-  "candidate_full_sha256": "9df3d6905376db2e4ce264da5cdd81b5be81f823be239c200d35a0b0a8dba4c9",
-  "candidate_incremental_sha256": "c70f0b5823368f5bb37509c5ff262e236baa290f8501a46269f5614bed7565ff",
+  "assistant_source_commit": "44bcf3230521591b48e7d3f5c565b4ff5f3c92cc",
+  "candidate_full_sha256": "735afb5bb5696a25b06d85f906ed56fe69b797486577ea0219acb85a77936a64",
+  "candidate_incremental_sha256": "21c1cc5e951ba0bce9349429a52a0dd0093980d60af4ec44d2e3b5fdc5611d18",
   "source_sha256": {
     "yisim_damage_simulator.py": "f66b5f5e04c58e226abcb9e489adbbb1f4716d4467e0b648c8074b86978e4014",
     "yisim_damage_engine.js": "2932be5ddee31103a12488d02d329bb9270aff187aad5d1f3f3b82d6cef0d1b8",
@@ -61,5 +61,12 @@
       "trace_reuse_verified": true
     }
   ],
-  "limitation": "Current client code still uses 2/3/4. The user explicitly chose to simulate 3/4/5; real game damage may differ."
+  "limitation": "Current client code still uses 2/3/4. The user explicitly chose to simulate 3/4/5; real game damage may differ.",
+  "candidate2_scoped_tests": {
+    "path": "audits/2026-11-14-five-elements-candidate2-scoped.txt",
+    "sha256": "7a57985d0be250a91c72e0b39249fd1fe6e0cef39e31b1b12c00c0c5b0de9bed",
+    "passed": 68,
+    "subtests_passed": 51,
+    "historical_test_sha256": "c3c823fa0df3d145086b0987675f2aefc1fb53d7eaa537fcc1575cb73db554f1"
+  }
 }
