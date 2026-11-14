@@ -1,0 +1,17 @@
+{
+  "reason": "scheduled cloud checks were delayed beyond the client two-hour freshness window",
+  "previous_source_checked_at": "2026-11-14T07:46:12.128817+00:00",
+  "source_checked_at": "2026-11-14T09:54:27.096115+00:00",
+  "result": "verified",
+  "source_errors": [],
+  "pending_count": 9,
+  "wiki_families_checked": 26,
+  "unchanged_rules_revision": "2026.11.12.9",
+  "unchanged_canonical_rules_sha256": "8b78ce823933b25c54f8f0e316e08dec934bf0515819cbdbbde2379b2e2cf9b9",
+  "changed_native_ids": [],
+  "tests": {
+    "before": "python -S -m unittest discover -s tests: 84 passed",
+    "after": "python -S -m unittest discover -s tests: 84 passed"
+  },
+  "limitation": "GitHub scheduled runs can still be delayed; this refresh does not fix scheduler reliability"
+}
