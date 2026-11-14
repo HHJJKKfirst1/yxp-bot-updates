@@ -2449,6 +2449,20 @@
             "43c345069ef0e296417cf50d6c0605c4afc445bfa2a89732dbf9fc9a4fc83b6d",
             "9daa26d28945f779852507b3f0a0965a6ca300bd439c02bcb511045dee252ec0"
           ]
+        },
+        "048-9afc786087da4ee8": {
+          "item_sha256": "9afc786087da4ee8ed7e20fab2b0371226dde4f68960a4b25bc46b459e771089",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-6",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "c99fdb66dd4789bf306614afdf4ff3abad1cbe1b7677474e73f9dfd21f5e2eed",
+            "88c43cdf1ea1a67ea539fa5ee2794cc355c3e7a712531ada69cf086a6580e192",
+            "8a9ff65a943e1ea075840cbf33537c07aa92843cf68602eca692a61749c3fd78",
+            "8798c1d8558e6b9336a17d7ae352e7abbd2bbc7a911c17b72e6011bc54979f18",
+            "43c368b04b870a27c230cffbd47d17ac1932113035fcad96643bc914f1cd4991",
+            "dbfab55ec0f38ce9cad309a8ef973c55fa6ae08fe1fe17a4dc61286a2b36c0a3"
+          ]
         }
       }
     },

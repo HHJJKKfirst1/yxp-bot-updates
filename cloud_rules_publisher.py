@@ -221,6 +221,23 @@ def notice_effective_at(item):
     # Existing hotfix wording binds "today" to the announcement's date.
     hotfix=re.search(r'(\d{1,2}):(\d{2})\s*today\b',content,re.I)
     if hotfix:return day.replace(hour=int(hotfix[1]),minute=int(hotfix[2]),second=0,microsecond=0)
+    # The Nov 12 announcement was published Wednesday evening and says
+    # "update at 14:00 this Thursday (UTC+8)". Resolve only one explicitly
+    # stated weekday in the same local calendar week. Past weekdays and an
+    # ambiguous or inconsistent date remain pending instead of guessing.
+    weekday=re.findall(r'\bupdate\s+at\s+(\d{1,2}):(\d{2})\s+this\s+'
+        r'(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)\s*\(UTC\s*\+\s*8\)',content,re.I)
+    if len(weekday)>1:return None
+    if len(weekday)==1:
+        hour,minute,word=weekday[0]
+        names=('monday','tuesday','wednesday','thursday','friday','saturday','sunday')
+        days=names.index(word.lower())-day.weekday()
+        if days<0 or int(hour)>23 or int(minute)>59:return None
+        effective=(day+timedelta(days=days)).replace(hour=int(hour),minute=int(minute),second=0,microsecond=0)
+        title=re.search(r'\bupdate\s+on\s+(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\.?\s+(\d{1,2})\b',str(item.get('title','')),re.I)
+        short=('jan','feb','mar','apr','may','jun','jul','aug','sep','oct','nov','dec')
+        if title and (effective.month!=short.index(title[1].lower())+1 or effective.day!=int(title[2])):return None
+        return effective
     # Season launches put the absolute date before the clock, e.g.
     # "on October 15 at 11:00(UTC+8)". A clock alone is not sufficient.
     launch=re.search(r'on\s+([A-Za-z]+)\s+(\d{1,2})\s+at\s+(\d{1,2}):(\d{2})\s*\(UTC\s*\+\s*8\)',content,re.I)

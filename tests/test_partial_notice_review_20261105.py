@@ -20,7 +20,10 @@ class PartialNoticeReviewTests(unittest.TestCase):
                 audit = AUDIT['notices'][gid]
                 self.assertEqual(receipt['balance_sha256'], audit['balance_sha256'])
                 self.assertEqual(len(audit['items']), count)
-                self.assertEqual(set(receipt['items']), set(audit['items']))
+                # The Nov 5 receipt intentionally withheld 7119; Nov 14
+                # verified the installed v6 fix with a separate exact audit.
+                later = {'048-9afc786087da4ee8'} if gid == '1847286114031033' else set()
+                self.assertEqual(set(receipt['items']), set(audit['items']) | later)
                 for item_id, explanation in audit['items'].items():
                     row = receipt['items'][item_id]
                     self.assertEqual(row['item_sha256'][:16], item_id.split('-')[1])
@@ -30,10 +33,10 @@ class PartialNoticeReviewTests(unittest.TestCase):
                     self.assertEqual(row['evidence_sha256'], [sources[p] for p in explanation['evidence']])
                     self.assertTrue(explanation['scope'])
 
-    def test_unknown_probability_and_same_version_fix_stay_pending(self):
+    def test_unknown_probability_stays_pending_after_installed_fix_is_reviewed(self):
         old = LEDGER['notices']['1847286114031033']['items']
         new = LEDGER['notices']['1848557880481669']['items']
-        self.assertFalse(any(k.startswith('048-') for k in old))
+        self.assertEqual(old['048-9afc786087da4ee8']['engine_contract'], 'numeric-templates-6')
         self.assertFalse(any(k.startswith('025-') for k in new))
         limits = '\n'.join(AUDIT['limits'])
         self.assertIn('randomly triggered battle effect remains unsupported', limits)
