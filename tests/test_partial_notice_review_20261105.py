@@ -1,4 +1,8 @@
-"""Partial receipts must stay source-bound and must not hide known gaps."""
+"""The original partial receipts remain source-bound and retain old gaps.
+
+The later user-approved uniform estimate is checked separately; this frozen
+fixture keeps all exact assertions about the original review unchanged.
+"""
 import json
 import re
 import unittest
@@ -6,7 +10,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 AUDIT = json.loads((ROOT / 'audits/2026-11-05-partial-notice-review.json').read_text('utf8'))
-LEDGER = json.loads((ROOT / 'notice_coverage_reviews.json').read_text('utf8'))
+LEDGER = json.loads((ROOT / 'tests/notice_coverage_reviews_pre_patch_20261114.json').read_text('utf8'))
 
 
 class PartialNoticeReviewTests(unittest.TestCase):

@@ -1,0 +1,127 @@
+{
+  "schema": 1,
+  "scope": "source-bound review of eight previously pending announcements against the locally installed game and assistant; no live game or server validation",
+  "assistant_version": "1.1.356",
+  "required_patches": [
+    "nov12_remaining_v356",
+    "uniform_random_v356"
+  ],
+  "assistant_source_commit": "a239801652757d5c1c1ea2a1592864b41448c56e",
+  "assistant_accepted_full_sha256": "e33673bc7c25d8ccbdc7d55474b09d5b6974890c283e74f2681fcb4a59fb5c12",
+  "installed_source_sha256": {
+    "joint_repair_artifacts/baijia_books.py": "7a03b17583c70eaf7d6417d001a1a96e2032cea2341cb8ea4b0fb9a7955c4d24",
+    "joint_repair_artifacts/baijia_extra_preparation.py": "a1fbd638804271092911a5b6645767adeb325da01a228a5d3fe34d40695feef3",
+    "joint_repair_artifacts/baijia_runtime.py": "61cd634953cd219f1e331239bbb3bec1f4d4b09b3c6760f01ce084e6395906fd",
+    "joint_repair_artifacts/baijia_transform.py": "08ea7151376d4d8196250244f17518330af5ff5efe048310c57e9cf5b0b9e47d",
+    "joint_repair_artifacts/baijia_battle_end.py": "6c984f4c407387e505741747fc5a8d36edb5aa87e797c5715a4fc562244ecd3e",
+    "joint_repair_artifacts/native_postbattle_contracts.json": "9e40b9a916ddbd85915557ea3e42eb34b75182762986c7d126331e34b12bd7ec",
+    "joint_repair_artifacts/baijia_suanni_skip.py": "c7087825806223cb89be2b931bc672546da9bdb3051769aee7b0a66ff943354f",
+    "joint_repair_artifacts/baijia_active_effects.py": "692f1511773dace5595fca2eed2a1b26b14dcc34ed4e9e34c495b8c1df42d7fa",
+    "joint_repair_artifacts/nov12_card_catalogue_contracts.json": "07d84e9602d02b07c7863c104aa7773e4793220f53ae77dc63ad759db7c225dc",
+    "baijia_agent.js": "e20ac5e4f95a81e3a5508b1d88ddda710fbda6dc3b0546565cc8e96cd5440557",
+    "baijia_combat_hooks.js": "55a906c96d733d6bb14227d7d505ccfefdb13258888d51ecc0a0f56801875fc0",
+    "yisim_damage_simulator.py": "697ea9df2fee0eb7c2a227232d3480b625dbee8e887c0acc2e9428fcea8178ca",
+    "yisim_damage_engine.js": "3d924c14d911c38001fc57cf44f79c93b630b1032f6d10abe029224bddc3de04"
+  },
+  "installed_test_sha256": {
+    "joint_repair_artifacts/test_nov12_pending_adaptation.py": "73bbb0ccc3fcb8513c6ff91ba50c3843f357dd3c8ee413fb0f4f8aa4a19bf5f2",
+    "joint_repair_artifacts/test_suanni_skip_preview_v356.py": "127dcf54f425163a67d8fe26b3fc4d9fb6481b97fc7d766ea5bebeb29c9155fa",
+    "joint_repair_artifacts/test_nov05_rules_v356.py": "cfb76d72b2f41351e5db62fe1dda7c3e3ee81bdbce1e6db617ab609da54e3186"
+  },
+  "offline_tests": {
+    "passed": 94,
+    "failed": 0,
+    "output": "audits/2026-11-14-remaining-installed-tests.txt",
+    "output_sha256": "a2748643b82e21c65f8f254b0a0ad5b2c5022dfbe9ff0d231eb44b756bfb1d55"
+  },
+  "game_build_id": 26660739,
+  "game_catalog_sha256": "bb8ae697b80fa57ac7ad9aa481999c3edf87df52453f364abdedae431516572f",
+  "game_card_config_sha256": "4a3b9a261b5287bbb7332918129d7fb602fe318dff2cea895a9e0415b6279893",
+  "game_assembly_sha256": "1a06b7e79559f0d424bd382d2a2338790f16b58693dc64fd79b8f20ff4a91aba",
+  "previous_assembly_sha256": "5b52a4abf28e5d7468e0c71ba7e267f1270a462eb6fc3e77e88d205e279350b2",
+  "game_assembly_comparison": {
+    "old_methods": 36315,
+    "new_methods": 36318,
+    "changed_existing_methods": 0,
+    "removed_methods": 0,
+    "added_methods": [
+      "TA50EntranceLobby::.ctor#0",
+      "TA50EntranceLobby::CheckRedDot#0",
+      "TA50EntranceLobby::OnButtonClick#0"
+    ],
+    "method_decode_errors": 0
+  },
+  "items": {
+    "002-be08ff95ce097880": {
+      "gid": "1849192144178065",
+      "item_sha256": "be08ff95ce0978806f17caeeffdf477709cd5d0ea63109c1219b23498e87856b",
+      "target": "Dao of Ruiying (Li Chengyun, Virtuoso)"
+    },
+    "004-951730f6ae09fd85": {
+      "gid": "1849192144178065",
+      "item_sha256": "951730f6ae09fd856917e26f6ed6f4d905a3bea347b751c8192f38b2ec88cfca",
+      "target": "Cunning Move Scroll, Sect Scroll"
+    },
+    "008-cbd602361b5f7c8c": {
+      "gid": "1849192144178065",
+      "item_sha256": "cbd602361b5f7c8ce2b1552f48b9f4022fb5ed70cadfa52116ebe5521f6233bc",
+      "target": "Heavenly Derivation - Wind in Sky"
+    },
+    "021-b74ff7d391bd98eb": {
+      "gid": "1849192144178065",
+      "item_sha256": "b74ff7d391bd98eb698ecaf02783c4c034ffd48158628c7788f839dbec00bef0",
+      "target": "Strike the Void from Behind"
+    },
+    "024-144ac268f3c9fd54": {
+      "gid": "1849192144178065",
+      "item_sha256": "144ac268f3c9fd5455c04e42d215c60f558a0719bd7299961df2070fc77531e7",
+      "target": "Power of Raccoon"
+    },
+    "025-93fc29fc260df740": {
+      "gid": "1848557880481669",
+      "item_sha256": "93fc29fc260df74048942ebfe19de8fefc4e543f60dea098a7cae8167038e6c7",
+      "target": "Heavenly Derivation - Falling Paper Clouds"
+    },
+    "028-f0f9ecc5b39186bc": {
+      "gid": "1849192144178065",
+      "item_sha256": "f0f9ecc5b39186bcf265645491db32d84af4247e8d01030711062850d6bb5177",
+      "target": "When selecting various Cultivator Immortal Fates, you can now directly view their corresponding Suanni Immortal Fate Pools."
+    },
+    "029-b7d4a3a6b595d168": {
+      "gid": "1849192144178065",
+      "item_sha256": "b7d4a3a6b595d168dec4a897f9188966abff2a97c761bb0e4cdf0c30f44c8d58",
+      "target": "New Immortal Fate added to Immortal Fate Pool 1"
+    }
+  },
+  "unresolved_items": {
+    "013-cdaf7f20108875c1": {
+      "gid": "1849192144178065",
+      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
+      "item_id": "013-cdaf7f20108875c1",
+      "item_sha256": "cdaf7f20108875c15f615e679baa2338f49344438d2638cb4b7b188ff8227c03",
+      "target": "Ultimate: Five Elements Spirit Strike",
+      "section": [
+        "2.Balance Adjustments",
+        "Gongshu Yao",
+        "Related Card Adjustments"
+      ],
+      "reason": "announcement_item_requires_review"
+    }
+  },
+  "special_findings": {
+    "025-93fc29fc260df740": "Four documented outcomes are sampled uniformly per the user request; actual server probabilities remain unknown.",
+    "013-cdaf7f20108875c1": "The announcement says 3/4/5 per remaining Qi; the current installed game CardConfig and unchanged execution method use 2/3/4. The installed simulator follows the current local client; server behaviour and the announcement discrepancy are not resolved by this review.",
+    "028-f0f9ecc5b39186bc": "The native skip label binds the offered Suanni pool identity; this is not a claim that the assistant controls or independently reproduces the whole preview interface."
+  },
+  "gameplay_validation": "not_run",
+  "five_elements_native_parameters": [
+    2,
+    3,
+    4
+  ],
+  "five_elements_announcement_parameters": [
+    3,
+    4,
+    5
+  ]
+}

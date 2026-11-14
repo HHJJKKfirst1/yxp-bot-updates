@@ -1,4 +1,9 @@
-"""Only installed, independently checked Nov 12 deltas may leave pending."""
+"""Keep the original 21-item review and its original exclusions frozen.
+
+The later installed-patch review is checked independently in
+test_nov12_remaining_installed_review.py; it must not weaken this original
+receipt's exact item set or change its original not-yet-installed evidence.
+"""
 import hashlib
 import json
 import unittest
@@ -11,7 +16,7 @@ class Nov12InstalledReviewTests(unittest.TestCase):
     def test_receipts_match_exact_source_items_and_audited_evidence(self):
         audit_path = ROOT / 'audits/2026-11-14-nov12-installed-review.json'
         audit = json.loads(audit_path.read_text('utf8'))
-        ledger = json.loads((ROOT / 'notice_coverage_reviews.json').read_text('utf8'))
+        ledger = json.loads((ROOT / 'tests/notice_coverage_reviews_pre_patch_20261114.json').read_text('utf8'))
         notice = ledger['notices']['1849192144178065']
         expected = {1, 3, 5, 6, 7, 9, 10, 11, 12, 14, 15, 16, 17, 18, 19, 20, 22, 23, 25, 26, 27}
         self.assertEqual({int(k.split('-')[0]) for k in notice['items']}, expected)
@@ -31,7 +36,7 @@ class Nov12InstalledReviewTests(unittest.TestCase):
             self.assertEqual(row['evidence_sha256'], [digest(audit_path), digest(test), digest(output)])
 
     def test_conflicting_and_not_yet_installed_items_remain_pending(self):
-        ledger = json.loads((ROOT / 'notice_coverage_reviews.json').read_text('utf8'))
+        ledger = json.loads((ROOT / 'tests/notice_coverage_reviews_pre_patch_20261114.json').read_text('utf8'))
         rows = ledger['notices']['1849192144178065']['items']
         for number in (2, 4, 8, 13, 21, 24, 28, 29):
             self.assertFalse(any(int(k.split('-')[0]) == number for k in rows))

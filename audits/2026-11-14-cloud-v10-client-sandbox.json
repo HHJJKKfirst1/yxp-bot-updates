@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "baseline": "2026.11.12.9",
+  "new": "2026.11.14.10",
+  "new_checksum": "28fc2643ae9ed097742c1514a8b21156155d2361f677d4d532d2a986063ec3f7",
+  "old_pin_unchanged": true,
+  "new_notes_present": true,
+  "bad_hash_rejected": true,
+  "rollback_rejected": true,
+  "source_state": "pending_adaptation",
+  "pending_count": 1,
+  "game_input_sent": false,
+  "real_install_modified": false,
+  "client_module_sha256": "fa61e305d2fe88315548b9f4527f4968d7bad80a112bb0dce338d69581f7456c",
+  "accepted_archive_sha256": "e33673bc7c25d8ccbdc7d55474b09d5b6974890c283e74f2681fcb4a59fb5c12",
+  "game_build_id": 26660739
+}
