@@ -2,33 +2,19 @@
   "schema": 1,
   "product": "yxp-verified-numeric-rules",
   "engine_contract": "numeric-templates-6",
-  "serial": 10,
-  "revision": "2026.11.14.10",
-  "rules": "rules/2026.11.14.10.json",
-  "sha256": "28fc2643ae9ed097742c1514a8b21156155d2361f677d4d532d2a986063ec3f7",
+  "serial": 11,
+  "revision": "2026.11.14.11",
+  "rules": "rules/2026.11.14.11.json",
+  "sha256": "290bd8312be969792bcec1a8097b27e89c5a879f102ab20b7b0ce83093ed49c3",
   "minimum_assistant_version": "1.1.356",
-  "pending": [
-    {
-      "gid": "1849192144178065",
-      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
-      "item_id": "013-cdaf7f20108875c1",
-      "item_sha256": "cdaf7f20108875c15f615e679baa2338f49344438d2638cb4b7b188ff8227c03",
-      "target": "Ultimate: Five Elements Spirit Strike",
-      "section": [
-        "2.Balance Adjustments",
-        "Gongshu Yao",
-        "Related Card Adjustments"
-      ],
-      "reason": "announcement_item_requires_review"
-    }
-  ],
+  "pending": [],
   "baseline_notice_date": 1791432382,
   "accepted_notices": {
     "1846018067928278": "683f5288246fbf2fcf44b50c1c6338812e96ba4eac3c7ea347d62a58d6b561cd",
     "1846651706676158": "3b45c9df9ccf9b1034088caa880eceaae6ae760cb52c97f345053f6189376229",
     "1847286114031033": "8b8506796892cd8fdbd4d2b0a36aad9a2a4e352b2bf3a44c3e58330534063370"
   },
-  "source_checked_at": "2026-11-14T10:20:33.668684+00:00",
+  "source_checked_at": "2026-11-14T12:45:24.380761+00:00",
   "monitor_state": "verified",
   "source_errors": [],
   "supported_faces": 78,
@@ -6301,8 +6287,18 @@
             ],
             "target": "Ultimate: Five Elements Spirit Strike",
             "kind": "card",
-            "state": "pending_review",
-            "reason": "announcement_item_requires_review"
+            "state": "reviewed",
+            "review": {
+              "item_sha256": "cdaf7f20108875c15f615e679baa2338f49344438d2638cb4b7b188ff8227c03",
+              "kind": "mechanism",
+              "engine_contract": "numeric-templates-6",
+              "minimum_assistant_version": "1.1.356",
+              "evidence_sha256": [
+                "9d61694bb4fb709e8aa9ce61e9b304b92d35ece62f38ddd8a414201fb1a0c6a3",
+                "bc32b640585a8095255e6ff77aef8e5b56726a1b7afadddd5d42fbe224ab17d5",
+                "4d5957d0d3c4452059d70fc2ceb492e6e3e1294cbc1a9348f49a0bfac7d5bd90"
+              ]
+            }
           },
           {
             "item_id": "014-0e7c8a6000df8ece",
@@ -6677,47 +6673,34 @@
             }
           }
         ],
-        "pending": [
-          {
-            "gid": "1849192144178065",
-            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178065",
-            "item_id": "013-cdaf7f20108875c1",
-            "item_sha256": "cdaf7f20108875c15f615e679baa2338f49344438d2638cb4b7b188ff8227c03",
-            "target": "Ultimate: Five Elements Spirit Strike",
-            "section": [
-              "2.Balance Adjustments",
-              "Gongshu Yao",
-              "Related Card Adjustments"
-            ],
-            "reason": "announcement_item_requires_review"
-          }
-        ],
-        "reviewed_count": 28,
+        "pending": [],
+        "reviewed_count": 29,
         "excluded_count": 0,
         "item_count": 29,
-        "pending_count": 1,
-        "state": "pending_review",
-        "fully_reviewed": false,
+        "pending_count": 0,
+        "state": "reviewed",
+        "fully_reviewed": true,
         "notice_sha256": "4df4e1435092280cc750873ee306fffe5c2a5fd3335fc45e8d82aeca05dbc8e5"
       }
     },
     "latest_notice_gid": "1849192144178065",
     "latest_item_count": 29,
-    "latest_reviewed_count": 28,
+    "latest_reviewed_count": 29,
     "latest_excluded_count": 0,
-    "latest_pending_count": 1,
-    "state": "pending_review",
+    "latest_pending_count": 0,
+    "state": "reviewed",
     "source_available": true,
     "support_claim": "review_receipts_require_matching_client_contract"
   },
-  "coverage_state": "pending_review",
+  "coverage_state": "reviewed",
   "local_adaptation": {
     "source": "bundled_game_build_26660739",
     "gameplay_validation": "not_run",
     "required_patches": [
       "nov12_remaining_v356",
-      "uniform_random_v356"
+      "uniform_random_v356",
+      "five_elements_official_v356"
     ],
-    "note": "Announcement review is based on the installed client and offline tests; server probability and the Five Elements announcement discrepancy remain unverified."
+    "note": "The user chose the official 3/4/5 simulation; current client 2/3/4 and server results remain unverified. The named assistant patches are required; no live game validation was performed."
   }
 }

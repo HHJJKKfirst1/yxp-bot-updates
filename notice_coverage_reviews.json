@@ -3305,6 +3305,17 @@
             "127dcf54f425163a67d8fe26b3fc4d9fb6481b97fc7d766ea5bebeb29c9155fa",
             "cfb76d72b2f41351e5db62fe1dda7c3e3ee81bdbce1e6db617ab609da54e3186"
           ]
+        },
+        "013-cdaf7f20108875c1": {
+          "item_sha256": "cdaf7f20108875c15f615e679baa2338f49344438d2638cb4b7b188ff8227c03",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-6",
+          "minimum_assistant_version": "1.1.356",
+          "evidence_sha256": [
+            "9d61694bb4fb709e8aa9ce61e9b304b92d35ece62f38ddd8a414201fb1a0c6a3",
+            "bc32b640585a8095255e6ff77aef8e5b56726a1b7afadddd5d42fbe224ab17d5",
+            "4d5957d0d3c4452059d70fc2ceb492e6e3e1294cbc1a9348f49a0bfac7d5bd90"
+          ]
         }
       }
     }

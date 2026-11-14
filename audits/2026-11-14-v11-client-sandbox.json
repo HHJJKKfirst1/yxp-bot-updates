@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "revision": "2026.11.14.11",
+  "zero_pending": true,
+  "old_pin_preserved": true,
+  "disclosed_discrepancy": true,
+  "explicit_patch_requirement": true,
+  "invalid_hash_rejected": true,
+  "rollback_rejected": true,
+  "real_install_modified": false,
+  "game_input_sent": false
+}
