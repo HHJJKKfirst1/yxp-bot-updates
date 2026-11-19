@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-18T22:59:34.328842+00:00",
+  "checked_at": "2026-11-19T03:59:12.593481+00:00",
   "notices": [
     {
       "gid": "1848557880481669",
@@ -9,7 +9,13 @@
       "sha256": "0a8f96b82ba9f20badc387ed7b69b284c294aa01ee42fd391fe36e4dc4921621"
     }
   ],
-  "pending": [],
+  "pending": [
+    {
+      "gid": "1849827110426822",
+      "reason": "announced_rule_not_effective_yet",
+      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110426822"
+    }
+  ],
   "source_errors": [],
   "changed_native_ids": [],
   "state": "verified",
