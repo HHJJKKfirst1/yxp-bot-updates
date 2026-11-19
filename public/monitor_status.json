@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-19T03:59:12.593481+00:00",
+  "checked_at": "2026-11-19T12:30:44.350609+00:00",
   "notices": [
     {
       "gid": "1848557880481669",
@@ -7,13 +7,92 @@
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848557880481669",
       "date": 1793847299,
       "sha256": "0a8f96b82ba9f20badc387ed7b69b284c294aa01ee42fd391fe36e4dc4921621"
+    },
+    {
+      "gid": "1849827110426822",
+      "title": "Update on Nov. 19",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110426822",
+      "date": 1795056798,
+      "sha256": "f113cebffbe56505f56b9a92917e5ecb931991c7a32f2de04a570e5aa5328abb"
     }
   ],
   "pending": [
     {
-      "gid": "1849827110426822",
-      "reason": "announced_rule_not_effective_yet",
+      "base_id": 214,
+      "reason": "notice_needs_specific_adapter",
       "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110426822"
+    },
+    {
+      "gid": "1849827110426822",
+      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110426822",
+      "item_id": "001-e0248c5cb83fda32",
+      "item_sha256": "e0248c5cb83fda32289d189bd8cfc71c3bc6ee51b3a03c131a951182f9b63e00",
+      "target": "Eerie Melody Buries Soul",
+      "section": [
+        "1.Balance Adjustment",
+        "Mo Feiming"
+      ],
+      "reason": "announcement_item_requires_review"
+    },
+    {
+      "gid": "1849827110426822",
+      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110426822",
+      "item_id": "002-2a85679b04a34c6d",
+      "item_sha256": "2a85679b04a34c6d549f83e639b0550a97832c6f799a637c72fb6e3bc7a8a36d",
+      "target": "Heavenly Derivative - Catnip",
+      "section": [
+        "1.Balance Adjustment",
+        "Gongshu Ju"
+      ],
+      "reason": "announcement_item_requires_review"
+    },
+    {
+      "gid": "1849827110426822",
+      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110426822",
+      "item_id": "003-452e2f55422cac38",
+      "item_sha256": "452e2f55422cac384faf7d661ece82e04cd5a63dbca4046a8129d87a7efb0efb",
+      "target": "Quicksand Secret Seal",
+      "section": [
+        "1.Balance Adjustment",
+        "Gongshu Yao"
+      ],
+      "reason": "announcement_item_requires_review"
+    },
+    {
+      "gid": "1849827110426822",
+      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110426822",
+      "item_id": "004-5866588935565e53",
+      "item_sha256": "5866588935565e53633629aa5f28c0a408cd2eab89df6580037d7a09ad65e5bf",
+      "target": "Ultimate: Jade Scroll of Yin Symbol (Feng Xu)",
+      "section": [
+        "1.Balance Adjustment",
+        "Gongshu Yao"
+      ],
+      "reason": "announcement_item_requires_review"
+    },
+    {
+      "gid": "1849827110426822",
+      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110426822",
+      "item_id": "005-4dd5789d147c2115",
+      "item_sha256": "4dd5789d147c2115420356e0c2b8361423699d149b9bdefb37074442b79f37ed",
+      "target": "Scroll Insight",
+      "section": [
+        "1.Balance Adjustment",
+        "Danqingke"
+      ],
+      "reason": "announcement_item_requires_review"
+    },
+    {
+      "gid": "1849827110426822",
+      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110426822",
+      "item_id": "006-2aaa3f5f409a3a72",
+      "item_sha256": "2aaa3f5f409a3a72717cd521ea881b85af7d0e6b0a9708fa4458a4ee1748e90d",
+      "target": "Path of Virtuoso",
+      "section": [
+        "1.Balance Adjustment",
+        "Suanni"
+      ],
+      "reason": "announcement_item_requires_review"
     }
   ],
   "source_errors": [],
@@ -6678,16 +6757,179 @@
         "state": "reviewed",
         "fully_reviewed": true,
         "notice_sha256": "4df4e1435092280cc750873ee306fffe5c2a5fd3335fc45e8d82aeca05dbc8e5"
+      },
+      "1849827110426822": {
+        "gid": "1849827110426822",
+        "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110426822",
+        "title": "Update on Nov. 19",
+        "date": 1795056798,
+        "scope": "all_balance_items",
+        "balance_sha256": "f7416a9669de3a1cf3a64ed7304bb8a0dd0556990e8aea9fcf5a1deca27d0c13",
+        "items": [
+          {
+            "item_id": "001-e0248c5cb83fda32",
+            "item_sha256": "e0248c5cb83fda32289d189bd8cfc71c3bc6ee51b3a03c131a951182f9b63e00",
+            "section": [
+              "1.Balance Adjustment",
+              "Mo Feiming"
+            ],
+            "target": "Eerie Melody Buries Soul",
+            "kind": "unknown",
+            "state": "pending_review",
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "item_id": "002-2a85679b04a34c6d",
+            "item_sha256": "2a85679b04a34c6d549f83e639b0550a97832c6f799a637c72fb6e3bc7a8a36d",
+            "section": [
+              "1.Balance Adjustment",
+              "Gongshu Ju"
+            ],
+            "target": "Heavenly Derivative - Catnip",
+            "kind": "unknown",
+            "state": "pending_review",
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "item_id": "003-452e2f55422cac38",
+            "item_sha256": "452e2f55422cac384faf7d661ece82e04cd5a63dbca4046a8129d87a7efb0efb",
+            "section": [
+              "1.Balance Adjustment",
+              "Gongshu Yao"
+            ],
+            "target": "Quicksand Secret Seal",
+            "kind": "unknown",
+            "state": "pending_review",
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "item_id": "004-5866588935565e53",
+            "item_sha256": "5866588935565e53633629aa5f28c0a408cd2eab89df6580037d7a09ad65e5bf",
+            "section": [
+              "1.Balance Adjustment",
+              "Gongshu Yao"
+            ],
+            "target": "Ultimate: Jade Scroll of Yin Symbol (Feng Xu)",
+            "kind": "immortal_fate",
+            "state": "pending_review",
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "item_id": "005-4dd5789d147c2115",
+            "item_sha256": "4dd5789d147c2115420356e0c2b8361423699d149b9bdefb37074442b79f37ed",
+            "section": [
+              "1.Balance Adjustment",
+              "Danqingke"
+            ],
+            "target": "Scroll Insight",
+            "kind": "unknown",
+            "state": "pending_review",
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "item_id": "006-2aaa3f5f409a3a72",
+            "item_sha256": "2aaa3f5f409a3a72717cd521ea881b85af7d0e6b0a9708fa4458a4ee1748e90d",
+            "section": [
+              "1.Balance Adjustment",
+              "Suanni"
+            ],
+            "target": "Path of Virtuoso",
+            "kind": "unknown",
+            "state": "pending_review",
+            "reason": "announcement_item_requires_review"
+          }
+        ],
+        "pending": [
+          {
+            "gid": "1849827110426822",
+            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110426822",
+            "item_id": "001-e0248c5cb83fda32",
+            "item_sha256": "e0248c5cb83fda32289d189bd8cfc71c3bc6ee51b3a03c131a951182f9b63e00",
+            "target": "Eerie Melody Buries Soul",
+            "section": [
+              "1.Balance Adjustment",
+              "Mo Feiming"
+            ],
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "gid": "1849827110426822",
+            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110426822",
+            "item_id": "002-2a85679b04a34c6d",
+            "item_sha256": "2a85679b04a34c6d549f83e639b0550a97832c6f799a637c72fb6e3bc7a8a36d",
+            "target": "Heavenly Derivative - Catnip",
+            "section": [
+              "1.Balance Adjustment",
+              "Gongshu Ju"
+            ],
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "gid": "1849827110426822",
+            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110426822",
+            "item_id": "003-452e2f55422cac38",
+            "item_sha256": "452e2f55422cac384faf7d661ece82e04cd5a63dbca4046a8129d87a7efb0efb",
+            "target": "Quicksand Secret Seal",
+            "section": [
+              "1.Balance Adjustment",
+              "Gongshu Yao"
+            ],
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "gid": "1849827110426822",
+            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110426822",
+            "item_id": "004-5866588935565e53",
+            "item_sha256": "5866588935565e53633629aa5f28c0a408cd2eab89df6580037d7a09ad65e5bf",
+            "target": "Ultimate: Jade Scroll of Yin Symbol (Feng Xu)",
+            "section": [
+              "1.Balance Adjustment",
+              "Gongshu Yao"
+            ],
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "gid": "1849827110426822",
+            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110426822",
+            "item_id": "005-4dd5789d147c2115",
+            "item_sha256": "4dd5789d147c2115420356e0c2b8361423699d149b9bdefb37074442b79f37ed",
+            "target": "Scroll Insight",
+            "section": [
+              "1.Balance Adjustment",
+              "Danqingke"
+            ],
+            "reason": "announcement_item_requires_review"
+          },
+          {
+            "gid": "1849827110426822",
+            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110426822",
+            "item_id": "006-2aaa3f5f409a3a72",
+            "item_sha256": "2aaa3f5f409a3a72717cd521ea881b85af7d0e6b0a9708fa4458a4ee1748e90d",
+            "target": "Path of Virtuoso",
+            "section": [
+              "1.Balance Adjustment",
+              "Suanni"
+            ],
+            "reason": "announcement_item_requires_review"
+          }
+        ],
+        "reviewed_count": 0,
+        "excluded_count": 0,
+        "item_count": 6,
+        "pending_count": 6,
+        "state": "pending_review",
+        "fully_reviewed": false,
+        "notice_sha256": "f113cebffbe56505f56b9a92917e5ecb931991c7a32f2de04a570e5aa5328abb"
       }
     },
-    "latest_notice_gid": "1849192144178065",
-    "latest_item_count": 29,
-    "latest_reviewed_count": 29,
+    "latest_notice_gid": "1849827110426822",
+    "latest_item_count": 6,
+    "latest_reviewed_count": 0,
     "latest_excluded_count": 0,
-    "latest_pending_count": 0,
-    "state": "reviewed",
+    "latest_pending_count": 6,
+    "state": "pending_review",
     "source_available": true,
     "support_claim": "review_receipts_require_matching_client_contract"
   },
-  "coverage_state": "reviewed"
+  "coverage_state": "pending_review"
 }
