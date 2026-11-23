@@ -7,20 +7,14 @@
   "rules": "rules/2026.11.14.11.json",
   "sha256": "290bd8312be969792bcec1a8097b27e89c5a879f102ab20b7b0ce83093ed49c3",
   "minimum_assistant_version": "1.1.356",
-  "pending": [
-    {
-      "base_id": 214,
-      "reason": "notice_needs_specific_adapter",
-      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110426822"
-    }
-  ],
+  "pending": [],
   "baseline_notice_date": 1791432382,
   "accepted_notices": {
     "1846018067928278": "683f5288246fbf2fcf44b50c1c6338812e96ba4eac3c7ea347d62a58d6b561cd",
     "1846651706676158": "3b45c9df9ccf9b1034088caa880eceaae6ae760cb52c97f345053f6189376229",
     "1847286114031033": "8b8506796892cd8fdbd4d2b0a36aad9a2a4e352b2bf3a44c3e58330534063370"
   },
-  "source_checked_at": "2026-11-23T18:26:14.971040+00:00",
+  "source_checked_at": "2026-11-23T18:27:48.311119+00:00",
   "monitor_state": "verified",
   "source_errors": [],
   "supported_faces": 78,
@@ -6709,7 +6703,7 @@
             "review": {
               "item_sha256": "e0248c5cb83fda32289d189bd8cfc71c3bc6ee51b3a03c131a951182f9b63e00",
               "kind": "mechanism",
-              "engine_contract": "numeric-templates-5",
+              "engine_contract": "numeric-templates-6",
               "minimum_assistant_version": "1.1.357",
               "evidence_sha256": [
                 "abecd95654d2f7baa318b51fbf2c946226ea84a6ac2e44b08ac2f0b741004a8e"
@@ -6729,7 +6723,7 @@
             "review": {
               "item_sha256": "2a85679b04a34c6d549f83e639b0550a97832c6f799a637c72fb6e3bc7a8a36d",
               "kind": "mechanism",
-              "engine_contract": "numeric-templates-5",
+              "engine_contract": "numeric-templates-6",
               "minimum_assistant_version": "1.1.357",
               "evidence_sha256": [
                 "abecd95654d2f7baa318b51fbf2c946226ea84a6ac2e44b08ac2f0b741004a8e"
@@ -6749,7 +6743,7 @@
             "review": {
               "item_sha256": "452e2f55422cac384faf7d661ece82e04cd5a63dbca4046a8129d87a7efb0efb",
               "kind": "mechanism",
-              "engine_contract": "numeric-templates-5",
+              "engine_contract": "numeric-templates-6",
               "minimum_assistant_version": "1.1.357",
               "evidence_sha256": [
                 "abecd95654d2f7baa318b51fbf2c946226ea84a6ac2e44b08ac2f0b741004a8e"
@@ -6769,7 +6763,7 @@
             "review": {
               "item_sha256": "5866588935565e53633629aa5f28c0a408cd2eab89df6580037d7a09ad65e5bf",
               "kind": "mechanism",
-              "engine_contract": "numeric-templates-5",
+              "engine_contract": "numeric-templates-6",
               "minimum_assistant_version": "1.1.357",
               "evidence_sha256": [
                 "abecd95654d2f7baa318b51fbf2c946226ea84a6ac2e44b08ac2f0b741004a8e"
@@ -6789,7 +6783,7 @@
             "review": {
               "item_sha256": "4dd5789d147c2115420356e0c2b8361423699d149b9bdefb37074442b79f37ed",
               "kind": "mechanism",
-              "engine_contract": "numeric-templates-5",
+              "engine_contract": "numeric-templates-6",
               "minimum_assistant_version": "1.1.357",
               "evidence_sha256": [
                 "abecd95654d2f7baa318b51fbf2c946226ea84a6ac2e44b08ac2f0b741004a8e"
@@ -6809,7 +6803,7 @@
             "review": {
               "item_sha256": "2aaa3f5f409a3a72717cd521ea881b85af7d0e6b0a9708fa4458a4ee1748e90d",
               "kind": "mechanism",
-              "engine_contract": "numeric-templates-5",
+              "engine_contract": "numeric-templates-6",
               "minimum_assistant_version": "1.1.357",
               "evidence_sha256": [
                 "abecd95654d2f7baa318b51fbf2c946226ea84a6ac2e44b08ac2f0b741004a8e"
