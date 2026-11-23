@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "notice_gid": "1849827110426822",
+  "title": "Update on Nov. 19",
+  "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110426822",
+  "reviewed_at": "2026-11-24T02:25:00+08:00",
+  "minimum_assistant_version": "1.1.357",
+  "engine_contract": "numeric-templates-5",
+  "conclusion": "All 6 items are Cultivator Immortal Fate preparation/deck-pool adjustments (round timing, pool additions, draw options). No existing combat card numeric formula (including base_id 214 Jade Scroll of Yin Symbol) changed.",
+  "items": [
+    "001-e0248c5cb83fda32: Mo Feiming - Eerie Melody Buries Soul (round 14 -> 15)",
+    "002-2a85679b04a34c6d: Gongshu Ju - Heavenly Derivative - Catnip (pool +4 -> +6)",
+    "003-452e2f55422cac38: Gongshu Yao - Quicksand Secret Seal (round 10 -> 12)",
+    "004-5866588935565e53: Gongshu Yao - New Immortal Fate Ultimate: Jade Scroll of Yin Symbol (Feng Xu)",
+    "005-4dd5789d147c2115: Danqingke - Scroll Insight (extra 6 non-Painter side job options)",
+    "006-2aaa3f5f409a3a72: Suanni - Path of Virtuoso (lose 3 cultivation & draw 3 Virtuoso cards if none owned)"
+  ]
+}

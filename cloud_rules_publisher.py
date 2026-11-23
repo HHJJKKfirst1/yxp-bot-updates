@@ -174,7 +174,7 @@ def notice_observations(notice,pack,registry,*,coverage=None):
         # edited or incompatible historical receipts retain their warning.
         if coverage is not None and inventory.get('extraction_error') is None:
             if not scoped:continue
-            if len(scoped)==1 and scoped[0]['kind']=='immortal_fate':
+            if len(scoped)==1 and scoped[0]['kind'] in ('immortal_fate', 'unknown'):
                 covered=next((r for r in coverage.get('items',[])
                               if r.get('item_id')==scoped[0]['item_id']),{})
                 if (covered.get('state')=='reviewed' and

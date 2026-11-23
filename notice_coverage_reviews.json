@@ -3318,6 +3318,66 @@
           ]
         }
       }
+    },
+    "1849827110426822": {
+      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110426822",
+      "balance_sha256": "f7416a9669de3a1cf3a64ed7304bb8a0dd0556990e8aea9fcf5a1deca27d0c13",
+      "items": {
+        "001-e0248c5cb83fda32": {
+          "item_sha256": "e0248c5cb83fda32289d189bd8cfc71c3bc6ee51b3a03c131a951182f9b63e00",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-5",
+          "minimum_assistant_version": "1.1.357",
+          "evidence_sha256": [
+            "abecd95654d2f7baa318b51fbf2c946226ea84a6ac2e44b08ac2f0b741004a8e"
+          ]
+        },
+        "002-2a85679b04a34c6d": {
+          "item_sha256": "2a85679b04a34c6d549f83e639b0550a97832c6f799a637c72fb6e3bc7a8a36d",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-5",
+          "minimum_assistant_version": "1.1.357",
+          "evidence_sha256": [
+            "abecd95654d2f7baa318b51fbf2c946226ea84a6ac2e44b08ac2f0b741004a8e"
+          ]
+        },
+        "003-452e2f55422cac38": {
+          "item_sha256": "452e2f55422cac384faf7d661ece82e04cd5a63dbca4046a8129d87a7efb0efb",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-5",
+          "minimum_assistant_version": "1.1.357",
+          "evidence_sha256": [
+            "abecd95654d2f7baa318b51fbf2c946226ea84a6ac2e44b08ac2f0b741004a8e"
+          ]
+        },
+        "004-5866588935565e53": {
+          "item_sha256": "5866588935565e53633629aa5f28c0a408cd2eab89df6580037d7a09ad65e5bf",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-5",
+          "minimum_assistant_version": "1.1.357",
+          "evidence_sha256": [
+            "abecd95654d2f7baa318b51fbf2c946226ea84a6ac2e44b08ac2f0b741004a8e"
+          ]
+        },
+        "005-4dd5789d147c2115": {
+          "item_sha256": "4dd5789d147c2115420356e0c2b8361423699d149b9bdefb37074442b79f37ed",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-5",
+          "minimum_assistant_version": "1.1.357",
+          "evidence_sha256": [
+            "abecd95654d2f7baa318b51fbf2c946226ea84a6ac2e44b08ac2f0b741004a8e"
+          ]
+        },
+        "006-2aaa3f5f409a3a72": {
+          "item_sha256": "2aaa3f5f409a3a72717cd521ea881b85af7d0e6b0a9708fa4458a4ee1748e90d",
+          "kind": "mechanism",
+          "engine_contract": "numeric-templates-5",
+          "minimum_assistant_version": "1.1.357",
+          "evidence_sha256": [
+            "abecd95654d2f7baa318b51fbf2c946226ea84a6ac2e44b08ac2f0b741004a8e"
+          ]
+        }
+      }
     }
   }
 }
