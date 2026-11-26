@@ -7,258 +7,14 @@
   "rules": "rules/2026.11.14.11.json",
   "sha256": "290bd8312be969792bcec1a8097b27e89c5a879f102ab20b7b0ce83093ed49c3",
   "minimum_assistant_version": "1.1.356",
-  "pending": [
-    {
-      "base_id": 214,
-      "reason": "notice_needs_specific_adapter",
-      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852983799"
-    },
-    {
-      "base_id": 381,
-      "reason": "notice_needs_specific_adapter",
-      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852983799"
-    },
-    {
-      "gid": "1850460852983799",
-      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852983799",
-      "item_id": "001-ea37b64afacb65b1",
-      "item_sha256": "ea37b64afacb65b10b97635cb6dc4fa0d6160ec29952f63f5a47f3e77644c7e3",
-      "target": "Carrier Body",
-      "section": [
-        "Balance Adjustments",
-        "Jian Ling"
-      ],
-      "reason": "announcement_item_requires_review"
-    },
-    {
-      "gid": "1850460852983799",
-      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852983799",
-      "item_id": "002-92d8b9d781b8adbe",
-      "item_sha256": "92d8b9d781b8adbe65658624a032cb4024607188a581edf638dfc92dc3cb84b3",
-      "target": "Strengthen the Body",
-      "section": [
-        "Balance Adjustments",
-        "Jian Ling"
-      ],
-      "reason": "announcement_item_requires_review"
-    },
-    {
-      "gid": "1850460852983799",
-      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852983799",
-      "item_id": "003-9a231543a7482a63",
-      "item_sha256": "9a231543a7482a6317a4408f1e340221287d648859cebe0b06df523aa02658ca",
-      "target": "Fate Path - Epiphany",
-      "section": [
-        "Balance Adjustments",
-        "Dan Ge"
-      ],
-      "reason": "announcement_item_requires_review"
-    },
-    {
-      "gid": "1850460852983799",
-      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852983799",
-      "item_id": "004-165cc3c161b0e056",
-      "item_sha256": "165cc3c161b0e056aae4dfb6e66a68b458e59f9f613acf47623ea3219537249d",
-      "target": "The following Immortal Fates grant +3 Exchange Card Chance when selected",
-      "section": [
-        "Balance Adjustments",
-        "Gongshu Ju"
-      ],
-      "reason": "announcement_item_requires_review"
-    },
-    {
-      "gid": "1850460852983799",
-      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852983799",
-      "item_id": "005-605313fb9174ec80",
-      "item_sha256": "605313fb9174ec8045a1e55abb8ece298271b396676c8226fa6e02cb3474376e",
-      "target": "Heavenly Derivation - Exquisite Sword Formation",
-      "section": [
-        "Balance Adjustments",
-        "Gongshu Yao"
-      ],
-      "reason": "announcement_item_requires_review"
-    },
-    {
-      "gid": "1850460852983799",
-      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852983799",
-      "item_id": "006-0c343280848d130c",
-      "item_sha256": "0c343280848d130c2e5a46d148209fe28d279e5d52fc95ccd62fa6188609e35c",
-      "target": "Tempered Blade - Cloud Sea",
-      "section": [
-        "Balance Adjustments",
-        "Gongshu Yao"
-      ],
-      "reason": "announcement_item_requires_review"
-    },
-    {
-      "gid": "1850460852983799",
-      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852983799",
-      "item_id": "007-fcae27ca73464957",
-      "item_sha256": "fcae27ca73464957a53535a374b693a80111f2f5a01ed1c6d39836f325c0aabb",
-      "target": "Rat Steals Oil",
-      "section": [
-        "Balance Adjustments",
-        "Gongshu Yao"
-      ],
-      "reason": "announcement_item_requires_review"
-    },
-    {
-      "gid": "1850460852983799",
-      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852983799",
-      "item_id": "008-48a051a90eae19ad",
-      "item_sha256": "48a051a90eae19ad079ee199a1163e5275c09db81fa3c1a114777ba0e37b4546",
-      "target": "Plan Before Acting",
-      "section": [
-        "Balance Adjustments",
-        "Gongshu Yao"
-      ],
-      "reason": "announcement_item_requires_review"
-    },
-    {
-      "gid": "1850460852983799",
-      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852983799",
-      "item_id": "009-49090c70460cc198",
-      "item_sha256": "49090c70460cc198c934f7f0aff5bd7026b21080b6b112d4b77947c326767034",
-      "target": "Spirit Covers Mountains and Rivers",
-      "section": [
-        "Balance Adjustments",
-        "Gongshu Yao"
-      ],
-      "reason": "announcement_item_requires_review"
-    },
-    {
-      "gid": "1850460852983799",
-      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852983799",
-      "item_id": "010-68f5c3e0e2cacc81",
-      "item_sha256": "68f5c3e0e2cacc816ac30d68fdfc997378a190eb0c6874599d477175a65606d6",
-      "target": "Spirit Feather",
-      "section": [
-        "Balance Adjustments",
-        "Gongshu Yao"
-      ],
-      "reason": "announcement_item_requires_review"
-    },
-    {
-      "gid": "1850460852983799",
-      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852983799",
-      "item_id": "011-c649ce9496f8cd63",
-      "item_sha256": "c649ce9496f8cd6353492b46ba23d80ccb0ad81a8f7e86a9eb47dad4ab87304a",
-      "target": "Power of Metamorphosis",
-      "section": [
-        "Balance Adjustments",
-        "Jiu Jie"
-      ],
-      "reason": "announcement_item_requires_review"
-    },
-    {
-      "gid": "1850460852983799",
-      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852983799",
-      "item_id": "012-422cbaefb0a7f736",
-      "item_sha256": "422cbaefb0a7f736ed38c8eb61027a99df9fdc5f3c049a4768bc1f2e7950c28a",
-      "target": "Cunning Move Scroll, Sect Scroll",
-      "section": [
-        "Balance Adjustments",
-        "Xuan Si"
-      ],
-      "reason": "announcement_item_requires_review"
-    },
-    {
-      "gid": "1850460852983799",
-      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852983799",
-      "item_id": "013-657082c6e49e7f30",
-      "item_sha256": "657082c6e49e7f301b682823e30fd49cdcb9a68ab9ed28dfaff6aa0f0064d915",
-      "target": "Shift Scroll",
-      "section": [
-        "Balance Adjustments",
-        "Xuan Si"
-      ],
-      "reason": "announcement_item_requires_review"
-    },
-    {
-      "gid": "1850460852983799",
-      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852983799",
-      "item_id": "014-d914b72840136e0c",
-      "item_sha256": "d914b72840136e0c4868d964f9c263afbcab32aeb35b21083519b05237f3c82c",
-      "target": "Dream: Heavenly Time Recurring",
-      "section": [
-        "Balance Adjustments",
-        "Long Ying",
-        "Card Adjustments"
-      ],
-      "reason": "announcement_item_requires_review"
-    },
-    {
-      "gid": "1850460852983799",
-      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852983799",
-      "item_id": "015-6580a84f62edbc68",
-      "item_sha256": "6580a84f62edbc680b3c8383c93001e7d386967528642dd8135b21b476330977",
-      "target": "Dream: Heavenly Time Recurring",
-      "section": [
-        "Balance Adjustments",
-        "Long Ying",
-        "Card Adjustments",
-        "Immortal Fate Adjustments"
-      ],
-      "reason": "announcement_item_requires_review"
-    },
-    {
-      "gid": "1850460852983799",
-      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852983799",
-      "item_id": "016-4c0a4a065e65e844",
-      "item_sha256": "4c0a4a065e65e84476b1b6826ac2a6ea29dbd909136f6586c5ffba55446103f2",
-      "target": "Mirage: Raven Spirit Sword",
-      "section": [
-        "Balance Adjustments",
-        "Dan Qingke",
-        "Card Adjustments"
-      ],
-      "reason": "announcement_item_requires_review"
-    },
-    {
-      "gid": "1850460852983799",
-      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852983799",
-      "item_id": "017-96d2c64c27d51385",
-      "item_sha256": "96d2c64c27d51385322e0b60cb1d14cbdf5b856cefa411bd75348653813f9f68",
-      "target": "The following Immortal Fates grant +3 Exchange Card Chance when selected",
-      "section": [
-        "Balance Adjustments",
-        "Dan Qingke",
-        "Immortal Fate Adjustments"
-      ],
-      "reason": "announcement_item_requires_review"
-    },
-    {
-      "gid": "1850460852983799",
-      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852983799",
-      "item_id": "018-da98e7f5e9a4c3fd",
-      "item_sha256": "da98e7f5e9a4c3fd20bfc853669e84cdb2a4ac226ec7c79fbb3e5280d6318cc2",
-      "target": "Path of Side-Job",
-      "section": [
-        "Balance Adjustments",
-        "Suanni"
-      ],
-      "reason": "announcement_item_requires_review"
-    },
-    {
-      "gid": "1850460852983799",
-      "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852983799",
-      "item_id": "019-ca66f4cd94b6013b",
-      "item_sha256": "ca66f4cd94b6013bccee1f8386e2640829a54f8fccbeb26379855965971654b6",
-      "target": "Path of Exchange II",
-      "section": [
-        "Balance Adjustments",
-        "Suanni"
-      ],
-      "reason": "announcement_item_requires_review"
-    }
-  ],
+  "pending": [],
   "baseline_notice_date": 1791432382,
   "accepted_notices": {
     "1846018067928278": "683f5288246fbf2fcf44b50c1c6338812e96ba4eac3c7ea347d62a58d6b561cd",
     "1846651706676158": "3b45c9df9ccf9b1034088caa880eceaae6ae760cb52c97f345053f6189376229",
     "1847286114031033": "8b8506796892cd8fdbd4d2b0a36aad9a2a4e352b2bf3a44c3e58330534063370"
   },
-  "source_checked_at": "2026-11-26T12:41:19.647665+00:00",
+  "source_checked_at": "2026-11-26T16:22:12.373953+00:00",
   "monitor_state": "verified",
   "source_errors": [],
   "supported_faces": 78,
@@ -7081,8 +6837,16 @@
             ],
             "target": "Carrier Body",
             "kind": "unknown",
-            "state": "pending_review",
-            "reason": "announcement_item_requires_review"
+            "state": "reviewed",
+            "review": {
+              "item_sha256": "ea37b64afacb65b10b97635cb6dc4fa0d6160ec29952f63f5a47f3e77644c7e3",
+              "kind": "mechanism",
+              "engine_contract": "numeric-templates-6",
+              "minimum_assistant_version": "1.1.357",
+              "evidence_sha256": [
+                "cd6fc4edcd3e96f56520425e235621977dcf6d2c8aa5f566a0d7aba27c5c4a77"
+              ]
+            }
           },
           {
             "item_id": "002-92d8b9d781b8adbe",
@@ -7093,8 +6857,16 @@
             ],
             "target": "Strengthen the Body",
             "kind": "unknown",
-            "state": "pending_review",
-            "reason": "announcement_item_requires_review"
+            "state": "reviewed",
+            "review": {
+              "item_sha256": "92d8b9d781b8adbe65658624a032cb4024607188a581edf638dfc92dc3cb84b3",
+              "kind": "mechanism",
+              "engine_contract": "numeric-templates-6",
+              "minimum_assistant_version": "1.1.357",
+              "evidence_sha256": [
+                "cd6fc4edcd3e96f56520425e235621977dcf6d2c8aa5f566a0d7aba27c5c4a77"
+              ]
+            }
           },
           {
             "item_id": "003-9a231543a7482a63",
@@ -7105,8 +6877,16 @@
             ],
             "target": "Fate Path - Epiphany",
             "kind": "unknown",
-            "state": "pending_review",
-            "reason": "announcement_item_requires_review"
+            "state": "reviewed",
+            "review": {
+              "item_sha256": "9a231543a7482a6317a4408f1e340221287d648859cebe0b06df523aa02658ca",
+              "kind": "mechanism",
+              "engine_contract": "numeric-templates-6",
+              "minimum_assistant_version": "1.1.357",
+              "evidence_sha256": [
+                "cd6fc4edcd3e96f56520425e235621977dcf6d2c8aa5f566a0d7aba27c5c4a77"
+              ]
+            }
           },
           {
             "item_id": "004-165cc3c161b0e056",
@@ -7117,8 +6897,16 @@
             ],
             "target": "The following Immortal Fates grant +3 Exchange Card Chance when selected",
             "kind": "immortal_fate",
-            "state": "pending_review",
-            "reason": "announcement_item_requires_review"
+            "state": "reviewed",
+            "review": {
+              "item_sha256": "165cc3c161b0e056aae4dfb6e66a68b458e59f9f613acf47623ea3219537249d",
+              "kind": "mechanism",
+              "engine_contract": "numeric-templates-6",
+              "minimum_assistant_version": "1.1.357",
+              "evidence_sha256": [
+                "cd6fc4edcd3e96f56520425e235621977dcf6d2c8aa5f566a0d7aba27c5c4a77"
+              ]
+            }
           },
           {
             "item_id": "005-605313fb9174ec80",
@@ -7129,8 +6917,16 @@
             ],
             "target": "Heavenly Derivation - Exquisite Sword Formation",
             "kind": "unknown",
-            "state": "pending_review",
-            "reason": "announcement_item_requires_review"
+            "state": "reviewed",
+            "review": {
+              "item_sha256": "605313fb9174ec8045a1e55abb8ece298271b396676c8226fa6e02cb3474376e",
+              "kind": "mechanism",
+              "engine_contract": "numeric-templates-6",
+              "minimum_assistant_version": "1.1.357",
+              "evidence_sha256": [
+                "cd6fc4edcd3e96f56520425e235621977dcf6d2c8aa5f566a0d7aba27c5c4a77"
+              ]
+            }
           },
           {
             "item_id": "006-0c343280848d130c",
@@ -7141,8 +6937,16 @@
             ],
             "target": "Tempered Blade - Cloud Sea",
             "kind": "unknown",
-            "state": "pending_review",
-            "reason": "announcement_item_requires_review"
+            "state": "reviewed",
+            "review": {
+              "item_sha256": "0c343280848d130c2e5a46d148209fe28d279e5d52fc95ccd62fa6188609e35c",
+              "kind": "mechanism",
+              "engine_contract": "numeric-templates-6",
+              "minimum_assistant_version": "1.1.357",
+              "evidence_sha256": [
+                "cd6fc4edcd3e96f56520425e235621977dcf6d2c8aa5f566a0d7aba27c5c4a77"
+              ]
+            }
           },
           {
             "item_id": "007-fcae27ca73464957",
@@ -7153,8 +6957,16 @@
             ],
             "target": "Rat Steals Oil",
             "kind": "unknown",
-            "state": "pending_review",
-            "reason": "announcement_item_requires_review"
+            "state": "reviewed",
+            "review": {
+              "item_sha256": "fcae27ca73464957a53535a374b693a80111f2f5a01ed1c6d39836f325c0aabb",
+              "kind": "mechanism",
+              "engine_contract": "numeric-templates-6",
+              "minimum_assistant_version": "1.1.357",
+              "evidence_sha256": [
+                "cd6fc4edcd3e96f56520425e235621977dcf6d2c8aa5f566a0d7aba27c5c4a77"
+              ]
+            }
           },
           {
             "item_id": "008-48a051a90eae19ad",
@@ -7165,8 +6977,16 @@
             ],
             "target": "Plan Before Acting",
             "kind": "unknown",
-            "state": "pending_review",
-            "reason": "announcement_item_requires_review"
+            "state": "reviewed",
+            "review": {
+              "item_sha256": "48a051a90eae19ad079ee199a1163e5275c09db81fa3c1a114777ba0e37b4546",
+              "kind": "mechanism",
+              "engine_contract": "numeric-templates-6",
+              "minimum_assistant_version": "1.1.357",
+              "evidence_sha256": [
+                "cd6fc4edcd3e96f56520425e235621977dcf6d2c8aa5f566a0d7aba27c5c4a77"
+              ]
+            }
           },
           {
             "item_id": "009-49090c70460cc198",
@@ -7177,8 +6997,16 @@
             ],
             "target": "Spirit Covers Mountains and Rivers",
             "kind": "unknown",
-            "state": "pending_review",
-            "reason": "announcement_item_requires_review"
+            "state": "reviewed",
+            "review": {
+              "item_sha256": "49090c70460cc198c934f7f0aff5bd7026b21080b6b112d4b77947c326767034",
+              "kind": "mechanism",
+              "engine_contract": "numeric-templates-6",
+              "minimum_assistant_version": "1.1.357",
+              "evidence_sha256": [
+                "cd6fc4edcd3e96f56520425e235621977dcf6d2c8aa5f566a0d7aba27c5c4a77"
+              ]
+            }
           },
           {
             "item_id": "010-68f5c3e0e2cacc81",
@@ -7189,8 +7017,16 @@
             ],
             "target": "Spirit Feather",
             "kind": "unknown",
-            "state": "pending_review",
-            "reason": "announcement_item_requires_review"
+            "state": "reviewed",
+            "review": {
+              "item_sha256": "68f5c3e0e2cacc816ac30d68fdfc997378a190eb0c6874599d477175a65606d6",
+              "kind": "mechanism",
+              "engine_contract": "numeric-templates-6",
+              "minimum_assistant_version": "1.1.357",
+              "evidence_sha256": [
+                "cd6fc4edcd3e96f56520425e235621977dcf6d2c8aa5f566a0d7aba27c5c4a77"
+              ]
+            }
           },
           {
             "item_id": "011-c649ce9496f8cd63",
@@ -7201,8 +7037,16 @@
             ],
             "target": "Power of Metamorphosis",
             "kind": "unknown",
-            "state": "pending_review",
-            "reason": "announcement_item_requires_review"
+            "state": "reviewed",
+            "review": {
+              "item_sha256": "c649ce9496f8cd6353492b46ba23d80ccb0ad81a8f7e86a9eb47dad4ab87304a",
+              "kind": "mechanism",
+              "engine_contract": "numeric-templates-6",
+              "minimum_assistant_version": "1.1.357",
+              "evidence_sha256": [
+                "cd6fc4edcd3e96f56520425e235621977dcf6d2c8aa5f566a0d7aba27c5c4a77"
+              ]
+            }
           },
           {
             "item_id": "012-422cbaefb0a7f736",
@@ -7213,8 +7057,16 @@
             ],
             "target": "Cunning Move Scroll, Sect Scroll",
             "kind": "unknown",
-            "state": "pending_review",
-            "reason": "announcement_item_requires_review"
+            "state": "reviewed",
+            "review": {
+              "item_sha256": "422cbaefb0a7f736ed38c8eb61027a99df9fdc5f3c049a4768bc1f2e7950c28a",
+              "kind": "mechanism",
+              "engine_contract": "numeric-templates-6",
+              "minimum_assistant_version": "1.1.357",
+              "evidence_sha256": [
+                "cd6fc4edcd3e96f56520425e235621977dcf6d2c8aa5f566a0d7aba27c5c4a77"
+              ]
+            }
           },
           {
             "item_id": "013-657082c6e49e7f30",
@@ -7225,8 +7077,16 @@
             ],
             "target": "Shift Scroll",
             "kind": "unknown",
-            "state": "pending_review",
-            "reason": "announcement_item_requires_review"
+            "state": "reviewed",
+            "review": {
+              "item_sha256": "657082c6e49e7f301b682823e30fd49cdcb9a68ab9ed28dfaff6aa0f0064d915",
+              "kind": "mechanism",
+              "engine_contract": "numeric-templates-6",
+              "minimum_assistant_version": "1.1.357",
+              "evidence_sha256": [
+                "cd6fc4edcd3e96f56520425e235621977dcf6d2c8aa5f566a0d7aba27c5c4a77"
+              ]
+            }
           },
           {
             "item_id": "014-d914b72840136e0c",
@@ -7238,8 +7098,16 @@
             ],
             "target": "Dream: Heavenly Time Recurring",
             "kind": "card",
-            "state": "pending_review",
-            "reason": "announcement_item_requires_review"
+            "state": "reviewed",
+            "review": {
+              "item_sha256": "d914b72840136e0c4868d964f9c263afbcab32aeb35b21083519b05237f3c82c",
+              "kind": "mechanism",
+              "engine_contract": "numeric-templates-6",
+              "minimum_assistant_version": "1.1.357",
+              "evidence_sha256": [
+                "cd6fc4edcd3e96f56520425e235621977dcf6d2c8aa5f566a0d7aba27c5c4a77"
+              ]
+            }
           },
           {
             "item_id": "015-6580a84f62edbc68",
@@ -7252,8 +7120,16 @@
             ],
             "target": "Dream: Heavenly Time Recurring",
             "kind": "immortal_fate",
-            "state": "pending_review",
-            "reason": "announcement_item_requires_review"
+            "state": "reviewed",
+            "review": {
+              "item_sha256": "6580a84f62edbc680b3c8383c93001e7d386967528642dd8135b21b476330977",
+              "kind": "mechanism",
+              "engine_contract": "numeric-templates-6",
+              "minimum_assistant_version": "1.1.357",
+              "evidence_sha256": [
+                "cd6fc4edcd3e96f56520425e235621977dcf6d2c8aa5f566a0d7aba27c5c4a77"
+              ]
+            }
           },
           {
             "item_id": "016-4c0a4a065e65e844",
@@ -7265,8 +7141,16 @@
             ],
             "target": "Mirage: Raven Spirit Sword",
             "kind": "card",
-            "state": "pending_review",
-            "reason": "announcement_item_requires_review"
+            "state": "reviewed",
+            "review": {
+              "item_sha256": "4c0a4a065e65e84476b1b6826ac2a6ea29dbd909136f6586c5ffba55446103f2",
+              "kind": "mechanism",
+              "engine_contract": "numeric-templates-6",
+              "minimum_assistant_version": "1.1.357",
+              "evidence_sha256": [
+                "cd6fc4edcd3e96f56520425e235621977dcf6d2c8aa5f566a0d7aba27c5c4a77"
+              ]
+            }
           },
           {
             "item_id": "017-96d2c64c27d51385",
@@ -7278,8 +7162,16 @@
             ],
             "target": "The following Immortal Fates grant +3 Exchange Card Chance when selected",
             "kind": "immortal_fate",
-            "state": "pending_review",
-            "reason": "announcement_item_requires_review"
+            "state": "reviewed",
+            "review": {
+              "item_sha256": "96d2c64c27d51385322e0b60cb1d14cbdf5b856cefa411bd75348653813f9f68",
+              "kind": "mechanism",
+              "engine_contract": "numeric-templates-6",
+              "minimum_assistant_version": "1.1.357",
+              "evidence_sha256": [
+                "cd6fc4edcd3e96f56520425e235621977dcf6d2c8aa5f566a0d7aba27c5c4a77"
+              ]
+            }
           },
           {
             "item_id": "018-da98e7f5e9a4c3fd",
@@ -7290,8 +7182,16 @@
             ],
             "target": "Path of Side-Job",
             "kind": "unknown",
-            "state": "pending_review",
-            "reason": "announcement_item_requires_review"
+            "state": "reviewed",
+            "review": {
+              "item_sha256": "da98e7f5e9a4c3fd20bfc853669e84cdb2a4ac226ec7c79fbb3e5280d6318cc2",
+              "kind": "mechanism",
+              "engine_contract": "numeric-templates-6",
+              "minimum_assistant_version": "1.1.357",
+              "evidence_sha256": [
+                "cd6fc4edcd3e96f56520425e235621977dcf6d2c8aa5f566a0d7aba27c5c4a77"
+              ]
+            }
           },
           {
             "item_id": "019-ca66f4cd94b6013b",
@@ -7302,264 +7202,38 @@
             ],
             "target": "Path of Exchange II",
             "kind": "unknown",
-            "state": "pending_review",
-            "reason": "announcement_item_requires_review"
+            "state": "reviewed",
+            "review": {
+              "item_sha256": "ca66f4cd94b6013bccee1f8386e2640829a54f8fccbeb26379855965971654b6",
+              "kind": "mechanism",
+              "engine_contract": "numeric-templates-6",
+              "minimum_assistant_version": "1.1.357",
+              "evidence_sha256": [
+                "cd6fc4edcd3e96f56520425e235621977dcf6d2c8aa5f566a0d7aba27c5c4a77"
+              ]
+            }
           }
         ],
-        "pending": [
-          {
-            "gid": "1850460852983799",
-            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852983799",
-            "item_id": "001-ea37b64afacb65b1",
-            "item_sha256": "ea37b64afacb65b10b97635cb6dc4fa0d6160ec29952f63f5a47f3e77644c7e3",
-            "target": "Carrier Body",
-            "section": [
-              "Balance Adjustments",
-              "Jian Ling"
-            ],
-            "reason": "announcement_item_requires_review"
-          },
-          {
-            "gid": "1850460852983799",
-            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852983799",
-            "item_id": "002-92d8b9d781b8adbe",
-            "item_sha256": "92d8b9d781b8adbe65658624a032cb4024607188a581edf638dfc92dc3cb84b3",
-            "target": "Strengthen the Body",
-            "section": [
-              "Balance Adjustments",
-              "Jian Ling"
-            ],
-            "reason": "announcement_item_requires_review"
-          },
-          {
-            "gid": "1850460852983799",
-            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852983799",
-            "item_id": "003-9a231543a7482a63",
-            "item_sha256": "9a231543a7482a6317a4408f1e340221287d648859cebe0b06df523aa02658ca",
-            "target": "Fate Path - Epiphany",
-            "section": [
-              "Balance Adjustments",
-              "Dan Ge"
-            ],
-            "reason": "announcement_item_requires_review"
-          },
-          {
-            "gid": "1850460852983799",
-            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852983799",
-            "item_id": "004-165cc3c161b0e056",
-            "item_sha256": "165cc3c161b0e056aae4dfb6e66a68b458e59f9f613acf47623ea3219537249d",
-            "target": "The following Immortal Fates grant +3 Exchange Card Chance when selected",
-            "section": [
-              "Balance Adjustments",
-              "Gongshu Ju"
-            ],
-            "reason": "announcement_item_requires_review"
-          },
-          {
-            "gid": "1850460852983799",
-            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852983799",
-            "item_id": "005-605313fb9174ec80",
-            "item_sha256": "605313fb9174ec8045a1e55abb8ece298271b396676c8226fa6e02cb3474376e",
-            "target": "Heavenly Derivation - Exquisite Sword Formation",
-            "section": [
-              "Balance Adjustments",
-              "Gongshu Yao"
-            ],
-            "reason": "announcement_item_requires_review"
-          },
-          {
-            "gid": "1850460852983799",
-            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852983799",
-            "item_id": "006-0c343280848d130c",
-            "item_sha256": "0c343280848d130c2e5a46d148209fe28d279e5d52fc95ccd62fa6188609e35c",
-            "target": "Tempered Blade - Cloud Sea",
-            "section": [
-              "Balance Adjustments",
-              "Gongshu Yao"
-            ],
-            "reason": "announcement_item_requires_review"
-          },
-          {
-            "gid": "1850460852983799",
-            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852983799",
-            "item_id": "007-fcae27ca73464957",
-            "item_sha256": "fcae27ca73464957a53535a374b693a80111f2f5a01ed1c6d39836f325c0aabb",
-            "target": "Rat Steals Oil",
-            "section": [
-              "Balance Adjustments",
-              "Gongshu Yao"
-            ],
-            "reason": "announcement_item_requires_review"
-          },
-          {
-            "gid": "1850460852983799",
-            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852983799",
-            "item_id": "008-48a051a90eae19ad",
-            "item_sha256": "48a051a90eae19ad079ee199a1163e5275c09db81fa3c1a114777ba0e37b4546",
-            "target": "Plan Before Acting",
-            "section": [
-              "Balance Adjustments",
-              "Gongshu Yao"
-            ],
-            "reason": "announcement_item_requires_review"
-          },
-          {
-            "gid": "1850460852983799",
-            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852983799",
-            "item_id": "009-49090c70460cc198",
-            "item_sha256": "49090c70460cc198c934f7f0aff5bd7026b21080b6b112d4b77947c326767034",
-            "target": "Spirit Covers Mountains and Rivers",
-            "section": [
-              "Balance Adjustments",
-              "Gongshu Yao"
-            ],
-            "reason": "announcement_item_requires_review"
-          },
-          {
-            "gid": "1850460852983799",
-            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852983799",
-            "item_id": "010-68f5c3e0e2cacc81",
-            "item_sha256": "68f5c3e0e2cacc816ac30d68fdfc997378a190eb0c6874599d477175a65606d6",
-            "target": "Spirit Feather",
-            "section": [
-              "Balance Adjustments",
-              "Gongshu Yao"
-            ],
-            "reason": "announcement_item_requires_review"
-          },
-          {
-            "gid": "1850460852983799",
-            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852983799",
-            "item_id": "011-c649ce9496f8cd63",
-            "item_sha256": "c649ce9496f8cd6353492b46ba23d80ccb0ad81a8f7e86a9eb47dad4ab87304a",
-            "target": "Power of Metamorphosis",
-            "section": [
-              "Balance Adjustments",
-              "Jiu Jie"
-            ],
-            "reason": "announcement_item_requires_review"
-          },
-          {
-            "gid": "1850460852983799",
-            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852983799",
-            "item_id": "012-422cbaefb0a7f736",
-            "item_sha256": "422cbaefb0a7f736ed38c8eb61027a99df9fdc5f3c049a4768bc1f2e7950c28a",
-            "target": "Cunning Move Scroll, Sect Scroll",
-            "section": [
-              "Balance Adjustments",
-              "Xuan Si"
-            ],
-            "reason": "announcement_item_requires_review"
-          },
-          {
-            "gid": "1850460852983799",
-            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852983799",
-            "item_id": "013-657082c6e49e7f30",
-            "item_sha256": "657082c6e49e7f301b682823e30fd49cdcb9a68ab9ed28dfaff6aa0f0064d915",
-            "target": "Shift Scroll",
-            "section": [
-              "Balance Adjustments",
-              "Xuan Si"
-            ],
-            "reason": "announcement_item_requires_review"
-          },
-          {
-            "gid": "1850460852983799",
-            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852983799",
-            "item_id": "014-d914b72840136e0c",
-            "item_sha256": "d914b72840136e0c4868d964f9c263afbcab32aeb35b21083519b05237f3c82c",
-            "target": "Dream: Heavenly Time Recurring",
-            "section": [
-              "Balance Adjustments",
-              "Long Ying",
-              "Card Adjustments"
-            ],
-            "reason": "announcement_item_requires_review"
-          },
-          {
-            "gid": "1850460852983799",
-            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852983799",
-            "item_id": "015-6580a84f62edbc68",
-            "item_sha256": "6580a84f62edbc680b3c8383c93001e7d386967528642dd8135b21b476330977",
-            "target": "Dream: Heavenly Time Recurring",
-            "section": [
-              "Balance Adjustments",
-              "Long Ying",
-              "Card Adjustments",
-              "Immortal Fate Adjustments"
-            ],
-            "reason": "announcement_item_requires_review"
-          },
-          {
-            "gid": "1850460852983799",
-            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852983799",
-            "item_id": "016-4c0a4a065e65e844",
-            "item_sha256": "4c0a4a065e65e84476b1b6826ac2a6ea29dbd909136f6586c5ffba55446103f2",
-            "target": "Mirage: Raven Spirit Sword",
-            "section": [
-              "Balance Adjustments",
-              "Dan Qingke",
-              "Card Adjustments"
-            ],
-            "reason": "announcement_item_requires_review"
-          },
-          {
-            "gid": "1850460852983799",
-            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852983799",
-            "item_id": "017-96d2c64c27d51385",
-            "item_sha256": "96d2c64c27d51385322e0b60cb1d14cbdf5b856cefa411bd75348653813f9f68",
-            "target": "The following Immortal Fates grant +3 Exchange Card Chance when selected",
-            "section": [
-              "Balance Adjustments",
-              "Dan Qingke",
-              "Immortal Fate Adjustments"
-            ],
-            "reason": "announcement_item_requires_review"
-          },
-          {
-            "gid": "1850460852983799",
-            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852983799",
-            "item_id": "018-da98e7f5e9a4c3fd",
-            "item_sha256": "da98e7f5e9a4c3fd20bfc853669e84cdb2a4ac226ec7c79fbb3e5280d6318cc2",
-            "target": "Path of Side-Job",
-            "section": [
-              "Balance Adjustments",
-              "Suanni"
-            ],
-            "reason": "announcement_item_requires_review"
-          },
-          {
-            "gid": "1850460852983799",
-            "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852983799",
-            "item_id": "019-ca66f4cd94b6013b",
-            "item_sha256": "ca66f4cd94b6013bccee1f8386e2640829a54f8fccbeb26379855965971654b6",
-            "target": "Path of Exchange II",
-            "section": [
-              "Balance Adjustments",
-              "Suanni"
-            ],
-            "reason": "announcement_item_requires_review"
-          }
-        ],
-        "reviewed_count": 0,
+        "pending": [],
+        "reviewed_count": 19,
         "excluded_count": 0,
         "item_count": 19,
-        "pending_count": 19,
-        "state": "pending_review",
-        "fully_reviewed": false,
+        "pending_count": 0,
+        "state": "reviewed",
+        "fully_reviewed": true,
         "notice_sha256": "ae1a56b40e3630b2c09cc7e3a51468de91716d7e7b0487e1774d6820fce50ad4"
       }
     },
     "latest_notice_gid": "1850460852983799",
     "latest_item_count": 19,
-    "latest_reviewed_count": 0,
+    "latest_reviewed_count": 19,
     "latest_excluded_count": 0,
-    "latest_pending_count": 19,
-    "state": "pending_review",
+    "latest_pending_count": 0,
+    "state": "reviewed",
     "source_available": true,
     "support_claim": "review_receipts_require_matching_client_contract"
   },
-  "coverage_state": "pending_review",
+  "coverage_state": "reviewed",
   "local_adaptation": {
     "source": "bundled_game_build_26660739",
     "gameplay_validation": "not_run",

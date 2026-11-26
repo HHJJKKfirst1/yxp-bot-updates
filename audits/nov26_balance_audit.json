@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "notice_gid": "1850460852983799",
+  "title": "Update on Nov. 26",
+  "source": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852983799",
+  "reviewed_at": "2026-11-27T00:22:00+08:00",
+  "minimum_assistant_version": "1.1.357",
+  "engine_contract": "numeric-templates-6",
+  "conclusion": "All 19 balance items reviewed. 8 combat items adapted in client simulator (baijia_passive_hooks.js, baijia_combat_hooks.js, yisim/card_actions.js, baijia_combat_contracts.json) and verified by test_nov26_balance_v357.py (10/10 pass) + test_baijia_passives.py + test_oct29_combat.py: Carrier Body (2015), Tempered Blade - Cloud Sea (7130), Rat Steals Oil (7116), Plan Before Acting (7110), Spirit Covers Mountains and Rivers (7087), Spirit Feather (7060), Dream: Heavenly Time Recurring (D27015), Mirage: Raven Spirit Sword (714031-714033). The remaining 11 items are preparation-phase / exchange-chance / round-timing / destiny-cost adjustments read directly from live memory. Base cards 214 (Jade Scroll of Yin Symbol) and 381 (Spirit Feather) were not modified; those warnings came from immortal fate mentions (items 004 and 010).",
+  "items": [
+    "001-ea37b64afacb65b1: Balance Adjustments / Jian Ling - Carrier Body",
+    "002-92d8b9d781b8adbe: Balance Adjustments / Jian Ling - Strengthen the Body",
+    "003-9a231543a7482a63: Balance Adjustments / Dan Ge - Fate Path - Epiphany",
+    "004-165cc3c161b0e056: Balance Adjustments / Gongshu Ju - The following Immortal Fates grant +3 Exchange Card Chance when selected",
+    "005-605313fb9174ec80: Balance Adjustments / Gongshu Yao - Heavenly Derivation - Exquisite Sword Formation",
+    "006-0c343280848d130c: Balance Adjustments / Gongshu Yao - Tempered Blade - Cloud Sea",
+    "007-fcae27ca73464957: Balance Adjustments / Gongshu Yao - Rat Steals Oil",
+    "008-48a051a90eae19ad: Balance Adjustments / Gongshu Yao - Plan Before Acting",
+    "009-49090c70460cc198: Balance Adjustments / Gongshu Yao - Spirit Covers Mountains and Rivers",
+    "010-68f5c3e0e2cacc81: Balance Adjustments / Gongshu Yao - Spirit Feather",
+    "011-c649ce9496f8cd63: Balance Adjustments / Jiu Jie - Power of Metamorphosis",
+    "012-422cbaefb0a7f736: Balance Adjustments / Xuan Si - Cunning Move Scroll, Sect Scroll",
+    "013-657082c6e49e7f30: Balance Adjustments / Xuan Si - Shift Scroll",
+    "014-d914b72840136e0c: Balance Adjustments / Long Ying / Card Adjustments - Dream: Heavenly Time Recurring",
+    "015-6580a84f62edbc68: Balance Adjustments / Long Ying / Card Adjustments / Immortal Fate Adjustments - Dream: Heavenly Time Recurring",
+    "016-4c0a4a065e65e844: Balance Adjustments / Dan Qingke / Card Adjustments - Mirage: Raven Spirit Sword",
+    "017-96d2c64c27d51385: Balance Adjustments / Dan Qingke / Immortal Fate Adjustments - The following Immortal Fates grant +3 Exchange Card Chance when selected",
+    "018-da98e7f5e9a4c3fd: Balance Adjustments / Suanni - Path of Side-Job",
+    "019-ca66f4cd94b6013b: Balance Adjustments / Suanni - Path of Exchange II"
+  ]
+}
